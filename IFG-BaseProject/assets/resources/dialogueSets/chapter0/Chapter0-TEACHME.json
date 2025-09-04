@@ -1,0 +1,89 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Uncle Joey...",
+          "characterSprites": [
+            "Child-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "What is it sweetheart?",
+          "characterSprites": [
+            "Young-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "What's that card game you're always playing with mom?",
+          "characterSprites": [
+            "Child-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Oh... I call it Card Scramble. Do you want me to teach you?",
+          "characterSprites": [
+            "Young-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Yes pleeeeeease!",
+          "characterSprites": [
+            "Child-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Prologue - Dialogue",
+  "dialogueId": "Chapter0-TeachMe",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

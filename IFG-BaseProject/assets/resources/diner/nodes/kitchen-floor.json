@@ -1,0 +1,14 @@
+{
+    "id": "kitchen-floor",
+    "isStatic": true,
+    "defaultPropId": "decoration.kitchen-floor-level-0",
+    "tags": ["kitchen", "floor-pattern"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch4-ScrubKitchenFloor"
+            }
+        }
+    ]
+}

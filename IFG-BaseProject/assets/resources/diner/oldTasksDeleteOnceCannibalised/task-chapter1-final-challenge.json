@@ -1,0 +1,23 @@
+{
+    "id": "task_chapter1_final_challenge",
+    "name": "The Final Challenge",
+    "description": "Finish the final challenge to complete Chapter 1!",
+    "unlockRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 24,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "turnInRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 25,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Wow, this is amazing Chef! We should put this on the menu...",
+          "characterSprites": [
+            "Surprised"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Ah, he's always trying to add fancy stuff to my menu. We're a classic diner, we don't need that.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Hmmm, maybe we can find a way for you to flex your culinary skills a little more chef.",
+          "characterSprites": [
+            "Thinking"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Chef"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I know it just looks like a regular kitchen to you guys. But with this better equipment, I feel like I could do anything!",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 4 - Dialogue",
+  "dialogueId": "Chapter4-Delicious",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

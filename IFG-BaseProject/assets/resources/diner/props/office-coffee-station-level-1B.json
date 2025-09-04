@@ -1,0 +1,7 @@
+{
+    "id": "decoration.office-coffee-station-level-1B",
+    "tags": ["coffee-station", "floor", "office-coffee-station"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/OfficeCoffeeStationLevel1B",
+    "thumbnailFilePath": "diner/thumbnails/office-coffee-station-lvl1B-thumbnail/spriteFrame"
+}

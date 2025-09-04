@@ -1,0 +1,160 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Will"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Ok, I can do this. It's not a big deal right? But what if she says no...?",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Hi Will. Want some coffee? One Sec...",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "Uhmm... You know what. Sure, that sounds great Ri! Pick me up at 8?",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Riley"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Awesome, yeah. I'll see you then. Dress up nice, I'm taking you to that Italian place on 8th.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Carlottis? I didn't even know that was still open.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Riley"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "It's still the nicest spot in town!",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Haha, okay. I'll see you at 8.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "Here you go Will, black coffee with one sugar for ya.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Will"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Uh... actually. Could I get a To Go cup. I'm gonna run.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Oh, sure. You and I need to have a coffee sometime though. I have so much news to share!",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 3 - Dialogue",
+  "dialogueId": "Chapter3-CoffeeWithWill",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": [
+    {
+      "requirementType": "taskComplete",
+      "taskId": "ch3-new-mat"
+    },
+    {
+      "requirementType": "taskComplete",
+      "taskId": "ch3-replace-hallway-decoration"
+    }
+  ]
+}

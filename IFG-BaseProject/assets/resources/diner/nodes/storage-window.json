@@ -1,0 +1,7 @@
+{
+    "id": "storage-window",
+    "isStatic": true,
+    "defaultPropId": "decoration.storage-window-level-0",
+    "tags": ["window", "wall"],
+    "requirements": []
+}

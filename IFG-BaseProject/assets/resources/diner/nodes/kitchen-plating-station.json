@@ -1,0 +1,14 @@
+{
+    "id": "kitchen-plating-station",
+    "isStatic": true,
+    "defaultPropId": "decoration.kitchen-platingstation-level-0",
+    "tags": ["plating", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch4-ReplacePlatingStation"
+            }
+        }
+    ]
+}

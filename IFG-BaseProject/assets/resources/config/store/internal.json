@@ -1,0 +1,22 @@
+{
+    "items": [
+        {
+            "id": "daily_prize_purchase",
+            "externalIds": ["POGO.OFR.50.0002205", "POGO.OFR.50.0002206", "powerup_dailyprize"],
+            "name": "Daily Prize Purchase",
+            "description": "Daily Prize Purchase",
+            "tags": ["daily_prize"],
+            "cost": {
+                "currency": "gems",
+                "amount": 10
+            },
+            "contents": [
+                {
+                    "id": "powerup_dailyprize",
+                    "amount": 1
+                }
+            ],
+            "sprite": ""
+        }
+    ]
+}

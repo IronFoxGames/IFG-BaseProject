@@ -1,0 +1,14 @@
+{
+    "id": "bathroom-walls",
+    "isStatic": true,
+    "defaultPropId": "decoration.bathroom-walls-level-0",
+    "tags": ["bathroom", "wall-pattern"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch3-replace-bathroom-wallpaper"
+            }
+        }
+    ]
+}

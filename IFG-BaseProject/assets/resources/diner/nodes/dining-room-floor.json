@@ -1,0 +1,14 @@
+{
+    "id": "dining-room-floor",
+    "isStatic": true,
+    "defaultPropId": "decoration.cafe-floor-level-0",
+    "tags": ["cafe", "floor-pattern"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch3-change-diner-flooring"
+            }
+        }
+    ]
+}

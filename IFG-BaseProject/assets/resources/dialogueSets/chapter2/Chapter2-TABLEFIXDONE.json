@@ -1,0 +1,73 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "There, that's so much better! Isn't it?",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I... I don't even know any more.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Mom"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Just say yes, dear.",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Yes, dear...",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 2 - Dialogue",
+  "dialogueId": "Chapter2-TableFixDone",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

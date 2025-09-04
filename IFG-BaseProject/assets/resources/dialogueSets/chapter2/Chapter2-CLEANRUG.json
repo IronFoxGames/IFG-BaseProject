@@ -1,0 +1,48 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Eugh, this ratty old rug has got to be cleaned, it probably has 20 years of spilled coffee in it.",
+          "characterSprites": [
+            "Annoyed"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "Joeyyy! I'm going out.",
+          "characterSprites": [
+            "Annoyed"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Hey! Where are you taking my rug?",
+          "characterSprites": [
+            "Surprised"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 2 - Dialogue",
+  "dialogueId": "Chapter2-CleanRug",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

@@ -1,0 +1,18 @@
+{
+    "id": "dining-room-example-req",
+    "isStatic": false,
+    "defaultPropId": "",
+    "tags": ["floor"],
+    "requirements": [
+        {
+            "requirementType": "level",
+            "level": 5,
+            "operator": "greaterThanEqual"
+        },
+        {
+            "requirementType": "level",
+            "level": 10,
+            "operator": "lessThanEqual"
+        }
+    ]
+}

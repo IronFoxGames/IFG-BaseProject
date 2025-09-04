@@ -1,0 +1,16 @@
+{
+    "id": "decoration.bar-lights-level-2",
+    "tags": ["bar-lights", "ceiling"],
+    "requirements": [],
+    "visibilityRequirements": [
+            {
+        "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter3-TimeToSettleIn",
+            "operator": "hasSeen"
+        }
+    }
+    ],
+    "assetFilePath": "diner/prefabs/BarLightsLevel2",
+    "thumbnailFilePath": "diner/thumbnails/bar-lights-lvl2-thumbnail/spriteFrame"
+}

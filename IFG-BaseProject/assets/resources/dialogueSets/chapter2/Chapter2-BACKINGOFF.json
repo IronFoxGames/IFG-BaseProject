@@ -1,0 +1,137 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Joey's Diner, how can I help you?",
+          "characterSprites": [
+            "Annoyed"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Clyde"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Joey...",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Clyde...",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Clyde"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "It's been uh, brought to my attention, that I may have... overreacted.",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Oh really? You think?",
+          "characterSprites": [
+            "Annoyed"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Joey...",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Clyde"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I'm just calling to apologize. Forget those crazy things I said. Let's put it all behind us.",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Well... fair enough. And look, we did take you seriously. Fixed up all the tables and chairs. If you'll dare to sit down, your next coffee's on the house.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 2 - Dialogue",
+  "dialogueId": "Chapter2-BackingOff",
+  "repeatable": false,
+  "dialogueFormat": "Phone",
+  "requirements": []
+}

@@ -1,0 +1,7 @@
+{
+    "id": "decoration.bathroom-mirror-level-1B",
+    "tags": ["mirror", "wall", "placeprop-bathroom-mirror"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/BathroomMirrorLevel1B",
+    "thumbnailFilePath": "diner/thumbnails/bathroom-mirror-lvl1B-thumbnail/spriteFrame"
+}

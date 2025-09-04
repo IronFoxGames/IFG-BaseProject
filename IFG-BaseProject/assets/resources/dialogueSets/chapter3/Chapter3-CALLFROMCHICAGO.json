@@ -1,0 +1,94 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Viola? Do you have a minute?",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Sure thing. Is everything ok?",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Better than ok. I was just talking to your mom about how great things are looking and how business is having a real up swing.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "I know I'm stuck in my ways but I appreciate everything you've done. You've breathed new life into this place.",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "No need to thank me, Uncle Joey. Honestly it’s been a welcome change of pace.",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "It’s been so refreshing to see everyone again. And even though I like my job in Chicago, it can get kind of... intense.",
+          "characterSprites": [
+            "Thinking"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "Speaking of Chicago, my boss called today, while I was busy with customers. I should probably call him back.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 3 - Dialogue",
+  "dialogueId": "Chapter3-CallFromChicago",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

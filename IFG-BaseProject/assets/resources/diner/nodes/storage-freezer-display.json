@@ -1,0 +1,7 @@
+{
+    "id": "storage-freezer-display",
+    "isStatic": true,
+    "defaultPropId": "decoration.storage-freezer-display-level-0",
+    "tags": ["freezer-display", "floor"],
+    "requirements": []
+}

@@ -1,0 +1,7 @@
+{
+    "id": "decoration.office-sofa-level-1",
+    "tags": ["sofa", "floor", "office-sofa"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/OfficeSofaLevel1",
+    "thumbnailFilePath": "diner/thumbnails/office-sofa-lvl1-thumbnail/spriteFrame"
+}

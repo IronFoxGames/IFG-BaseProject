@@ -1,0 +1,41 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Okay, I've been curious chef. What exactly is under that sheet?",
+          "characterSprites": [
+            "Thinking"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Chef"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Oh, that old thing? A few years back Joey had this idea...",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 4 - Dialogue",
+  "dialogueId": "Chapter4-DonutMystery",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

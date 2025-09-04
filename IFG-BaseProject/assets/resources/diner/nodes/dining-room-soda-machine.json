@@ -1,0 +1,14 @@
+{
+    "id": "dining-room-soda-machine",
+    "isStatic": true,
+    "defaultPropId": "decoration.soda-machine-level-0",
+    "tags": ["soda-machine", "counter-top"],
+    "requirements": [
+        {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter3-TimeToSettleIn",
+            "operator": "hasSeen"
+        }
+    ]
+}
+

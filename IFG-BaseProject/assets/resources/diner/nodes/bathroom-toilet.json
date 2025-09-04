@@ -1,0 +1,14 @@
+{
+    "id": "bathroom-toilet",
+    "isStatic": true,
+    "defaultPropId": "decoration.bathroom-toilet-level-0",
+    "tags": ["toilet", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch3-new-toilet"
+        }
+    }
+    ]
+}

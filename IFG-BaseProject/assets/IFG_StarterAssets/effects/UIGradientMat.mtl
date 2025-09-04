@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.Material",
+  "_name": "",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "241b96dc-7aa1-4e68-90f5-485aa06c93cb",
+    "__expectedType__": "cc.EffectAsset"
+  },
+  "_techIdx": 0,
+  "_defines": [
+    {}
+  ],
+  "_states": [
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    }
+  ],
+  "_props": [
+    {
+      "stop0": {
+        "__type__": "cc.Color",
+        "r": 255,
+        "g": 156,
+        "b": 156,
+        "a": 255
+      },
+      "stop1": {
+        "__type__": "cc.Color",
+        "r": 194,
+        "g": 58,
+        "b": 58,
+        "a": 255
+      },
+      "stop2": {
+        "__type__": "cc.Color",
+        "r": 129,
+        "g": 44,
+        "b": 44,
+        "a": 255
+      },
+      "stop3": {
+        "__type__": "cc.Color",
+        "r": 255,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "stopPos0123": {
+        "__type__": "cc.Vec4",
+        "x": 0.5,
+        "y": 1,
+        "z": 0.4,
+        "w": 2.6
+      },
+      "stopPos4567": {
+        "__type__": "cc.Vec4",
+        "x": 7.7,
+        "y": 2.9,
+        "z": 1.4,
+        "w": 1
+      },
+      "misc": {
+        "__type__": "cc.Vec4",
+        "x": 0.2,
+        "y": -1.9,
+        "z": 0,
+        "w": 0
+      }
+    }
+  ]
+}

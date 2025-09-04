@@ -1,0 +1,160 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Riley"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Hey! There’s the big city girl! I was just about to leave but since you walked in I might stay a little longer.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Huh... oh yeah, sure thing Riley. Let me grab the coffee pot.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Riley"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "You bump your head or something? I was watching this movie about football concussions the other night...",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "No, uh... nothing like that. Just stuck in my thoughts. My boss wants me back in Chicago. Says I've taken too much time off.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "It’s my dream job, it’s what I always wanted. But being here again…I just really want to stay longer.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Riley"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "You're a popular gal, I bet you keep the place running over there. It’s not surprising they’d want you back.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I've got so much left to do here! There’s still so much book keeping left, and I haven't even addressed the kitchen.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Riley"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Yeah, I know how you feel. I've got 3 clients on the hook right now and the peewee team has a game I'm meant to coach...",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Damnit! Where’s the plunger! The toilet’s backed up again!",
+          "characterSprites": [
+            "Angry"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I saw it earlier today, let me grab it.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 3 - Dialogue",
+  "dialogueId": "Chapter3-TalkWithRiley",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

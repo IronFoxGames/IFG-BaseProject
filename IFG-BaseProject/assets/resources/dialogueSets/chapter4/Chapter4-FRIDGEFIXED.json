@@ -1,0 +1,64 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Chef"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Eugh, that fridge was the bane of my existence!",
+          "characterSprites": [
+            "Annoyed"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "You see that hammer over there? I had to hit the compressor motor every time it would jam up.",
+          "characterSprites": [
+            "Annoyed"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "That... doesnt sound safe.",
+          "characterSprites": [
+            "Thinking"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Chef"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "This is going to be amazing. Let's load all the ingredients into the new one!",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 4 - Dialogue",
+  "dialogueId": "Chapter4-FridgeFixed",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

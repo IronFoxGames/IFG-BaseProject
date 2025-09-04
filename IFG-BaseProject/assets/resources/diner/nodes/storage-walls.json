@@ -1,0 +1,7 @@
+{
+    "id": "storage-walls",
+    "isStatic": true,
+    "defaultPropId": "decoration.storage-walls-level-0",
+    "tags": ["storage", "wall-pattern"],
+    "requirements": []
+}

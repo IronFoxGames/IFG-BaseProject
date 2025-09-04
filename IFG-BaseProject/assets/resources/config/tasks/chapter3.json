@@ -1,0 +1,985 @@
+{
+	"id": "chapter-3",
+	"name": "Chapter 3",
+	"tasks": [
+		{
+			"id": "ch3-serve-coffee",
+			"name": "Serve Customers Coffee",
+			"iconId": "icon-coffee",
+			"description": "Serve Customers Coffee",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-LighteningTheLoad",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 1,
+			"completionCount": 3,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "none"
+							}
+						}
+					]
+				},
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "none"
+							}
+						}
+					]
+				},
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "dialogue",
+								"dialogueId": "Chapter3-CallFromChicago"
+							}
+						}
+					]
+				}
+			],
+			"chapterStartTask": "chapter-3"
+		},
+		{
+			"id": "ch3-call-boss",
+			"name": "Call Your Boss",
+			"iconId": "icon-action-call",
+			"description": "Call Your Boss",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-CallFromChicago",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 3,
+			"completionCount": 1,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "dialogue",
+								"dialogueId": "Chapter3-Ultimatum"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-cleanup-newspapers",
+			"name": "Clean Up Newspapers",
+			"iconId": "mess-diner-newspaper",
+			"description": "Clear Up The Old Newspapers",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-Ultimatum",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 1,
+			"completionCount": 3,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "interactableItems",
+								"itemId": "mess-diner-newspaper",
+								"roomId": "dining-room",
+								"spawnIds": [
+									"dining-room-table-3-south-west"
+								],
+								"iconId": "icon-clean"
+							}
+						}
+					]
+				},
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "interactableItems",
+								"itemId": "mess-diner-newspaper",
+								"roomId": "dining-room",
+								"spawnIds": [
+									"dining-room-table-5-south-east"
+								],
+								"iconId": "icon-clean"
+							}
+						}
+					]
+				},
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "interactableItems",
+								"itemId": "mess-diner-newspaper",
+								"roomId": "dining-room",
+								"spawnIds": [
+									"dining-room-bar-counter-middle"
+								],
+								"iconId": "icon-clean"
+							}
+						},
+						{
+							"eventData": {
+								"eventType": "dialogue",
+								"dialogueId": "Chapter3-DinerFloor"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-change-diner-flooring",
+			"name": "Replace Diner Floor",
+			"iconId": "icon-fix",
+			"description": "Replace the Diner Floor",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-DinerFloor",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 3,
+			"completionCount": 1,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "placeProp",
+								"roomId": "dining-room",
+								"nodeId": "dining-room-floor",
+								"propTags": [
+									"diner-floor"
+								]
+							}
+						},
+						{
+							"eventData": {
+								"eventType": "dialogue",
+								"dialogueId": "Chapter3-TalkToDerek1"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-walk-around-lake",
+			"name": "Walk Around The Lake",
+			"iconId": "icon-outdoors",
+			"description": "Walk Around The Lake",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-TalkToDerek1",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 3,
+			"completionCount": 1,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "dialogue",
+								"dialogueId": "Chapter3-Conflicted"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-talk-to-will",
+			"name": "Talk To Will",
+			"iconId": "icon-action-message",
+			"description": "Talk To Will",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-Conflicted",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 3,
+			"completionCount": 1,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "dialogue",
+								"dialogueId": "Chapter3-TalkToWill"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-take-orders",
+			"name": "Take Orders",
+			"iconId": "icon-todo-list",
+			"description": "Take customer orders",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-TalkToWill",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 1,
+			"completionCount": 3,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "none"
+							}
+						}
+					]
+				},
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "none"
+							}
+						}
+					]
+				},
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "dialogue",
+								"dialogueId": "Chapter3-TalkWithRiley"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-dig-through-closet",
+			"name": "Dig Through The Storage Closet",
+			"iconId": "icon-clean",
+			"description": "Dig Through The Storage Closet",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-TalkWithRiley",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 3,
+			"completionCount": 1,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "dialogue",
+								"dialogueId": "Chapter3-BathroomLeak"
+							}
+						},
+						{
+							"eventData": {
+								"eventType": "unlockRoom",
+								"roomId": "bathroom"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-change-bathroom-flooring",
+			"name": "Replace Bathroom Floor",
+			"iconId": "icon-fix",
+			"description": "Replace The Bathroom Floor",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-BathroomLeak",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 3,
+			"completionCount": 1,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "placeProp",
+								"roomId": "bathroom",
+								"nodeId": "bathroom-floor",
+								"propTags": [
+									"bathroom-floor"
+								]
+							}
+						},
+						{
+							"eventData": {
+								"eventType": "dialogue",
+								"dialogueId": "Chapter3-NewToilet"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-new-toilet",
+			"name": "Replace The Toilet",
+			"iconId": "icon-fix",
+			"description": "Replace The Toilet",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-NewToilet",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 3,
+			"completionCount": 1,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "placeProp",
+								"roomId": "bathroom",
+								"nodeId": "bathroom-toilet",
+								"propTags": [
+									"toilet"
+								]
+							}
+						},
+						{
+							"eventData": {
+								"eventType": "dialogue",
+								"dialogueId": "Chapter3-TalkWithDarcy"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-clean-the-mirror",
+			"name": "Clean The Mirror",
+			"iconId": "icon-clean",
+			"description": "Clean The Mirror",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-TalkWithDarcy",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 3,
+			"completionCount": 1,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "dialogue",
+								"dialogueId": "Chapter3-TalkWithDarcy2"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-cleanup-water2",
+			"name": "Clean Up Puddles",
+			"iconId": "icon-clean",
+			"description": "Clean Up Puddles",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-TalkWithDarcy2",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 1,
+			"completionCount": 3,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "interactableItems",
+								"itemId": "mess-puddle-water",
+								"roomId": "dining-room",
+								"spawnIds": [
+									"dining-room-floor-north1"
+								],
+								"iconId": "icon-clean"
+							}
+						}
+					]
+				},
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "interactableItems",
+								"itemId": "mess-puddle-water",
+								"roomId": "dining-room",
+								"spawnIds": [
+									"dining-room-floor-north2"
+								],
+								"iconId": "icon-clean"
+							}
+						}
+					]
+				},
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "interactableItems",
+								"itemId": "mess-puddle-water",
+								"roomId": "dining-room",
+								"spawnIds": [
+									"dining-room-floor-middle1"
+								],
+								"iconId": "icon-clean"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-new-mirror",
+			"name": "Replace Bathroom Mirror",
+			"iconId": "icon-fix",
+			"description": "Replace the bathroom mirror",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-TalkWithDarcy2",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 3,
+			"completionCount": 1,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "placeProp",
+								"roomId": "bathroom",
+								"nodeId": "bathroom-mirror",
+								"propTags": [
+									"placeprop-bathroom-mirror"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-talk-to-joey",
+			"name": "Talk To Joey About Staying",
+			"iconId": "icon-action-message",
+			"description": "Talk to Joey About Staying",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-MirrorReplaced",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 3,
+			"completionCount": 1,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "dialogue",
+								"dialogueId": "Chapter3-TalkToJoeyAboutStaying"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-talk-to-derek",
+			"name": "Talk To Derek About Staying",
+			"iconId": "icon-action-message",
+			"description": "Talk to Derek About Staying",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-TalkToJoeyAboutStaying",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 3,
+			"completionCount": 1,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "interactableItems",
+								"itemId": "mess-diner-derek-sleeping",
+								"roomId": "dining-room",
+								"spawnIds": [
+									"dining-room-cat-bed"
+								],
+								"iconId": "icon-derek"
+							}
+						},
+						{
+							"eventData": {
+								"eventType": "dialogue",
+								"dialogueId": "Chapter3-TalkToDerekAboutStaying"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-talk-to-mom",
+			"name": "Talk To Mom About Staying",
+			"iconId": "icon-action-message",
+			"description": "Talk to Mom About Staying",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-TalkToDerekAboutStaying",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 3,
+			"completionCount": 1,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "dialogue",
+								"dialogueId": "Chapter3-TalkToMomAboutStaying"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-call-seth",
+			"name": "Call Seth",
+			"iconId": "icon-action-call",
+			"description": "Call Seth",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-TalkToMomAboutStaying",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 3,
+			"completionCount": 1,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "dialogue",
+								"dialogueId": "Chapter3-IQuit"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-catch-your-breath",
+			"name": "Catch Your Breath",
+			"iconId": "icon-outdoors",
+			"description": "Catch Your Breath",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-IQuit",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 2,
+			"completionCount": 1,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "dialogue",
+								"dialogueId": "Chapter3-IJustQuit"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-replace-bathroom-dryer",
+			"name": "Replace Bathroom Dryer",
+			"iconId": "icon-fix",
+			"description": "Replace the bathroom hand dryer",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-IJustQuit",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 3,
+			"completionCount": 1,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "placeProp",
+								"roomId": "bathroom",
+								"nodeId": "bathroom-wall-dryer",
+								"propTags": [
+									"placeprop-bathroom-dryer"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-replace-bathroom-garbage",
+			"name": "Replace Bathroom Garbage Can",
+			"iconId": "icon-fix",
+			"description": "Replace Bathroom Garbage Can",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-IJustQuit",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 3,
+			"completionCount": 1,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "placeProp",
+								"roomId": "bathroom",
+								"nodeId": "bathroom-garbage-bin",
+								"propTags": [
+									"placeprop-bathroom-garbage-bin"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-replace-bathroom-wallpaper",
+			"name": "Replace Bathroom Wallpaper",
+			"iconId": "icon-fix",
+			"description": "Replace Bathroom Wallpaper",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-ImStaying",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 3,
+			"completionCount": 1,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "placeProp",
+								"roomId": "bathroom",
+								"nodeId": "bathroom-walls",
+								"propTags": [
+									"placeprop-bathroom-wall"
+								]
+							}
+						},
+						{
+							"eventData": {
+								"eventType": "dialogue",
+								"dialogueId": "Chapter3-AwkwardTalkWithWill"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-new-mat",
+			"name": "Replace Bathroom Mat",
+			"iconId": "icon-decorate",
+			"description": "Replace Bathroom Mat",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-AwkwardTalkWithWill",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 3,
+			"completionCount": 1,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "placeProp",
+								"roomId": "bathroom",
+								"nodeId": "bathroom-rug",
+								"propTags": [
+									"placeprop-bathroom-rug"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-replace-hallway-decoration",
+			"name": "Replace Hallway Decoration",
+			"iconId": "icon-decorate",
+			"description": "Replace Hallway Decoration",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-AwkwardTalkWithWill",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 3,
+			"completionCount": 1,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "placeProp",
+								"roomId": "dining-room",
+								"nodeId": "hallway-1x1",
+								"propTags": [
+									"decorate1"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-prep-togo-coffee",
+			"name": "Prepare To-Go Coffee",
+			"iconId": "icon-coffee",
+			"description": "Prepare To-Go Coffee",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-CoffeeWithWill",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 3,
+			"completionCount": 1,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "dialogue",
+								"dialogueId": "Chapter3-NewSink"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-new-sink",
+			"name": "Replace Bathroom Sink",
+			"iconId": "icon-fix",
+			"description": "Replace Bathroom Sink",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-NewSink",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 3,
+			"completionCount": 1,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "placeProp",
+								"roomId": "bathroom",
+								"nodeId": "bathroom-sink",
+								"propTags": [
+									"placeprop-bathroom-sink"
+								]
+							}
+						},
+						{
+							"eventData": {
+								"eventType": "dialogue",
+								"dialogueId": "Chapter3-TimeToSettleIn"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ch3-brewcoffee",
+			"name": "Brew More Coffee",
+			"iconId": "icon-coffee",
+			"description": "Brew More Coffee",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "dialogue",
+						"dialogueId": "Chapter3-NewSink",
+						"operator": "hasSeen"
+					}
+				}
+			],
+			"starCost": 2,
+			"completionCount": 1,
+			"completionSequences": [
+
+			]
+		},
+		{
+			"id": "ch3-complete-chapter-3",
+			"name": "Complete Chapter 3",
+			"iconId": "icon-check",
+			"description": "Complete Chapter 3",
+			"unlockRequirements": [
+				{
+					"requirementData": {
+						"requirementType": "taskComplete",
+						"taskId": "ch3-new-sink"
+					}
+				},
+				{
+					"requirementData": {
+						"requirementType": "taskComplete",
+						"taskId": "ch3-brewcoffee"
+					}
+				}
+			],
+			"starCost": 3,
+			"completionCount": 1,
+			"completionSequences": [
+				{
+					"events": [
+						{
+							"eventData": {
+								"eventType": "none"
+							}
+						}
+					]
+				}
+			],
+			"chapterEndTask": "chapter-3"
+		}
+	]
+}

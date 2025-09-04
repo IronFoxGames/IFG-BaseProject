@@ -1,0 +1,137 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "So... What do you think?",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I think I barely recognize the place. Or maybe I do, maybe it looks as good as it did 20 years ago...",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I hope so, it was a lot of effort, but it feels worth it. Customers are going to love the improvements.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Sigh... I could not have done all this Vi. You never cease to impress me.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Mom"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "That's my girl. There's never been anything she couldn't do if she put her mind to it.",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Darcy"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "It is great having you back Vi. It's making a world of difference around here, and to me.",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Awww... guys. Don't make me cry.",
+          "characterSprites": [
+            "Empathetic"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Alright, that's enough of that. Let's shut this place up and get outta here.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 2 - Dialogue",
+  "dialogueId": "Chapter2-AllFixedUp",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

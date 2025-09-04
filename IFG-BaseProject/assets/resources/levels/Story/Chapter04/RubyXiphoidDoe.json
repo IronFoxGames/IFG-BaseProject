@@ -1,0 +1,37 @@
+{
+    "name": "RubyXiphoidDoe",
+    "description": "Simple template",
+    "handSize": 7,
+    "difficulty": "Hard",
+    "hasBot": false,
+    "placeAnchor": false,
+    "objectives": [
+        {
+            "objectiveDataList": [
+                {
+                    "objectiveType": "Score",
+                    "tipText": "Score the target number of points by playing the best hands possible.",
+                    "tipSprite": null,
+                    "score": 60000
+                }
+            ]
+        }
+    ],
+    "deckType": "Default",
+    "customDeck": [],
+    "startingBoard": [
+        { "boardIndex": 92, "card": { "type": "wild", "rank": 0, "suit": 0 } },
+        { "boardIndex": 24, "card": { "type": "wild", "rank": 0, "suit": 0 } }
+    ],
+    "boardModifierPlacements": [
+        { "boardIndex": 94, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } },
+        { "boardIndex": 96, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } },
+        { "boardIndex": 50, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } },
+        { "boardIndex": 76, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } }
+    ],
+    "freeBooster": "None",
+    "freePowerup": "None",
+    "appliedBoosters": [],
+    "gridSpecialsEnabled": false,
+    "gridSpecialsHidden": false
+}

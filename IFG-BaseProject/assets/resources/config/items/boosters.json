@@ -1,0 +1,34 @@
+{
+    "items": [
+        {
+            "id": "powerup_loosenyourbelt",
+            "externalId": "powerup_loosen_your_belt",
+            "type": "booster",
+            "sprite": "store/booster/icon-booster-loosen-your-belt/spriteFrame",
+            "name": "Loosen Your Belt",
+            "tooltip": "Hold one more card",
+            "requirements": [
+                {
+                    "requirementType": "level",
+                    "level": 7,
+                    "operator": "greaterThanEqual"
+                }
+            ]
+        },
+        {
+            "id": "powerup_deuceswild",
+            "externalId": "powerup_deuces_wild",
+            "type": "booster",
+            "sprite": "store/booster/icon-booster-deuces-wild/spriteFrame",
+            "name": "Deuces Wild",
+            "tooltip": "All <img src='rank-2'/> cards become Wildcards <img src='card-wild'/>",
+            "requirements": [
+                {
+                    "requirementType": "level",
+                    "level": 9,
+                    "operator": "greaterThanEqual"
+                }
+            ]
+        }
+    ]
+}

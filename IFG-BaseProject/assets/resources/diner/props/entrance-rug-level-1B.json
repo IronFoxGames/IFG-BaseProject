@@ -1,0 +1,7 @@
+{
+    "id": "decoration.entrance-rug-level-1B",
+    "tags": ["entrance-rug", "floor"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/EntranceRugLevel1B",
+    "thumbnailFilePath": "diner/thumbnails/cafe-rug-lvl1B-thumbnail/spriteFrame"
+}

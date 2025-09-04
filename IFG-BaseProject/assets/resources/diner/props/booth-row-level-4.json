@@ -1,0 +1,16 @@
+{
+    "id": "decoration.booth-row-level-4",
+    "tags": ["booth-row", "floor"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/BoothsLevel4",
+    "thumbnailFilePath": "diner/thumbnails/booth-lvl4-thumbnail/spriteFrame"
+}

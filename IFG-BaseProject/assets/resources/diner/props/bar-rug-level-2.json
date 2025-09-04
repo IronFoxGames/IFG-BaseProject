@@ -1,0 +1,16 @@
+{
+    "id": "decoration.bar-rug-level-2",
+    "tags": ["bar-rug", "floor"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/BarRugLevel2",
+    "thumbnailFilePath": "diner/thumbnails/cafe-bar-rug-lvl2-thumbnail/spriteFrame"
+}

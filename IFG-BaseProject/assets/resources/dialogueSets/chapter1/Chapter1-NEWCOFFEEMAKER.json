@@ -1,0 +1,121 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Okay, I've checked the cash on hand and we do have the funds for a new coffee machine.",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Chef"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I can't wait. You know how long I've been waiting for a GOOD cup of Joe in the morning?",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "My coffee has always been good!",
+          "characterSprites": [
+            "Annoyed"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Well it'll be even better now! I'll go to the store and pickup the new one. *mwah* Back soon!",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Chef"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "She's got you wrapped round her little finger.",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I'll give YOU a large cup of Joe if you don't get back in the kitchen!",
+          "characterSprites": [
+            "Annoyed"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Chef"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Haha!",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 1 - Dialogue",
+  "dialogueId": "Chapter1-NewCoffeeMaker",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

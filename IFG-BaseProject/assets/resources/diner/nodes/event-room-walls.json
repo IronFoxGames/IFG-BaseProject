@@ -1,0 +1,7 @@
+{
+    "id": "event-room-walls",
+    "isStatic": true,
+    "defaultPropId": "decoration.event-room-walls-level-0",
+    "tags": ["event-room", "wall-pattern"],
+    "requirements": []
+}

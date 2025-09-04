@@ -1,0 +1,7 @@
+{
+    "id": "event-room-booth-a",
+    "isStatic": true,
+    "defaultPropId": "decoration.event-room-booth-level-0A",
+    "tags": ["booth-a", "floor"],
+    "requirements": []
+}

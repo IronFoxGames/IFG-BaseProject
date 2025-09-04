@@ -1,0 +1,103 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Firefly lake is beautiful this time of year. It looks just like it did 20 years ago.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "The old dock is still there too! Darcy and I used to race and jump off the end.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "I haven't thought about that in years. Maybe walking by the lake wasn't a great idea, I don't have time to reminisce.",
+          "characterSprites": [
+            "Thinking"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Will"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Penny for your thoughts?",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Will? You startled me.",
+          "characterSprites": [
+            "Surprised"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Will"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Oh, uh.. sorry. I didn't mean to scare you. I just wanted to say “hi”.",
+          "characterSprites": [
+            "Blushing"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "It’s fine. My mind is a mile away so I didn't hear you walking up.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 3 - Dialogue",
+  "dialogueId": "Chapter3-Conflicted",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

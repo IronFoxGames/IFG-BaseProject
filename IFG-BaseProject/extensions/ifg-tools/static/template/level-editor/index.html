@@ -1,0 +1,301 @@
+<div>
+    <div>
+        <div class="container">
+            <!-- LEVEL LIST PANEL -->
+            <div class="left-panel">
+                <div class="header-container">
+                    <h2 id="right-panel-title">Levels</h2>
+                    <div id="level-menu" class="button-panel">
+                        <ui-button id="refreshLevelList" class="blue">Refresh List</ui-button>
+                        <ui-button id="reserializeAll" class="red">Reserialize List</ui-button>
+                    </div>
+                </div>
+                <div class="left-panel-header">
+                    <div>
+                        <span>Name Filter:<ui-input type="text" id="nameFilter" class="filter-input" placeholder="" /></span>
+                    </div>
+                    <div id="scrollableList" class="scrollable-list">
+                        <!-- Managed by code -->
+                        <ui-tree id="levelFileTreeView" style="height: 100%"></ui-tree>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LEVEL DETAILS PANEL -->
+            <div class="right-panel">
+                <!-- LEVEL MENU HEADER -->
+                <div class="header-container">
+                    <h2 id="right-panel-title">Level Details</h2>
+                    <div id="level-menu" class="button-panel">
+                        <ui-button id="newButton" class="green">New</ui-button>
+                        <ui-button id="saveButton" class="blue">Save</ui-button>
+                        <ui-button id="deleteButton" class="red">Delete</ui-button>
+                        <ui-button id="playTestButton" class="green">Play &#9654;</ui-button>
+                        <ui-button id="stopTestButton" class="green">Stop &#9632;</ui-button>
+                    </div>
+                </div>
+
+                <!-- LEVEL DETAILS -->
+                <div id="levelDetails" class="level-details">
+                    <!-- OPTIONS -->
+                    <div id="menu" class="menu-section">
+                        <h4 class="menu-section-title">Level Options</h4>
+                        <span>Name<ui-input id="levelName" style="width: 200px" value=""></ui-input></span>
+                        <span>
+                            Path
+                            <span style="opacity: 0.4">(Relative to: db://assets/resources/levels/)</span>
+                            <ui-input id="levelPath" style="width: 200px" value=""></ui-input>
+                        </span>
+                        <span>Description<ui-textarea id="levelDescription" placeholder="content"></ui-textarea></span>
+                    </div>
+
+                    <!-- OBJECTIVES -->
+                    <div class="menu-section">
+                        <h4 class="menu-section-title">Objectives</h4>
+                        <div class="button-panel">
+                            <ui-button id="addObjective" class="blue">Add Goal</ui-button>
+                            <ui-button id="resetObjectives" class="red">Reset Goals</ui-button>
+                        </div>
+
+                        <!-- Template object; hidden until cloned -->
+                        <div id="objectiveTemplate" class="objective" style="display: none">
+                            <h3 class="objective-number" id="objectiveNumber">Goal 1</h3>
+                            <div class="objective-header">
+                                <div class="button-panel">
+                                    <ui-button id="addParam" class="blue">Add Objective</ui-button>
+                                </div>
+                                <div class="button-panel">
+                                    <ui-button id="deleteObjective" class="red">Delete Goal</ui-button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Template objectiveParams; hidden until cloned -->
+                        <div id="objectiveParam" class="param" style="display: none">
+                            <h3 class="objective-number" id="paramNumber">Objective 1</h3>
+                            <div class="objective-header">
+                                <div>
+                                    <div>Objective Type:</div>
+                                    <ui-select id="objectiveCategory" value="default"> </ui-select>
+                                </div>
+                                <div class="button-panel">
+                                    <ui-button id="deleteParam" class="red">Delete Objective</ui-button>
+                                </div>
+                            </div>
+
+                            <div id="objectiveOptions"></div>
+                        </div>
+
+                        <!-- Template score objective; hidden until cloned -->
+                        <div id="scoreObjectiveTemplate" style="display: none">
+                            <div>Score:</div>
+                            <ui-input id="scoreObjectiveScore" style="width: 200px" value="1"></ui-input>
+                        </div>
+
+                        <!-- Template hands played objective; hidden until cloned -->
+                        <div id="handsPlayedObjectiveTemplate" style="display: none">
+                            <div>
+                                <div>HandName:</div>
+                                <ui-select id="handsPlayedObjectiveHandName" style="width: 200px" value="Invalid"></ui-select>
+                            </div>
+                            <div>
+                                <div>Count:</div>
+                                <ui-input id="handsPlayedObjectiveCount" style="width: 200px" value="1"></ui-input>
+                            </div>
+                        </div>
+
+                        <!-- Template hand played any objective; hidden until cloned -->
+                        <div id="handPlayedAnyObjectiveTemplate" style="display: none">
+                            <div>Count:</div>
+                            <ui-input id="handPlayedAnyObjectiveCount" style="width: 200px" value="1"></ui-input>
+                        </div>
+
+                        <!-- Template turn limit objective; hidden until cloned -->
+                        <div id="turnLimitObjectiveTemplate" style="display: none">
+                            <div>Turn Limit:</div>
+                            <ui-input id="turnLimitObjectiveValue" style="width: 200px" value="1"></ui-input>
+                        </div>
+
+                        <!-- Template hand played with score objective; hidden until cloned -->
+                        <div id="handPlayedWithScoreObjectiveTemplate" style="display: none">
+                            <div>
+                                <div>HandName:</div>
+                                <ui-select id="handsPlayedWithScoreObjectiveHandName" style="width: 200px" value="Invalid"></ui-select>
+                            </div>
+                            <div>
+                                <div>Score:</div>
+                                <ui-input id="handsPlayedWithScoreObjectiveScore" style="width: 200px" value="1"></ui-input>
+                            </div>
+                        </div>
+
+                        <!-- Template card played objective; hidden until cloned -->
+                        <div id="cardsPlayedObjectiveTemplate" style="display: none">
+                            <div>
+                                <div>Rank:</div>
+                                <ui-input id="cardsPlayedObjectiveRank" style="width: 200px" value="1"></ui-input>
+                            </div>
+                            <div>
+                                <div>Suit:</div>
+                                <ui-input id="cardsPlayedObjectiveSuit" style="width: 200px" value="1"></ui-input>
+                            </div>
+                            <div>
+                                <div>Count:</div>
+                                <ui-input id="cardsPlayedObjectiveCount" style="width: 200px" value="1"></ui-input>
+                            </div>
+                        </div>
+
+                        <!-- Template card played with hand objective; hidden until cloned -->
+                        <div id="cardsPlayedWithHandObjectiveTemplate" style="display: none">
+                            <div>
+                                <div>Rank:</div>
+                                <ui-input id="cardsPlayedWithHandObjectiveRank" style="width: 200px" value="1"></ui-input>
+                            </div>
+                            <div>
+                                <div>Suit:</div>
+                                <ui-input id="cardsPlayedWithHandObjectiveSuit" style="width: 200px" value="1"></ui-input>
+                            </div>
+                            <div>
+                                <div>Count:</div>
+                                <ui-input id="cardsPlayedWithHandObjectiveCount" style="width: 200px" value="1"></ui-input>
+                            </div>
+                            <div>
+                                <div>HandName:</div>
+                                <ui-select id="cardsPlayedWithHandObjectiveHandName" style="width: 200px" value="Invalid"></ui-select>
+                            </div>
+                        </div>
+
+                        <!-- Template Tile Placement objective; hidden until cloned -->
+                        <div id="tilePlacementObjectiveTemplate" style="display: none">
+                            <ui-button id="addTileIndex" class="blue">Add Tile</ui-button>
+                            <div id="tileIndexList">
+                                <!-- Managed by code -->
+                            </div>
+                        </div>
+
+                        <div id="objectiveList">
+                            <!-- Managed by code -->
+                        </div>
+                    </div>
+
+                    <!-- DECK -->
+                    <div class="menu-section">
+                        <h4 class="menu-section-title">Deck Options</h4>
+                        <div>
+                            <div>Deck Type:</div>
+                            <ui-select id="deckType" value="Default">
+                                <option value="Default">Default Shuffled Deck</option>
+                                <option value="Custom">Custom</option>
+                            </ui-select>
+                        </div>
+                        <div id="customDeck">
+                            <div id="customDeckMenu" class="button-panel">
+                                <span>Quick Add:</span>
+                                <ui-button id="allCardsButton" class="blue">All</ui-button>
+                                <ui-button id="noCardsButton" class="blue">None</ui-button>
+                                <ui-button id="clubsOnlyButton" class="blue">Clubs Only</ui-button>
+                                <ui-button id="diamondsOnlyButton" class="blue">Diamonds Only</ui-button>
+                                <ui-button id="heartsOnlyButton" class="blue">Hearts Only</ui-button>
+                                <ui-button id="spadesOnlyButton" class="blue">Spades Only</ui-button>
+                            </div>
+                            <div id="sortDeckMenu" class="button-panel">
+                                <span>Sort:</span>
+                                <ui-button id="lowToHighSortButton" class="blue">Low -> High</ui-button>
+                                <ui-button id="highToLowSortButton" class="blue">High -> Low</ui-button>
+                                <ui-button id="shuffleDeckButton" class="blue">Shuffle</ui-button>
+                            </div>
+                            <h3 class="card-area-title">Deck</h3>
+                            <div class="card-area-container">
+                                <div id="deck">
+                                    <!-- Managed by code -->
+                                </div>
+                            </div>
+                            <h3 class="card-area-title">Available Cards</h3>
+                            <div class="card-area-container">
+                                <div id="deckCardList">
+                                    <!-- Managed by code -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- STARTING BOARD -->
+                    <div class="menu-section">
+                        <h4 class="menu-section-title">Game Board</h4>
+                        <div class="board-header-row">
+                            <div class="board-options">
+                                <div class="label">Options:</div>
+                                <ui-checkbox id="placeAnchorTile" value="true">Place Anchor</ui-checkbox>
+                            </div>
+                            <div class="board-visibility">
+                                <div class="label">Visibility Flags:</div>
+                                <div class="visibility-checkboxes">
+                                    <ui-checkbox id="boardVisibilityShowCards" value="true">Cards</ui-checkbox>
+                                    <ui-checkbox id="boardVisibilityShowModifiers" value="true">Modifiers</ui-checkbox>
+                                    <ui-checkbox id="boardVisibilityShowGridIndices" value="false">Grid Indices</ui-checkbox>
+                                </div>
+                            </div>
+                            <div id="customDeckMenu" class="board-button-panel">
+                                <div class="label">Controls:</div>
+                                <ui-button id="removeAllCardsFromBoard" class="blue">Remove All Cards</ui-button>
+                            </div>
+                        </div>
+                        <div id="customDeck">
+                            <div class="board-editor-area card-fill">
+                                <div class="card-area-container-board-editor">
+                                    <ui-label>Cards:</ui-label>
+                                    <div id="boardCardList">
+                                        <!-- Managed by code -->
+                                    </div>
+                                </div>
+                                <div class="card-area-container card-auto">
+                                    <ui-label>Board:</ui-label>
+                                    <div id="board">
+                                        <!-- Managed by code -->
+                                    </div>
+                                </div>
+                                <div class="card-area-container-board-editor">
+                                    <div id="gridCellConfig">
+                                        <div>
+                                            <ui-label id="selectedGridCell">Cell: --</ui-label>
+                                        </div>
+                                        <ui-select id="modifierTypeSelect" value=""></ui-select>
+                                        <ui-button id="addModifierButton" class="blue">Add Modifier</ui-button>
+                                        <div>Modifiers:</div>
+                                        <div id="activeModifiersList">
+                                            <!-- Managed by code -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menu-section">
+                                <h4 class="menu-section-title">Modifiers Quick Add</h4>
+                                <div class="modifier-toolbar">
+                                    <div id="modifierBrushes" class="modifier-brush-container"></div>
+                                    <ui-button id="modifierClearAllButton" class="red">Clear All</ui-button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Boosters/Powerups -->
+                    <div class="menu-section">
+                        <h4 class="menu-section-title">Boosters / Powerups</h4>
+
+                        <div>
+                            <div>Free Booster:</div>
+                            <ui-select id="boosterTypeSelect" value=""></ui-select>
+                        </div>
+
+                        <div>
+                            <div>Free Powerup:</div>
+                            <ui-select id="powerupTypeSelect" value=""></ui-select>
+                        </div>
+                    </div>
+
+                    <!-- TODO: something wrong with the scroll class, content is cut-off -->
+                    <div style="height: 30px"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+{
+    "id": "kitchen-fridge",
+    "isStatic": true,
+    "defaultPropId": "decoration.kitchen-fridge-level-0",
+    "tags": ["fridge", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch4-ReplaceKitchenFridge"
+            }
+        }
+    ]
+}

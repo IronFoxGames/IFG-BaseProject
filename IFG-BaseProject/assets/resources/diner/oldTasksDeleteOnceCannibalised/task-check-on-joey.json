@@ -1,0 +1,23 @@
+{
+    "id": "task_ftue_check_on_joey",
+    "name": "Checking on Joey",
+    "description": "Viola is heading back home after being away for years.",
+    "unlockRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 5,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "turnInRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 6,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ]
+}

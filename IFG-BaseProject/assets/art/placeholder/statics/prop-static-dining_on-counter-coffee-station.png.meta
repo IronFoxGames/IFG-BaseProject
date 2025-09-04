@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.26",
+  "importer": "image",
+  "imported": true,
+  "uuid": "abb3fb85-6869-431f-8860-cb72beb92811",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "abb3fb85-6869-431f-8860-cb72beb92811@6c48a",
+      "displayName": "prop-static-dining_on-counter-coffee-station",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "abb3fb85-6869-431f-8860-cb72beb92811",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "abb3fb85-6869-431f-8860-cb72beb92811@f9941",
+      "displayName": "prop-static-dining_on-counter-coffee-station",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0.5,
+        "offsetY": 0.5,
+        "trimX": 51,
+        "trimY": 18,
+        "width": 239,
+        "height": 160,
+        "rawWidth": 340,
+        "rawHeight": 197,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0,
+        "pivotY": 0,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -119.5,
+            -80,
+            0,
+            119.5,
+            -80,
+            0,
+            -119.5,
+            80,
+            0,
+            119.5,
+            80,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            51,
+            179,
+            290,
+            179,
+            51,
+            19,
+            290,
+            19
+          ],
+          "nuv": [
+            0.15,
+            0.09644670050761421,
+            0.8529411764705882,
+            0.09644670050761421,
+            0.15,
+            0.9086294416243654,
+            0.8529411764705882,
+            0.9086294416243654
+          ],
+          "minPos": [
+            -119.5,
+            -80,
+            0
+          ],
+          "maxPos": [
+            119.5,
+            80,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "abb3fb85-6869-431f-8860-cb72beb92811@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "abb3fb85-6869-431f-8860-cb72beb92811@f9941"
+  }
+}

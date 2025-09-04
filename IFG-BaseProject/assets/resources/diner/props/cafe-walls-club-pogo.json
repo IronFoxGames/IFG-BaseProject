@@ -1,0 +1,7 @@
+{
+    "id": "decoration.cafe-walls-club-pogo",
+    "tags": ["cafe", "wall-pattern", "diner-wall"],
+    "requirements": [],
+    "assetFilePath": "diner/textures/walls/cafe-wall-tile-club-pogo/texture",
+    "thumbnailFilePath": "diner/thumbnails/cafe-wall-club-pogo-thumbnail/spriteFrame"
+}

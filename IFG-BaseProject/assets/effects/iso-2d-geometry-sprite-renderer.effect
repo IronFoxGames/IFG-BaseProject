@@ -1,0 +1,124 @@
+CCEffect %{
+techniques:
+  - name: default
+    passes:
+      - vert: spriteRender-vs:vert
+        frag: spriteRender-fs:frag
+        properties: &props
+          tilingTexture:
+            #This is any stylized tilable texture for the walls or floors.
+            {
+              value: white,
+              editor: { type: texture, displayName: "Tiled Texture" },
+            }
+          tilingOffset:
+            #This is the defined tiling frequency stored in the x and y component
+            #and the uv offset stored in the z and w component
+            {
+              value: [1, 1, 0, 0],
+              editor: { type: vec4, displayName: "Tiling/Offset" },
+            }
+          masking:
+            #This is the boundaries for the minimum and maximum sampled uv coordinate
+            #to draw, any coordinates outside them will be transparent.
+            { value: [
+                  -0.1,
+                  1.1,
+                  -0.1,
+                  1.1,
+                ], editor: { type: vec4, displayName: "Masking Threshholds" } } #These values have an added buffer of 0.1 on either side by default to avoid jitter due to rounding errors.
+          spriteColor:
+            #This is a colour that will be mutiplied with the colour of the tiled
+            #texture to create the final output color.
+            {
+              value: [1, 1, 1, 1],
+              editor: { type: color, displayName: "Color" },
+            }
+        depthStencilState:
+          depthTest: true
+          depthWrite: false
+        blendState:
+          targets:
+            - blend: true
+              blendSrc: src_alpha
+              blendDst: one_minus_src_alpha
+              blendDstAlpha: one_minus_src_alpha
+        rasterizerState:
+          cullMode: none
+
+}%
+
+CCProgram spriteRender-vs %{
+precision highp float;
+#include <builtin/uniforms/cc-global>
+#include <builtin/uniforms/cc-local>
+
+in vec3 a_position;
+in vec2 a_texCoord;
+
+out vec2 uv0;
+
+vec4 vert() {
+  vec4 pos = vec4(a_position, 1);
+  
+  pos = cc_matViewProj * cc_matWorld * pos;
+  
+  uv0 = vec2(a_texCoord.x, 1.0 - a_texCoord.y);
+  
+  return pos;
+}
+}%
+
+CCProgram spriteRender-fs %{
+precision highp float;
+
+in vec2 uv0;
+
+//To leverage the automatic sizing of sprites, we'll pass in the baked UV map as the sprite texture...
+#pragma builtin(local)
+layout(set = 2, binding = 12)uniform sampler2D cc_spriteTexture;
+
+uniform sampler2D tilingTexture;
+
+uniform TexCoords {
+  vec4 tilingOffset;
+};
+
+uniform Modifiers {
+  vec4 spriteColor;
+  vec4 masking;
+};
+
+vec4 frag() {
+  vec4 o = vec4(1, 1, 1, 1);
+  
+  //Read the uv map data... 
+  vec4 uv_map = texture(cc_spriteTexture, uv0);
+  
+  //Isolate the alpha value... 
+  float a = uv_map.b;
+  
+  //Isolate the uv coordinate...
+  vec2 baked_uv = uv_map.rg;
+  
+  //Determine if this pixel is inside the mask bounds or not...
+  float outsideMaskUMin = step(masking.x, baked_uv.x);
+  float outsideMaskUMax = step(baked_uv.x, masking.y);
+  float outsideMaskVMin = step(masking.z, baked_uv.y);
+  float outsideMaskVMax = step(baked_uv.y, masking.w);
+  
+  //Transform the uv coordinate accounting for the tiling and offset values...
+  vec2 tranformed_uv = baked_uv * tilingOffset.xy + tilingOffset.zw;
+  
+  //Sample the tilable texture using thetransformed uv coordninate...
+  vec4 col = texture(tilingTexture, tranformed_uv);
+  
+  col *= spriteColor;
+  
+  col.a = a * outsideMaskUMin * outsideMaskUMax * outsideMaskVMin * outsideMaskVMax;
+  
+  o *= col;
+  
+  return o;
+}
+}%

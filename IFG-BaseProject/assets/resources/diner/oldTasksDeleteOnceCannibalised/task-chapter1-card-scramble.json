@@ -1,0 +1,23 @@
+{
+    "id": "task_chapter1_card_scramble",
+    "name": "Working Hard",
+    "description": "Cleaning up newpapers, you find another puzzle Joey seems to be working on.",
+    "unlockRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 8,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "turnInRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ]
+}

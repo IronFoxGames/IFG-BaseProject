@@ -1,0 +1,227 @@
+{
+	"pages": [
+		{
+			"pagetitle": "Hand Scores",
+			"pageid": "handscores",
+			"requirements": [
+				{
+					"requirementType": "levelId",
+					"levelId": "Tutorial_BaseBoardUIAndControls",
+					"operator": "complete"
+				}
+			],
+			"content": [
+				{
+					"type": "paragraph",
+					"text": "Hands are scored based on the cards in them. The better cards included in a hand, the higher the score."
+				},
+				{
+					"type": "handscores"
+				}
+			]
+		},
+		{
+			"pagetitle": "Playing Hands",
+			"pageid": "playinghands",
+			"requirements": [
+			],
+			"content": [
+				{
+					"type": "paragraph",
+					"text": "Click or drag cards from the bottom of the screen to the highlighted tiles on the game board to make 5 card hands."
+				},
+				{
+					"type": "image",
+					"src": "/tutorial/FTUE_PlaceCards/spriteFrame"
+				},
+				{
+					"type": "paragraph",
+					"text": "Hands are made by placing 5 cards horizontally or vertically in a line. Cards already on the board count too."
+				}
+			]
+		},
+		{
+			"pagetitle": "Orders",
+			"pageid": "orders",
+			"requirements": [
+				{
+					"requirementType": "levelId",
+					"levelId": "Tutorial_BaseBoardUIAndControls",
+					"operator": "complete"
+				}
+			],
+			"content": [
+				{
+					"type": "paragraph",
+					"text": "Fill all orders to complete a puzzle. Click the “?” button next to an order for help."
+				},
+				{
+					"type": "image",
+					"src": "/tutorial/FTUE_Orders/spriteFrame"
+				}
+			]
+		},
+		{
+			"pagetitle": "Special Cards",
+			"pageid": "specialcards",
+			"requirements": [
+				{
+					"requirementType": "levelId",
+					"levelId": "Tutorial_BaseJokers",
+					"operator": "complete"
+				}
+			],
+			"content": [
+				{
+					"type": "paragraph",
+					"text": "Special cards do not behave like normal cards, they have unique actions when played in a hand that can help you complete orders."
+				},
+				{
+					"type": "boosterpowerup",
+					"name": "JOKER",
+					"description": "When a Joker is placed on the board, it becomes any card of your choice. There are two Jokers in a standard deck.",
+					"spritepath": "/tutorial/FTUE_Jokers/spriteFrame"
+				},
+				{
+					"type": "boosterpowerup",
+					"name": "WILDCARD",
+					"description": "When scoring a hand, Wildcards are always treated as the card that will create the highest scoring hand.",
+					"spritepath": "/tutorial/FTUE_Wilds/spriteFrame"
+				}
+			]
+		},
+		{
+			"pagetype": "default",
+			"pagetitle": "Boosters",
+			"pageid": "boosters",
+			"requirements": [
+				{
+					"requirementType": "levelId",
+					"levelId": "Tutorial_HandsFullHouse",
+					"operator": "complete"
+				}
+			],
+			"content": [
+				{
+					"type": "paragraph",
+					"text": "Boosters can be used before starting a puzzle to gain an advantage that lasts for the entire puzzle."
+				},
+				{
+					"type": "boosterpowerup",
+					"name": "Loosen Your Belt",
+					"description": "You can draw one extra card from your deck at a time. Giving you more options to play.",
+					"spritepath": "/tutorial/FTUE_Booster_LoosenYourBelt/spriteFrame"
+				},
+				{
+					"type": "boosterpowerup",
+					"name": "Deuces Wild",
+					"description": "All twos in your deck turn into Wildcards when they are drawn.",
+					"spritepath": "/tutorial/FTUE_Booster_DeucesWild/spriteFrame"
+				}
+			]
+		},
+		{
+			"pagetitle": "Power Ups",
+			"pageid": "powerups",
+			"requirements": [
+				{
+					"requirementType": "levelId",
+					"levelId": "Tutorial_BoosterLoosenYourBelt",
+					"operator": "complete"
+				}
+			],
+			"content": [
+				{
+					"type": "paragraph",
+					"text": "Powerups can be used before playing a hand to help complete objectives."
+				},
+				{
+					"type": "boosterpowerup",
+					"name": "Cooking The Books",
+					"description": "Select any card you have and increase or decrease its value by 1. This can allow you to make specific hands when you really need them.",
+					"spritepath": "/tutorial/FTUE_Powerup_CookingTheBooks/spriteFrame"
+				},
+				{
+					"type": "boosterpowerup",
+					"name": "Extra Servings",
+					"description": "Activate before playing a hand to double the score of that hand. This is a great way to complete score orders quickly.",
+					"spritepath": "/tutorial/FTUE_Powerup_ExtraServings/spriteFrame"
+				},
+				{
+					"type": "boosterpowerup",
+					"name": "Refire",
+					"description": "Burn any number of cards and draw new ones. This allows you to get rid of cards you don't need and get new ones to help you complete orders.",
+					"spritepath": "/tutorial/FTUE_Powerup_Refire/spriteFrame"
+				},
+				{
+					"type": "boosterpowerup",
+					"name": "+7 Cards",
+					"description": "If you run out of cards add 7 more to your deck. This keeps the game going and gives you more options to play.",
+					"spritepath": "/tutorial/FTUE_Powerup_Plus7Cards/spriteFrame"
+				},
+				{
+					"type": "boosterpowerup",
+					"name": "+1 Joker",
+					"description": "Immediately add a joker to your cards. This can allow you to make specific hands when you really need them.",
+					"spritepath": "/tutorial/FTUE_Jokers/spriteFrame"
+				},
+				{
+					"type": "boosterpowerup",
+					"name": "Clean Down",
+					"description": "Remove the last 5 hards played from the board. If the board is full, this will make more space. Don't worry, you keep all your previously scored hands.",
+					"spritepath": "/tutorial/FTUE_Powerup_CleanDown/spriteFrame"
+				}
+			]
+		},
+		{
+			"pagetitle": "Diner Tasks",
+			"pageid": "dinertasks",
+			"requirements": [
+				{
+					"requirementType": "levelId",
+					"levelId": "Tutorial_ObjHandType",
+					"operator": "complete"
+				}
+			],
+			"content": [
+				{
+					"type": "paragraph",
+					"text": "\nAccess the task list via Viola's phone. Use the stars you earn from puzzles to complete tasks."
+				},
+				{
+					"type": "image",
+					"src": "/tutorial/FTUE_CoreLoop/spriteFrame"
+				}
+			]
+		},
+		{
+			"pagetitle": "Decorations",
+			"pageid": "dinerdecorations",
+			"requirements": [
+				{
+					"requirementType": "levelId",
+					"levelId": "Tutorial_PowerupSevenCards",
+					"operator": "complete"
+				}
+			],
+			"content": [
+				{
+					"type": "paragraph",
+					"text": "\nUnlock new decorations by completing tasks. Some decorations are free, others cost coins."
+				},
+				{
+					"type": "image",
+					"src": "/tutorial/FTUE_BuildMode/spriteFrame"
+				},
+				{
+					"type": "paragraph",
+					"text": "Tap the Build Mode button to see all the decorations you can swap. Tap on one to see the list of options."
+				},
+				{
+					"type": "image",
+					"src": "/tutorial/FTUE_Upgrade/spriteFrame"
+				}
+			]
+		}
+	]
+}

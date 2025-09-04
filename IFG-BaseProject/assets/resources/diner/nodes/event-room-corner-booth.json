@@ -1,0 +1,7 @@
+{
+    "id": "event-room-corner-booth",
+    "isStatic": true,
+    "defaultPropId": "decoration.event-room-corner-booth-level-0",
+    "tags": ["corner-booth", "floor"],
+    "requirements": []
+}

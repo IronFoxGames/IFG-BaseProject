@@ -1,0 +1,119 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Joey's Diner, how can I help you?",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Clyde"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "You know where I just was Sullivan? With my lawyer... He thinks I have a pretty good case to sue you for negligence. And I think I just might.",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I think I've got a good case that your wide load broke my chair! How about I sue you for destruction of property!",
+          "characterSprites": [
+            "Angry"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Joey! Give me the phone!",
+          "characterSprites": [
+            "Surprised"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "Mr. Townsend, he doesn't mean that. I'm sure we can make this right. It was all just a horrible accident.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Clyde"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "It's too late to make a deal! You'll be hearing from my lawyer very soon.",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "*click*",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "He hung up again... I can't imagine why...",
+          "characterSprites": [
+            "Annoyed"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 2 - Dialogue",
+  "dialogueId": "Chapter2-GonnaSue",
+  "repeatable": false,
+  "dialogueFormat": "Phone",
+  "requirements": []
+}

@@ -1,0 +1,25 @@
+<div class="modifierEditable" id="modifier-template">
+    <div class="text">
+        Breakable Wall:
+        <ui-button id="modifier-delete" class="red">Delete</ui-button>
+    </div>
+
+    <div class="modifierEditableSection">
+        <div>
+            <ui-label>Reinforced</ui-label>
+            <ui-checkbox id="modifier-reinforced" value="false"></ui-checkbox>
+        </div>
+        <div>
+            <ui-label>Required Rank</ui-label>
+            <ui-num-input id="modifier-requiredRank" value="-1" step="1" min="-1" max="13"></ui-num-input>
+        </div>
+        <div>
+            <ui-label>Required Suit</ui-label>
+            <ui-num-input id="modifier-requiredSuit" value="-1" step="1" min="-1" max="4"></ui-num-input>
+            <ui-label>1 = Clubs</ui-label>
+            <ui-label>2 = Diamonds</ui-label>
+            <ui-label>3 = Hearts</ui-label>
+            <ui-label>4 = Spades</ui-label>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+{
+    "id": "decoration.bar-counter-level-1A",
+    "tags": ["bar-counter", "floor", "fixing-up", "placeprop-bar-counter1"],
+    "requirements": [],
+    "visibilityRequirements": [],
+    "assetFilePath": "diner/prefabs/BarCounterLevel1A",
+    "thumbnailFilePath": "diner/thumbnails/bar-lvl1A-thumbnail/spriteFrame"
+}

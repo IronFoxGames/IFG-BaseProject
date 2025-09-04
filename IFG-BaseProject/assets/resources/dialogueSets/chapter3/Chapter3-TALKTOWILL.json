@@ -1,0 +1,103 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "What's all that stuff?",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Will"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "It’s my rowing equipment. I find training on the lake in the morning really clears my head. It’s sort of meditative.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "This place is pretty calming. And right now I need something to help clear my head.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Will"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Oh, sorry I bothered you. I’d uh…better get rowing, I mean going... Heh, see you round Vi.",
+          "characterSprites": [
+            "Blushing"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Wait, you don't have to…",
+          "characterSprites": [
+            "Surprised"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "Ok then... bye I guess.",
+          "characterSprites": [
+            "Thinking"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "I need to be getting back anyway.",
+          "characterSprites": [
+            "Thinking"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 3 - Dialogue",
+  "dialogueId": "Chapter3-TalkToWill",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

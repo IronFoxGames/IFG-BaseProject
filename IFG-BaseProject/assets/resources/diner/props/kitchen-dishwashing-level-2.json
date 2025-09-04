@@ -1,0 +1,7 @@
+{
+    "id": "decoration.kitchen-dishwashing-level-2",
+    "tags": ["dish-washing", "floor", "kitchen-dishwashing-station"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/KitchenDishWashingStationLevel2",
+    "thumbnailFilePath": "diner/thumbnails/kitchen-dishwashingstation-lvl2-thumbnail/spriteFrame"
+}

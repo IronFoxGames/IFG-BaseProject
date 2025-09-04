@@ -1,0 +1,9 @@
+{
+    "id": "decoration.parking-lot-diner-sign-viola-level-1",
+    "tags": [
+        "parking-lot-diner-sign"
+    ],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/ParkingLotDinerSignViolaLevel1",
+    "thumbnailFilePath": "diner/thumbnails/parking-lot-diner-sign-viola-lvl1-thumbnail/spriteFrame"
+}

@@ -1,0 +1,23 @@
+{
+    "id": "task_chapter1_fresh_pots",
+    "name": "Fresh Pots",
+    "description": "Replace the old coffee maker with a new one.",
+    "unlockRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 12,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "turnInRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "propHasTagInNode",
+                "tag": "coffee",
+                "nodeId": "7"
+            }
+        }
+    ]
+}

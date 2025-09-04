@@ -1,0 +1,105 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Will"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Oh that's much more you.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Yeah... I like it!",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Will"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Is that your dad?",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Yeah, dad and Joey after they got their EGA, 1984... I should ask Joey about these photos sometime.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Will"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "EGA?",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Eagle, Globe and Anchor. It's what Marines earn when they graduate boot camp.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 5 - Dialogue",
+  "dialogueId": "Chapter5-OfficeWallPicturesDone",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

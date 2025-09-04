@@ -1,0 +1,14 @@
+{
+    "id": "bathroom-wall-dryer",
+    "isStatic": true,
+    "defaultPropId": "decoration.bathroom-wall-dryer-level-0",
+    "tags": ["dryer", "wall"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch3-replace-bathroom-dryer"
+            }
+        }
+    ]
+}

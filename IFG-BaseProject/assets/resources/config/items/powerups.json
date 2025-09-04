@@ -1,0 +1,109 @@
+{
+    "items": [
+        {
+            "id": "powerup_cookingthebooks",
+            "externalId": "powerup_cooking_the_books",
+            "type": "powerup",
+            "sprite": "store/booster/icon-booster-cooking-the-books/spriteFrame",
+            "name": "Cooking The Books",
+            "tooltip": "Change the rank of a card by <b>+1</b> or <b>-1</b>",
+            "requirements": [
+                {
+                    "requirementType": "level",
+                    "level": 29,
+                    "operator": "greaterThanEqual"
+                }
+            ]
+        },
+        {
+            "id": "powerup_extraservings",
+            "externalId": "powerup_extra_servings",
+            "type": "powerup",
+            "sprite": "store/booster/icon-booster-extra-servings/spriteFrame",
+            "name": "Extra Servings",
+            "tooltip": "<b>x2</b> points on the next hand played",
+            "requirements": [
+                {
+                    "requirementType": "level",
+                    "level": 8,
+                    "operator": "greaterThanEqual"
+                }
+            ]
+        },
+        {
+            "id": "powerup_joker",
+            "externalId": "powerup_joker",
+            "type": "powerup",
+            "sprite": "store/booster/icon-booster-joker/spriteFrame",
+            "name": "Joker",
+            "tooltip": "Immediately gain a Joker <img src='card-joker'/>",
+            "requirements": [
+                {
+                    "requirementType": "level",
+                    "level": 10,
+                    "operator": "greaterThanEqual"
+                }
+            ]
+        },
+        {
+            "id": "powerup_refire",
+            "externalId": "powerup_re_fire",
+            "type": "powerup",
+            "sprite": "store/booster/icon-booster-re-fire/spriteFrame",
+            "name": "Re Fire",
+            "tooltip": "<b>Discard</b> any number of cards, then <b>draw</b> that amount",
+            "requirements": [
+                {
+                    "requirementType": "level",
+                    "level": 32,
+                    "operator": "greaterThanEqual"
+                }
+            ]
+        },
+        {
+            "id": "powerup_plus7cards",
+            "externalId": "powerup_plus7_cards",
+            "type": "powerup",
+            "sprite": "store/booster/icon-booster-plus7-cards/spriteFrame",
+            "name": "+7 Cards",
+            "tooltip": "Add <b>7 random cards</b> to the deck",
+            "requirements": [
+                {
+                    "requirementType": "level",
+                    "level": 15,
+                    "operator": "greaterThanEqual"
+                }
+            ]
+        },
+        {
+            "id": "powerup_freedessert",
+            "externalId": "powerup_free_dessert",
+            "type": "powerup",
+            "sprite": "store/booster/icon-booster-free-dessert/spriteFrame",
+            "name": "Free Dessert",
+            "tooltip": "Score a hand of your choice",
+            "requirements": [
+                {
+                    "requirementType": "level",
+                    "level": 23,
+                    "operator": "greaterThanEqual"
+                }
+            ]
+        },
+        {
+            "id": "powerup_cleandown",
+            "externalId": "powerup_clean_down",
+            "type": "powerup",
+            "sprite": "store/booster/icon-booster-clean-down/spriteFrame",
+            "name": "Clean Down",
+            "tooltip": "<b>Remove</b> the last <b>5 hands</b> played, keep objective progress",
+            "requirements": [
+                {
+                    "requirementType": "level",
+                    "level": 24,
+                    "operator": "greaterThanEqual"
+                }
+            ]
+        }
+    ]
+}

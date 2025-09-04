@@ -1,0 +1,7 @@
+{
+    "id": "decoration.bar-fridge-level-1B",
+    "tags": ["bar-fridge", "floor"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/BarFridgeLevel1B",
+    "thumbnailFilePath": "diner/thumbnails/cafe-fridge-lvl1B-thumbnail/spriteFrame"
+}

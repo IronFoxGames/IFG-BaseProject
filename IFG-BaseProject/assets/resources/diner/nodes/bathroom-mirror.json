@@ -1,0 +1,14 @@
+{
+    "id": "bathroom-mirror",
+    "isStatic": true,
+    "defaultPropId": "decoration.bathroom-mirror-level-0",
+    "tags": ["mirror", "wall"],
+    "requirements": [
+                {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch3-new-mirror"
+        }
+    }
+    ]
+}

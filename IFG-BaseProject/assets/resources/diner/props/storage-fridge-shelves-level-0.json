@@ -1,0 +1,7 @@
+{
+    "id": "decoration.storage-fridge-shelves-level-0",
+    "tags": ["fridge-shelves", "floor"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/StorageFridgeShelvesLevel0",
+    "thumbnailFilePath": "diner/thumbnails/storage-fridgeshelves-lvl0-thumbnail/spriteFrame"
+}

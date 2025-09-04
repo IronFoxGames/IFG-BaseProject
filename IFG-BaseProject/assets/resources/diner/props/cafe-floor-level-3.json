@@ -1,0 +1,7 @@
+{
+    "id": "decoration.cafe-floor-level-3",
+    "tags": ["cafe", "floor-pattern", "diner-floor"],
+    "requirements": [],
+    "assetFilePath": "diner/textures/floors/cafe-floor-tile-lvl3/texture",
+    "thumbnailFilePath": "diner/thumbnails/cafe-floor-lvl3-thumbnail/spriteFrame"
+}

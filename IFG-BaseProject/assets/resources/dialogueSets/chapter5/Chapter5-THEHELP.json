@@ -1,0 +1,137 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Darcy"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Something on your mind Vi?",
+          "characterSprites": [
+            "Empathetic"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Yeah... I just need to move Joey's office furniture into storage. I have a bunch of new stuff arriving and I'm not ready.",
+          "characterSprites": [
+            "Thinking"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Will"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "*Muffled* I can help! *Gulp* Once we finish eating...",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Will! You're a lifesaver.",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Will"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I'm just on call tonight anyway. One of the farms is expecting a new calf.",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Ellie"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Uncle Will loves Auntie Vi... Uncle Will loves Auntie Vi!",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "He must... if he's willing to help with all this heavy lifting.",
+          "characterSprites": [
+            "Empathetic"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Will"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "*Chokes on his waffles*",
+          "characterSprites": [
+            "Blushing"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 5 - Dialogue",
+  "dialogueId": "Chapter5-TheHelp",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

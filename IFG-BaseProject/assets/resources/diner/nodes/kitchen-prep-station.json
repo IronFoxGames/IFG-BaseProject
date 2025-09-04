@@ -1,0 +1,14 @@
+{
+    "id": "kitchen-prep-station",
+    "isStatic": true,
+    "defaultPropId": "decoration.kitchen-prepstation-level-0",
+    "tags": ["prep", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch4-ReplacePrepStation"
+            }
+        }
+    ]
+}

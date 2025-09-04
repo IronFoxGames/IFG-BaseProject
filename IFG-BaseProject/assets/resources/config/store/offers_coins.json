@@ -1,0 +1,120 @@
+{
+    "items": [
+        {
+            "id": "coin_pack_mini",
+            "externalIds": ["POGO.OFR.50.0002177", "POGO.OFR.50.0002178", "XSOLLA.coin_pack_mini"],
+            "name": "Mini Coin Pack",
+            "description": "A pack of 1000 Coins",
+            "tags": ["store", "coins"],
+            "cost": {
+                "currency": "gems",
+                "amount": 30
+            },
+            "contents": [
+                {
+                    "id": "coins",
+                    "amount": 1000
+                }
+            ],
+            "sprite": "store/bundle/icon-pack-coin/spriteFrame",
+            "stack": true,
+            "collapsedVisible": true
+        },
+        {
+            "id": "coin_pack_small",
+            "externalIds": ["POGO.OFR.50.0002179", "POGO.OFR.50.0002180", "XSOLLA.coin_pack_small"],
+            "name": "Small Coin Pack",
+            "description": "A pack of 5000 Coins",
+            "tags": ["store", "coins"],
+            "cost": {
+                "currency": "gems",
+                "amount": 140
+            },
+            "contents": [
+                {
+                    "id": "coins",
+                    "amount": 5000
+                }
+            ],
+            "sprite": "store/bundle/icon-pack-coin/spriteFrame",
+            "stack": true,
+            "collapsedVisible": true
+        },
+        {
+            "id": "coin_pack_medium",
+            "externalIds": ["POGO.OFR.50.0002181", "POGO.OFR.50.0002182", "XSOLLA.coin_pack_medium"],
+            "name": "Medium Coin Pack",
+            "description": "A pack of 10000 Coins",
+            "tags": ["store", "coins"],
+            "cost": {
+                "currency": "gems",
+                "amount": 260
+            },
+            "contents": [
+                {
+                    "id": "coins",
+                    "amount": 10000
+                }
+            ],
+            "sprite": "store/bundle/icon-pack-coin/spriteFrame",
+            "stack": true
+        },
+        {
+            "id": "coin_pack_large",
+            "externalIds": ["POGO.OFR.50.0002183", "POGO.OFR.50.0002184", "XSOLLA.coin_pack_large"],
+            "name": "Large Coin Pack",
+            "description": "A pack of 25000 Coins",
+            "tags": ["store", "coins"],
+            "cost": {
+                "currency": "gems",
+                "amount": 650
+            },
+            "contents": [
+                {
+                    "id": "coins",
+                    "amount": 25000
+                }
+            ],
+            "sprite": "store/bundle/icon-pack-coin/spriteFrame",
+            "stack": true
+        },
+        {
+            "id": "coin_pack_extralarge",
+            "externalIds": ["POGO.OFR.50.0002185", "POGO.OFR.50.0002186", "XSOLLA.coin_pack_extralarge"],
+            "name": "Extra Large Coin Pack",
+            "description": "A pack of 50000 Coins",
+            "tags": ["store", "coins"],
+            "cost": {
+                "currency": "gems",
+                "amount": 1250
+            },
+            "contents": [
+                {
+                    "id": "coins",
+                    "amount": 50000
+                }
+            ],
+            "sprite": "store/bundle/icon-pack-coin/spriteFrame",
+            "stack": true
+        },
+        {
+            "id": "coin_pack_mega",
+            "externalIds": ["POGO.OFR.50.0002187", "POGO.OFR.50.0002188", "XSOLLA.coin_pack_mega"],
+            "name": "Mega Coin Pack",
+            "description": "A pack of 50000 Coins",
+            "tags": ["store", "coins"],
+            "cost": {
+                "currency": "gems",
+                "amount": 2500
+            },
+            "contents": [
+                {
+                    "id": "coins",
+                    "amount": 100000
+                }
+            ],
+            "sprite": "store/bundle/icon-pack-coin/spriteFrame",
+            "stack": true
+        }
+    ]
+}

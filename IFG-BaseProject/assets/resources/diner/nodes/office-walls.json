@@ -1,0 +1,12 @@
+{
+    "id": "office-walls",
+    "isStatic": true,
+    "defaultPropId": "decoration.office-walls-level-0",
+    "tags": ["office", "wall-pattern"],
+    "requirements": [
+        {
+            "requirementType": "taskComplete",
+            "taskId": "ch5-replace-office-walls"
+        }
+    ]
+}

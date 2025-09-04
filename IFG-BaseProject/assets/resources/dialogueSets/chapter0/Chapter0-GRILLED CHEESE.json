@@ -1,0 +1,86 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "See Vi, its as simple as that.",
+          "characterSprites": [
+            "Young-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Cool!",
+          "characterSprites": [
+            "Child-Neutral"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "I'm hungry now. Can you make me a grilled cheese, Uncle Joey?",
+          "characterSprites": [
+            "Child-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Hmm, I dunno... Do you have enough stars on your treat chart?",
+          "characterSprites": [
+            "Young-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I must have loads. I've been soooooo good!",
+          "characterSprites": [
+            "Child-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Prologue - Dialogue",
+  "dialogueId": "Chapter0-Grilled Cheese",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": [
+    {
+      "requirementType": "levelId",
+      "levelId": "Tutorial_ObjHandType",
+      "operator": "complete"
+    }
+  ]
+}

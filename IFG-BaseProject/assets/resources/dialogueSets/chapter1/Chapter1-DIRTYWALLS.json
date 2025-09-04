@@ -1,0 +1,96 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Well, the floor's looking a bit better... We should plan to replace it at some point though.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "That'll be a big job.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Hmmm... I'm sure we can do it but that's a problem for another day.",
+          "characterSprites": [
+            "Thinking"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "For now though... the walls are more faded than your moustache",
+          "characterSprites": [
+            "Thinking"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Hey! Don't you always say I look dashing with my silver moustache...",
+          "characterSprites": [
+            "Surprised"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "You do Uncle Joey... The wallpaper however, does not look dashing with it's faded color.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 1 - Dialogue",
+  "dialogueId": "Chapter1-DirtyWalls",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

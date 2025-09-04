@@ -1,0 +1,16 @@
+{
+    "id": "decoration.storage-walls-level-0",
+    "tags": ["storage", "wall-pattern"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/textures/walls/storage-wall-tile-lvl0/texture",
+    "thumbnailFilePath": "diner/thumbnails/storage-wall-lvl0-thumbnail/spriteFrame"
+}

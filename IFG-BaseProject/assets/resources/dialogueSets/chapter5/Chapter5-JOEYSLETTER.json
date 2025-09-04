@@ -1,0 +1,80 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Fadeout_Screen"
+      ],
+      "dialogueType": "Fade",
+      "lines": [
+        {
+          "line": "0.5",
+          "characterSprites": [
+            ""
+          ],
+          "unskippable": true
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Letter"
+      ],
+      "dialogueType": "Letter",
+      "lines": [
+        {
+          "line": "Hey Vi, I wondered how long it would take you to come in here.\n\nI figure you're probably feeling like this is my space and you can't change it.\n\nSo let me make it easier for you. I want all my stuff out at the farm to set up my office there.\nSo unless you want to sit on the floor, you better make this room your own now.\n\nJoey",
+          "characterSprites": [
+            ""
+          ],
+          "unskippable": true
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Fadein_Screen"
+      ],
+      "dialogueType": "Fade",
+      "lines": [
+        {
+          "line": "0.5",
+          "characterSprites": [
+            ""
+          ],
+          "unskippable": true
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "He knows me so well... Thanks uncle Joey. That was the push I needed.",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "Well, first things first. I need to clean this messy floor...",
+          "characterSprites": [
+            "Thinking"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 5 - Dialogue",
+  "dialogueId": "Chapter5-JoeysLetter",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

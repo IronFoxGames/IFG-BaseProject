@@ -1,0 +1,398 @@
+#text {
+    color: var(--color-normal-contrast-weakest);
+    margin: auto;
+    width: 180px;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-panel {
+    width: 30%;
+    height: 100%;
+    border-right: 2px solid #ccc;
+    padding: 10px;
+}
+
+.right-panel {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    max-height: 100%;
+
+    min-height: 0; /* Ensures it doesn't expand beyond the parent's height */
+}
+
+.scrollable-list {
+    height: 700px;
+    flex: 1;
+    border: 1px solid #ccc;
+    overflow-y: auto;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #5e5e5e;
+}
+
+#right-panel-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card {
+    width: 37px;
+    height: 45px;
+    position: relative;
+    display: inline-block;
+}
+
+.card .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -105%);
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    pointer-events: none;
+}
+
+.modifierList {
+    display: flex;
+    gap: 10px;
+}
+
+.modifier {
+    width: 35px;
+    height: 45px;
+    background-color: #5e5e5e;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    overflow: hidden;
+    position: relative; /* Needed for proper layout */
+    box-sizing: border-box;
+}
+
+.modifierText {
+    font-size: 10px; /* Adjust font size to fit small containers */
+    text-align: center; /* Center the text */
+    color: #fff;
+    margin: 0;
+    white-space: normal; /* Allow wrapping */
+    word-break: break-word; /* Break long words */
+    line-height: 1; /* Tighter line spacing for small text */
+    flex: 1; /* Allow the text to take up space */
+    display: flex; /* Ensures content stays centered */
+    justify-content: center;
+    align-items: center;
+    padding: 2px; /* Optional: Add some internal padding */
+}
+
+.modifierCounterText {
+    font-size: 8px; /* Smaller font size for counter text */
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+    width: 100%;
+    line-height: 1;
+    flex: 0; /* Take up minimal space */
+    box-sizing: border-box;
+}
+
+.modifierEditable {
+    background-color: #5e5e5e;
+    padding: 5px;
+    margin: 5px;
+    width: 120px;
+}
+
+.modifierEditableSection {
+    background-color: #3f3f3f;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.modifierEditable .text {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.gridContentParent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    position: relative; /* Ensure relative positioning for child absolute elements */
+}
+
+.gridContentContainer {
+    flex: 0 0 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: flex 0.3s ease;
+}
+
+.cardContainer,
+.modifierContainer {
+    flex: 1;
+    min-width: 0;
+}
+
+.gridContentContainer:empty {
+    flex: 0;
+}
+
+.menu-section-title {
+    margin: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu-section {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.button-panel {
+    display: flex;
+    gap: 10px;
+}
+
+.card-area-title {
+    margin: 0;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-area-container {
+    border: 1px solid #444444;
+    background-color: #232323;
+    padding: 10px;
+}
+
+.card-area-container-board-editor {
+    border: 1px solid #444444;
+    background-color: #232323;
+    padding: 10px;
+    width: 200px;
+}
+
+.objective-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tile-index-param-entry {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.objective {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #444444;
+    background-color: #232323;
+}
+
+.param {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #444444;
+    background-color: #666666;
+}
+
+.objective-number {
+    margin: 0;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+    gap: 0px;
+    width: 505px; /* wide enough for 13 cards + buffer */
+    height: 100%;
+    background-color: #d4a49c;
+}
+
+.board-editor-area {
+    display: flex;
+    width: 100%;
+}
+
+.card-fill {
+    flex: 1;
+}
+
+.card-auto {
+    flex-shrink: 0;
+    width: auto;
+}
+
+.board-tile-0 {
+    background-color: #dfaf9d;
+    width: 37px;
+    height: 47px;
+    border: 1px solid #444444;
+}
+
+.board-tile-1 {
+    background-color: #fbebbe;
+    width: 37px;
+    height: 47px;
+    border: 1px solid #444444;
+}
+
+.board-tile-2 {
+    background-color: #eac6a3;
+    width: 37px;
+    height: 47px;
+    border: 1px solid #444444;
+}
+
+.board-tile-selected {
+    background-color: #82f68c !important;
+}
+
+.modifier-brush-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1;
+}
+
+.modifier-toolbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#modifierClearAllButton {
+    margin-left: auto; /* Forces button to the right */
+}
+
+.suit-text {
+    color: red;
+    white-space: nowrap;
+}
+
+.board-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.board-options,
+.board-visibility {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.visibility-checkboxes {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.label {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.board-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.board-options,
+.board-visibility,
+.board-button-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.visibility-checkboxes {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.label {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.debugText {
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 1);
+    pointer-events: none;
+    z-index: 10;
+}
+
+.brush {
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: inline-block;
+}
+
+.brush-active {
+    background-color: #4caf50; /* green */
+    color: white;
+}
+
+.brush-inactive {
+    background-color: #ccc; /* grey */
+    color: black;
+}

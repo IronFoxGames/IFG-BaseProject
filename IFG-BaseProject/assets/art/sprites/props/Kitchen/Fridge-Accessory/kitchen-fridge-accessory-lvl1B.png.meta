@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.26",
+  "importer": "image",
+  "imported": true,
+  "uuid": "82672f8c-2a0e-4c19-8f16-1a8568af868c",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "82672f8c-2a0e-4c19-8f16-1a8568af868c@6c48a",
+      "displayName": "kitchen-fridge-accessory-lvl1B",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "82672f8c-2a0e-4c19-8f16-1a8568af868c",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "82672f8c-2a0e-4c19-8f16-1a8568af868c@f9941",
+      "displayName": "kitchen-fridge-accessory-lvl1B",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "none",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 375,
+        "height": 475,
+        "rawWidth": 375,
+        "rawHeight": 475,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0,
+        "pivotY": 0,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -187.5,
+            -237.5,
+            0,
+            187.5,
+            -237.5,
+            0,
+            -187.5,
+            237.5,
+            0,
+            187.5,
+            237.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            0,
+            475,
+            375,
+            475,
+            0,
+            0,
+            375,
+            0
+          ],
+          "nuv": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "minPos": [
+            -187.5,
+            -237.5,
+            0
+          ],
+          "maxPos": [
+            187.5,
+            237.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "82672f8c-2a0e-4c19-8f16-1a8568af868c@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "82672f8c-2a0e-4c19-8f16-1a8568af868c@f9941"
+  }
+}

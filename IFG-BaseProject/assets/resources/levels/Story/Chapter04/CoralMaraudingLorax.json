@@ -1,0 +1,35 @@
+{
+    "name": "CoralMaraudingLorax",
+    "description": "Simple template",
+    "handSize": 7,
+    "difficulty": "Hard",
+    "hasBot": false,
+    "placeAnchor": false,
+    "objectives": [
+        {
+            "objectiveDataList": [
+                {
+                    "objectiveType": "Score",
+                    "tipText": "Score the target number of points by playing the best hands possible.",
+                    "tipSprite": null,
+                    "score": 31500,
+                    "tileIndices": [31, 35, 75]
+                }
+            ]
+        },
+        { "objectiveDataList": [{ "objectiveType": "TilePlacement", "tipText": "", "tipSprite": null, "tileIndices": [31, 35, 75] }] }
+    ],
+    "deckType": "Default",
+    "customDeck": [],
+    "startingBoard": [{ "boardIndex": 136, "card": { "type": "wild", "rank": 0, "suit": 0 } }],
+    "boardModifierPlacements": [
+        { "boardIndex": 28, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 12 } },
+        { "boardIndex": 70, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 8 } },
+        { "boardIndex": 47, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 12 } }
+    ],
+    "freeBooster": "None",
+    "freePowerup": "None",
+    "appliedBoosters": [],
+    "gridSpecialsEnabled": false,
+    "gridSpecialsHidden": false
+}

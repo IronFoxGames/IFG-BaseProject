@@ -1,0 +1,16 @@
+{
+    "id": "decoration.entrance-rug-level-0",
+    "tags": ["entrance-rug", "floor"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/EntranceRugLevel0",
+    "thumbnailFilePath": "diner/thumbnails/cafe-rug-lvl0-thumbnail/spriteFrame"
+}

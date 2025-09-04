@@ -1,0 +1,103 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Joey's Diner. Sorry, we're just closing.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Clyde"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Oh you're gonna be closed! After what happened this morning this place is done.",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Clyde, what are you talking ab-",
+          "characterSprites": [
+            "Surprised"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Clyde"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I got sway in this town Sullivan. You'll have every inspector under the sun crawling all over that place!",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Now you listen here Clyde...",
+          "characterSprites": [
+            "Annoyed"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "...Clyde?",
+          "characterSprites": [
+            "Thinking"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "He hung up on me! C'mon, let's clean up and head home for the night.",
+          "characterSprites": [
+            "Annoyed"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 2 - Dialogue",
+  "dialogueId": "Chapter2-TroublePhone",
+  "repeatable": false,
+  "dialogueFormat": "Phone",
+  "requirements": []
+}

@@ -1,0 +1,87 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I think it's all gonna be okay Derek. Darcy is giving me a chance, Clyde is off our backs...",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "The diner is looking so much better already too. Although...",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "This counter is so banged up. Grubby, chipped, stained. I think we have to replace it.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Play_Sfx"
+      ],
+      "dialogueType": "Sfx",
+      "lines": [
+        {
+          "line": "SFX_Dialogue_CatMeow",
+          "characterSprites": [
+            ""
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Derek"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "*Meow?*",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Yep, sorry. Buckle up, your scenery is about to change, Derek!",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 2 - Dialogue",
+  "dialogueId": "Chapter2-TalkToDerek2",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

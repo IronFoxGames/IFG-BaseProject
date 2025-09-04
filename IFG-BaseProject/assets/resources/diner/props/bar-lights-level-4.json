@@ -1,0 +1,16 @@
+{
+    "id": "decoration.bar-lights-level-4",
+    "tags": ["bar-lights", "ceiling"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/BarLightsLevel4",
+    "thumbnailFilePath": "diner/thumbnails/bar-lights-lvl4-thumbnail/spriteFrame"
+}

@@ -1,0 +1,25 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Oh that's much better, I can even see the cards when we play now.",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 1 - Dialogue",
+  "dialogueId": "Chapter1-LightsFixed",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

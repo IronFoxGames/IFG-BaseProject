@@ -1,0 +1,16 @@
+{
+    "id": "decoration.storage-freezer-display-level-0",
+    "tags": ["freezer-display", "floor"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/StorageFreezerDisplayLevel0",
+    "thumbnailFilePath": "diner/thumbnails/storage-freezerdisplay-lvl0-thumbnail/spriteFrame"
+}

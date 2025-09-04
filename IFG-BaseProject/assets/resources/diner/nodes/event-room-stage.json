@@ -1,0 +1,7 @@
+{
+    "id": "event-room-stage",
+    "isStatic": true,
+    "defaultPropId": "decoration.event-room-stage-level-0",
+    "tags": ["stage", "floor"],
+    "requirements": []
+}

@@ -1,0 +1,9 @@
+<div class="chapterList">
+    <h1>Chapter List</h1>
+    <li v-for="item in chapters">
+        <div>
+            <ui-button class="blue" @click="loadChapter(item.name)">Load {{ item.name }}</ui-button>
+        </div>
+    </li>
+    <ui-button class="blue" @click="refreshChapters">Refresh</ui-button>
+</div>

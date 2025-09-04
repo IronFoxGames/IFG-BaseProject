@@ -1,0 +1,138 @@
+{
+  "ver": "1.0.26",
+  "importer": "image",
+  "imported": true,
+  "uuid": "8367595a-a815-44f7-9990-272beaf92f2e",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "8367595a-a815-44f7-9990-272beaf92f2e@6c48a",
+      "displayName": "2x2-aquarium-table",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "8367595a-a815-44f7-9990-272beaf92f2e",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "8367595a-a815-44f7-9990-272beaf92f2e@f9941",
+      "displayName": "2x2-aquarium-table",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -28,
+        "offsetY": 15.5,
+        "trimX": 47,
+        "trimY": 0,
+        "width": 296,
+        "height": 337,
+        "rawWidth": 446,
+        "rawHeight": 368,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -148,
+            -168.5,
+            0,
+            148,
+            -168.5,
+            0,
+            -148,
+            168.5,
+            0,
+            148,
+            168.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            47,
+            368,
+            343,
+            368,
+            47,
+            31,
+            343,
+            31
+          ],
+          "nuv": [
+            0.10538116591928251,
+            0.08423913043478261,
+            0.7690582959641256,
+            0.08423913043478261,
+            0.10538116591928251,
+            1,
+            0.7690582959641256,
+            1
+          ],
+          "minPos": [
+            -148,
+            -168.5,
+            0
+          ],
+          "maxPos": [
+            148,
+            168.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "8367595a-a815-44f7-9990-272beaf92f2e@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "8367595a-a815-44f7-9990-272beaf92f2e@f9941",
+    "compressSettings": {
+      "useCompressTexture": true,
+      "presetId": "b4kGBzArBKlblWfDP6Z8K4"
+    }
+  }
+}

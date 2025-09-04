@@ -1,0 +1,160 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Play_Sfx"
+      ],
+      "dialogueType": "Sfx",
+      "lines": [
+        {
+          "line": "SFX_Dialogue_DinerDoor",
+          "characterSprites": [
+            ""
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Exposition"
+      ],
+      "dialogueType": "Exposition",
+      "lines": [
+        {
+          "line": "Jing-a-ling...",
+          "characterSprites": [
+            ""
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Darcy"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Morning Joey! I've got your daily treat.",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Hey sweetheart. How ya doing?",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Darcy... Hey! It's so great to see you.",
+          "characterSprites": [
+            "Work-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Darcy"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Viola... You didn't tell me you were coming into town.",
+          "characterSprites": [
+            "Surprised"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "It was kinda sudden. Didn't really plan it.",
+          "characterSprites": [
+            "Work-Neutral"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "So what's up?",
+          "characterSprites": [
+            "Work-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Darcy"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Just bringing Joey his daily treat. We kinda play a game every morning.",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Oh really, what's that?",
+          "characterSprites": [
+            "Work-Thinking"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 1 - Dialogue",
+  "dialogueId": "Chapter1-DailyDelivery",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

@@ -1,0 +1,94 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I can't believe what a week it's been Derek.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "I installed a bathroom mirror, quit my job, and I've got a dinner date.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Play_Sfx"
+      ],
+      "dialogueType": "Sfx",
+      "lines": [
+        {
+          "line": "SFX_Dialogue_CatMeow",
+          "characterSprites": [
+            ""
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Derek"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "...",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "It felt good sticking up for myself. I should have done that a long time ago.",
+          "characterSprites": [
+            "Thinking"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "Since I'm going to be sticking around, I think it's time to tackle some bigger projects.",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "Joey and Chef have worked so hard to keep this place running, and I'm going to make sure their dedication was worth it.",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 3 - Dialogue",
+  "dialogueId": "Chapter3-TimeToSettleIn",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

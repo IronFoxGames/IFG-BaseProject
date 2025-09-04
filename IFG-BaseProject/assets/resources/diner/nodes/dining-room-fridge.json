@@ -1,0 +1,14 @@
+{
+    "id": "dining-room-fridge",
+    "isStatic": true,
+    "defaultPropId": "decoration.bar-fridge-level-1",
+    "tags": ["bar-fridge", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch2-replace-fridge"
+            }
+        }
+    ]
+}

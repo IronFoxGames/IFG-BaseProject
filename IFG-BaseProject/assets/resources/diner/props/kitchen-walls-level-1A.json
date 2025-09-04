@@ -1,0 +1,7 @@
+{
+    "id": "decoration.kitchen-walls-level-1A",
+    "tags": ["kitchen", "wall-pattern", "kitchen-walls"],
+    "requirements": [],
+    "assetFilePath": "diner/textures/walls/kitchen-wall-tile-lvl1A/texture",
+    "thumbnailFilePath": "diner/thumbnails/kitchen-wall-lvl1a-thumbnail/spriteFrame"
+}

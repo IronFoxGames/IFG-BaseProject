@@ -1,0 +1,96 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Darcy"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Don't worry Will, she just needs to get it out of her system.",
+          "characterSprites": [
+            "Empathetic"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Will"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Viola didn't even like hanging out with them in high school, and it's not like any of them have changed.",
+          "characterSprites": [
+            "Annoyed"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Darcy"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Exactly. And you already know it's just going to end the same way.",
+          "characterSprites": [
+            "Empathetic"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Will"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I suppose you're right. I just hope she doesn't leave this time.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Darcy"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "She has a lot more reasons to stay this time, Will.",
+          "characterSprites": [
+            "Empathetic"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "Plus, you're not going to let her leave if she tries. For the both of us.",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 4 - Dialogue",
+  "dialogueId": "Chapter4-DarcysAdvice",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

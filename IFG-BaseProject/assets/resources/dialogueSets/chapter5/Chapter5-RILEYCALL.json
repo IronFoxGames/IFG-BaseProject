@@ -1,0 +1,105 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Riley"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Heyyyyy babe! What's up?",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Riley? I'm just sorting out the office, like I told you earlier.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Riley"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Right, right... So you wanna come over?",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "How much have you been drinking? I told you I'm busy here tonight. I wanted your help, remember?",
+          "characterSprites": [
+            "Annoyed"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Riley"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "The guys all left. I thought you might wanna come keep me company.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Just... go to sleep Riley. You have your road trip in the morning.",
+          "characterSprites": [
+            "Annoyed"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 5 - Dialogue",
+  "dialogueId": "Chapter5-RileyCall",
+  "repeatable": false,
+  "dialogueFormat": "Phone",
+  "requirements": []
+}

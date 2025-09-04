@@ -1,0 +1,7 @@
+{
+    "id": "decoration.office-rug-level-1",
+    "tags": ["rug", "floor", "office-rug"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/OfficeRugLevel1",
+    "thumbnailFilePath": "diner/thumbnails/office-rug-lvl1-thumbnail/spriteFrame"
+}

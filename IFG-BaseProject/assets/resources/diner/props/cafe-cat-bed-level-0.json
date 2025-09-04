@@ -1,0 +1,16 @@
+{
+    "id": "decoration.cat-bed-level-0",
+    "tags": ["cat-bed", "floor", "cat-bed-fix1"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/CafeCatBedLevel0",
+    "thumbnailFilePath": "diner/thumbnails/cafe-catbed-lvl0-thumbnail/spriteFrame"
+}

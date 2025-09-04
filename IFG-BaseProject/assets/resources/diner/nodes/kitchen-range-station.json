@@ -1,0 +1,14 @@
+{
+    "id": "kitchen-range-station",
+    "isStatic": true,
+    "defaultPropId": "decoration.kitchen-rangestation-level-0",
+    "tags": ["range", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch4-FixFlatTop"
+            }
+        }
+    ]
+}

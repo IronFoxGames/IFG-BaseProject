@@ -1,0 +1,54 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Phew! That was a lot of work. I'm going to take a walk and get some air.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Chef"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Sure thing Vi, I'm going to finish setting up my new equipment.",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 4 - Dialogue",
+  "dialogueId": "Chapter4-TakingAWalk",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": [
+    {
+      "requirementType": "taskComplete",
+      "taskId": "ch4-ReplaceKitchenFridge"
+    },
+    {
+      "requirementType": "taskComplete",
+      "taskId": "ch4-ReplaceKitchenTable"
+    },
+    {
+      "requirementType": "taskComplete",
+      "taskId": "ch4-ReplacePlatingStation"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "id": "office-trunk",
+    "isStatic": true,
+    "defaultPropId": "decoration.office-trunk-level-0",
+    "tags": ["trunk", "floor"],
+    "requirements": [
+        {
+            "requirementType": "taskComplete",
+            "taskId": "ch5-replace-office-trunk"
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Derek! It's so good to see you!",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Play_Sfx"
+      ],
+      "dialogueType": "Sfx",
+      "lines": [
+        {
+          "line": "SFX_Dialogue_CatMeow",
+          "characterSprites": [
+            ""
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Derek"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "**meow**",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I was wondering where you've been hiding.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "I gotta say Derek. It feels really good to be back in Small Pines, I've missed home.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "Maybe I'll stick around for a while. What do ya say?",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Play_Sfx"
+      ],
+      "dialogueType": "Sfx",
+      "lines": [
+        {
+          "line": "SFX_Dialogue_CatPurr",
+          "characterSprites": [
+            ""
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Derek"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "**purring**",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 1 - Dialogue",
+  "dialogueId": "Chapter1-PetDerek",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

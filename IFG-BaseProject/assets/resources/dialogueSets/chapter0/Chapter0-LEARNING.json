@@ -1,0 +1,79 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Wow! You are so good at Card Scramble Uncle Joey!",
+          "characterSprites": [
+            "Child-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Well I did invent it, ya know! And now we can teach you to play too!",
+          "characterSprites": [
+            "Young-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I'll never be as good as you though.",
+          "characterSprites": [
+            "Child-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I wouldn't be so sure. You're so smart kiddo. Let's play again!",
+          "characterSprites": [
+            "Young-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Prologue - Dialogue",
+  "dialogueId": "Chapter0-Learning",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": [
+    {
+      "requirementType": "levelId",
+      "levelId": "Tutorial_BaseBoardUIAndControls",
+      "operator": "complete"
+    }
+  ]
+}

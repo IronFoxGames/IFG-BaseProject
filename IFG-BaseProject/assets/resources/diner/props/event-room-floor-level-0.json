@@ -1,0 +1,7 @@
+{
+    "id": "decoration.event-room-floor-level-0",
+    "tags": ["event-room", "floor-pattern"],
+    "requirements": [],
+    "assetFilePath": "diner/textures/floors/event-room-floor-tile-lvl0/texture",
+    "thumbnailFilePath": "diner/thumbnails/event-room-floor-tile-lvl0-thumbnail/spriteFrame"
+}

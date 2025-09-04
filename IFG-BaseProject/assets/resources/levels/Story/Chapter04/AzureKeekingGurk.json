@@ -1,0 +1,38 @@
+{
+    "name": "AzureKeekingGurk",
+    "description": "Simple template",
+    "handSize": 7,
+    "difficulty": "Hard",
+    "hasBot": false,
+    "placeAnchor": true,
+    "objectives": [
+        {
+            "objectiveDataList": [
+                {
+                    "objectiveType": "Score",
+                    "tipText": "Score the target number of points by playing the best hands possible.",
+                    "tipSprite": null,
+                    "score": 34000,
+                    "tileIndices": []
+                }
+            ]
+        },
+        { "objectiveDataList": [{ "objectiveType": "TilePlacement", "tipText": "", "tipSprite": null, "tileIndices": [150, 16] }] }
+    ],
+    "deckType": "Default",
+    "customDeck": [],
+    "startingBoard": [],
+    "boardModifierPlacements": [
+        { "boardIndex": 125, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 10 } },
+        { "boardIndex": 124, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 6 } },
+        { "boardIndex": 123, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 10 } },
+        { "boardIndex": 41, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 10 } },
+        { "boardIndex": 42, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 6 } },
+        { "boardIndex": 43, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 10 } }
+    ],
+    "freeBooster": "None",
+    "freePowerup": "None",
+    "appliedBoosters": [],
+    "gridSpecialsEnabled": false,
+    "gridSpecialsHidden": false
+}

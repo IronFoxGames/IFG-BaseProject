@@ -1,0 +1,12 @@
+{
+    "id": "office-swivel-chair",
+    "isStatic": true,
+    "defaultPropId": "decoration.office-swivel-chair-level-0",
+    "tags": ["swivel-chair", "floor"],
+    "requirements": [
+        {
+            "requirementType": "taskComplete",
+            "taskId": "ch5-replace-swivel-chair"
+        }
+    ]
+}

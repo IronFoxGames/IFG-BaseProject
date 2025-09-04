@@ -1,0 +1,16 @@
+{
+    "id": "decoration.table-row-level-0-step1",
+    "tags": ["table-row", "floor", "tablefix-step1", "tablefix-step2"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/TablesLevel0-Step1",
+    "thumbnailFilePath": "diner/thumbnails/table-lvl0-step1-thumbnail/spriteFrame"
+}

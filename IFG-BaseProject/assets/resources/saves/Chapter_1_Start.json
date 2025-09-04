@@ -1,0 +1,87 @@
+{
+    "storyLevelsCompleted": [
+        "Tutorial_BaseBoardUIAndControls",
+        "Tutorial_ObjHandType",
+        "Tutorial_ObjBonus",
+        "Tutorial_BaseJokers",
+        "Tutorial_HandsStraight",
+        "Tutorial_HandsFlush"
+    ],
+    "dialogueSaveData": [
+        {
+            "dialogueId": "Chapter0-TeachMe"
+        },
+        {
+            "dialogueId": "Chapter0-Learning"
+        },
+        {
+            "dialogueId": "Chapter0-Grilled Cheese"
+        },
+        {
+            "dialogueId": "Chapter0-A New Deck"
+        },
+        {
+            "dialogueId": "Chapter0-Getting the Hang of it"
+        },
+        {
+            "dialogueId": "Chapter0-One More Puzzle"
+        }
+    ],
+    "quickPlaySaveData": {
+        "highscore": 0
+    },
+    "taskProgressSaveData": {
+        "grilled-cheese": {
+            "taskComplete": 1,
+            "taskAssigned": true
+        },
+        "joeys-challenge": {
+            "taskComplete": 1,
+            "taskAssigned": true
+        },
+        "while-away": {
+            "taskComplete": 1,
+            "taskAssigned": true
+        },
+        "complete-prologue": {
+            "taskComplete": 0,
+            "taskAssigned": true
+        }
+    },
+    "nodeSaveData": {},
+    "roomSaveData": {
+        "dining-room": true
+    },
+    "inventory": {},
+    "currencySaveData": {
+        "stars": {
+            "amount": 1
+        },
+        "coins": {
+            "amount": 300
+        }
+    },
+    "settings": {
+        "MusicEnabled": false,
+        "MusicVolume": 0
+    },
+    "tutorialSteps": {
+        "welcome-01": true,
+        "puzzle-start-01": true,
+        "gameboard-and-controls-01": true,
+        "gameboard-and-controls-02": true,
+        "gameboard-and-controls-03": true,
+        "puzzle2-start-01": true,
+        "tutorial-handtype-objectives": true,
+        "tutorial-order-help-button": true,
+        "tasks-01": true,
+        "tasks-02": true,
+        "tasks-03": true,
+        "tasks-complete": true,
+        "tutorial-multiple-orders": true,
+        "tutorial-wilds": true,
+        "tutorial-jokers": true
+    },
+    "dailyPrizeClaimOrder": [],
+    "dailyPrizeLastDay": -1
+}

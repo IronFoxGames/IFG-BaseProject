@@ -1,0 +1,14 @@
+{
+    "id": "bathroom-sink",
+    "isStatic": true,
+    "defaultPropId": "decoration.bathroom-sink-level-0",
+    "tags": ["sink", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch3-new-sink"
+            }
+        }
+    ]
+}

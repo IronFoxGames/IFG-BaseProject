@@ -1,0 +1,100 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Mom"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Finishing another game of Scramble? You've really gotten back into that.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "She sure has, it's like old times. Your mom's pretty good too you know.",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Oh, really?",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Mom"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Well, I'm alright. Joey and I play pretty often.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Careful if you face one of her puzzles, she takes no prisoners!",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 1 - Dialogue",
+  "dialogueId": "Chapter1-Challenge",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": [
+    {
+      "requirementType": "dialogue",
+      "dialogueId": "Chapter1-SoloPlay",
+      "operator": "hasSeen"
+    },
+    {
+      "requirementType": "quickPlaySessions",
+      "playCount": 1,
+      "operator": "greaterThanEqual"
+    }
+  ]
+}

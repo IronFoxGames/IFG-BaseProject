@@ -1,0 +1,11 @@
+{
+    "id": "decoration.bathroom-walls-level-2",
+    "tags": [
+        "bathroom",
+        "wall-pattern",
+        "placeprop-bathroom-wall"
+    ],
+    "requirements": [],
+    "assetFilePath": "diner/textures/walls/bathroom-wall-tile-lvl2/texture",
+    "thumbnailFilePath": "diner/thumbnails/bathroom-wall-tile-lvl2-thumbnail/spriteFrame"
+}

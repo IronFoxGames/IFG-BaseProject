@@ -1,0 +1,7 @@
+{
+    "id": "decoration.event-room-walls-level-0",
+    "tags": ["event-room", "wall-pattern"],
+    "requirements": [],
+    "assetFilePath": "diner/textures/walls/event-room-wall-tile-lvl0/texture",
+    "thumbnailFilePath": "diner/thumbnails/event-room-wall-tile-lvl0-thumbnail/spriteFrame"
+}

@@ -1,0 +1,135 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Fadeout_Screen"
+      ],
+      "dialogueType": "Fade",
+      "lines": [
+        {
+          "line": "1",
+          "characterSprites": [
+            ""
+          ],
+          "unskippable": true
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Exposition"
+      ],
+      "dialogueType": "Exposition",
+      "lines": [
+        {
+          "line": "The Next Morning...",
+          "characterSprites": [
+            ""
+          ],
+          "unskippable": true
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Fadein_Screen"
+      ],
+      "dialogueType": "Fade",
+      "lines": [
+        {
+          "line": "1",
+          "characterSprites": [
+            ""
+          ],
+          "unskippable": true
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Monday’s only three days away. This place is looking great but I have so much more to do...",
+          "characterSprites": [
+            "Surprised"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "I don't know what to do Derek. I do love my job in Chicago, and I've spent all these years earning the right to be a VP.",
+          "characterSprites": [
+            "Sad"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Play_Sfx"
+      ],
+      "dialogueType": "Sfx",
+      "lines": [
+        {
+          "line": "SFX_Dialogue_CatMeow",
+          "characterSprites": [
+            ""
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Derek"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "...",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I worked so hard to get that job, but now that I'm back home, it feels like a lifetime ago.",
+          "characterSprites": [
+            "Sad"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "I need to take a walk.",
+          "characterSprites": [
+            "Empathetic"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 3 - Dialogue",
+  "dialogueId": "Chapter3-TalkToDerek1",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

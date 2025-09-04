@@ -1,0 +1,14 @@
+{
+    "id": "dining-room-tables",
+    "isStatic": true,
+    "defaultPropId": "decoration.table-row-level-1",
+    "tags": ["table-row", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch2-replace-tables2"
+            }
+        }
+    ]
+}

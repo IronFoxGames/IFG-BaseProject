@@ -1,0 +1,14 @@
+{
+    "id": "kitchen-dishwashing-station",
+    "isStatic": true,
+    "defaultPropId": "decoration.kitchen-dishwashing-level-0",
+    "tags": ["dish-washing", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch4-ReplaceWashStation"
+            }
+        }
+    ]
+}

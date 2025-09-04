@@ -1,0 +1,23 @@
+{
+    "id": "task_chapter1_old_times",
+    "name": "Just Like Old Times",
+    "description": "Complete more of Joey's Unfinished puzzles.",
+    "unlockRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 21,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "turnInRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 23,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ]
+}

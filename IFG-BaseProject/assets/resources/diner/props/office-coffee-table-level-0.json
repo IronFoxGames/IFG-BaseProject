@@ -1,0 +1,16 @@
+{
+    "id": "decoration.office-coffee-table-level-0",
+    "tags": ["coffee-table", "floor", "office-coffee-table"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/OfficeCoffeeTableLevel0",
+    "thumbnailFilePath": "diner/thumbnails/office-coffee-table-lvl0-thumbnail/spriteFrame"
+}

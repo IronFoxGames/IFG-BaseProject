@@ -1,0 +1,23 @@
+{
+    "id": "task_prologue_joeys_challenge",
+    "name": "Joey's Challenge",
+    "description": "Beat Joey's new puzzle",
+    "unlockRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 3,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "turnInRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 4,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ]
+}

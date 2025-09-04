@@ -1,0 +1,89 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "You're really gettin' the hang of this!",
+          "characterSprites": [
+            "Young-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Yay! I finished another one of your puzzles.",
+          "characterSprites": [
+            "Child-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Maybe someday you'll even get to help me with the Diner!",
+          "characterSprites": [
+            "Young-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Maybe one day I'll be the boss around here.",
+          "characterSprites": [
+            "Child-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Haha... I thought you were already...",
+          "characterSprites": [
+            "Young-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Prologue - Dialogue",
+  "dialogueId": "Chapter0-Getting the Hang of it",
+  "repeatable": false,
+  "dialogueFormat": "",
+  "requirements": []
+}

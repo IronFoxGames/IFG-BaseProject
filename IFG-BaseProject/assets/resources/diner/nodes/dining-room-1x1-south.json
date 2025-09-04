@@ -1,0 +1,14 @@
+{
+    "id": "dining-room-1x1-south",
+    "isStatic": false,
+    "defaultPropId": "",
+    "tags": ["1x1", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch1-decorate"
+            }
+        }
+    ]
+}

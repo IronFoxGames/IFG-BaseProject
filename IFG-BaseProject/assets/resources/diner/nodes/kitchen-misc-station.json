@@ -1,0 +1,14 @@
+{
+    "id": "kitchen-misc-station",
+    "isStatic": true,
+    "defaultPropId": "decoration.kitchen-miscstation-level-0",
+    "tags": ["misc", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch4-ReplaceKitchenTable"
+            }
+        }
+    ]
+}

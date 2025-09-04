@@ -1,0 +1,14 @@
+{
+    "id": "dining-room-wall-phone",
+    "isStatic": true,
+    "defaultPropId": "decoration.wall-phone-level-0",
+    "tags": ["wall-phone", "wall"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch2-fix-the-phone"
+            }
+        }
+    ]
+}

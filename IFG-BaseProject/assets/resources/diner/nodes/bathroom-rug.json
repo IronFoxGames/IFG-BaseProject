@@ -1,0 +1,14 @@
+{
+    "id": "bathroom-rug",
+    "isStatic": true,
+    "defaultPropId": "decoration.bathroom-rug-level-0",
+    "tags": ["bathroom-rug", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch3-new-mat"
+            }
+        }
+    ]
+}

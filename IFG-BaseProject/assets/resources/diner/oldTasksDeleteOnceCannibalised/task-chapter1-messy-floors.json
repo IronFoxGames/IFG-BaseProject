@@ -1,0 +1,23 @@
+{
+    "id": "task_chapter1_messy_floors",
+    "name": "Clean Sweep",
+    "description": "Clean up the mess on the floors.",
+    "unlockRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "turnInRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 10,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ]
+}

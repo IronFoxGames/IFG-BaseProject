@@ -1,0 +1,64 @@
+{
+    "name": "VioletMysticalDonkey",
+    "description": "Simple template",
+    "handSize": 7,
+    "difficulty": "Hard",
+    "hasBot": false,
+    "placeAnchor": false,
+    "objectives": [
+        {
+            "objectiveDataList": [
+                {
+                    "objectiveType": "Score",
+                    "tipText": "Score the target number of points by playing the best hands possible.",
+                    "tipSprite": null,
+                    "score": 60000
+                }
+            ]
+        }
+    ],
+    "deckType": "Default",
+    "customDeck": [],
+    "startingBoard": [
+        { "boardIndex": 42, "card": { "type": "wild", "rank": 0, "suit": 0 } },
+        { "boardIndex": 48, "card": { "type": "wild", "rank": 0, "suit": 0 } }
+    ],
+    "boardModifierPlacements": [
+        { "boardIndex": 101, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } },
+        { "boardIndex": 97, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } },
+        { "boardIndex": 138, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } },
+        { "boardIndex": 0, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 1, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 2, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 3, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 4, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 5, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 6, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 7, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 8, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 9, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 10, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 11, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 12, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 168, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 167, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 166, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 165, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 164, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 163, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 162, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 161, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 160, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 159, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 158, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 157, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 156, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 134, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } },
+        { "boardIndex": 93, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } }
+    ],
+    "freeBooster": "None",
+    "freePowerup": "None",
+    "appliedBoosters": [],
+    "gridSpecialsEnabled": false,
+    "gridSpecialsHidden": false
+}

@@ -1,0 +1,215 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Hey Mom.",
+          "characterSprites": [
+            "Work-Neutral"
+          ],
+          "unskippable": true
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Mom"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "There you are! I've been trying to call you for days...",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": true
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Sorry, it's been another one of those crazy weeks at work.\nI've barely had a minute. What's up?",
+          "characterSprites": [
+            "Work-Neutral"
+          ],
+          "unskippable": true
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Mom"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "It's your uncle Joey. He had a fall a couple of days ago, it's his bad leg.",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": true
+        },
+        {
+          "line": "He's fine now. The Doctor's say he's pushing himself too hard at the Diner though.",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": true
+        },
+        {
+          "line": "Can you come home? He'll listen to you.",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": true
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Well, I had been thinking I needed some time off. I'm exhausted. I have a LOT of saved vacation time.",
+          "characterSprites": [
+            "Work-Thinking"
+          ],
+          "unskippable": true
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Mom"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "That's because you never take a minute, we barely see you any more. Come home honey...",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": true
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Okay... Let me call my boss and make some plans.",
+          "characterSprites": [
+            "Work-Neutral"
+          ],
+          "unskippable": true
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Fadeout_Music"
+      ],
+      "dialogueType": "Music",
+      "lines": [
+        {
+          "line": "1",
+          "characterSprites": [
+            ""
+          ],
+          "unskippable": true
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Play_Sfx"
+      ],
+      "dialogueType": "Sfx",
+      "lines": [
+        {
+          "line": "SFX_New_Chapter",
+          "characterSprites": [
+            ""
+          ],
+          "unskippable": true
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Chapterstart",
+      "lines": [
+        {
+          "line": "Chapter 1:Prodigal",
+          "characterSprites": [
+            "Work-Neutral"
+          ],
+          "unskippable": true
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Fadein_Music"
+      ],
+      "dialogueType": "Music",
+      "lines": [
+        {
+          "line": "1",
+          "characterSprites": [
+            ""
+          ],
+          "unskippable": true
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Fadein_Screen"
+      ],
+      "dialogueType": "Fade",
+      "lines": [
+        {
+          "line": "1",
+          "characterSprites": [
+            ""
+          ],
+          "unskippable": true
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 1 - Dialogue",
+  "dialogueId": "Chapter1-Intro",
+  "repeatable": false,
+  "dialogueFormat": "Phone",
+  "requirements": []
+}

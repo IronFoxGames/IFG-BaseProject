@@ -1,0 +1,7 @@
+{
+    "id": "decoration.bar-rug-level-1",
+    "tags": ["bar-rug", "floor"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/BarRugLevel1",
+    "thumbnailFilePath": "diner/thumbnails/cafe-bar-rug-lvl1-thumbnail/spriteFrame"
+}

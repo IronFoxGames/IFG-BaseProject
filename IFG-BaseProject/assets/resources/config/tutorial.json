@@ -1,0 +1,1006 @@
+{
+    "events": [
+        {
+            "id": "puzzle-start-01",
+            "trigger": {
+                "type": "onStateEnter",
+                "state": "diner"
+            },
+            "requirements": [
+                {
+                    "requirementType": "levelId",
+                    "levelId": "Tutorial_BaseBoardUIAndControls",
+                    "operator": "isNext"
+                }
+            ],
+            "title": "Puzzles",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame",
+            "message": "Click here to play your first puzzle.",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "DinerState.DinerHUDView.PlayButton",
+            "cursorAlignment": "left",
+            "stepAdvance": "control-interaction"
+        },
+        {
+            "id": "puzzle-start-02",
+            "trigger": {
+                "type": "onMenuOpened",
+                "menuId": "Diner.PreGame"
+            },
+            "requirements": [
+                {
+                    "requirementType": "levelId",
+                    "levelId": "Tutorial_BaseBoardUIAndControls",
+                    "operator": "isNext"
+                }
+            ],
+            "title": "Puzzles",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "DinerState.DinerHUDView.PreGameViewPlayWidget",
+            "cursorAlignment": "left",
+            "stepAdvance": "control-interaction"
+        },
+        {
+            "id": "gameboard-and-controls-01",
+            "trigger": {
+                "type": "onGameStart",
+                "puzzle": "Tutorial_BaseBoardUIAndControls"
+            },
+            "requirements": [
+                {
+                    "requirementType": "levelId",
+                    "levelId": "Tutorial_BaseBoardUIAndControls",
+                    "operator": "isNext"
+                }
+            ],
+            "title": "Placing Hands",
+            "message": "Okay, first thing's first.\nLay a card on the board in any <color=#4668FF>Valid Space</color> <img src='board-placement'/>",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "PuzzleState.PlayerHand.CardTray",
+            "stepAdvance": "ok",
+            "messageOffsetY": 300
+        },
+        {
+            "id": "gameboard-and-controls-01a",
+            "trigger": {
+                "type": "onGameStart",
+                "puzzle": "Tutorial_BaseBoardUIAndControls"
+            },
+            "stepType": "dragInstructor",
+            "dragInstructorCardSlotStart": 0,
+            "dragInstructorBoardTileIndexTarget": 83
+        },
+        {
+            "id": "gameboard-and-controls-02",
+            "trigger": {
+                "type": "onCardPlaced",
+                "puzzle": "Tutorial_BaseBoardUIAndControls"
+            },
+            "requirements": [
+                {
+                    "requirementType": "levelId",
+                    "levelId": "Tutorial_BaseBoardUIAndControls",
+                    "operator": "isNext"
+                }
+            ],
+            "title": "Submit Hand",
+            "message": "Now lay some more cards.\nYou must always make a<color=#F26C08> Hand of 5</color>!",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame",
+            "stepAdvance": "ok"
+        },
+        {
+            "id": "gameboard-and-controls-03",
+            "trigger": {
+                "type": "onHandPlaced",
+                "puzzle": "Tutorial_BaseBoardUIAndControls",
+                "hand": 0
+            },
+            "requirements": [
+                {
+                    "requirementType": "levelId",
+                    "levelId": "Tutorial_BaseBoardUIAndControls",
+                    "operator": "isNext"
+                }
+            ],
+            "title": "Submit Hand",
+            "message": "Now click here to <color=#2e1ea9>Play Your Hand</color>!",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "PuzzleState.GameplayButtons.PlayButtonWidget",
+            "cursorAlignment": "left",
+            "stepAdvance": "control-interaction"
+        },
+        {
+            "id": "puzzle2-start-01",
+            "trigger": {
+                "type": "onStateEnter",
+                "state": "diner"
+            },
+            "requirements": [
+                {
+                    "requirementType": "levelId",
+                    "levelId": "Tutorial_ObjHandType",
+                    "operator": "isNext"
+                }
+            ],
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "DinerState.DinerHUDView.PlayButton",
+            "cursorAlignment": "left",
+            "stepAdvance": "control-interaction"
+        },
+        {
+            "id": "scoring-01",
+            "trigger": {
+                "type": "onGameStart",
+                "puzzle": "Tutorial_ObjHandType"
+            },
+            "title": "Score!",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame",
+            "message": "Here are your <color=#0072ff>Orders</color>, hehe.\nThis time you need to reach a <color=#f70049>Score</color> to win.",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "PuzzleState.Goals.MainGoalWidget",
+            "cursorAlignment": "right",
+            "messageOffsetX": 100
+        },
+        {
+            "id": "scoring-02",
+            "trigger": {
+                "type": "onHandScoreTallied",
+                "puzzle": "Tutorial_ObjHandType"
+            },
+            "title": "Hand Scoring",
+            "message": "More difficult hands are worth more points.\n\nClick here for the full scorecard.",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "PuzzleState.HelpButton",
+            "cursorAlignment": "bottom",
+            "stepAdvance": "control-interaction"
+        },
+        {
+            "id": "tasks-01",
+            "trigger": {
+                "type": "onStateEnter",
+                "state": "diner"
+            },
+            "requirements": [
+                {
+                    "requirementType": "levelId",
+                    "levelId": "Tutorial_ObjBonus",
+                    "operator": "isNext"
+                },
+                {
+                    "requirementType": "levelId",
+                    "levelId": "Tutorial_BaseJokers",
+                    "operator": "incomplete"
+                }
+            ],
+            "title": "Stars",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame",
+            "message": "You can earn <color=#fcae16>stars</color> <img src='star'/> by playing puzzles.",
+            "triggerSave": false
+        },
+        {
+            "id": "tasks-02",
+            "trigger": {
+                "type": "onMenuOpened",
+                "menuId": "Diner.Tasks"
+            },
+            "requirements": [
+                {
+                    "requirementType": "levelId",
+                    "levelId": "Tutorial_ObjBonus",
+                    "operator": "isNext"
+                },
+                {
+                    "requirementType": "levelId",
+                    "levelId": "Tutorial_BaseJokers",
+                    "operator": "incomplete"
+                }
+            ],
+            "title": "Tasks",
+            "message": "Click this to give me your <color=#fcae16>stars</color> <img src='star'/> and complete a task.",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "DinerState.TaskView.TaskFinish",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame",
+            "cursorAlignment": "right",
+            "stepAdvance": "control-interaction",
+            "messageOffsetX": 200,
+            "triggerSave": false
+        },
+        {
+            "id": "tasks-03",
+            "trigger": {
+                "type": "onMenuOpened",
+                "menuId": "popUp.NotEnoughStars"
+            },
+            "requirements": [
+                {
+                    "requirementType": "levelId",
+                    "levelId": "Tutorial_ObjBonus",
+                    "operator": "isNext"
+                },
+                {
+                    "requirementType": "levelId",
+                    "levelId": "Tutorial_BaseJokers",
+                    "operator": "incomplete"
+                }
+            ],
+            "title": "Tasks",
+            "message": "Looks like you're short one <color=#fcae16>star</color> <img src='star'/>...\nI guess you better play another puzzle first.",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame",
+            "stepAdvance": "ok",
+            "messageOffsetX": 200
+        },
+        {
+            "id": "tutorial-handtype-objectives-01",
+            "trigger": {
+                "type": "onGameStart",
+                "puzzle": "Tutorial_ObjBonus"
+            },
+            "title": "Orders",
+            "message": "Sometimes I'll give you <color=#0072ff>Orders</color> that need <color=#009c26>Specific Hands</color> to complete.",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "PuzzleState.Goals.MainGoalWidget",
+            "cursorAlignment": "right",
+            "hasFollowup": true
+        },
+        {
+            "id": "tutorial-order-help-button",
+            "trigger": {
+                "type": "onGameStart",
+                "puzzle": "Tutorial_ObjBonus"
+            },
+            "title": "Orders",
+            "message": "You can always check my notebook by clicking here, to see what the<color=#0072ff> Order</color> means.",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "PuzzleState.Goals.HelpButton",
+            "cursorAlignment": "top",
+            "stepAdvance": "control-interaction"
+        },
+        {
+            "id": "tutorial-handtype-objectives-02",
+            "trigger": {
+                "type": "onHandSubmitted",
+                "puzzle": "Tutorial_ObjBonus",
+                "handName": "OnePair"
+            },
+            "title": "Orders",
+            "message": "Great! You played <color=#009c26>1 of 3 hands</color> needed to complete the <color=#0072ff>Order</color>.",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "PuzzleState.Goals.MainGoalWidget",
+            "cursorAlignment": "right",
+            "hasFollowup": true
+        },
+        {
+            "id": "tutorial-handtype-wrong1",
+            "trigger": {
+                "type": "onHandSubmitted",
+                "puzzle": "Tutorial_ObjBonus",
+                "handName": "TwoPair"
+            },
+            "title": "WrongHand",
+            "message": "Watch out, a <color=#0072ff>Two Pair</color> hand <i>is not the same</i> as a <color=#F26C08>One Pair</color> hand. Pay close attention to the hands you play!\nCustomers always want their exact order delivered and so do I!",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame",
+            "stepAdvance": "ok",
+            "messageOffsetX": 100
+        },
+        {
+            "id": "tutorial-handtype-wrong2",
+            "trigger": {
+                "type": "onHandSubmitted",
+                "puzzle": "Tutorial_ObjBonus",
+                "handName": "ThreeOfAKind"
+            },
+            "title": "WrongHand",
+            "message": "Watch out, a <color=#0072ff>Three Of A Kind</color> hand <i>is not the same</i> as a <color=#F26C08>One Pair</color> hand. Pay close attention to the hands you play!\nCustomers always want their exact order delivered and so do I!",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame",
+            "stepAdvance": "ok",
+            "messageOffsetX": 100
+        },
+        {
+            "id": "tutorial-multiple-orders",
+            "trigger": {
+                "type": "onGameStart",
+                "puzzle": "Tutorial_BaseJokers"
+            },
+            "title": "Multiple Orders",
+            "message": "Now I'll give you <color=#0072ff>multiple Orders</color> at once. You have to complete all of them to win!",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "PuzzleState.Goals.GoalGroupWidget",
+            "messageOffsetX": 100
+        },
+        {
+            "id": "tutorial-handtype-wrong3",
+            "trigger": {
+                "type": "onHandSubmitted",
+                "puzzle": "Tutorial_BaseJokers",
+                "handName": "FullHouse"
+            },
+            "title": "WrongHand",
+            "message": "Watch out, a Full House hand <i>is not the same</i> as a Pair or Three of a Kind. Pay close attention to the hands you play!\nCustomers always want their exact order delivered and so do I!",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame",
+            "stepAdvance": "ok",
+            "messageOffsetX": 100
+        },
+        {
+            "id": "tutorial-handtype-wrong4",
+            "trigger": {
+                "type": "onHandSubmitted",
+                "puzzle": "Tutorial_BaseJokers",
+                "handName": "FourOfAKind"
+            },
+            "title": "WrongHand",
+            "message": "Watch out, a Four of a Kind hand <i>is not the same</i> as a Three of a Kind hand. Pay close attention to the hands you play!\nCustomers always want their exact order delivered and so do I!",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame",
+            "stepAdvance": "ok",
+            "messageOffsetX": 100
+        },
+        {
+            "id": "tasks-complete",
+            "trigger": {
+                "type": "onStateEnter",
+                "state": "diner"
+            },
+            "requirements": [
+                {
+                    "requirementType": "levelId",
+                    "levelId": "Tutorial_BaseJokers",
+                    "operator": "isNext"
+                },
+                {
+                    "requirementType": "levelId",
+                    "levelId": "Tutorial_HandsStraight",
+                    "operator": "incomplete"
+                }
+            ],
+            "title": "Tasks",
+            "message": "Time to eat that grilled cheese!\n\nClick here to give me your <color=#fcae16>stars</color> <img src='star'/> and complete the task.",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "DinerState.DinerHUDView.TasksButtonWidget",
+            "cursorAlignment": "right",
+            "stepAdvance": "control-interaction"
+        },
+        {
+            "id": "tutorial-wilds",
+            "trigger": {
+                "type": "onGameStart",
+                "puzzle": "Tutorial_HandsStraight"
+            },
+            "title": "Wildcards",
+            "message": "These <img src='card-wild' /> are <color=#f70049>Wildcards</color>\n\nIf your hand includes one, it will be counted as the card that will give the best score.",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame"
+        },
+        {
+            "id": "tutorial-jokers",
+            "trigger": {
+                "type": "onHandSubmitted",
+                "puzzle": "Tutorial_HandsStraight",
+                "hand": 0
+            },
+            "title": "Jokers",
+            "message": "In every deck there are two <color=#f70049>Jokers</color> <img src='card-joker' />.\n\nWhen you play a <color=#f70049>Joker</color> I'll let you magically turn it into <i>any card you want</i>!",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame"
+        },
+        {
+            "id": "tutorial-shuffle-button",
+            "trigger": {
+                "type": "onGameStart",
+                "puzzle": "Tutorial_HandsFlush"
+            },
+            "title": "Shuffle",
+            "message": "Want a little tip?\n\nIf you're having trouble, <color=4668FF>Shuffling</color> your cards can help.",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "PuzzleState.DeckArrange.Shuffle",
+            "cursorAlignment": "left",
+            "stepAdvance": "control-interaction"
+        },
+        {
+            "id": "tutorial-sort-button-1",
+            "trigger": {
+                "type": "onGameStart",
+                "puzzle": "Tutorial_HandsFlush"
+            },
+            "title": "Shuffle",
+            "message": "Grouping your cards based on <color=4668FF>Suit</color> is great for making flush hands.",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "PuzzleState.DeckArrange.Sort",
+            "cursorAlignment": "left",
+            "stepAdvance": "control-interaction"
+        },
+        {
+            "id": "tutorial-sort-button-2",
+            "trigger": {
+                "type": "onGameStart",
+                "puzzle": "Tutorial_HandsFlush"
+            },
+            "title": "Sorting",
+            "message": "Or maybe sort them by <color=4668FF>Rank</color>. It's a great way to find straights or cards of the same value.",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "PuzzleState.DeckArrange.Sort",
+            "cursorAlignment": "left",
+            "stepAdvance": "control-interaction"
+        },
+        {
+            "id": "tutorial-recall-button",
+            "trigger": {
+                "type": "onHandPlaced",
+                "puzzle": "Tutorial_HandsFlush",
+                "hand": 0
+            },
+            "title": "Recall",
+            "message": "One more thing. If you lay some cards but change your mind, you can quickly <color=f70049>Recall</color> them.",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Young-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "PuzzleState.DeckArrange.Recall",
+            "cursorAlignment": "left",
+            "stepAdvance": "control-interaction"
+        },
+        {
+            "id": "puzzle-start-boosters",
+            "trigger": {
+                "type": "onMenuOpened",
+                "menuId": "Diner.PreGame"
+            },
+            "requirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "levelId",
+                        "levelId": "Tutorial_BoosterLoosenYourBelt",
+                        "operator": "isNext"
+                    }
+                },
+                {
+                    "requirementData": {
+                        "requirementType": "levelId",
+                        "levelId": "Tutorial_PowerupExtraServings",
+                        "operator": "incomplete"
+                    }
+                }
+            ],
+            "title": "Boosters",
+            "message": "These are special <color=4668FF>Boosters</color>, use them before you play a puzzle to give you an advantage.",
+            "cursorAlignment": "left",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Tutorial/spriteFrame"
+        },
+        {
+            "id": "energy-01",
+            "trigger": {
+                "type": "onStateEnter",
+                "state": "diner"
+            },
+            "requirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "levelId",
+                        "levelId": "RedKinkyAmoeba",
+                        "operator": "complete"
+                    }
+                }
+            ],
+            "title": "Energy",
+            "message": "Playing puzzles costs <color=b52997>Energy</color> <img src='energy' />\nYou will regain <color=b52997>Energy</color> over time.",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "DinerState.DinerHUDView.EnergyWidget",
+            "cursorAlignment": "bottom"
+        },
+        {
+            "id": "puzzle-start-loosenyourbelt-01",
+            "trigger": {
+                "type": "onMenuOpened",
+                "menuId": "Diner.PreGame"
+            },
+            "requirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "levelId",
+                        "levelId": "Tutorial_BoosterLoosenYourBelt",
+                        "operator": "isNext"
+                    }
+                },
+                {
+                    "requirementData": {
+                        "requirementType": "levelId",
+                        "levelId": "Tutorial_PowerupExtraServings",
+                        "operator": "incomplete"
+                    }
+                }
+            ],
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "booster.powerup_loosenyourbelt",
+            "cursorAlignment": "left",
+            "stepAdvance": "control-interaction"
+        },
+        {
+            "id": "puzzle-start-loosenyourbelt-02",
+            "trigger": {
+                "type": "onMenuOpened",
+                "menuId": "Diner.PreGame"
+            },
+            "requirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "levelId",
+                        "levelId": "Tutorial_BoosterLoosenYourBelt",
+                        "operator": "isNext"
+                    }
+                },
+                {
+                    "requirementData": {
+                        "requirementType": "levelId",
+                        "levelId": "Tutorial_PowerupExtraServings",
+                        "operator": "incomplete"
+                    }
+                }
+            ],
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "DinerState.DinerHUDView.PreGameViewPlayWidget",
+            "cursorAlignment": "left",
+            "stepAdvance": "control-interaction"
+        },
+
+        {
+            "id": "tutorial-booster-loosen-your-belt",
+            "trigger": {
+                "type": "onGameStart",
+                "puzzle": "Tutorial_BoosterLoosenYourBelt"
+            },
+            "title": "Loosen Your Belt",
+            "message": "With <color=4668FF>Loosen Your Belt</color>, you can hold one more card!",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "PuzzleState.PlayerHand.CardTray",
+            "stepAdvance": "ok"
+        },
+        {
+            "id": "puzzle-start-deuceswild-01",
+            "trigger": {
+                "type": "onMenuOpened",
+                "menuId": "Diner.PreGame"
+            },
+            "requirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "levelId",
+                        "levelId": "Tutorial_BoosterDeucesWild",
+                        "operator": "isNext"
+                    }
+                },
+                {
+                    "requirementData": {
+                        "requirementType": "levelId",
+                        "levelId": "Tutorial_PowerupJoker",
+                        "operator": "incomplete"
+                    }
+                }
+            ],
+            "title": "New Booster!",
+            "message": "Try the <color=4668FF>Deuces Wild</color> Booster!",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "booster.powerup_deuceswild",
+            "cursorAlignment": "left",
+            "stepAdvance": "control-interaction"
+        },
+        {
+            "id": "puzzle-start-deuceswild-02",
+            "trigger": {
+                "type": "onMenuOpened",
+                "menuId": "Diner.PreGame"
+            },
+            "requirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "levelId",
+                        "levelId": "Tutorial_BoosterDeucesWild",
+                        "operator": "isNext"
+                    }
+                },
+                {
+                    "requirementData": {
+                        "requirementType": "levelId",
+                        "levelId": "Tutorial_PowerupJoker",
+                        "operator": "incomplete"
+                    }
+                }
+            ],
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "DinerState.DinerHUDView.PreGameViewPlayWidget",
+            "cursorAlignment": "left",
+            "stepAdvance": "control-interaction"
+        },
+        {
+            "id": "tutorial-booster-deuces-wild",
+            "trigger": {
+                "type": "onGameStart",
+                "puzzle": "Tutorial_BoosterDeucesWild"
+            },
+            "title": "New Booster",
+            "message": "I call this one <color=4668FF>Deuces Wild</color>. It turns all the 2 cards in your deck into <color=#f70049>Wildcards</color>!",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "PuzzleState.PlayerHand.CardTray",
+            "stepAdvance": "ok"
+        },
+        {
+            "id": "tutorial-powerup-cooking",
+            "trigger": {
+                "type": "onGameStart",
+                "puzzle": "Tutorial_PowerupCookingTheBooks"
+            },
+            "title": "New Power Up!",
+            "message": "I call this one <color=4668FF>Cooking the Books</color>. You can use it to <i>change the value of any card in your hand by 1</i>.",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "powerup.powerup_cookingthebooks",
+            "cursorAlignment": "left",
+            "stepAdvance": "control-interaction"
+        },
+        {
+            "id": "tutorial-powerup-extra-servings",
+            "trigger": {
+                "type": "onHandPlaced",
+                "puzzle": "Tutorial_PowerupExtraServings",
+                "hand": 0
+            },
+            "title": "New Power Up!",
+            "message": "Feeling hungry? <color=4668FF>Extra Servings</color> will double the score of the next hand you play.",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "powerup.powerup_extraservings",
+            "cursorAlignment": "left",
+            "stepAdvance": "control-interaction",
+            "messageOffsetY": 300
+        },
+        {
+            "id": "tutorial-powerup-extra-servings2",
+            "trigger": {
+                "type": "onHandScoreTallied",
+                "puzzle": "Tutorial_PowerupExtraServings",
+                "hand": 0
+            },
+            "title": "New Power Up!",
+            "message": "I'll let you use <color=4668FF>Extra Servings</color> as much as you want this time.\n\nHit that big score!",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Tutorial/spriteFrame",
+            "stepAdvance": "ok"
+        },
+        {
+            "id": "tutorial-powerup-joker",
+            "trigger": {
+                "type": "onGameStart",
+                "puzzle": "Tutorial_PowerupJoker"
+            },
+            "title": "New Power Up!",
+            "message": "You can use this to gain a <color=4668FF> Joker</color> <img src='card-joker' /> card in your hand at any time!",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "powerup.powerup_joker",
+            "cursorAlignment": "left",
+            "stepAdvance": "control-interaction"
+        },
+        {
+            "id": "tutorial-powerup-refire-1",
+            "trigger": {
+                "type": "onGameStart",
+                "puzzle": "Tutorial_PowerupReFire"
+            },
+            "title": "New Power Up!",
+            "message": "Don't like the cards you got dealt? Use <color=4668FF>Refire</color> to get rid of them and draw new ones.",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "powerup.powerup_refire",
+            "cursorAlignment": "left",
+            "stepAdvance": "control-interaction",
+            "messageOffsetY": 300
+        },
+        {
+            "id": "tutorial-powerup-7-cards",
+            "trigger": {
+                "type": "onHandScoreTallied",
+                "puzzle": "Tutorial_PowerupSevenCards",
+                "hand": 0
+            },
+            "requirements": [],
+            "title": "New Power Up!",
+            "message": "Looks like you're running low on cards. Use this to add 7 random cards to the deck.",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxDelay": 0.25,
+            "lightboxTarget": "powerup.powerup_plus7cards",
+            "cursorAlignment": "right",
+            "stepAdvance": "control-interaction"
+        },
+        {
+            "id": "tutorial-powerup-free-dessert",
+            "trigger": {
+                "type": "onMenuOpened",
+                "menuId": "Gameplay.EndGame"
+            },
+            "requirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "levelId",
+                        "levelId": "Tutorial_PowerupFreeDessert",
+                        "operator": "isNext"
+                    }
+                }
+            ],
+            "title": "New Power Up!",
+            "message": "I call this one <color=4668FF>Free Dessert</color>. I'll let you order any type of hand you want from the menu and score it immediately.",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "powerup.powerup_freedessert",
+            "cursorAlignment": "left",
+            "stepAdvance": "control-interaction"
+        },
+        {
+            "id": "tutorial-powerup-free-dessert2",
+            "trigger": {
+                "type": "onMenuOpened",
+                "menuId": "Gameplay.FreeDessert.SelectHand"
+            },
+            "requirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "levelId",
+                        "levelId": "Tutorial_PowerupFreeDessert",
+                        "operator": "isNext"
+                    }
+                }
+            ],
+            "title": "Select Hand",
+            "message": "Now just select the hand you need, click the button to play it.",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "PuzzleState.FreeDessert.Hand.Flush",
+            "cursorAlignment": "right",
+            "stepAdvance": "control-interaction"
+        },
+        {
+            "id": "tutorial-powerup-clean-down",
+            "trigger": {
+                "type": "onMenuOpened",
+                "menuId": "Gameplay.EndGame"
+            },
+            "requirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "levelId",
+                        "levelId": "Tutorial_PowerupCleanDown",
+                        "operator": "isNext"
+                    }
+                }
+            ],
+            "title": "New Power Up!",
+            "message": "<color=4668FF>Clean Down</color> is super useful. If you run out of room it'll wash the last 5 hands away,\nwithout losing any progress.",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "powerup.powerup_cleandown",
+            "cursorAlignment": "left",
+            "stepAdvance": "control-interaction"
+        },
+        {
+            "id": "store-01",
+            "trigger": {
+                "type": "onStateEnter",
+                "state": "diner"
+            },
+            "requirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "levelId",
+                        "levelId": "Tutorial_PowerupExtraServings",
+                        "operator": "complete"
+                    }
+                }
+            ],
+            "title": "Shop",
+            "message": "Check the shop for coins, energy, boosters and power ups!",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "DinerState.DinerHUDView.StoreButton",
+            "cursorAlignment": "top",
+            "stepAdvance": "control-interaction"
+        },
+        {
+            "id": "daily-mystery-box-01",
+            "trigger": {
+                "type": "onDialogue",
+                "dialogueId": "Chapter1-OpenPrize"
+            },
+            "requirements": [],
+            "title": "Daily Mystery Box",
+            "message": "Go ahead Vi, play the game. I want to see what you get!",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "DinerState.DinerHUDView.MysteryBox",
+            "cursorAlignment": "left",
+            "stepAdvance": "control-interaction",
+            "triggerSave": true
+        },
+        {
+            "id": "daily-mystery-box-01",
+            "trigger": {
+                "type": "onStateEnter",
+                "state": "diner"
+            },
+            "requirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter1-OpenPrize",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "title": "Daily Mystery Box",
+            "message": "Go ahed Vi, play the game. I want to see what you get!",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "DinerState.DinerHUDView.MysteryBox",
+            "cursorAlignment": "left",
+            "stepAdvance": "control-interaction",
+            "triggerSave": true
+        },
+        {
+            "id": "build-mode",
+            "trigger": {
+                "type": "onStateEnter",
+                "state": "diner"
+            },
+            "requirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "taskComplete",
+                        "taskId": "ch1-try-coffee-maker"
+                    }
+                }
+            ],
+            "title": "Build Mode",
+            "message": "You can swap the <color=f70049>Decorations</color> in the diner any time by clicking this button.\n\nYou can also buy new items to brighten the place up!",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "DinerState.DinerHUDView.DecorationMode",
+            "cursorAlignment": "right",
+            "stepAdvance": "control-interaction",
+            "triggerSave": true
+        },
+        {
+            "id": "quickplay-01",
+            "trigger": {
+                "type": "onDialogue",
+                "dialogueId": "Chapter1-SoloPlay"
+            },
+            "requirements": [],
+            "title": "Quick Play",
+            "message": "This will let you play a Quick Play game. It's a great way to practice, earn coins and <i>complete Challenges</i>.",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Tutorial/spriteFrame",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "DinerState.DinerHUDView.QuickPlayButton",
+            "cursorAlignment": "left",
+            "triggerSave": true,
+            "stepAdvance": "control-interaction",
+            "hasFollowup": true
+        },
+        {
+            "id": "quickplay-01-play",
+            "trigger": {
+                "type": "onDialogue",
+                "dialogueId": "Chapter1-SoloPlay"
+            },
+            "requirements": [],
+            "title": "Quick Play",
+            "lightboxShape": "curved-rectangle",
+            "lightboxTarget": "DinerState.DinerHUDView.PreGameViewPlayWidget",
+            "cursorAlignment": "left",
+            "triggerSave": true,
+            "stepAdvance": "control-interaction"
+        },
+        {
+            "id": "quickplay-02",
+            "trigger": {
+                "type": "onGameStart",
+                "puzzle": "freeplay"
+            },
+            "title": "Quick Play",
+            "message": "Okay... your first Quick Play game. Try to set a high score!",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Joey-Tutorial/spriteFrame",
+            "stepAdvance": "ok"
+        },
+        {
+            "id": "chapter3-moredecorations",
+            "trigger": {
+                "type": "onStateEnter",
+                "state": "diner"
+            },
+            "requirements": [
+                {
+                    "requirementType": "dialogue",
+                    "dialogueId": "Chapter3-TimeToSettleIn",
+                    "operator": "hasSeen"
+                }
+            ],
+            "title": "More Decorations!",
+            "message": "There are now <i>more decorations available</i> for diner customization.\n\nOpen the Decoration Menu to see them.",
+            "stepAdvance": "ok"
+        },
+        {
+            "id": "burning-food-01",
+            "trigger": {
+                "type": "onGameStart",
+                "puzzle": "Tutorial_BurningFood"
+            },
+            "title": "Burning Food",
+            "message": "I've got some sandwiches on the grill. Can you take them off the heat before they burn?",
+            "characterTutorial": true,
+            "characterSpritePath": "tutorial/Chef-Tutorial/spriteFrame",
+            "stepAdvance": "ok"
+        },
+        {
+            "id": "burning-food-02",
+            "trigger": {
+                "type": "onGameStart",
+                "puzzle": "Tutorial_BurningFood"
+            },
+            "title": "Burning Food",
+            "message": "Cover food <img src='burning-food'/> to remove it from the board. Try to remove them before the counter reaches 0."
+        },
+        {
+            "id": "burning-food-03",
+            "trigger": {
+                "type": "onHandScoreTallied",
+                "puzzle": "Tutorial_BurningFood",
+                "hand": 3
+            },
+            "title": "Burning Food",
+            "message": "When food burns, it blocks nearby tiles and reduces your score."
+        }
+    ]
+}

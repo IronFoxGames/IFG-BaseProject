@@ -1,0 +1,204 @@
+// gradient.effect — padding-safe UBO layout (Creator 3.x)
+
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: sprite-vs:vert
+      frag: sprite-fs:frag
+      depthStencilState:
+        depthTest: false
+        depthWrite: false
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      rasterizerState:
+        cullMode: none
+      properties:
+        # ---- Colors (8 stops max) ----
+        stop0: { value: [1.0, 1.0, 1.0, 1.0], editor: { type: color } }
+        stop1: { value: [0.0, 0.0, 0.0, 1.0], editor: { type: color } }
+        stop2: { value: [1.0, 1.0, 1.0, 1.0], editor: { type: color } }
+        stop3: { value: [1.0, 1.0, 1.0, 1.0], editor: { type: color } }
+        stop4: { value: [1.0, 1.0, 1.0, 1.0], editor: { type: color } }
+        stop5: { value: [1.0, 1.0, 1.0, 1.0], editor: { type: color } }
+        stop6: { value: [1.0, 1.0, 1.0, 1.0], editor: { type: color } }
+        stop7: { value: [1.0, 1.0, 1.0, 1.0], editor: { type: color } }
+
+        # stop positions packed in two vec4s (0..1..2..3) and (4..5..6..7)
+        stopPos0123: { value: [0.0, 1.0, 0.0, 0.0] }   # defaults for 2 stops at 0 and 1
+        stopPos4567: { value: [1.0, 1.0, 1.0, 1.0] }
+
+        # shape/angle/zoom/offset packed together
+        # shape: 0=Linear, 1=Radial, 2=Diamond
+        mapParams:    { value: [0.0, 90.0, 1.0, 0.0] }
+
+        # center.xy and aspect.xy packed together
+        centerAspect: { value: [0.5, 0.5, 1.0, 1.0] }
+
+        # misc.x = stopCount (1..8), misc.y = blendMode (0=Multiply,1=Add,2=Override)
+        misc:         { value: [2.0, 0.0, 0.0, 0.0] }
+}%
+
+CCProgram sprite-vs %{
+  precision highp float;
+
+  #include <builtin/uniforms/cc-global>
+  #if USE_LOCAL
+    #include <builtin/uniforms/cc-local>
+  #endif
+
+  in vec3 a_position;
+  in vec2 a_texCoord;
+  in vec4 a_color;
+
+  out vec2 uv0;
+  out vec4 v_color;
+
+  vec4 vert () {
+    vec4 pos = vec4(a_position, 1.0);
+    #if USE_LOCAL
+      pos = cc_matWorld * pos;
+    #endif
+    pos = cc_matViewProj * pos;
+    uv0 = a_texCoord;
+    v_color = a_color;
+    return pos;
+  }
+}%
+
+CCProgram sprite-fs %{
+  precision highp float;
+
+  #include <builtin/internal/embedded-alpha>
+  #include <builtin/internal/alpha-test>
+
+  in vec2 uv0;
+  in vec4 v_color;
+
+  uniform Constant {
+    vec4 stop0; vec4 stop1; vec4 stop2; vec4 stop3;
+    vec4 stop4; vec4 stop5; vec4 stop6; vec4 stop7;
+
+    vec4 stopPos0123;   // x=p0, y=p1, z=p2, w=p3
+    vec4 stopPos4567;   // x=p4, y=p5, z=p6, w=p7
+
+    vec4 mapParams;     // x=shape, y=angleDeg, z=zoom, w=offset
+    vec4 centerAspect;  // x=center.x, y=center.y, z=aspect.x, w=aspect.y
+    vec4 misc;          // x=stopCount, y=blendMode, z,w unused
+  };
+
+  #if USE_TEXTURE
+    layout(set = 2, binding = 11) uniform sampler2D cc_spriteTexture;
+  #endif
+
+  // helpers
+  vec4  _colAt(int i){
+    if(i==0) return stop0; if(i==1) return stop1; if(i==2) return stop2; if(i==3) return stop3;
+    if(i==4) return stop4; if(i==5) return stop5; if(i==6) return stop6; return stop7;
+  }
+  float _posAt(int i){
+    if(i<4){
+      if(i==0) return stopPos0123.x;
+      if(i==1) return stopPos0123.y;
+      if(i==2) return stopPos0123.z;
+      return stopPos0123.w;
+    } else {
+      if(i==4) return stopPos4567.x;
+      if(i==5) return stopPos4567.y;
+      if(i==6) return stopPos4567.z;
+      return stopPos4567.w;
+    }
+  }
+
+vec4 _sampleGradient(float t){
+    int n = int(clamp(floor(misc.x + 0.5), 1.0, 8.0));
+    float tt = clamp(t, 0.0, 1.0);
+
+    float p0 = _posAt(0);
+    float pn = _posAt(n - 1);
+    if (tt <= p0) return _colAt(0);
+    if (tt >= pn) return _colAt(n - 1);
+
+    int i0 = 0;
+    for (int i = 1; i < 8; ++i) {
+        if (i >= n) break;
+        if (tt >= _posAt(i)) i0 = i;
+    }
+    int i1 = i0 + 1;
+    if (i1 > (n - 1)) i1 = (n - 1);
+
+    float a = _posAt(i0);
+    float b = _posAt(i1);
+    float f = clamp((tt - a) / max(1e-5, b - a), 0.0, 1.0);
+
+    return mix(_colAt(i0), _colAt(i1), f);
+}
+
+
+  float _mapT(){
+    float shape = mapParams.x;
+    float angle = mapParams.y;
+    float zoom  = max(mapParams.z, 1e-4);
+    float offset= mapParams.w;
+
+    vec2 center = centerAspect.xy;
+    vec2 aspect = centerAspect.zw;
+
+    vec2 p = uv0 - center;
+    float tBase = 0.0;
+
+    if (shape < 0.5) {
+      // Linear by angle (deg). 0° = left→right, 90° = bottom→top
+      float rad = radians(angle);
+      vec2 dir = vec2(cos(rad), sin(rad));
+      tBase = dot(p, dir) + 0.5;                 // center around 0.5
+    } else if (shape < 1.5) {
+      // Radial (Euclidean), scaled by aspect; ~1.0 at edge when aspect==1
+      vec2 q = p * aspect;
+      tBase = length(q) * 2.0;                   // 0 at center → 1 at edge
+    } else {
+      // Diamond (Manhattan/L1), scaled by aspect
+      vec2 q = p * aspect;
+      tBase = (abs(q.x) + abs(q.y)) * 2.0;       // 0 at center → 1 at edge
+    }
+
+    // Apply offset/zoom, clamp to [0,1]
+    float t = (tBase - offset) / zoom;
+    return clamp(t, 0.0, 1.0);
+  }
+
+  vec4 frag () {
+    // Base = texture * vertex/node color (Sprite.color)
+    vec4 base = vec4(1.0);
+    #if USE_TEXTURE
+      base *= CCSampleWithAlphaSeparated(cc_spriteTexture, uv0);
+    #endif
+    base *= v_color;
+
+    // Sample gradient
+    float t = _mapT();
+    vec4 grad = _sampleGradient(t);
+
+    // misc.y = blendMode (0=Multiply, 1=Add, 2=Override)
+    if (misc.y < 0.5) {
+      // Multiply
+      base.rgb *= grad.rgb;
+      base.a   *= grad.a;
+    } else if (misc.y < 1.5) {
+      // Add (use grad alpha as intensity)
+      base.rgb = clamp(base.rgb + grad.rgb * grad.a, 0.0, 1.0);
+      base.a   = clamp(base.a   + grad.a, 0.0, 1.0);
+    } else {
+      // Override: replace RGB with gradient, keep sprite masking via alpha
+      base.rgb = grad.rgb;
+      base.a   = base.a * grad.a;
+    }
+
+    ALPHA_TEST(base);
+    return base;
+  }
+}%
+

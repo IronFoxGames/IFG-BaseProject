@@ -1,0 +1,1285 @@
+{
+	"name": "Tutorial_HandsFullHouse",
+	"description": "Tutorial for Full House",
+	"handSize": 7,
+	"hasBot": false,
+	"placeAnchor": false,
+	"objectives": [
+		{
+			"objectiveDataList": [
+				{
+					"objectiveType": "Score",
+					"score": 12500
+				}
+			],
+			"objectiveCategory": "Primary"
+		},
+		{
+			"objectiveDataList": [
+				{
+					"objectiveType": "HandPlayed",
+					"hand": "FullHouse",
+					"count": 2
+				}
+			],
+			"objectiveCategory": "Primary"
+		}
+	],
+	"deckType": "Custom",
+	"customDeck": [
+		{
+			"type": "regular",
+			"rank": 1,
+			"suit": 2
+		},
+		{
+			"type": "regular",
+			"rank": 1,
+			"suit": 4
+		},
+		{
+			"type": "regular",
+			"rank": 11,
+			"suit": 1
+		},
+		{
+			"type": "regular",
+			"rank": 11,
+			"suit": 3
+		},
+		{
+			"type": "regular",
+			"rank": 6,
+			"suit": 3
+		},
+		{
+			"type": "regular",
+			"rank": 6,
+			"suit": 1
+		},
+		{
+			"type": "regular",
+			"rank": 6,
+			"suit": 2
+		},
+		{
+			"type": "joker",
+			"rank": 0,
+			"suit": 0
+		},
+		{
+			"type": "regular",
+			"rank": 9,
+			"suit": 4
+		},
+		{
+			"type": "regular",
+			"rank": 9,
+			"suit": 1
+		},
+		{
+			"type": "regular",
+			"rank": 9,
+			"suit": 2
+		},
+		{
+			"type": "regular",
+			"rank": 1,
+			"suit": 1
+		},
+		{
+			"type": "regular",
+			"rank": 1,
+			"suit": 3
+		},
+		{
+			"type": "joker",
+			"rank": 0,
+			"suit": 0
+		},
+		{
+			"type": "regular",
+			"rank": 12,
+			"suit": 3
+		},
+		{
+			"type": "regular",
+			"rank": 12,
+			"suit": 1
+		},
+		{
+			"type": "regular",
+			"rank": 12,
+			"suit": 4
+		},
+		{
+			"type": "regular",
+			"rank": 7,
+			"suit": 1
+		},
+		{
+			"type": "regular",
+			"rank": 7,
+			"suit": 3
+		},
+		{
+			"type": "regular",
+			"rank": 7,
+			"suit": 2
+		},
+		{
+			"type": "regular",
+			"rank": 2,
+			"suit": 2
+		},
+		{
+			"type": "regular",
+			"rank": 2,
+			"suit": 1
+		},
+		{
+			"type": "regular",
+			"rank": 2,
+			"suit": 3
+		},
+		{
+			"type": "regular",
+			"rank": 2,
+			"suit": 4
+		},
+		{
+			"type": "regular",
+			"rank": 3,
+			"suit": 4
+		},
+		{
+			"type": "regular",
+			"rank": 3,
+			"suit": 3
+		},
+		{
+			"type": "regular",
+			"rank": 3,
+			"suit": 2
+		},
+		{
+			"type": "regular",
+			"rank": 3,
+			"suit": 1
+		},
+		{
+			"type": "regular",
+			"rank": 10,
+			"suit": 2
+		},
+		{
+			"type": "regular",
+			"rank": 10,
+			"suit": 1
+		},
+		{
+			"type": "regular",
+			"rank": 10,
+			"suit": 3
+		},
+		{
+			"type": "regular",
+			"rank": 10,
+			"suit": 4
+		},
+		{
+			"type": "regular",
+			"rank": 13,
+			"suit": 2
+		},
+		{
+			"type": "regular",
+			"rank": 13,
+			"suit": 4
+		},
+		{
+			"type": "regular",
+			"rank": 13,
+			"suit": 3
+		},
+		{
+			"type": "regular",
+			"rank": 13,
+			"suit": 1
+		},
+		{
+			"type": "regular",
+			"rank": 8,
+			"suit": 3
+		},
+		{
+			"type": "regular",
+			"rank": 8,
+			"suit": 2
+		},
+		{
+			"type": "regular",
+			"rank": 8,
+			"suit": 1
+		},
+		{
+			"type": "regular",
+			"rank": 8,
+			"suit": 4
+		},
+		{
+			"type": "regular",
+			"rank": 6,
+			"suit": 4
+		},
+		{
+			"type": "regular",
+			"rank": 5,
+			"suit": 2
+		},
+		{
+			"type": "regular",
+			"rank": 5,
+			"suit": 1
+		},
+		{
+			"type": "regular",
+			"rank": 4,
+			"suit": 1
+		},
+		{
+			"type": "regular",
+			"rank": 4,
+			"suit": 2
+		},
+		{
+			"type": "regular",
+			"rank": 11,
+			"suit": 2
+		},
+		{
+			"type": "regular",
+			"rank": 12,
+			"suit": 2
+		},
+		{
+			"type": "regular",
+			"rank": 4,
+			"suit": 3
+		},
+		{
+			"type": "regular",
+			"rank": 5,
+			"suit": 3
+		},
+		{
+			"type": "regular",
+			"rank": 9,
+			"suit": 3
+		},
+		{
+			"type": "regular",
+			"rank": 4,
+			"suit": 4
+		},
+		{
+			"type": "regular",
+			"rank": 5,
+			"suit": 4
+		},
+		{
+			"type": "regular",
+			"rank": 7,
+			"suit": 4
+		},
+		{
+			"type": "regular",
+			"rank": 11,
+			"suit": 4
+		}
+	],
+	"startingBoard": [
+		{
+			"boardIndex": 84,
+			"card": {
+				"type": "regular",
+				"rank": 11,
+				"suit": 2
+			}
+		},
+		{
+			"boardIndex": 83,
+			"card": {
+				"type": "regular",
+				"rank": 1,
+				"suit": 1
+			}
+		}
+	],
+	"boardModifierPlacements": [
+		{
+			"boardIndex": 156,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 162,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 149,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 6,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 19,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 78,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 79,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 89,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 90,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 165,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 166,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 167,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 168,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 155,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 154,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 141,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 152,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 142,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 153,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 128,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 129,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 116,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 115,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 102,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 103,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 76,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 77,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 63,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 50,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 64,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 151,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 164,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 163,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 150,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 161,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 148,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 146,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 158,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 144,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 131,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 157,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 160,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 159,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 147,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 145,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 143,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 130,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 117,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 105,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 118,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 92,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 104,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 91,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 66,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 65,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 53,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 52,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 27,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 39,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 40,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 26,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 51,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 38,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 37,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 23,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 24,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 25,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 21,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 20,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 22,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 8,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 7,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 10,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 9,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 11,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 12,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 1,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 14,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 16,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 18,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 13,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 15,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 17,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 4,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 0,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 3,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 5,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 2,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 140,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 132,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 28,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 36,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 138,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 136,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 134,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 106,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 80,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 67,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 119,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 93,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 133,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 135,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 137,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 139,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 54,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 41,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 114,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 88,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 75,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 62,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 49,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 127,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 101,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 29,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 32,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 31,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 35,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 30,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 33,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		},
+		{
+			"boardIndex": 34,
+			"modifier": {
+				"type": "Null",
+				"expires": false,
+				"expiresTurnCount": 0
+			}
+		}
+	],
+	"gridSpecialsEnabled": false,
+	"gridSpecialsHidden": false,
+	"gridSpecialLayout": "Default",
+	"dragReminderTimeout": 10
+}

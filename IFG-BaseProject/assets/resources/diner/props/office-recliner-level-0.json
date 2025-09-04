@@ -1,0 +1,16 @@
+{
+    "id": "decoration.office-recliner-level-0",
+    "tags": ["recliner", "floor", "office-recliner"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/OfficeReclinerLevel0",
+    "thumbnailFilePath": "diner/thumbnails/office-recliner-lvl0-thumbnail/spriteFrame"
+}

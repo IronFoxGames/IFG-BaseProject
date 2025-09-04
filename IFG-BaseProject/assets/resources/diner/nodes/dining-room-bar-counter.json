@@ -1,0 +1,14 @@
+{
+    "id": "dining-room-bar-counter",
+    "isStatic": true,
+    "defaultPropId": "decoration.bar-counter-level-1",
+    "tags": ["bar-counter", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch1-fixing-up3"
+            }
+        }
+    ]
+}

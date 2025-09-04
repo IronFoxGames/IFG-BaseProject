@@ -1,0 +1,23 @@
+{
+    "id": "task_ftue_complete_stage_one",
+    "name": "Complete Stage 1",
+    "description": "Let's complete the next stage!",
+    "unlockRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "turnInRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ]
+}

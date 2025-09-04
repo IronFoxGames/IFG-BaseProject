@@ -1,0 +1,167 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Boss"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Viola? I didn't expect to hear from you. What’s up?",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I've been thinking about what you said. I know you want me back at the office, but I really need more time here.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Boss"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Viola, you're our most forward facing VP, our clients love you and we can't let them down.",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Cameron is my number 2, she knows all those clients as well as I do. She's been doing a great job covering for me.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Boss"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Look Viola, we rely on you. If you're not back soon we might need to reassess your future with the company.",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Are you serious, Seth?! If you kick me out, do you really think those clients who love me will keep working with you.",
+          "characterSprites": [
+            "Annoyed"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Boss"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Alright, alright, let’s calm down. Before you do anything rash, take some more time off. I just need you back here soon.",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "You know what... it's too late for that. You've taken advantage for too long. Your profits have been built off my backbreaking work!",
+          "characterSprites": [
+            "Annoyed"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "I've been burnt out and overworked. I'm leaving, and you can pay out my bonus and remaining vacation time too.",
+          "characterSprites": [
+            "Annoyed"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "And if you don't, your top clients will hear about the way you've treated me...",
+          "characterSprites": [
+            "Annoyed"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Sfx"
+      ],
+      "dialogueType": "Exposition",
+      "lines": [
+        {
+          "line": "*click*",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 3 - Dialogue",
+  "dialogueId": "Chapter3-IQuit",
+  "repeatable": false,
+  "dialogueFormat": "Phone",
+  "requirements": []
+}

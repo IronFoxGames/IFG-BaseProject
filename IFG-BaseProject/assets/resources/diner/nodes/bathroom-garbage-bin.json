@@ -1,0 +1,14 @@
+{
+    "id": "bathroom-garbage-bin",
+    "isStatic": true,
+    "defaultPropId": "decoration.bathroom-garbage-bin-level-0",
+    "tags": ["garbage-bin", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch3-replace-bathroom-garbage"
+            }
+        }
+    ]
+}

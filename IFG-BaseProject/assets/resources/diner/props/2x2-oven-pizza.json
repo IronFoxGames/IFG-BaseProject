@@ -1,0 +1,16 @@
+{
+    "id": "decoration.2x2-oven-pizza",
+    "tags": ["2x2", "floor"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/2x2OvenPizza",
+    "thumbnailFilePath": "diner/thumbnails/2x2-oven-pizza-thumbnail/spriteFrame"
+}

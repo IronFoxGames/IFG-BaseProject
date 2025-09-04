@@ -1,0 +1,16 @@
+{
+    "id": "decoration.booth-row-level-2",
+    "tags": ["booth-row", "floor"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "dialogue",
+                "dialogueId": "Chapter3-TimeToSettleIn",
+                "operator": "hasSeen"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/BoothsLevel2",
+    "thumbnailFilePath": "diner/thumbnails/booth-lvl2-thumbnail/spriteFrame"
+}

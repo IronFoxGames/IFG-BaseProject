@@ -1,0 +1,16 @@
+{
+    "id": "decoration.office-sofa-level-0",
+    "tags": ["sofa", "floor", "office-sofa"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/OfficeSofaLevel0",
+    "thumbnailFilePath": "diner/thumbnails/office-sofa-lvl0-thumbnail/spriteFrame"
+}

@@ -1,0 +1,89 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Hey Riley, think you could help me move Joey’s old office stuff to the storage shed out back.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Riley"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I would, but I’ve got a early fishing trip with the guys tomorrow. We're gonna crack some beers tonight and get\nin our road trip mood.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Uh sure... No worries. I’ll ask Chef.",
+          "characterSprites": [
+            "Sad"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Riley"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Cool cool.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Hope you... uh... catch something big?",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 5 - Dialogue",
+  "dialogueId": "Chapter5-AskingForHelp",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

@@ -1,0 +1,167 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Hi Seth. Sorry I missed your call earlier. It’s been busy here and -",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Boss"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "You think it’s been busy there? We've been swamped ever since you left. Everyone else has to pick up your slack.",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "When do you expect to be back?",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Oh, I don’t know. I can’t leave Small Pines now. We're just getting the diner turned around and -",
+          "characterSprites": [
+            "Thinking"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Boss"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "It’s been a month! It’s just a small town diner, how much can you really turn it around?",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I haven't taken time off in 5 years, I've still got so much vacation time accrued. What’s the problem?",
+          "characterSprites": [
+            "Annoyed"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Boss"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "While you're pouring coffee for farmers, we have real clients looking to pay us millions! We're talking nationwide marketing campaigns.",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I don't want to leave the company in a bind, but I left pretty clear instructions for the team.",
+          "characterSprites": [
+            "Annoyed"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Boss"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Listen, I’ve been generous and let you disappear to nowheres-ville for a month, it’s time to get back to the real world. You need to be back here next week!",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "*click*",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Hello?! Next week?",
+          "characterSprites": [
+            "Surprised"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 3 - Dialogue",
+  "dialogueId": "Chapter3-Ultimatum",
+  "repeatable": false,
+  "dialogueFormat": "Phone",
+  "requirements": []
+}

@@ -1,0 +1,144 @@
+#editor-container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid var(--color-normal-border);
+    background-color: #ffffff;
+    color: var(--color-normal-contrast-strong);
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid var(--color-normal-border);
+    background-color: #ffffff;
+    color: var(--color-normal-contrast-strong);
+    box-sizing: border-box;
+}
+
+.header-text {
+    justify-content: center;
+    display: flex;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+#content-area {
+    display: flex; /* Side-by-side layout for panels */
+    flex: 1; /* Take up remaining space */
+    height: auto; /* Allow it to shrink as needed */
+}
+
+#left-panel {
+    flex: 1; /* Take equal width as the right panel */
+    padding: 10px;
+    box-sizing: border-box;
+    border-right: 1px solid var(--color-normal-border);
+    display: flex;
+    flex-direction: column;
+}
+
+#right-panel {
+    flex: 1; /* Take equal width as the left panel */
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.scrollable-list {
+    flex: 1; /* Ensure the scrollable list stretches to fill the panel */
+    overflow-y: auto;
+    border: 1px solid var(--color-normal-border);
+    background-color: var(--color-normal-contrast-weakest);
+    padding: 10px;
+}
+
+.scrollable-list div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.scrollable-list div input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.list-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+
+.file-entry {
+    font-size: 14px;
+    color: #232323;
+    align-items: center;
+    display: flex;
+}
+
+#bottom-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 10px;
+    border-top: 1px solid var(--color-normal-border);
+    background-color: var(--color-normal-contrast-weakest);
+    box-sizing: border-box;
+    flex-shrink: 0; /* Ensure it does not shrink */
+}
+
+.dropdown-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #007ACC;
+    padding: 0;
+}
+
+.list-item-left {
+    display: flex;
+    margin-right: auto;
+    gap: 5px;
+}
+
+.sub-file-list {
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 5px 0;
+    display: none;
+}
+
+.sub-file-list li {
+    font-size: 12px;
+    color: #232323;
+    margin: 3px 0;
+    padding: 3px;
+    border: 1px dashed #ccc;
+    border-radius: 3px;
+}

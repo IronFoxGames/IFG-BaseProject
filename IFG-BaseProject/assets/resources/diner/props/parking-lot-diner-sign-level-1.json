@@ -1,0 +1,7 @@
+{
+    "id": "decoration.parking-lot-diner-sign-level-1",
+    "tags": ["parking-lot-diner-sign"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/ParkingLotDinerSignLevel1",
+    "thumbnailFilePath": "diner/thumbnails/parking-lot-diner-sign-lvl1-thumbnail/spriteFrame"
+}

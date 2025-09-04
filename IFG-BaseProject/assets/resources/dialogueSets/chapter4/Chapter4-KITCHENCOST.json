@@ -1,0 +1,80 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Joey, I thought you said you couldn't afford anything. There's enough here for a whole new kitchen.",
+          "characterSprites": [
+            "Surprised"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "That's just a little nest egg for the future, and to take care of you and Maggie.",
+          "characterSprites": [
+            "Annoyed"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "You know me and mom don't need anything. Plus, there's more than enough here for you to retire and to fix up the Diner.",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "I'm going to call the repair guy right away. We can have the whole kitchen fixed by the end of week.",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I'm glad you decided to stick around Vi. I never thought the Diner would outlast me, but maybe with you around it will.",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 4 - Dialogue",
+  "dialogueId": "Chapter4-KitchenCost",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

@@ -1,0 +1,142 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Chef"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "You’re thinking yourself into a hole again.",
+          "characterSprites": [
+            "Empathetic"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I just… It was different when I was helping. Now it’s all on me.",
+          "characterSprites": [
+            "Sad"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Chef"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I don't hate him, I just... never mind, you said you didn't want my advice. I am shutting up.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "A letter?",
+          "characterSprites": [
+            "Surprised"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Fadein_Music"
+      ],
+      "dialogueType": "Music",
+      "lines": [
+        {
+          "line": "1",
+          "characterSprites": [
+            ""
+          ],
+          "unskippable": true
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Play_Sfx"
+      ],
+      "dialogueType": "Sfx",
+      "lines": [
+        {
+          "line": "SFX_New_Chapter",
+          "characterSprites": [
+            ""
+          ],
+          "unskippable": true
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Chapterstart",
+      "lines": [
+        {
+          "line": "Chapter 5:Inheritance",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": true
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Fadein_Music"
+      ],
+      "dialogueType": "Music",
+      "lines": [
+        {
+          "line": "1",
+          "characterSprites": [
+            ""
+          ],
+          "unskippable": true
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 5 - Dialogue",
+  "dialogueId": "Chapter5-NewBeginnings",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": [
+    {
+      "requirementType": "taskComplete",
+      "taskId": "ch4-complete-chapter-4"
+    }
+  ]
+}

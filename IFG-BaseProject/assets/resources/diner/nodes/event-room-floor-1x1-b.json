@@ -1,0 +1,7 @@
+{
+    "id": "event-room-floor-1x1-b",
+    "isStatic": true,
+    "defaultPropId": "decoration.event-room-floor-1x1-level-0B",
+    "tags": ["1x1-b", "floor"],
+    "requirements": []
+}

@@ -1,0 +1,14 @@
+{
+    "id": "dining-room-front-booths",
+    "isStatic": true,
+    "defaultPropId": "decoration.booth-row-level-1",
+    "tags": ["booth-row", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch2-fix-booths2"
+            }
+        }
+    ]
+}

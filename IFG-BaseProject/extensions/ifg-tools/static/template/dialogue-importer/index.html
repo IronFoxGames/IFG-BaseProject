@@ -1,0 +1,41 @@
+<div id="editor-container">
+    <!-- Central Header -->
+    <div id="main-header" class="header-container">
+        <div id="authStatus" class="file-entry">Not Authorized Yet.</div>
+        <div class="header-buttons">
+            <ui-button id="authButton" class="blue">Attempt Auth</ui-button>
+            <ui-button id="importDialogueButton" class="blue">Import Dialogue</ui-button>
+        </div>
+    </div>
+
+    <!-- Main Content Area (Left and Right Panels) -->
+    <div id="content-area">
+        <!-- Left Panel -->
+        <div id="left-panel">
+            <div id="left-header" class="header-container">
+                <div>
+                    <a id="leftPanelUrl" class="header-text" href="https://drive.google.com/drive/u/0/folders/1WNmfy4Z2QpvBeUx6eGYuekYwHY9PAVNi" target="_blank">Google Drive Files</a>
+                </div>
+            </div>
+            <div id="left-scrollable-list" class="scrollable-list">
+                
+            </div>
+        </div>
+
+        <!-- Right Panel -->
+        <div id="right-panel">
+            <div id="right-header" class="header-container">
+                <div id="rightHeaderText" class="file-entry">Assets In Project: db://assets/resources/dialogueSets</div>
+            </div>
+            <div id="right-scrollable-list" class="scrollable-list">
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Buttons -->
+    <div id="bottom-buttons">
+        <ui-button id="syncSelectedButton" class="blue">Sync Selected</ui-button>
+        <ui-button id="syncAllButton" class="blue">Sync All</ui-button>
+    </div>
+</div>

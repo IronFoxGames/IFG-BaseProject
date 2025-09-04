@@ -1,0 +1,7 @@
+{
+    "id": "dining-room-entrance-rug",
+    "isStatic": true,
+    "defaultPropId": "decoration.entrance-rug-level-1",
+    "tags": ["entrance-rug", "floor"],
+    "requirements": []
+}

@@ -1,0 +1,10 @@
+{
+    "id": "decoration.event-room-customer-bar-level-0",
+    "tags": [
+        "customer-bar",
+        "floor"
+    ],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/EventRoomCustomerBarLevel0",
+    "thumbnailFilePath": "diner/thumbnails/Event-Room-customer-bar-lvl0-thumbnail/spriteFrame"
+}

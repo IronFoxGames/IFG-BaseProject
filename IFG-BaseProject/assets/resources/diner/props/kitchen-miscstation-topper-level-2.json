@@ -1,0 +1,7 @@
+{
+    "id": "decoration.kitchen-miscstation-topper-level-2",
+    "tags": ["topper", "floor"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/KitchenMiscStationTopperLevel2",
+    "thumbnailFilePath": "diner/thumbnails/kitchen-miscstation-topper-lvl2-thumbnail/spriteFrame"
+}

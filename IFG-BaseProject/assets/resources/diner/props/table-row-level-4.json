@@ -1,0 +1,16 @@
+{
+    "id": "decoration.table-row-level-4",
+    "tags": ["table-row", "floor"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/TablesLevel4",
+    "thumbnailFilePath": "diner/thumbnails/table-lvl4-thumbnail/spriteFrame"
+}

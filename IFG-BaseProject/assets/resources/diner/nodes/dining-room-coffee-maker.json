@@ -1,0 +1,14 @@
+{
+    "id": "dining-room-coffee-maker",
+    "isStatic": true,
+    "defaultPropId": "decoration.coffee-maker-level-0",
+    "tags": ["coffee-maker", "counter-top"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch1-coffee-maker"
+            }
+        }
+    ]
+}

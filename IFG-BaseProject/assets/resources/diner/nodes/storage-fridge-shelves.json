@@ -1,0 +1,7 @@
+{
+    "id": "storage-fridge-shelves",
+    "isStatic": true,
+    "defaultPropId": "decoration.storage-fridge-shelves-level-0",
+    "tags": ["fridge-shelves", "floor"],
+    "requirements": []
+}

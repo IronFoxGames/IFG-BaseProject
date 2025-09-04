@@ -1,0 +1,7 @@
+{
+    "id": "decoration.cat-bed-level-1",
+    "tags": ["cat-bed", "floor", "cat-bed-fix1"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/CafeCatBedLevel1",
+    "thumbnailFilePath": "diner/thumbnails/cafe-catbed-lvl1-thumbnail/spriteFrame"
+}

@@ -1,0 +1,13 @@
+{
+    "id": "dining-room-2x2",
+    "isStatic": false,
+    "defaultPropId": "",
+    "tags": ["2x2", "floor"],
+    "requirements": [
+        {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter3-TimeToSettleIn",
+            "operator": "hasSeen"
+        }
+    ]
+}

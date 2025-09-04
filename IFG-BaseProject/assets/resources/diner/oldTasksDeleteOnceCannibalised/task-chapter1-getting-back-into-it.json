@@ -1,0 +1,23 @@
+{
+    "id": "task_chapter1_getting_back_into_it",
+    "name": "Getting Back Into It",
+    "description": "Try to complete more of Joey's unfinished puzzles.",
+    "unlockRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 10,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "turnInRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 12,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ]
+}

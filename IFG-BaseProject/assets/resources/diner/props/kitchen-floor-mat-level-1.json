@@ -1,0 +1,7 @@
+{
+    "id": "decoration.kitchen-floor-mat-level-1",
+    "tags": ["mat", "floor"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/KitchenFloorMatLevel1",
+    "thumbnailFilePath": "diner/thumbnails/kitchen-floor-mat-lvl1-thumbnail/spriteFrame"
+}

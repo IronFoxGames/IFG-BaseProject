@@ -1,0 +1,49 @@
+{
+    "name": "MintSexyDove",
+    "description": "",
+    "handSize": 7,
+    "hasBot": false,
+    "placeAnchor": true,
+    "objectives": [
+        {
+            "objectiveDataList": [
+                {
+                    "objectiveType": "CardPlayedWithHand",
+                    "tipText": "Score the target number of points by playing the best hands possible.",
+                    "tipSprite": null,
+                    "rank": 1,
+                    "count": 2,
+                    "hand": "Flush",
+                    "suit": 0
+                }
+            ]
+        },
+        {
+            "objectiveDataList": [
+                {
+                    "objectiveType": "CardPlayedWithHand",
+                    "tipText": "",
+                    "tipSprite": null,
+                    "rank": 7,
+                    "count": 4,
+                    "hand": "ThreeOfAKind",
+                    "suit": 0
+                }
+            ]
+        }
+    ],
+    "deckType": "Default",
+    "customDeck": [],
+    "startingBoard": [
+        { "boardIndex": 156, "card": { "type": "regular", "rank": 7, "suit": 1 } },
+        { "boardIndex": 12, "card": { "type": "regular", "rank": 7, "suit": 2 } },
+        { "boardIndex": 0, "card": { "type": "regular", "rank": 1, "suit": 3 } },
+        { "boardIndex": 168, "card": { "type": "regular", "rank": 1, "suit": 4 } }
+    ],
+    "boardModifierPlacements": [],
+    "freeBooster": "None",
+    "freePowerup": "None",
+    "appliedBoosters": [],
+    "gridSpecialsEnabled": false,
+    "gridSpecialsHidden": false
+}

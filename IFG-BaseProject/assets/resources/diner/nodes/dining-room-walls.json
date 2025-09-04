@@ -1,0 +1,14 @@
+{
+    "id": "dining-room-walls",
+    "isStatic": true,
+    "defaultPropId": "decoration.cafe-walls-level-0",
+    "tags": ["cafe", "wall-pattern"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch1-fix-walls"
+            }
+        }
+    ]
+}

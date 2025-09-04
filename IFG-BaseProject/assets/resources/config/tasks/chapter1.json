@@ -1,0 +1,784 @@
+{
+    "id": "chapter-1",
+    "name": "Chapter 1",
+    "tasks": [
+        {
+            "id": "ch1-check-on-joey",
+            "name": "Check On Joey",
+            "iconId": "icon-check",
+            "description": "Check on Joey",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter1-Intro",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 1,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter1-ItsAMess"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "chapterStartTask": "chapter-1"
+        },
+        {
+            "id": "ch1-taking-orders",
+            "name": "Take Customer Orders",
+            "iconId": "icon-check",
+            "description": "Take Customer Orders",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter1-ItsAMess",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 1,
+            "completionCount": 3,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "none"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "none"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter1-PuzzleTime"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch1-clean-newspaper",
+            "name": "Clear Up Papers",
+            "iconId": "mess-diner-newspaper",
+            "description": "Clear Up Papers",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter1-PuzzleTime",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 1,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-diner-newspaper",
+                                "roomId": "dining-room",
+                                "spawnIds": ["dining-room-bar-counter-west"],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-diner-magazines",
+                                "roomId": "dining-room",
+                                "spawnIds": ["dining-room-bar-counter-east"],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-diner-mail",
+                                "roomId": "dining-room",
+                                "spawnIds": ["dining-room-table-2-south-east"],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter1-PuzzleTime2"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch1-beat-joeys-puzzles",
+            "name": "Beat Joey's Puzzles",
+            "iconId": "icon-check",
+            "description": "Beat Joey's Puzzles",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter1-PuzzleTime2",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter1-SodaMachine"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch1-soda-machine",
+            "name": "Fix The Soda Machine",
+            "iconId": "icon-fix",
+            "description": "Fix The Soda Machine",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter1-SodaMachine",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "dining-room",
+                                "nodeId": "dining-room-soda-machine",
+                                "propTags": ["soda-machine1"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter1-DailyDelivery"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch1-collect-mystery-prize",
+            "name": "Collect the Mystery Prize",
+            "iconId": "icon-check",
+            "description": "Collect the Mystery Prize",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter1-DailyDelivery",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 1,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter1-OpenPrize"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch1-drink-coffee",
+            "name": "Drink Some Coffee",
+            "iconId": "icon-coffee",
+            "description": "Drink Some Coffee",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter1-DrinkCoffee",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 2,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter1-CleaningUp"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch1-dirty-floors",
+            "name": "Clean The Floor",
+            "iconId": "icon-clean",
+            "description": "Clean The Floor",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter1-CleaningUp",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 1,
+            "completionCount": 2,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-diner-dirt",
+                                "roomId": "dining-room",
+                                "spawnIds": ["dining-room-floor-south-east1"],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter1-MissedASpot"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-diner-dirt",
+                                "roomId": "dining-room",
+                                "spawnIds": ["dining-room-floor-south-west1"],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter1-CounterCleaning"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch1-clean-up-counter",
+            "name": "Clean The Counter and Tables",
+            "iconId": "icon-clean",
+            "description": "Clean Up The Counter and Tables",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter1-CounterCleaning",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-diner-cake-eaten",
+                                "roomId": "dining-room",
+                                "spawnIds": [
+                                    "dining-room-bar-counter-middle",
+                                    "dining-room-table-2-south-west",
+                                    "dining-room-table-4-south-west",
+                                    "dining-room-table-7-south-east",
+                                    "dining-room-table-3-south-east",
+                                    "dining-room-table-1-south-west"
+                                ],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter1-DirtyWalls"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch1-fix-walls",
+            "name": "Brighten Up The Walls",
+            "iconId": "icon-clean",
+            "description": "Brighten Up The Walls",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter1-DirtyWalls",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 2,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "dining-room",
+                                "nodeId": "dining-room-walls",
+                                "propTags": ["diner-wall-fix-1"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter1-Coffee"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch1-check-funds",
+            "name": "Check The Petty Cash",
+            "iconId": "icon-todo-list",
+            "description": "Check The Petty Cash",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter1-Coffee",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 1,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter1-NewCoffeeMaker"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch1-coffee-maker",
+            "name": "Buy A New Coffee Maker",
+            "iconId": "icon-fix",
+            "description": "Buy A New Coffee Maker",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter1-NewCoffeeMaker",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 2,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "dining-room",
+                                "nodeId": "dining-room-coffee-maker",
+                                "propTags": ["coffee-maker1"]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch1-try-coffee-maker",
+            "name": "Try the New Coffee Maker",
+            "iconId": "icon-coffee",
+            "description": "Try The New Coffee Maker",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "taskComplete",
+                        "taskId": "ch1-coffee-maker"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter1-TryNewCoffeeMaker"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch1-pet-derek",
+            "name": "Pet Derek The Cat",
+            "iconId": "icon-derek",
+            "description": "Pet Derek The Cat",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "taskComplete",
+                        "taskId": "ch1-coffee-maker"
+                    }
+                }
+            ],
+            "starCost": 2,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-diner-derek-sleeping",
+                                "roomId": "dining-room",
+                                "spawnIds": ["dining-room-cat-bed"],
+                                "iconId": "icon-derek"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter1-PetDerek"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch1-fixing-up1",
+            "name": "Fix Up The Bar Stools",
+            "iconId": "icon-fix",
+            "description": "Fix Up The Bar Stools",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "taskComplete",
+                        "taskId": "ch1-pet-derek"
+                    }
+                },
+                {
+                    "requirementData": {
+                        "requirementType": "taskComplete",
+                        "taskId": "ch1-try-coffee-maker"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "dining-room",
+                                "nodeId": "dining-room-bar-stools",
+                                "propTags": ["placeprop-bar-stools"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter1-StoolsFixed"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch1-fixing-up2",
+            "name": "Fix Up The Bar Lights",
+            "iconId": "icon-fix",
+            "description": "Fix Up The Bar Lights",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "taskComplete",
+                        "taskId": "ch1-pet-derek"
+                    }
+                },
+                {
+                    "requirementData": {
+                        "requirementType": "taskComplete",
+                        "taskId": "ch1-try-coffee-maker"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "dining-room",
+                                "nodeId": "dining-room-bar-lights",
+                                "propTags": ["placeprop-bar-lights"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter1-LightsFixed"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch1-fixing-up3",
+            "name": "Fix Up The Bar Counter",
+            "iconId": "icon-fix",
+            "description": "Fix Up The Bar Counter",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "taskComplete",
+                        "taskId": "ch1-pet-derek"
+                    }
+                },
+                {
+                    "requirementData": {
+                        "requirementType": "taskComplete",
+                        "taskId": "ch1-try-coffee-maker"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "dining-room",
+                                "nodeId": "dining-room-bar-counter",
+                                "propTags": ["placeprop-bar-counter1"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter1-BrightenUp"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch1-decorate",
+            "name": "Place Some Plants",
+            "iconId": "icon-decorate",
+            "description": "Place Some Plants",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "taskComplete",
+                        "taskId": "ch1-fixing-up1"
+                    }
+                },
+                {
+                    "requirementData": {
+                        "requirementType": "taskComplete",
+                        "taskId": "ch1-fixing-up2"
+                    }
+                },
+                {
+                    "requirementData": {
+                        "requirementType": "taskComplete",
+                        "taskId": "ch1-fixing-up3"
+                    }
+                }
+            ],
+            "starCost": 1,
+            "completionCount": 3,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "dining-room",
+                                "nodeId": "dining-room-1x1-entrance",
+                                "propTags": ["decorate1"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter1-Decorate1"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "dining-room",
+                                "nodeId": "dining-room-1x1-event-door-bottom",
+                                "propTags": ["decorate1"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter1-Decorate2"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "dining-room",
+                                "nodeId": "dining-room-1x1-south",
+                                "propTags": ["decorate1"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter1-SoloPlay"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch1-challenge",
+            "name": "Challenge Mom's Puzzle",
+            "iconId": "icon-check",
+            "description": "Challenge Mom's Puzzle",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter1-Challenge",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter1-Victory"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch1-complete-chapter-1",
+            "name": "Complete Chapter 1",
+            "iconId": "icon-check",
+            "description": "Complete Chapter 1",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "taskComplete",
+                        "taskId": "ch1-challenge"
+                    }
+                }
+            ],
+            "starCost": 1,
+            "completionCount": 1,
+            "completionSequences": [],
+            "chapterEndTask": "chapter-1"
+        }
+    ]
+}

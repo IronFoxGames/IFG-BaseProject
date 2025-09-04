@@ -1,0 +1,12 @@
+{
+    "id": "office-recliner",
+    "isStatic": true,
+    "defaultPropId": "decoration.office-recliner-level-0",
+    "tags": ["recliner", "floor"],
+    "requirements": [
+        {
+            "requirementType": "taskComplete",
+            "taskId": "ch5-replace-recliner"
+        }
+    ]
+}

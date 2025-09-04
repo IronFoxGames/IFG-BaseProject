@@ -1,0 +1,61 @@
+{
+    "upsells": [
+        {
+            "itemId": "powerup_deuceswild",
+            "catalogItemIds": ["powerup_deuceswild"],
+            "upsellText": "You're out of {itemName} boosters. Do you want to buy one now?"
+        },
+        {
+            "itemId": "powerup_loosenyourbelt",
+            "catalogItemIds": ["powerup_loosenyourbelt"],
+            "upsellText": "You're out of {itemName} boosters. Do you want to buy one now?"
+        },
+        {
+            "itemId": "powerup_extraservings",
+            "catalogItemIds": ["powerup_extraservings"],
+            "upsellText": "You're out of {itemName} power-ups. Do you want to buy one now?"
+        },
+        {
+            "itemId": "powerup_cookingthebooks",
+            "catalogItemIds": ["powerup_cookingthebooks"],
+            "upsellText": "You're out of {itemName} power-ups. Do you want to buy one now?"
+        },
+        {
+            "itemId": "powerup_refire",
+            "catalogItemIds": ["powerup_refire"],
+            "upsellText": "You're out of {itemName} power-ups. Do you want to buy one now?"
+        },
+        {
+            "itemId": "powerup_plus7cards",
+            "catalogItemIds": [
+                "powerup_plus7cards_coins_1",
+                "powerup_plus7cards_coins_2",
+                "powerup_plus7cards_coins_3",
+                "powerup_plus7cards_coins_4",
+                "powerup_plus7cards_coins_5",
+                "powerup_plus7cards_premium"
+            ],
+            "upsellText": "You're out of {itemName} power-ups. Do you want to buy one now?"
+        },
+        {
+            "itemId": "powerup_cleandown",
+            "catalogItemIds": ["powerup_cleandown"],
+            "upsellText": "You're out of {itemName} power-ups. Do you want to buy one now?"
+        },
+        {
+            "itemId": "powerup_freedessert",
+            "catalogItemIds": ["powerup_freedessert"],
+            "upsellText": "You're out of {itemName} power-ups. Do you want to buy one now?"
+        },
+        {
+            "itemId": "powerup_joker",
+            "catalogItemIds": ["powerup_joker"],
+            "upsellText": "You're out of {itemName} power-ups. Do you want to buy one now?"
+        },
+        {
+            "itemId": "energy",
+            "catalogItemIds": ["energy_pack_small"],
+            "upsellText": "You're out of {itemName}. Do you want to buy a {offerName} containing {itemAmount} {itemName} now?"
+        }
+    ]
+}

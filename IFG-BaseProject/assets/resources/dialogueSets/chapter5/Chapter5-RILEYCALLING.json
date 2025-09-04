@@ -1,0 +1,52 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Exposition"
+      ],
+      "dialogueType": "Exposition",
+      "lines": [
+        {
+          "line": "*Ring Ring*",
+          "characterSprites": [
+            ""
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "It's getting late, who could that be?",
+          "characterSprites": [
+            "Thinking"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 5 - Dialogue",
+  "dialogueId": "Chapter5-RileyCalling",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": [
+    {
+      "requirementType": "dialogue",
+      "dialogueId": "Chapter5-OfficeTrunkDone",
+      "operator": "hasSeen"
+    },
+    {
+      "requirementType": "dialogue",
+      "dialogueId": "Chapter5-OfficeWallPicturesDone",
+      "operator": "hasSeen"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+    "items": [
+        {
+            "id": "premium_bundle_10",
+            "externalIds": ["XSOLLA.premium_bundle_10"],
+            "name": "Gem Pack",
+            "description": "A pack of 10 Gems",
+            "tags": ["store", "premium"],
+            "cost": {
+                "currency": "real",
+                "amount": 0.99
+            },
+            "contents": [
+                {
+                    "id": "gems",
+                    "amount": 10
+                }
+            ],
+            "sprite": "store/bundle/icon-gempack01/spriteFrame",
+            "stack": true,
+            "priority": 950
+        },
+        {
+            "id": "premium_bundle_55",
+            "externalIds": ["XSOLLA.premium_bundle_55"],
+            "name": "Gem Pack",
+            "description": "A pack of 55 Gems",
+            "tags": ["store", "premium"],
+            "cost": {
+                "currency": "real",
+                "amount": 4.99
+            },
+            "contents": [
+                {
+                    "id": "gems",
+                    "amount": 55
+                }
+            ],
+            "sprite": "store/bundle/icon-gempack02/spriteFrame",
+            "stack": true,
+            "priority": 949
+        },
+        {
+            "id": "premium_bundle_120",
+            "externalIds": ["XSOLLA.premium_bundle_120"],
+            "name": "Gem Pack",
+            "description": "A pack of 120 Gems",
+            "tags": ["store", "premium"],
+            "cost": {
+                "currency": "real",
+                "amount": 9.99
+            },
+            "contents": [
+                {
+                    "id": "gems",
+                    "amount": 120
+                }
+            ],
+            "sprite": "store/bundle/icon-gempack03/spriteFrame",
+            "stack": true,
+            "collapsedVisible": true,
+            "priority": 948
+        },
+        {
+            "id": "premium_bundle_270",
+            "externalIds": ["XSOLLA.premium_bundle_270"],
+            "name": "Gem Pack",
+            "description": "A pack of 270 Gems",
+            "tags": ["store", "premium"],
+            "cost": {
+                "currency": "real",
+                "amount": 19.99
+            },
+            "contents": [
+                {
+                    "id": "gems",
+                    "amount": 270
+                }
+            ],
+            "sprite": "store/bundle/icon-gempack04/spriteFrame",
+            "stack": true,
+            "priority": 947
+        },
+        {
+            "id": "premium_bundle_600",
+            "externalIds": ["XSOLLA.premium_bundle_600"],
+            "name": "Gem Pack",
+            "description": "A pack of 600 Gems",
+            "tags": ["store", "premium"],
+            "cost": {
+                "currency": "real",
+                "amount": 39.99
+            },
+            "contents": [
+                {
+                    "id": "gems",
+                    "amount": 600
+                }
+            ],
+            "sprite": "store/bundle/icon-gempack05/spriteFrame",
+            "stack": true,
+            "priority": 946
+        },
+        {
+            "id": "premium_bundle_1325",
+            "externalIds": ["XSOLLA.premium_bundle_1325"],
+            "name": "Gem Pack",
+            "description": "A pack of 1,325 Gems",
+            "tags": ["store", "premium"],
+            "cost": {
+                "currency": "real",
+                "amount": 79.99
+            },
+            "contents": [
+                {
+                    "id": "gems",
+                    "amount": 1325
+                }
+            ],
+            "sprite": "store/bundle/icon-gempack06/spriteFrame",
+            "stack": true,
+            "priority": 945
+        },
+        {
+            "id": "premium_bundle_2250",
+            "externalIds": ["XSOLLA.premium_bundle_2250"],
+            "name": "Gem Pack",
+            "description": "A pack of 2,250 Gems",
+            "tags": ["store", "premium"],
+            "cost": {
+                "currency": "real",
+                "amount": 119.99
+            },
+            "contents": [
+                {
+                    "id": "gems",
+                    "amount": 2250
+                }
+            ],
+            "sprite": "store/bundle/icon-gempack07/spriteFrame",
+            "stack": true,
+            "priority": 944
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "id": "decoration.kitchen-prepstation-level-1A",
+    "tags": ["prep", "floor", "kitchen-prep-station"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/KitchenPrepStationLevel1A",
+    "thumbnailFilePath": "diner/thumbnails/kitchen-prepstation-lvl1A-thumbnail/spriteFrame"
+}

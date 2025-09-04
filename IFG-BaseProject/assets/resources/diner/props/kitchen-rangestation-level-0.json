@@ -1,0 +1,16 @@
+{
+    "id": "decoration.kitchen-rangestation-level-0",
+    "tags": ["range", "floor"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/KitchenRangeStationLevel0",
+    "thumbnailFilePath": "diner/thumbnails/kitchen-rangestation-lvl0-thumbnail/spriteFrame"
+}

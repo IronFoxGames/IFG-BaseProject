@@ -1,0 +1,16 @@
+{
+    "id": "decoration.food-display-level-0",
+    "tags": ["food-display", "floor", "food-display1"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/FoodDisplayLevel0",
+    "thumbnailFilePath": "diner/thumbnails/display-food-lvl0-thumbnail/spriteFrame"
+}

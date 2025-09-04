@@ -1,0 +1,153 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Evelyn"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Darcy, darling. So strange of you to call me out of the blue like this.",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Darcy"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I needed to ask you something, Evelyn. Clyde... He's uh, got it in for Joey's diner right now.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Evelyn"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Oh, I heard. He's all worked up over it.",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Darcy"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Well, I was wondering if you could get him to cool off, maybe back down on all the threats.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Evelyn"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I don't know what sway you think I have over my ex-husband dear.",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Darcy"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Oh, come on, Evie. We all know you still have him wrapped around your little finger. I'll make you a deal...",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Evelyn"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Go on...",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Darcy"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I know you're still mad that I booked the tea rooms at the Pleasance Inn next month before your ladies group could get them.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Evelyn"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "And you'll let me have them if I can get Clyde to back off? Interesting... Why would you do that? You've got a deal darling.",
+          "characterSprites": [
+            "PhoneAvatar"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 2 - Dialogue",
+  "dialogueId": "Chapter2-Peacemaker",
+  "repeatable": false,
+  "dialogueFormat": "Phone",
+  "requirements": []
+}

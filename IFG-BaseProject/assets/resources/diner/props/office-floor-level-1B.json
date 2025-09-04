@@ -1,0 +1,7 @@
+{
+    "id": "decoration.office-floor-level-1B",
+    "tags": ["office", "floor-pattern", "office-floor"],
+    "requirements": [],
+    "assetFilePath": "diner/textures/floors/office-floor-tile-lvl1B/texture",
+    "thumbnailFilePath": "diner/thumbnails/office-floor-lvl1B-thumbnail/spriteFrame"
+}

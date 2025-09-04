@@ -1,0 +1,128 @@
+.option-container {
+    margin: 20px;
+}
+
+/* Main Container Styling */
+.asset-table-container {
+    max-height: 700px; /* Limit the height of the scrollable table */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #444; /* Dark gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Deeper shadow for depth */
+    background-color: #2b2b2b; /* Dark background */
+    margin: 20px;
+}
+
+/* Table Layout */
+.asset-table {
+    width: 100%;
+    border-collapse: collapse; /* Remove gaps between table borders */
+    color: #ddd; /* Light gray text for readability */
+}
+
+/* Fixed Header Row */
+.asset-table thead {
+    position: sticky;
+    top: 0;
+    background-color: #333; /* Sticky header with dark background */
+    z-index: 10; /* Ensure header stays above content */
+}
+
+/* Header Cell Styling */
+.asset-table th {
+    padding: 12px 8px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid #555; /* Darker border for separation */
+    color: #bbb; /* Slightly lighter header text */
+}
+
+/* Data Row Styling */
+.prop-data td {
+    padding: 10px 8px;
+    border-bottom: 1px solid #444; /* Subtle row dividers */
+    white-space: nowrap; /* Keep content on one line */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Trim long content */
+}
+
+/* Zebra Striping for Readability */
+.prop-data:nth-child(even) {
+    background-color: #383838; /* Slightly lighter alternate rows */
+}
+
+/* Input Fields & Dropdown Styling */
+input[type='text'],
+input[type='number'],
+select {
+    background-color: #444; /* Dark input background */
+    color: #ddd; /* Light input text */
+    border: 1px solid #555; /* Darker border */
+    border-radius: 4px;
+    padding: 4px 8px;
+    outline: none; /* Remove focus outline */
+    width: 100%; /* Ensure inputs fit within cells */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+/* Input Focus State */
+input:focus,
+select:focus {
+    border-color: #888; /* Highlight on focus */
+}
+
+/* Placeholder Styling */
+input::placeholder {
+    color: #777; /* Subtle placeholder */
+}
+
+/* Scrollbar Customization */
+.asset-table-container::-webkit-scrollbar {
+    width: 8px; /* Narrow scrollbar */
+}
+
+.asset-table-container::-webkit-scrollbar-thumb {
+    background-color: #666; /* Scroll thumb */
+    border-radius: 4px;
+}
+
+.asset-table-container::-webkit-scrollbar-track {
+    background: #333; /* Scroll track */
+}
+
+/* Disabled Input State */
+input:disabled,
+select:disabled {
+    background-color: #555;
+    color: #888;
+    cursor: not-allowed;
+}
+
+.prop-catalog-details {
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* Ensure elements take full width */
+    gap: 4px; /* Space between elements */
+}
+
+.asset-refs {
+    max-width: 200px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px; /* Space between elements */
+}
+
+.prop-field {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 4px; /* Optional spacing between rows */
+    flex-wrap: nowrap; /* Prevent wrapping */
+}
+
+.prop-field label {
+    display: inline-block;
+    min-width: 70px; /* Fixed width for all labels */
+    margin-right: 8px; /* Spacing between the label and its control */
+}

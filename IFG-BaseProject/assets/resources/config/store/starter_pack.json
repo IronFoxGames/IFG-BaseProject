@@ -1,0 +1,65 @@
+{
+    "items": [
+        {
+            "id": "bundle_starter_pack",
+            "externalIds": ["XSOLLA.bundle_starter_pack"],
+            "name": "Starter Pack",
+            "description": "Starter Pack",
+            "maxPurchaseCount": 1,
+            "tags": ["store", "free", "bundle"],
+            "cost": {
+                "currency": "coins",
+                "amount": 0
+            },
+            "contents": [
+                {
+                    "id": "powerup_deuceswild",
+                    "amount": 1
+                },
+                {
+                    "id": "powerup_loosenyourbelt",
+                    "amount": 1
+                },
+                {
+                    "id": "powerup_cookingthebooks",
+                    "amount": 2
+                },
+                {
+                    "id": "powerup_extraservings",
+                    "amount": 2
+                },
+                {
+                    "id": "powerup_joker",
+                    "amount": 2
+                },
+                {
+                    "id": "powerup_cleandown",
+                    "amount": 2
+                },
+                {
+                    "id": "powerup_plus7cards",
+                    "amount": 1
+                },
+                {
+                    "id": "powerup_freedessert",
+                    "amount": 1
+                },
+                {
+                    "id": "powerup_refire",
+                    "amount": 1
+                },
+                {
+                    "id": "energy",
+                    "amount": 8
+                },
+                {
+                    "id": "coins",
+                    "amount": 1500
+                }
+            ],
+            "sprite": "store/bundle/icon-bundle07/spriteFrame",
+            "collapsedVisible": true,
+            "priority": 1001
+        }
+    ]
+}

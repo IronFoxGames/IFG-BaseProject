@@ -1,0 +1,21 @@
+{
+    "dialogueSections": [
+        {
+            "dialogueType": "Chapterstart",
+            "characterSide": 1,
+            "characterNames": ["Will"],
+            "lines": [
+                {
+                    "line": "Chapter X: The Mysterious Chapter...",
+                    "characterSprites": ["Neutral"],
+                    "unskippable": true
+                }
+            ]
+        }
+    ],
+    "sourceFile": "0_ChapterIntroTest",
+    "dialogueId": "0_ChapterIntroTest",
+    "repeatable": false,
+    "dialogueFormat": "Default",
+    "requirements": []
+}

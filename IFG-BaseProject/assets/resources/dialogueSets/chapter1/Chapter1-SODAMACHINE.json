@@ -1,0 +1,96 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I needed a break. Forgot what it was like being on my feet all day.",
+          "characterSprites": [
+            "Work-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "You don't have to work so hard you know...",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Nonsense! I came to help out, I can do plenty!",
+          "characterSprites": [
+            "Work-Neutral"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "Speaking of which, I spoke to the soda supplier earlier, they'll send us a new machine, we just have to pick one.",
+          "characterSprites": [
+            "Work-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Why do we need a new one? That one works fine.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "It's blocked up with years of soda syrup Joey, we'll get you a fancy new one. Trust me.",
+          "characterSprites": [
+            "Work-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 1 - Dialogue",
+  "dialogueId": "Chapter1-SodaMachine",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

@@ -1,0 +1,14 @@
+{
+    "id": "dining-room-bar-rug",
+    "isStatic": true,
+    "defaultPropId": "decoration.bar-rug-level-1",
+    "tags": ["bar-rug", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch2-clean-rug"
+            }
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "id": "decoration.service-counter-level-0",
+    "tags": ["service-counter", "floor", "service-counter1"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/ServiceCounterLevel0",
+    "thumbnailFilePath": "diner/thumbnails/service-bar-lvl0-thumbnail/spriteFrame"
+}

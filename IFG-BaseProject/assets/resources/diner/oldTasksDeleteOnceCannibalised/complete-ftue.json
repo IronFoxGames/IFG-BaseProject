@@ -1,0 +1,23 @@
+{
+    "id": "task_ftue_complete_prologue",
+    "name": "Learning the Basics",
+    "description": "Show off the Card Scramble skills you've learned.",
+    "unlockRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 4,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "turnInRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 5,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ]
+}

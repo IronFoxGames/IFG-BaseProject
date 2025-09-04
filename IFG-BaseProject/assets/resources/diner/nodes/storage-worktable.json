@@ -1,0 +1,7 @@
+{
+    "id": "storage-worktable",
+    "isStatic": true,
+    "defaultPropId": "decoration.storage-worktable-level-0",
+    "tags": ["worktable", "floor"],
+    "requirements": []
+}

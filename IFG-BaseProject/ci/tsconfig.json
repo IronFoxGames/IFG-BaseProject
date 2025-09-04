@@ -1,0 +1,22 @@
+{
+  /* Base configuration. Do not edit this field. */
+  "extends": "./temp/tsconfig.cocos.json",
+
+  /* Add your custom configuration here. */
+  "compilerOptions": {
+    "strict": false,
+    "target": "es6",
+    "lib": ["es5", "dom", "es2019"],
+    "types": ["jest"],
+    "esModuleInterop": true
+  },
+
+  "include": [
+    "../"
+  ],
+
+  "exclude": [
+    "../extensions/**",
+    "../assets/thirdParty/**"
+  ]
+}

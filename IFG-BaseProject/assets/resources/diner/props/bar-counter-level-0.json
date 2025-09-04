@@ -1,0 +1,16 @@
+{
+    "id": "decoration.bar-counter-level-0",
+    "tags": ["bar-counter", "floor", "placeprop-bar-counter1"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/BarCounterLevel0",
+    "thumbnailFilePath": "diner/thumbnails/bar-lvl0-thumbnail/spriteFrame"
+}

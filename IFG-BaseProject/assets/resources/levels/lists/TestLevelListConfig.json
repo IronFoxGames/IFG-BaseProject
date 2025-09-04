@@ -1,0 +1,310 @@
+{
+    "levels": [
+        {
+            "name": "Layout Test 1",
+            "id": "SilverAlliteratingMeadowlark",
+            "path": "levels/Concept/SilverAlliteratingMeadowlark",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Layout Test 2",
+            "id": "YellowCelebratingPenguin",
+            "path": "levels/Concept/YellowCelebratingPenguin",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Layout Test 3",
+            "id": "IndigoTeachableAnt",
+            "path": "levels/Concept/IndigoTeachableAnt",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Layout Test 5",
+            "id": "IndigoGloriousLlama",
+            "path": "levels/Concept/IndigoGloriousLlama",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Layout Test 6",
+            "id": "GreenPacificChinchilla",
+            "path": "levels/Concept/GreenPacificChinchilla",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3 - Tile Objective FTUE",
+            "id": "Tutorial_ObjTilePlacement",
+            "path": "levels/Tutorials/Tutorial_ObjTilePlacement",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Tutorial Booster Deuces Wild",
+            "id": "Tutorial_BoosterDeucesWild",
+            "path": "levels/Tutorials/Tutorial_BoosterDeucesWild",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Tutorial Booser Loosen Your Belt",
+            "id": "Tutorial_BoosterLoosenYourBelt",
+            "path": "levels/Tutorials/Tutorial_BoosterLoosenYourBelt",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Tutorial Powerup 7 Cards",
+            "id": "Tutorial_PowerupSevenCards",
+            "path": "levels/Tutorials/Tutorial_PowerupSevenCards",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Tutorial Powerup Clean Down",
+            "id": "Tutorial_PowerupCleanDown",
+            "path": "levels/Tutorials/Tutorial_PowerupCleanDown",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Tutorial Powerup Cooking the Books",
+            "id": "Tutorial_PowerupCookingTheBooks",
+            "path": "levels/Tutorials/Tutorial_PowerupCookingTheBooks",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Tutorial Powerup Extra Servings",
+            "id": "Tutorial_PowerupExtraServings",
+            "path": "levels/Tutorials/Tutorial_PowerupExtraServings",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Tutorials Powerup Free Dessert",
+            "id": "Tutorial_PowerupFreeDessert",
+            "path": "levels/Tutorials/Tutorial_PowerupFreeDessert",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Tutorials Powerup Joker",
+            "id": "Tutorial_PowerupJoker",
+            "path": "levels/Tutorials/Tutorial_PowerupJoker",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Tutorials Powerup Re Fire",
+            "id": "Tutorial_PowerupReFire",
+            "path": "levels/Tutorials/Tutorial_PowerupReFire",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Board Mod Hand Multiplier Example",
+            "id": "TemplateBoardModHandMultiplier",
+            "path": "levels/TestTemplates/TemplateBoardModHandMultiplier",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Board Mod Hand Multiplier Countdown Example",
+            "id": "TemplateBoardModHandMultiplierCountdown",
+            "path": "levels/TestTemplates/TemplateBoardModHandMultiplierCountdown",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Board Mod Breakable Wall Example",
+            "id": "TemplateBoardModBreakableWall",
+            "path": "levels/TestTemplates/TemplateBoardModBreakableWall",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Board Mod Burning Food Example",
+            "id": "TemplateBoardModBurningFood",
+            "path": "levels/TestTemplates/TemplateBoardModBurningFood",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Objective Tile Placement",
+            "id": "TemplateObjectiveTiles",
+            "path": "levels/TestTemplates/TemplateObjectiveTiles",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Tutorial Two Pair",
+            "id": "Tutorial_HandsTwoPair",
+            "path": "levels/Tutorials/Tutorial_HandsTwoPair",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Tutorial Three of a Kind",
+            "id": "Tutorial_HandsThreeofAKind",
+            "path": "levels/Tutorials/Tutorial_HandsThreeOfAKind",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Tutorial Straight",
+            "id": "Tutorial_HandsStraight",
+            "path": "levels/Tutorials/Tutorial_HandsStraight",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Tutorial Flush",
+            "id": "Tutorial_HandsFlush",
+            "path": "levels/Tutorials/Tutorial_HandsFlush",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Tutorial Full House",
+            "id": "Tutorial_HandsFullHouse",
+            "path": "levels/Tutorials/Tutorial_HandsFullHouse",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Tutorial Four of A Kind",
+            "id": "Tutorial_HandsFourOfAKind",
+            "path": "levels/Tutorials/Tutorial_HandsFourOfAKind",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Tutorial Straight Flush",
+            "id": "Tutorial_HandsStraightFlush",
+            "path": "levels/Tutorials/Tutorial_HandsStraightFlush",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Tutorial Royal Flush",
+            "id": "Tutorial_HandsRoyalFlush",
+            "path": "levels/Tutorials/Tutorial_HandsRoyalFlush",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Burning Food Playtest 001",
+            "id": "BurningFoodPlaytest001",
+            "path": "levels/TestTemplates/BurningFoodPlaytest001",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Burning Food Playtest 002",
+            "id": "BurningFoodPlaytest002",
+            "path": "levels/TestTemplates/BurningFoodPlaytest002",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Burning Food Playtest 003",
+            "id": "BurningFoodPlaytest003",
+            "path": "levels/TestTemplates/BurningFoodPlaytest003",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Burning Food Playtest 004",
+            "id": "BurningFoodPlaytest004",
+            "path": "levels/TestTemplates/BurningFoodPlaytest004",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Burning Food Playtest 005",
+            "id": "BurningFoodPlaytest005",
+            "path": "levels/TestTemplates/BurningFoodPlaytest005",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "Burning Food Playtest 006",
+            "id": "BurningFoodPlaytest006",
+            "path": "levels/TestTemplates/BurningFoodPlaytest006",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        }
+    ]
+}

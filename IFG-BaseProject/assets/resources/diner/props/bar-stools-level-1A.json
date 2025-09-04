@@ -1,0 +1,7 @@
+{
+    "id": "decoration.bar-stools-level-1A",
+    "tags": ["bar-stools", "floor", "placeprop-bar-stools"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/BarStoolsLevel1A",
+    "thumbnailFilePath": "diner/thumbnails/bar-stools-lvl1A-thumbnail/spriteFrame"
+}

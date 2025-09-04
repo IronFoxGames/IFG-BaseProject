@@ -1,0 +1,13 @@
+{
+  "ver": "2.0.3",
+  "importer": "animation-clip",
+  "imported": true,
+  "uuid": "86fa1c0c-dd65-414c-ad0e-2205a601e1ee",
+  "files": [
+    ".cconb"
+  ],
+  "subMetas": {},
+  "userData": {
+    "name": "buildview-nodeselector-showbutton"
+  }
+}

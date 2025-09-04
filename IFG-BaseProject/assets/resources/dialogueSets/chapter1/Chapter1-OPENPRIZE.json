@@ -1,0 +1,57 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "So, how does it work?",
+          "characterSprites": [
+            "Work-Neutral"
+          ],
+          "unskippable": true
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Darcy"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I bring Joey three boxes. He has to pick one and see what's inside...",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": true
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "You pick today Vi, let's see what we get!",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": true
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 1 - Dialogue",
+  "dialogueId": "Chapter1-OpenPrize",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

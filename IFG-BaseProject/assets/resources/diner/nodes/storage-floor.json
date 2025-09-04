@@ -1,0 +1,7 @@
+{
+    "id": "storage-floor",
+    "isStatic": true,
+    "defaultPropId": "decoration.storage-floor-level-0",
+    "tags": ["storage", "floor-pattern"],
+    "requirements": []
+}

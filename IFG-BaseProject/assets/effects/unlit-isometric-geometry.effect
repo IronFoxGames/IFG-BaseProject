@@ -1,0 +1,114 @@
+CCEffect %{
+techniques:
+  - name: defualt
+    passes:
+      - vert: iso-2d-geo-vs:vert
+        frag: iso-2d-geo-fs:frag
+        depthStencilState: &d1
+          depthTest: true
+          depthWrite: false
+        blendState: &b1
+          targets:
+            - blend: true
+              blendSrc: src_alpha
+              blendDst: one_minus_src_alpha
+              blendDstAlpha: one_minus_src_alpha
+        properties: &props
+          tilingTexture:
+            #This is any stylized tilable texture for the walls or floors.
+            {
+              value: white,
+              editor: { type: texture, displayName: "Tiled Texture" },
+            }
+          tilingOffset:
+            #This is the defined tiling frequency stored in the x and y component
+            #and the uv offset stored in the z and w component
+            {
+              value: [1, 1, 0, 0],
+              editor: { type: vec4, displayName: "Tiling/Offset" },
+            }
+          masking:
+            #This is the boundaries for the minimum and maximum sampled uv coordinate
+            #to draw, any coordinates outside them will be transparent.
+            {
+              value: [-0.1, 1.1, -0.1, 1.1],
+              editor: { type: vec4, displayName: "Masking Threshholds" },
+            } #These values have an added buffer of 0.1 on either side by default to avoid jitter due to rounding errors.
+          blendColor:
+            #This is a colour that will be mutiplied with the colour of the tiled
+            #texture to create the final output color.
+            {
+              value: [1, 1, 1, 1],
+              editor: { type: color, displayName: "Color" },
+            }
+
+}%
+
+CCProgram iso-2d-geo-vs %{
+precision highp float;
+#include <legacy/input> //This is required for CCVertInput()
+#include <builtin/uniforms/cc-global> //These three are all required for CCGetWorldMatrix()
+#include <legacy/decode-base>
+#include <legacy/local-batch>
+
+out vec2 v_uv;
+
+uniform TexCoords {
+  vec4 tilingOffset;
+};
+
+vec4 vert() {
+  //Get the vertex position...         
+  vec4 position;
+  CCVertInput(position);
+  
+  //Get the worldview matrix...         
+  mat4 matWorld;
+  CCGetWorldMatrix(matWorld);
+  
+  //Get this vertex's uv coordinate...  
+  //Transform the uv coordinate accounting for the tiling and offset values...        
+  v_uv = a_texCoord * tilingOffset.xy + tilingOffset.zw;
+  
+  //Translate the position to screenspace...         
+  return cc_matProj * (cc_matView * matWorld) * position;
+}
+}%
+
+CCProgram iso-2d-geo-fs %{
+precision highp float;
+
+in vec2 v_uv;
+
+uniform sampler2D tilingTexture;
+
+uniform Modifiers {
+  vec4 blendColor;
+  vec4 masking;
+};
+
+vec4 frag() {
+  //Determine if this pixel is inside the mask bounds or not...       
+  float outsideMaskUMin = step(masking.x, v_uv.x);
+  float outsideMaskUMax = step(v_uv.x, masking.y);
+  float outsideMaskVMin = step(masking.z, v_uv.y);
+  float outsideMaskVMax = step(v_uv.y, masking.w);
+  
+  //Sample the tilable texture using thetransformed uv coordninate...        
+  vec4 col = texture(tilingTexture, v_uv);
+  
+  //Multiply the blend colour with the colour sampled from the texture...  
+  col *= blendColor;
+  
+  //Set the alpha according to whether  
+  col.a = 1.0 * outsideMaskUMin * outsideMaskUMax * outsideMaskVMin * outsideMaskVMax;
+  
+  //DEBUG UV COORDS  
+  //col.r = v_uv.x;  
+  //col.g = v_uv.y;  
+  //col.b = 1.0;  
+  
+  //Output the final colour...        
+  return col;
+}
+}%

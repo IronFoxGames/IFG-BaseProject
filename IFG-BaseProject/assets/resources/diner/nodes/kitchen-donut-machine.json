@@ -1,0 +1,14 @@
+{
+    "id": "kitchen-donut-machine",
+    "isStatic": true,
+    "defaultPropId": "kitchen-donut-machine-level-0",
+    "tags": ["donutmachine", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch4-CleanDonutMachine"
+            }
+        }
+    ]
+}

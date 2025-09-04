@@ -1,0 +1,266 @@
+{
+    "minLoadingScreenTimeMS": 3000,
+    "loadingScreenTips": [
+        "Board modifiers can change the game. Learn how they work to maximize their benefits!",
+        "Connecting hands strategically can lead to higher scores; build carefully!",
+        "Don't forget to check your power up inventory. Sometimes a boost is all you need!",
+        "Don't give up! Power ups can be used to give you additional cards or increase your score!",
+        "Look for board modifiers to boost your score! Play your cards where they'll have the most impact.",
+        "Place Jokers and high value cards carefully so they can be used in multiple hands.",
+        "Plan ahead! Think about how your poker hands will connect to maximize points.",
+        "Playing an Ace, King, Queen, Jack and 10 of the same suit is a Royal Flush, the highest scoring hand.",
+        "Power ups can turn a tricky situation into a winning play. Use them wisely!",
+        "Remember, cards must form valid 5-card hands when placed. Be strategic with your spacing!",
+        "Save high-value cards for later hands where bonuses can amplify their worth.",
+        "The Extra Servings Power Up will double the score of the next hand played.",
+        "There are two Joker cards in a standard deck. Make the most of them!",
+        "Try saving high value cards until you can place them on hand multipliers.",
+        "Using a Joker at the right time can create Five of a Kind, a very high scoring hand!",
+        "Complete tasks to advance the story and unlock new areas of the diner!",
+        "Don't forget to open your daily mystery gift every day!",
+        "Got some extra coins? You can buy new tables, booths and lots of other furniture for the diner.",
+        "You can change the appearance of your diner at any time by pressing the decorate button.",
+        "You can purchase more coins, boosters and power ups in the shop.",
+        "Joey opened the diner in 1993.",
+        "Will studied Veterinary Medicine at North Carolina University.",
+        "Viola's favorite order from the diner is a grilled cheese sandwich.",
+        "Viola's mom, Maggie, enjoys making beaded jewelry in her spare time."
+    ],
+    "darcyDailyRewardPhrases": [
+        "Can you guess what treats I have for you today?",
+        "I have a special surprise for you today!",
+        "I have a little something for you today, just because I like you!",
+        "I have a special treat for you today, just because you're awesome!",
+        "You won't believe what I have for you today!",
+        "Tasty treats? Coming right up!",
+        "I think this is my best batch yet!",
+        "I have a little something for you today, just because you're special!",
+        "Delectable delights await you today!",
+        "Ellie picked these out just for you!",
+        "I find the biggest thrill is in the mystery?",
+        "It's amazing what you can find at the bottom of a pastry box!"
+    ],
+    "gameOverScreenData": {
+        "winCharacters": [
+            "dialogueSprites/Viola-Happy/spriteFrame",
+            "dialogueSprites/Joey-Happy/spriteFrame",
+            "dialogueSprites/Mom-Happy/spriteFrame",
+            "dialogueSprites/Darcy-Happy/spriteFrame",
+            "dialogueSprites/Chef-Happy/spriteFrame"
+        ],
+        "lossCharacters": [
+            "dialogueSprites/Viola-Empathetic/spriteFrame",
+            "dialogueSprites/Joey-Empathetic/spriteFrame",
+            "dialogueSprites/Mom-Sad/spriteFrame",
+            "dialogueSprites/Darcy-Empathetic/spriteFrame",
+            "dialogueSprites/Chef-Empathetic/spriteFrame"
+        ],
+        "prologueCharacter": "dialogueSprites/Viola-Child-Neutral/spriteFrame",
+        "prologueEndCharacter": "dialogueSprites/Viola-Young-Happy/spriteFrame",
+        "prologueEndRequirements": [
+            {
+                "requirementData": {
+                    "requirementType": "levelId",
+                    "levelId": "Tutorial_HandsStraight",
+                    "operator": "complete"
+                }
+            }
+        ],
+        "prologueCompleteRequirements": [
+            {
+                "requirementData": {
+                    "requirementType": "levelId",
+                    "levelId": "Tutorial_HandsFlush",
+                    "operator": "complete"
+                }
+            }
+        ]
+    },
+    "store": {
+        "refs": [
+            "config/store/diner",
+            "config/store/powerups",
+            "config/store/offers_energy",
+            "config/store/offers_coins",
+            "config/store/offers_bundles",
+            "config/store/internal",
+            "config/store/upsells"
+        ],
+        "items": []
+    },
+    "items": {
+        "refs": ["config/items/currency", "config/items/boosters", "config/items/powerups", "config/items/tasks"]
+    },
+    "tasks": {
+        "refs": [
+            "config/tasks/prologue",
+            "config/tasks/chapter1",
+            "config/tasks/chapter2",
+            "config/tasks/chapter3",
+            "config/tasks/chapter4",
+            "config/tasks/chapter5"
+        ]
+    },
+    "levels": {
+        "refs": [
+            "levels/lists/PrologueLevelListConfig",
+            "levels/lists/Chapter1LevelListConfig",
+            "levels/lists/Chapter2LevelListConfig",
+            "levels/lists/Chapter3LevelListConfig",
+            "levels/lists/Chapter4LevelListConfig",
+            "levels/lists/Chapter5LevelListConfig"
+        ]
+    },
+    "quickPlayConfigPath": "levels/modes/freeplay",
+    "initialRoomUnlocks": ["dining-room", "parking-lot"],
+    "introDialogue": "Chapter0-TeachMe",
+    "handTierList": [
+        {
+            "HandName": "Singleton",
+            "Tier": "Low"
+        },
+        {
+            "HandName": "OnePair",
+            "Tier": "Low"
+        },
+        {
+            "HandName": "TwoPair",
+            "Tier": "Low"
+        },
+        {
+            "HandName": "ThreeOfAKind",
+            "Tier": "Low"
+        },
+        {
+            "HandName": "Straight",
+            "Tier": "Mid"
+        },
+        {
+            "HandName": "Flush",
+            "Tier": "Mid"
+        },
+        {
+            "HandName": "FullHouse",
+            "Tier": "Mid"
+        },
+        {
+            "HandName": "FourOfAKind",
+            "Tier": "High"
+        },
+        {
+            "HandName": "StraightFlush",
+            "Tier": "High"
+        },
+        {
+            "HandName": "RoyalFlush",
+            "Tier": "High"
+        },
+        {
+            "HandName": "FiveOfAKind",
+            "Tier": "High"
+        }
+    ],
+    "puzzleRewards": {
+        "storyWinCoinAmount": 50,
+        "storyWinStarAmount": 1,
+        "storyLossCoinAmount": 13,
+        "quickPlayCompletionAmount": 30
+    },
+    "hudConfig": {
+        "quickplayFeatureConfig": {
+            "unlockString": "",
+            "unlockPopupTitle": "",
+            "unlockPopupMessage": "",
+            "unlockPopupSpritePath": "",
+            "requirements": [
+                {
+                    "requirementType": "dialogue",
+                    "dialogueId": "Chapter1-SoloPlay",
+                    "operator": "hasSeen"
+                }
+            ]
+        },
+        "storeFeatureConfig": {
+            "unlockString": "",
+            "unlockPopupTitle": "",
+            "unlockPopupMessage": "",
+            "unlockPopupSpritePath": "",
+            "requirements": [
+                {
+                    "requirementType": "levelId",
+                    "levelId": "Tutorial_PowerupExtraServings",
+                    "operator": "complete"
+                },
+                {
+                    "requirementType": "account",
+                    "entitlement": "Free",
+                    "operator": "greaterThanEqual"
+                }
+            ]
+        },
+        "dailyMysteryPrizeFeatureConfig": {
+            "unlockString": "Lvl 1-12",
+            "unlockPopupTitle": "Mystery Prize",
+            "unlockPopupMessage": "Complete level 1-12 and complete the \"Collect the Mystery Prize\" task to unlock daily mystery prizes!",
+            "unlockPopupSpritePath": "dialogueSprites/Darcy-Tray/spriteFrame",
+            "requirements": [
+                {
+                    "requirementType": "taskComplete",
+                    "taskId": "ch1-collect-mystery-prize"
+                },
+                {
+                    "requirementType": "account",
+                    "entitlement": "Free",
+                    "operator": "greaterThanEqual"
+                }
+            ]
+        },
+        "buildModeFeatureConfig": {
+            "unlockString": "",
+            "unlockPopupTitle": "",
+            "unlockPopupMessage": "",
+            "unlockPopupSpritePath": "",
+            "requirements": [
+                {
+                    "requirementType": "taskComplete",
+                    "taskId": "ch1-try-coffee-maker"
+                }
+            ]
+        },
+        "puzzleDetailsFeatureConfig": {
+            "unlockString": "",
+            "unlockPopupTitle": "",
+            "unlockPopupMessage": "",
+            "unlockPopupSpritePath": "",
+            "requirements": [
+                {
+                    "requirementType": "levelId",
+                    "levelId": "Tutorial_HandsFlush",
+                    "operator": "complete"
+                }
+            ]
+        },
+        "energyRevealFeatureConfig": {
+            "unlockString": "",
+            "unlockPopupTitle": "",
+            "unlockPopupMessage": "",
+            "unlockPopupSpritePath": "",
+            "requirements": [
+                {
+                    "requirementType": "levelId",
+                    "levelId": "Tutorial_HandsFlush",
+                    "operator": "complete"
+                }
+            ]
+        }
+    },
+    "hintsConfig": {
+        "enableDragReminder": true,
+        "dragReminderTimeout": 15
+    },
+    "maximumHandSize": 10,
+    "guestLimitLevelId": "Tutorial_HandsFlush",
+    "migrateGuestSaveData": false,
+    "burningFoodScoreLossAmount": 1500,
+    "cheats": true
+}

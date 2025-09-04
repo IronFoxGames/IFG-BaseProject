@@ -1,0 +1,7 @@
+{
+    "id": "decoration.storage-floor-level-1",
+    "tags": ["storage", "floor-pattern"],
+    "requirements": [],
+    "assetFilePath": "diner/textures/floors/storage-floor-tile-lvl1/texture",
+    "thumbnailFilePath": "diner/thumbnails/storage-floor-lvl1-thumbnail/spriteFrame"
+}

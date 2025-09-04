@@ -1,0 +1,13 @@
+{
+  "ver": "2.0.3",
+  "importer": "animation-clip",
+  "imported": true,
+  "uuid": "773563a1-c8d1-4fd4-aa66-b89e7e324b56",
+  "files": [
+    ".cconb"
+  ],
+  "subMetas": {},
+  "userData": {
+    "name": "loading-RadialGlowSpinLoop"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "id": "kitchen-fridge-accessory",
+    "isStatic": false,
+    "defaultPropId": "",
+    "tags": ["accessory", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch4-UnpackSupplies"
+            }
+        }
+    ]
+}

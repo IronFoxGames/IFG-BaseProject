@@ -1,0 +1,16 @@
+{
+    "id": "decoration.coffee-maker-level-3",
+    "tags": ["coffee-maker", "counter-top", "coffee"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/CoffeeMakerLevel3",
+    "thumbnailFilePath": "diner/thumbnails/coffee-maker-lvl3-thumbnail/spriteFrame"
+}

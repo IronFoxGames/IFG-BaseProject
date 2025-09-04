@@ -1,0 +1,39 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "That's so much better. Feels a lot fresher in here now.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "Now, I should really pack up Joey's furniture in storage for him.",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "And I'll call the furniture warehouse and see if I can get all new items delivered, just for me!",
+          "characterSprites": [
+            "Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 5 - Dialogue",
+  "dialogueId": "Chapter5-CarpetDone",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

@@ -1,0 +1,89 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Fadeoutin_Screen"
+      ],
+      "dialogueType": "Fade",
+      "lines": [
+        {
+          "line": "1",
+          "characterSprites": [
+            ""
+          ],
+          "unskippable": true
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I can't believe you're all grown up and moving to the big city. We're all so proud of you sweetheart!",
+          "characterSprites": [
+            "Midlife-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I'm excited for college, but I'm sure going to miss spending time at the Diner with you.",
+          "characterSprites": [
+            "Young-Sad"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Joey"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "One more puzzle before you go? It'll be a big scoring one, I promise.",
+          "characterSprites": [
+            "Midlife-Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "Ah... go on then. Gimme those cards!",
+          "characterSprites": [
+            "Young-Happy"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Prologue - Dialogue",
+  "dialogueId": "Chapter0-One More Puzzle",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

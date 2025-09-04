@@ -1,0 +1,23 @@
+{
+    "id": "task_chapter1_cleanup",
+    "name": "Quick Tidy",
+    "description": "Clean up the messy spot in the Diner. (beat level 8 for now)",
+    "unlockRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 6,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "turnInRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 8,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ]
+}

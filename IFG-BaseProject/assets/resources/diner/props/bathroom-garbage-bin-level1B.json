@@ -1,0 +1,7 @@
+{
+    "id": "decoration.bathroom-garbage-bin-level-1B",
+    "tags": ["garbage-bin", "floor", "placeprop-bathroom-garbage-bin"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/BathroomGarbageBinLevel1B",
+    "thumbnailFilePath": "diner/thumbnails/bathroom-garbage-bin-lvl1B-thumbnail/spriteFrame"
+}

@@ -1,0 +1,7 @@
+{
+    "id": "decoration.bathroom-wall-dryer-level-1B",
+    "tags": ["dryer", "wall", "placeprop-bathroom-dryer"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/BathroomWallDryerLevel1B",
+    "thumbnailFilePath": "diner/thumbnails/bathroom-wall-dryer-lvl1B-thumbnail/spriteFrame"
+}

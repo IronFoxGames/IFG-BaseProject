@@ -1,0 +1,16 @@
+{
+    "id": "kitchen-donut-machine-level-0",
+    "tags": ["donutmachine", "floor", "kitchen-donut-machine1"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/KitchenDonutMachineLevel0",
+    "thumbnailFilePath": "diner/thumbnails/donut-machine-lvl0-thumbnail/spriteFrame"
+}

@@ -1,0 +1,16 @@
+{
+    "id": "decoration.1x1-garden-statue-cat",
+    "tags": ["1x1", "floor"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/1x1GardenStatueCat",
+    "thumbnailFilePath": "diner/thumbnails/1x1-garden-statue-cat-thumbnail/spriteFrame"
+}

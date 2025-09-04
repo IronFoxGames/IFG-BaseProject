@@ -1,0 +1,37 @@
+{
+    "name": "RedMaraudingBonobo",
+    "description": "",
+    "handSize": 7,
+    "hasBot": false,
+    "placeAnchor": false,
+    "objectives": [
+        {
+            "objectiveDataList": [
+                {
+                    "objectiveType": "HandPlayed",
+                    "tipText": "Score the target number of points by playing the best hands possible.",
+                    "tipSprite": null,
+                    "hand": "Straight",
+                    "count": 5
+                }
+            ]
+        }
+    ],
+    "deckType": "Default",
+    "customDeck": [],
+    "startingBoard": [
+        { "boardIndex": 84, "card": { "type": "regular", "rank": 1, "suit": 3 } },
+        { "boardIndex": 83, "card": { "type": "regular", "rank": 4, "suit": 2 } },
+        { "boardIndex": 85, "card": { "type": "regular", "rank": 2, "suit": 4 } },
+        { "boardIndex": 0, "card": { "type": "regular", "rank": 8, "suit": 1 } },
+        { "boardIndex": 13, "card": { "type": "regular", "rank": 7, "suit": 4 } },
+        { "boardIndex": 168, "card": { "type": "regular", "rank": 5, "suit": 3 } },
+        { "boardIndex": 155, "card": { "type": "regular", "rank": 6, "suit": 2 } }
+    ],
+    "boardModifierPlacements": [],
+    "freeBooster": "None",
+    "freePowerup": "None",
+    "appliedBoosters": [],
+    "gridSpecialsEnabled": false,
+    "gridSpecialsHidden": false
+}

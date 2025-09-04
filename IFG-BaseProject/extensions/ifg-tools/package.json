@@ -1,0 +1,162 @@
+{
+    "package_version": 2,
+    "version": "1.0.0",
+    "name": "ifg-tools",
+    "description": "i18n:ifg-tools.description",
+    "main": "./dist/main.js",
+    "dependencies": {
+        "@google-cloud/local-auth": "^2.1.0",
+        "@sinclair/typebox": "^0.34.37",
+        "fs-extra": "^10.0.0",
+        "googleapis": "^105.0.0",
+        "pngjs": "^7.0.0",
+        "ts-node": "^10.9.2",
+        "vue": "^3.1.4"
+    },
+    "devDependencies": {
+        "@types/fs-extra": "^9.0.5",
+        "@types/node": "^16.0.1",
+        "typescript": "^4.3.4"
+    },
+    "panels": {
+        "level-editor": {
+            "title": "ifg-tools Level Editor Panel",
+            "type": "dockable",
+            "main": "dist/panels/level-editor",
+            "size": {
+                "min-width": 1400,
+                "min-height": 900,
+                "width": 1400,
+                "height": 900
+            }
+        },
+        "template-editor": {
+            "title": "ifg-tools Template Editor Panel",
+            "type": "dockable",
+            "main": "dist/panels/template-editor",
+            "size": {
+                "min-width": 400,
+                "min-height": 300,
+                "width": 1024,
+                "height": 600
+            }
+        },
+        "dialogue-importer": {
+            "title": "ifg-tools Dialogue Importer Panel",
+            "type": "dockable",
+            "main": "dist/panels/dialogue-importer",
+            "size": {
+                "min-width": 400,
+                "min-height": 300,
+                "width": 1024,
+                "height": 600
+            }
+        },
+        "assets-panel": {
+            "title": "ifg-tools Assets Panel",
+            "type": "dockable",
+            "main": "dist/panels/assets-panel",
+            "size": {
+                "min-width": 1400,
+                "min-height": 900,
+                "width": 1400,
+                "height": 900
+            }
+        },
+        "task-editor": {
+            "title": "ifg-tools Task Editor",
+            "type": "dockable",
+            "main": "dist/panels/task-editor",
+            "size": {
+                "min-width": 1400,
+                "min-height": 900,
+                "width": 1400,
+                "height": 900
+            }
+        }
+    },
+    "contributions": {
+        "menu": [
+            {
+                "path": "i18n:menu.panel/ifg-tools",
+                "label": "i18n:ifg-tools.open_level_editor_panel",
+                "message": "open-level-editor-panel"
+            },
+            {
+                "path": "i18n:menu.panel/ifg-tools",
+                "label": "i18n:ifg-tools.open_template_editor_panel",
+                "message": "open-template-editor-panel"
+            },
+            {
+                "path": "i18n:menu.panel/ifg-tools",
+                "label": "i18n:ifg-tools.open_dialogue_importer_panel",
+                "message": "open-dialogue-importer-panel"
+            },
+            {
+                "path": "i18n:menu.panel/ifg-tools",
+                "label": "i18n:ifg-tools.open_assets_panel",
+                "message": "open-assets-panel"
+            },
+            {
+                "path": "i18n:menu.panel/ifg-tools",
+                "label": "i18n:ifg-tools.open_tasks_panel",
+                "message": "open-task-editor-panel"
+            },
+            {
+                "path": "i18n:menu.develop/ifg-tools",
+                "label": "i18n:ifg-tools.send_to_panel",
+                "message": "send-to-panel"
+            },
+            {
+                "path": "Card Scramble",
+                "label": "Check Configs",
+                "message": "check-configs"
+            }
+        ],
+        "messages": {
+            "check-configs": {
+                "methods": [
+                    "checkConfigs"
+                ]
+            },
+            "open-level-editor-panel": {
+                "methods": [
+                    "openLevelEditorPanel"
+                ]
+            },
+            "open-template-editor-panel": {
+                "methods": [
+                    "openTemplateEditorPanel"
+                ]
+            },
+            "open-dialogue-importer-panel": {
+                "methods": [
+                    "openDialogueImporterPanel"
+                ]
+            },
+            "open-assets-panel": {
+                "methods": [
+                    "openAssetsPanel"
+                ]
+            },
+            "open-task-editor-panel": {
+                "methods": [
+                    "openTaskEditorPanel"
+                ]
+            },
+            "send-to-panel": {
+                "methods": [
+                    "default.hello"
+                ]
+            }
+        }
+    },
+    "author": "Cocos Creator",
+    "editor": ">=3.8.1",
+    "scripts": {
+        "sync": "bash ./syncModels.sh",
+        "build": "npm run sync && tsc -b",
+        "watch": "npm run sync && tsc -w",
+        "check": "ts-node src/types/buildtime/checkConfigs.ts"
+    }
+}

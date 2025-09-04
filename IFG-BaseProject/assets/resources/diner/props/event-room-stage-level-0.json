@@ -1,0 +1,10 @@
+{
+    "id": "decoration.event-room-stage-level-0",
+    "tags": [
+        "stage",
+        "floor"
+    ],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/EventRoomStageLevel0",
+    "thumbnailFilePath": "diner/thumbnails/Event-Room-Stage-lvl0-thumbnail/spriteFrame"
+}

@@ -1,0 +1,14 @@
+{
+    "id": "dining-room-bar-lights",
+    "isStatic": true,
+    "defaultPropId": "decoration.bar-lights-level-1",
+    "tags": ["bar-lights", "ceiling"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch1-fixing-up2"
+            }
+        }
+    ]
+}

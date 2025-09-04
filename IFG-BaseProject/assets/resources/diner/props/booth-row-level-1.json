@@ -1,0 +1,7 @@
+{
+    "id": "decoration.booth-row-level-1",
+    "tags": ["booth-row", "floor", "boothfix-step2"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/BoothsLevel1",
+    "thumbnailFilePath": "diner/thumbnails/booth-lvl1-thumbnail/spriteFrame"
+}

@@ -1,0 +1,16 @@
+{
+    "id": "decoration.bar-stools-level-4",
+    "tags": ["bar-stools", "floor"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/BarStoolsLevel4",
+    "thumbnailFilePath": "diner/thumbnails/bar-stools-lvl4-thumbnail/spriteFrame"
+}

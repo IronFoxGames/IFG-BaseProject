@@ -1,0 +1,14 @@
+{
+    "id": "kitchen-misc-station-topper",
+    "isStatic": true,
+    "defaultPropId": "decoration.kitchen-miscstation-topper-level-0",
+    "tags": ["topper", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch4-UnpackSupplies"
+            }
+        }
+    ]
+}

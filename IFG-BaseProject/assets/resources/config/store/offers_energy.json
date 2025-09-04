@@ -1,0 +1,80 @@
+{
+    "items": [
+        {
+            "id": "energy_pack_mini",
+            "externalIds": ["GEN:CB:1112", "GEN:CB:1111"],
+            "name": "Espresso Shot",
+            "description": "Espresso Shot",
+            "tags": ["store", "energy"],
+            "cost": {
+                "currency": "coins",
+                "amount": 1000
+            },
+            "contents": [
+                {
+                    "id": "energy",
+                    "amount": 5
+                }
+            ],
+            "sprite": "store/bundle/icon-pack-energy/spriteFrame",
+            "stack": true
+        },
+        {
+            "id": "energy_pack_small",
+            "externalIds": ["POGO.OFR.50.0002235", "POGO.OFR.50.0002236"],
+            "name": "Cup o' Joe",
+            "description": "Cup o' Joe",
+            "tags": ["store", "energy"],
+            "cost": {
+                "currency": "gems",
+                "amount": 50
+            },
+            "contents": [
+                {
+                    "id": "energy",
+                    "amount": 10
+                }
+            ],
+            "sprite": "store/bundle/icon-pack-energy/spriteFrame",
+            "stack": true
+        },
+        {
+            "id": "energy_pack_medium",
+            "externalIds": ["POGO.OFR.50.0002237", "POGO.OFR.50.0002238"],
+            "name": "Mug o' Joe",
+            "description": "Mug o' Joe",
+            "tags": ["store", "energy"],
+            "cost": {
+                "currency": "gems",
+                "amount": 75
+            },
+            "contents": [
+                {
+                    "id": "energy",
+                    "amount": 15
+                }
+            ],
+            "sprite": "store/bundle/icon-pack-energy/spriteFrame",
+            "stack": true
+        },
+        {
+            "id": "energy_pack_large",
+            "externalIds": ["POGO.OFR.50.0002239", "POGO.OFR.50.0002240"],
+            "name": "Leave The Pot",
+            "description": "Leave The Pot",
+            "tags": ["store", "energy"],
+            "cost": {
+                "currency": "gems",
+                "amount": 145
+            },
+            "contents": [
+                {
+                    "id": "energy",
+                    "amount": 30
+                }
+            ],
+            "sprite": "store/bundle/icon-pack-energy/spriteFrame",
+            "stack": true
+        }
+    ]
+}

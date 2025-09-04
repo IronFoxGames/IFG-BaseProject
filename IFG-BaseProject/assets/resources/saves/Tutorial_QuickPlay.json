@@ -1,0 +1,341 @@
+{
+	"storyLevelsCompleted": [
+		"Tutorial_BaseBoardUIAndControls",
+		"Tutorial_ObjHandType",
+		"Tutorial_ObjBonus",
+		"Tutorial_BaseJokers",
+		"Tutorial_HandsStraight",
+		"Tutorial_HandsFlush",
+		"RedKinkyAmoeba",
+		"Tutorial_HandsFullHouse",
+		"Tutorial_BoosterLoosenYourBelt",
+		"Tutorial_PowerupExtraServings",
+		"Tutorial_BoosterDeucesWild",
+		"Tutorial_PowerupJoker",
+		"BlueFreshDove",
+		"IndigoSlowMoose",
+		"CoralSnappyStarfish",
+		"BlueGloriousCheetah",
+		"Tutorial_PowerupSevenCards",
+		"WhiteJudiciousDolphin",
+		"BlueTangiblePitbull",
+		"SalmonGoofySpider",
+		"SapphireSevereAxolotl",
+		"PinkHurriedCrow",
+		"RoseFestiveMonkey",
+		"SilverSpiffyHedgehog",
+		"Tutorial_PowerupFreeDessert",
+		"Tutorial_PowerupCleanDown",
+		"BrownJazzyFinch",
+		"PurpleProfuseBear",
+		"RedChiefEchidna",
+		"OrangeHomelyMantis",
+		"Tutorial_PowerupCookingTheBooks",
+		"BlackLamentableMule",
+		"PinkSensualFish",
+		"Tutorial_PowerupReFire",
+		"CharcoalMagisticalBaboon",
+		"GraySpecialQuoll",
+		"TealTestyStarling",
+		"SilverJovialMustang",
+		"BlueJovialElephant",
+		"PeriwinkleSneakyKittie",
+		"BurgundyYummySkunk",
+		"OliveBoredGoat",
+		"GrayMuteLark",
+		"SilverCoordinatedZebra",
+		"GreenFragileStarling",
+		"PurpleStormyDonkey",
+		"IndigoObstreperousPuma"
+	],
+	"dialogueSaveData": [
+		{
+			"dialogueId": "Chapter0-TeachMe"
+		},
+		{
+			"dialogueId": "Chapter0-Learning"
+		},
+		{
+			"dialogueId": "Chapter0-Grilled Cheese"
+		},
+		{
+			"dialogueId": "Chapter0-A New Deck"
+		},
+		{
+			"dialogueId": "Chapter0-Getting the Hang of it"
+		},
+		{
+			"dialogueId": "Chapter0-One More Puzzle"
+		},
+		{
+			"dialogueId": "Chapter0-Leaving town"
+		},
+		{
+			"dialogueId": "Chapter1-Intro"
+		},
+		{
+			"dialogueId": "Chapter1-ItsAMess"
+		},
+		{
+			"dialogueId": "Chapter1-PuzzleTime"
+		},
+		{
+			"dialogueId": "Chapter1-PuzzleTime2"
+		},
+		{
+			"dialogueId": "Chapter1-SodaMachine"
+		},
+		{
+			"dialogueId": "Chapter1-DailyDelivery"
+		},
+		{
+			"dialogueId": "Chapter1-OpenPrize"
+		},
+		{
+			"dialogueId": "Chapter1-DrinkCoffee"
+		},
+		{
+			"dialogueId": "Chapter1-CleaningUp"
+		},
+		{
+			"dialogueId": "Chapter1-MissedASpot"
+		},
+		{
+			"dialogueId": "Chapter1-CounterCleaning"
+		},
+		{
+			"dialogueId": "Chapter1-DirtyWalls"
+		},
+		{
+			"dialogueId": "Chapter1-Coffee"
+		},
+		{
+			"dialogueId": "Chapter1-NewCoffeeMaker"
+		},
+		{
+			"dialogueId": "Chapter1-PetDerek"
+		},
+		{
+			"dialogueId": "Chapter1-TryNewCoffeeMaker"
+		},
+		{
+			"dialogueId": "Chapter1-StoolsFixed"
+		},
+		{
+			"dialogueId": "Chapter1-LightsFixed"
+		},
+		{
+			"dialogueId": "Chapter1-BrightenUp"
+		},
+		{
+			"dialogueId": "Chapter1-Decorate1"
+		},
+		{
+			"dialogueId": "Chapter1-Decorate2"
+		}
+	],
+	"quickPlaySaveData": {
+		"highscore": 0
+	},
+	"taskProgressSaveData": {
+		"grilled-cheese": {
+			"taskComplete": 1,
+			"taskAssigned": true
+		},
+		"joeys-challenge": {
+			"taskComplete": 1,
+			"taskAssigned": true
+		},
+		"while-away": {
+			"taskComplete": 1,
+			"taskAssigned": true
+		},
+		"complete-prologue": {
+			"taskComplete": 1,
+			"taskAssigned": true
+		},
+		"ch1-check-on-joey": {
+			"taskComplete": 1,
+			"taskAssigned": true
+		},
+		"ch1-taking-orders": {
+			"taskComplete": 3,
+			"taskAssigned": true
+		},
+		"ch1-clean-newspaper": {
+			"taskComplete": 1,
+			"taskAssigned": true
+		},
+		"ch1-beat-joeys-puzzles": {
+			"taskComplete": 1,
+			"taskAssigned": true
+		},
+		"ch1-soda-machine": {
+			"taskComplete": 1,
+			"taskAssigned": true
+		},
+		"ch1-collect-mystery-prize": {
+			"taskComplete": 1,
+			"taskAssigned": true
+		},
+		"ch1-drink-coffee": {
+			"taskComplete": 1,
+			"taskAssigned": true
+		},
+		"ch1-dirty-floors": {
+			"taskComplete": 2,
+			"taskAssigned": true
+		},
+		"ch1-clean-up-counter": {
+			"taskComplete": 1,
+			"taskAssigned": true
+		},
+		"ch1-fix-walls": {
+			"taskComplete": 1,
+			"taskAssigned": true
+		},
+		"ch1-check-funds": {
+			"taskComplete": 1,
+			"taskAssigned": true
+		},
+		"ch1-coffee-maker": {
+			"taskComplete": 1,
+			"taskAssigned": true
+		},
+		"ch1-try-coffee-maker": {
+			"taskComplete": 1,
+			"taskAssigned": true
+		},
+		"ch1-pet-derek": {
+			"taskComplete": 1,
+			"taskAssigned": true
+		},
+		"ch1-fixing-up1": {
+			"taskComplete": 1,
+			"taskAssigned": true
+		},
+		"ch1-fixing-up2": {
+			"taskComplete": 1,
+			"taskAssigned": true
+		},
+		"ch1-fixing-up3": {
+			"taskComplete": 1,
+			"taskAssigned": true
+		},
+		"ch1-decorate": {
+			"taskComplete": 2,
+			"taskAssigned": true
+		}
+	},
+	"nodeSaveData": {
+		"dining-room-bar-counter": {
+			"propId": "decoration.bar-counter-level-1"
+		},
+		"dining-room-bar-stools": {
+			"propId": "decoration.bar-stools-level-1"
+		},
+		"dining-room-fridge": {
+			"propId": "decoration.bar-fridge-level-0"
+		},
+		"dining-room-tables": {
+			"propId": "decoration.table-row-level-0"
+		},
+		"dining-room-front-booths": {
+			"propId": "decoration.booth-row-level-0"
+		},
+		"dining-room-bar-lights": {
+			"propId": "decoration.bar-lights-level-1"
+		},
+		"dining-room-bar-rug": {
+			"propId": "decoration.bar-rug-level-0"
+		},
+		"dining-room-food-display": {
+			"propId": "decoration.food-display-level-0"
+		},
+		"dining-room-service-counter": {
+			"propId": "decoration.service-counter-level-0"
+		},
+		"dining-room-soda-machine": {
+			"propId": "decoration.soda-machine-level-1"
+		},
+		"dining-room-walls": {
+			"propId": "decoration.cafe-walls-level-3"
+		},
+		"dining-room-coffee-maker": {
+			"propId": "decoration.coffee-maker-level-1"
+		},
+		"dining-room-1x1-entrance": {
+			"propId": "decoration.1x1-plant-monstera-terracota"
+		},
+		"dining-room-1x1-event-door-bottom": {
+			"propId": "decoration.1x1-plant-monstera-terracota"
+		}
+	},
+	"roomSaveData": {
+		"dining-room": true
+	},
+	"inventory": {
+		"decoration.soda-machine-level-1": 1,
+		"decoration.cafe-walls-level-3": 1,
+		"decoration.coffee-maker-level-1": 1,
+		"decoration.bar-stools-level-1": 1,
+		"decoration.bar-lights-level-1": 1,
+		"decoration.bar-counter-level-1": 1,
+		"decoration.1x1-plant-monstera-terracota": 1
+	},
+	"currencySaveData": {
+		"stars": {
+			"amount": 1
+		},
+		"coins": {
+			"amount": 1000
+		}
+	},
+	"settings": {
+		"MusicEnabled": false,
+		"MusicVolume": 0
+	},
+	"tutorialSteps": {
+		"welcome-01": true,
+		"puzzle-start-01": true,
+		"gameboard-and-controls-01": true,
+		"gameboard-and-controls-02": true,
+		"gameboard-and-controls-03": true,
+		"puzzle2-start-01": true,
+		"tutorial-handtype-objectives": true,
+		"tutorial-order-help-button": true,
+		"tasks-01": true,
+		"tasks-02": true,
+		"tasks-03": true,
+		"tasks-complete": true,
+		"tutorial-multiple-orders": true,
+		"tutorial-wilds": true,
+		"tutorial-jokers": true,
+		"puzzle-start-02": true,
+		"energy-01": true,
+		"puzzle-start-boosters": true,
+		"puzzle-start-loosenyourbelt-01": true,
+		"puzzle-start-loosenyourbelt-02": true,
+		"tutorial-booster-loosen-your-belt": true,
+		"tutorial-powerup-extra-servings": true,
+		"store-01": true,
+		"puzzle-start-deuceswild-01": true,
+		"puzzle-start-deuceswild-02": true,
+		"tutorial-booster-deuces-wild": true,
+		"tutorial-powerup-joker": true,
+		"daily-mystery-box-01": true,
+		"tutorial-powerup-cooking": true,
+		"build-mode": true,
+		"tutorial-powerup-refire-1": true
+	},
+	"dailyPrizeClaimOrder": [
+
+	],
+	"dailyPrizeLastDay": -1,
+	"purchases": {
+		"bar-stools-level-1": 1,
+		"bar-lights-level-1": 1,
+		"bar-counter-level-1": 1,
+		"1x1-plant-monstera-terracota": 1
+	}
+}

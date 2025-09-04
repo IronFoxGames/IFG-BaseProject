@@ -1,0 +1,7 @@
+{
+    "id": "decoration.bathroom-toilet-level-2",
+    "tags": ["toilet", "floor", "placeprop-bathroom-toilet"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/BathroomToiletLevel2",
+    "thumbnailFilePath": "diner/thumbnails/bathroom-toilet-lvl2-thumbnail/spriteFrame"
+}

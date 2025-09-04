@@ -1,0 +1,7 @@
+{
+    "id": "decoration.office-desk-level-1",
+    "tags": ["desk", "floor","office-desk"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/OfficeDeskLevel1",
+    "thumbnailFilePath": "diner/thumbnails/office-desk-lvl1-thumbnail/spriteFrame"
+}

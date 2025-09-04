@@ -1,0 +1,19 @@
+{
+    "id": "decoration.storage-worktable-level-0",
+    "tags": [
+        "worktable",
+        "floor"
+    ],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/StorageWorktableLevel0",
+    "thumbnailFilePath": "diner/thumbnails/storage-worktable-lvl0-thumbnail/spriteFrame"
+}

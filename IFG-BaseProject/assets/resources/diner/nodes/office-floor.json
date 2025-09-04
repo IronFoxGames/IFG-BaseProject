@@ -1,0 +1,12 @@
+{
+    "id": "office-floor",
+    "isStatic": true,
+    "defaultPropId": "decoration.office-floor-level-0",
+    "tags": ["office", "floor-pattern"],
+    "requirements": [
+        {
+            "requirementType": "taskComplete",
+            "taskId": "ch5-clean-floor"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "id": "decoration.bar-stools-level-2",
+    "tags": ["bar-stools", "floor"],
+    "requirements": [],
+    "visibilityRequirements": [
+            {
+        "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter3-TimeToSettleIn",
+            "operator": "hasSeen"
+        }
+    }
+    ],
+    "assetFilePath": "diner/prefabs/BarStoolsLevel2",
+    "thumbnailFilePath": "diner/thumbnails/bar-stools-lvl2-thumbnail/spriteFrame"
+}

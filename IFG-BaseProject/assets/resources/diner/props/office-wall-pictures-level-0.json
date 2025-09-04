@@ -1,0 +1,16 @@
+{
+    "id": "decoration.office-wall-pictures-level-0",
+    "tags": ["pictures", "wall", "office-wall-pictures"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/OfficeWallPicturesLevel0",
+    "thumbnailFilePath": "diner/thumbnails/office-wall-pictures-lvl0-thumbnail/spriteFrame"
+}

@@ -1,0 +1,61 @@
+{
+    "name": "BrownQuakingHusky",
+    "description": "Simple template",
+    "handSize": 7,
+    "difficulty": "Hard",
+    "hasBot": false,
+    "placeAnchor": false,
+    "objectives": [
+        {
+            "objectiveDataList": [
+                {
+                    "objectiveType": "Score",
+                    "tipText": "Score the target number of points by playing the best hands possible.",
+                    "tipSprite": null,
+                    "score": 50000
+                }
+            ]
+        }
+    ],
+    "deckType": "Default",
+    "customDeck": [],
+    "startingBoard": [
+        { "boardIndex": 30, "card": { "type": "regular", "rank": 11, "suit": 4 } },
+        { "boardIndex": 50, "card": { "type": "regular", "rank": 11, "suit": 4 } }
+    ],
+    "boardModifierPlacements": [
+        { "boardIndex": 66, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 67, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 68, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 75, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 74, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 73, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 87, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 61, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 88, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 79, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 80, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 54, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 136, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 135, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 122, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 161, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 148, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 162, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 149, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 123, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 134, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 137, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 154, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 3 } },
+        { "boardIndex": 144, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 3 } },
+        { "boardIndex": 14, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } },
+        { "boardIndex": 23, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } },
+        { "boardIndex": 112, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } },
+        { "boardIndex": 94, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } }
+    ],
+    "freeBooster": "None",
+    "freePowerup": "None",
+    "appliedBoosters": [],
+    "gridSpecialsEnabled": false,
+    "gridSpecialsHidden": false
+}

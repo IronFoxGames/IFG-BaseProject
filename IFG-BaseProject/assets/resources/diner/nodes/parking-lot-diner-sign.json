@@ -1,0 +1,7 @@
+{
+    "id": "parking-lot-diner-sign",
+    "isStatic": true,
+    "defaultPropId": "decoration.parking-lot-diner-sign-level-0",
+    "tags": ["parking-lot-diner-sign"],
+    "requirements": []
+}

@@ -1,0 +1,256 @@
+{
+    "name": "TurquoiseGregariousMarsupilami",
+    "description": "Simple template",
+    "handSize": 7,
+    "difficulty": "Epic",
+    "hasBot": false,
+    "placeAnchor": false,
+    "objectives": [
+        {
+            "objectiveDataList": [
+                {
+                    "objectiveType": "Score",
+                    "tipText": "Score the target number of points by playing the best hands possible.",
+                    "tipSprite": null,
+                    "score": 54000
+                }
+            ]
+        }
+    ],
+    "deckType": "Default",
+    "customDeck": [],
+    "startingBoard": [
+        { "boardIndex": 159, "card": { "type": "wild", "rank": 0, "suit": 0 } },
+        { "boardIndex": 165, "card": { "type": "wild", "rank": 0, "suit": 0 } }
+    ],
+    "boardModifierPlacements": [
+        {
+            "boardIndex": 109,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 2,
+                "boardIndex": 109
+            }
+        },
+        {
+            "boardIndex": 110,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 2,
+                "boardIndex": 110
+            }
+        },
+        {
+            "boardIndex": 111,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 2,
+                "boardIndex": 111
+            }
+        },
+        {
+            "boardIndex": 95,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 3,
+                "boardIndex": 95
+            }
+        },
+        {
+            "boardIndex": 93,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 3,
+                "boardIndex": 93
+            }
+        },
+        {
+            "boardIndex": 94,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 3,
+                "boardIndex": 94
+            }
+        },
+        {
+            "boardIndex": 99,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 99
+            }
+        },
+        {
+            "boardIndex": 100,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 100
+            }
+        },
+        {
+            "boardIndex": 101,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 101
+            }
+        },
+        {
+            "boardIndex": 83,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": 1,
+                "requiredSuit": -1,
+                "boardIndex": 83
+            }
+        },
+        {
+            "boardIndex": 84,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": 1,
+                "requiredSuit": -1,
+                "boardIndex": 84
+            }
+        },
+        {
+            "boardIndex": 85,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": 1,
+                "requiredSuit": -1,
+                "boardIndex": 85
+            }
+        },
+        {
+            "boardIndex": 75,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": 2,
+                "requiredSuit": -1,
+                "boardIndex": 75
+            }
+        },
+        {
+            "boardIndex": 74,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": 2,
+                "requiredSuit": -1,
+                "boardIndex": 74
+            }
+        },
+        {
+            "boardIndex": 73,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": 2,
+                "requiredSuit": -1,
+                "boardIndex": 73
+            }
+        },
+        {
+            "boardIndex": 69,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": 13,
+                "requiredSuit": -1,
+                "boardIndex": 69
+            }
+        },
+        {
+            "boardIndex": 68,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": 13,
+                "requiredSuit": -1,
+                "boardIndex": 68
+            }
+        },
+        {
+            "boardIndex": 67,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": 13,
+                "requiredSuit": -1,
+                "boardIndex": 67
+            }
+        },
+        { "boardIndex": 36, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 12 } },
+        { "boardIndex": 28, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 12 } },
+        { "boardIndex": 44, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 10 } },
+        { "boardIndex": 46, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 10 } },
+        { "boardIndex": 29, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 3 } },
+        { "boardIndex": 35, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 3 } },
+        { "boardIndex": 45, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 3 } }
+    ],
+    "freeBooster": "None",
+    "freePowerup": "None",
+    "appliedBoosters": [],
+    "gridSpecialsEnabled": false,
+    "gridSpecialsHidden": false
+}

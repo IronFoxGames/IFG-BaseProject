@@ -1,0 +1,12 @@
+{
+    "id": "office-desk-rug",
+    "isStatic": true,
+    "defaultPropId": "decoration.office-desk-rug-level-0",
+    "tags": ["desk-rug", "floor"],
+    "requirements": [
+        {
+            "requirementType": "taskComplete",
+            "taskId": "ch5-replace-desk-rug"
+        }
+    ]
+}

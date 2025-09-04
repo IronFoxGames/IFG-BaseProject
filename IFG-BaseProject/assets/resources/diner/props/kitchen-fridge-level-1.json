@@ -1,0 +1,7 @@
+{
+    "id": "decoration.kitchen-fridge-level-1",
+    "tags": ["fridge", "floor", "kitchen-fridge"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/KitchenFridgeLevel1",
+    "thumbnailFilePath": "diner/thumbnails/kitchen-fridge-lvl1-thumbnail/spriteFrame"
+}

@@ -1,0 +1,7 @@
+{
+    "id": "kitchen-donut-machine-level-0A",
+    "tags": ["donutmachine", "floor", "kitchen-donut-machine1", "kitchen-donut-machine2"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/KitchenDonutMachineLevel0a",
+    "thumbnailFilePath": "diner/thumbnails/donut-machine-lvl0a-thumbnail/spriteFrame"
+}

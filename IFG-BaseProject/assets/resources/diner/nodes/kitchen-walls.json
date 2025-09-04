@@ -1,0 +1,14 @@
+{
+    "id": "kitchen-walls",
+    "isStatic": true,
+    "defaultPropId": "decoration.kitchen-walls-level-0",
+    "tags": ["kitchen", "wall-pattern"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch4-ScrubKitchenWalls"
+            }
+        }
+    ]
+}

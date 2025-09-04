@@ -1,0 +1,1159 @@
+{
+    "id": "chapter-4",
+    "name": "Chapter 4",
+    "tasks": [
+        {
+            "id": "ch4-KitchenCheckIn",
+            "name": "Check in with Chef",
+            "iconId": "icon-check",
+            "description": "Check in with Chef",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-KitchenTime",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 1,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "unlockRoom",
+                                "roomId": "kitchen"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-BurntOut"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "chapterStartTask": "chapter-4"
+        },
+        {
+            "id": "ch4-FixFlatTop",
+            "name": "Replace the Griddle",
+            "iconId": "icon-fix",
+            "description": "Replace the Griddle",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-BurntOut",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 2,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "kitchen",
+                                "nodeId": "kitchen-range-station",
+                                "propTags": ["range"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-NewGriddle"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "id": "ch4-LunchRush",
+            "name": "Handle the Lunch Rush",
+            "iconId": "mess-diner-cake-full",
+            "description": "Handle the Lunch Rush",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-NewGriddle",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 4,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-diner-cake-eaten",
+                                "roomId": "dining-room",
+                                "spawnIds": [
+                                    "dining-room-bar-counter-middle",
+                                    "dining-room-table-2-south-west",
+                                    "dining-room-table-4-south-west"
+                                ],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-diner-coffee-stain",
+                                "roomId": "dining-room",
+                                "spawnIds": [
+                                    "dining-room-table-3-south-west",
+                                    "dining-room-table-2-south-east",
+                                    "dining-room-table-5-south-west",
+                                    "dining-room-table-6-south-east"
+                                ],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-puddle-water",
+                                "roomId": "dining-room",
+                                "spawnIds": ["dining-room-floor-middle1", "dining-room-floor-north1"],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-LunchOrder"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-RileysOrder",
+            "name": "Prepare Rileys Order",
+            "iconId": "icon-check",
+            "description": "Prepare Rileys Order",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-LunchOrder",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-DateNight"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-FinishShift",
+            "name": "Finish Your Shift",
+            "iconId": "icon-check",
+            "description": "Finish Your Shift",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-DateNight",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-AnotherDayDone"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-clearTables",
+            "name": "Clear Down The Tables",
+            "iconId": "icon-clean",
+            "description": "Clear Down The Tables",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-AnotherDayDone",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 1,
+            "completionCount": 3,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-diner-cake-eaten",
+                                "roomId": "dining-room",
+                                "spawnIds": ["dining-room-table-2-south-west", "dining-room-table-4-south-west"],
+                                "iconId": "icon-clean"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-diner-coffee-stain",
+                                "roomId": "dining-room",
+                                "spawnIds": ["dining-room-table-5-south-west", "dining-room-table-7-south-west"],
+                                "iconId": "icon-clean"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-puddle-water",
+                                "roomId": "dining-room",
+                                "spawnIds": ["dining-room-floor-middle1", "dining-room-floor-south-west2"],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-KitchenCleaning"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-ScrubKitchenFloor",
+            "name": "Clean Up the Kitchen Floor",
+            "iconId": "icon-fix",
+            "description": "Clean Up the Kitchen Floor",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-KitchenCleaning",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "kitchen",
+                                "nodeId": "kitchen-floor",
+                                "propTags": ["kitchen", "floor-pattern"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-FloorClean"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-ScrubKitchenWalls",
+            "name": "Clean Up The Kitchen Walls",
+            "iconId": "icon-fix",
+            "description": "Clean Up The Kitchen Walls",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-KitchenCleaning",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "kitchen",
+                                "nodeId": "kitchen-walls",
+                                "propTags": ["kitchen-walls"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-WallsClean"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-CheckInWithJoey",
+            "name": "Check In With Joey",
+            "iconId": "icon-check",
+            "description": "Check In With Joey",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-FloorClean",
+                        "operator": "hasSeen"
+                    }
+                },
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-WallsClean",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-Bookwork"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-GoToRileysPlace",
+            "name": "Go To Riley's Place",
+            "iconId": "icon-check",
+            "description": "Go To Riley's Place",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-Bookwork",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-Venting"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-ReviewTheBooks",
+            "name": "Review The Books",
+            "iconId": "icon-check",
+            "description": "Review The Books",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-Venting",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-KitchenCost"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-ReplaceWashStation",
+            "name": "Replace the Kitchen Wash Station",
+            "iconId": "icon-fix",
+            "description": "Replace the Kitchen Wash Station",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-KitchenCost",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 4,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "kitchen",
+                                "nodeId": "kitchen-dishwashing-station",
+                                "propTags": ["kitchen-dishwashing-station"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-GameDay"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-ReplacePrepStation",
+            "name": "Replace the Kitchen Prep Station",
+            "iconId": "icon-fix",
+            "description": "Replace the Kitchen Prep Station",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-KitchenCost",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 4,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "kitchen",
+                                "nodeId": "kitchen-prep-station",
+                                "propTags": ["kitchen-prep-station"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-DarcysAdvice"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-GoToTheGame",
+            "name": "Go To The Game",
+            "iconId": "icon-check",
+            "description": "Go To The Game",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-DarcysAdvice",
+                        "operator": "hasSeen"
+                    }
+                },
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-GameDay",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-KitchenFixup"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-ReplaceKitchenFridge",
+            "name": "Replace the Kitchen Fridge",
+            "iconId": "icon-fix",
+            "description": "Replace the Kitchen Fridge",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-KitchenFixup",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 4,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "kitchen",
+                                "nodeId": "kitchen-fridge",
+                                "propTags": ["kitchen-fridge"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-FridgeFixed"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-ReplaceKitchenTable",
+            "name": "Replace Kitchen Table",
+            "iconId": "icon-fix",
+            "description": "Replace Kitchen Table",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-KitchenFixup",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 4,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "kitchen",
+                                "nodeId": "kitchen-misc-station",
+                                "propTags": ["kitchen-misc-station"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-TableFixed"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-ReplacePlatingStation",
+            "name": "Replace Kitchen Plating Station",
+            "iconId": "icon-check",
+            "description": "Replace Kitchen Plating Station",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-KitchenFixup",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 4,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "kitchen",
+                                "nodeId": "kitchen-plating-station",
+                                "propTags": ["kitchen-plating-station"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-PlatingStationFixed"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-TakeAWalk",
+            "name": "Get Some Fresh Air",
+            "iconId": "icon-check",
+            "description": "Get Some Fresh Air",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-TakingAWalk",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-WillTalk"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-CheckInOnChef",
+            "name": "Check In On Chef",
+            "iconId": "icon-check",
+            "description": "Check In On Chef",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-WillTalk",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-KitchenSetup"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-UnpackSupplies",
+            "name": "Unpack Kitchen Supplies",
+            "iconId": "icon-food-delivery",
+            "description": "Unpack Kitchen Supplies",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-KitchenSetup",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 2,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "kitchen",
+                                "nodeId": "kitchen-fridge-accessory",
+                                "propTags": ["accessory"]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "kitchen",
+                                "nodeId": "kitchen-misc-station-topper",
+                                "propTags": ["topper"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-KitchenCleanup"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-TryChefsTreat",
+            "name": "Try Chef's Dish",
+            "iconId": "icon-check",
+            "description": "Try Chef's Dish",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-KitchenCleanup",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-Delicious"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-CleanUpBeforeClose",
+            "name": "Clean Up Before Close",
+            "iconId": "icon-clean",
+            "description": "Clean Up Before Close",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-Delicious",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 4,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-diner-cake-eaten",
+                                "roomId": "dining-room",
+                                "spawnIds": ["dining-room-bar-counter-middle", "dining-room-table-4-south-west"],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-diner-magazines",
+                                "roomId": "dining-room",
+                                "spawnIds": ["dining-room-table-2-south-west"],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-diner-coffee-stain",
+                                "roomId": "dining-room",
+                                "spawnIds": ["dining-room-table-1-south-west", "dining-room-table-6-south-west"],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-puddle-water",
+                                "roomId": "dining-room",
+                                "spawnIds": ["dining-room-floor-south-west1", "dining-room-floor-north1"],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-CuttingLoose"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-HelpChefPrepMorningService",
+            "name": "Help Chef Prepare Morning Service",
+            "iconId": "icon-food-delivery",
+            "description": "Help Chef Prepare Morning Service",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-CuttingLoose",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-DayOff"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-TalkToDerek",
+            "name": "Talk To Derek",
+            "iconId": "icon-derek",
+            "description": "Talk To Derek",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-DayOff",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-DerekTalk"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-CleanUpTheKitchen",
+            "name": "Clean Up The Kitchen",
+            "iconId": "icon-clean",
+            "description": "Clean Up The Kitchen",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-DerekTalk",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 1,
+            "completionCount": 4,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-puddle-water",
+                                "roomId": "kitchen",
+                                "spawnIds": ["kitchen-floor-central-1"],
+                                "iconId": "icon-clean"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-puddle-water",
+                                "roomId": "kitchen",
+                                "spawnIds": ["kitchen-floor-west-1"],
+                                "iconId": "icon-clean"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-puddle-water",
+                                "roomId": "kitchen",
+                                "spawnIds": ["kitchen-floor-north-1"],
+                                "iconId": "icon-clean"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-puddle-water",
+                                "roomId": "kitchen",
+                                "spawnIds": ["kitchen-floor-east-1"],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-DonutMystery"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-RevealTheMystery",
+            "name": "Reveal the Mystery Appliance",
+            "iconId": "icon-check",
+            "description": "Reveal the Mystery Appliance",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-DonutMystery",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 4,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "kitchen",
+                                "nodeId": "kitchen-donut-machine",
+                                "propTags": ["kitchen-donut-machine1"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-DonutMachine"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-CleanDonutMachine",
+            "name": "Clean The Donut Machine",
+            "iconId": "icon-clean",
+            "description": "Clean The Donut Machine",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-DonutMachine",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 4,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "kitchen",
+                                "nodeId": "kitchen-donut-machine",
+                                "propTags": ["kitchen-donut-machine2"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-FloorMats"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-PlaceKitchenFloorMats",
+            "name": "Place Kitchen Floor Mats",
+            "iconId": "icon-check",
+            "description": "Place Kitchen Floor Mats",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-FloorMats",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "kitchen",
+                                "nodeId": "kitchen-floor-mat",
+                                "propTags": ["mat"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-JoeySurprise"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-SeeJoeySurprise",
+            "name": "See Joey's Surprise",
+            "iconId": "icon-check",
+            "description": "See Joey's Surprise",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-JoeySurprise",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "parking-lot",
+                                "nodeId": "parking-lot-diner-sign",
+                                "propTags": ["parking-lot-diner-sign"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter4-ViolasDiner"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch4-complete-chapter-4",
+            "name": "Complete Chapter 4",
+            "iconId": "icon-check",
+            "description": "Complete Chapter 4",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter4-ViolasDiner",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [],
+            "chapterEndTask": "chapter-4"
+        }
+    ]
+}

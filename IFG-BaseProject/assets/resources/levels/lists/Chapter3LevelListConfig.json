@@ -1,0 +1,732 @@
+{
+    "levels": [
+        {
+            "name": "3-1",
+            "id": "CrimsonFierceTiger",
+            "path": "levels/Story/Chapter03/CrimsonFierceTiger",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            },
+            "requirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "taskComplete",
+                        "taskId": "ch2-complete-chapter-2"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "3-2",
+            "id": "EmeraldShiftingPanther",
+            "path": "levels/Story/Chapter03/EmeraldShiftingPanther",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-3",
+            "id": "GoldenMightyEagle",
+            "path": "levels/Story/Chapter03/GoldenMightyEagle",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-4",
+            "id": "SapphireSwiftWolf",
+            "path": "levels/Story/Chapter03/SapphireSwiftWolf",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-5",
+            "id": "AmberGracefulFalcon",
+            "path": "levels/Story/Chapter03/AmberGracefulFalcon",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-6",
+            "id": "SilverStormBear",
+            "path": "levels/Story/Chapter03/SilverStormBear",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-7",
+            "id": "JadeSilentFox",
+            "path": "levels/Story/Chapter03/JadeSilentFox",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-8",
+            "id": "RubyBraveLion",
+            "path": "levels/Story/Chapter03/RubyBraveLion",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-9",
+            "id": "ObsidianCunningCheetah",
+            "path": "levels/Story/Chapter03/ObsidianCunningCheetah",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-10",
+            "id": "AzureBoldHawk",
+            "path": "levels/Story/Chapter03/AzureBoldHawk",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-11",
+            "id": "VioletFrostedDeer",
+            "path": "levels/Story/Chapter03/VioletFrostedDeer",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-12",
+            "id": "PearlRadiantJaguar",
+            "path": "levels/Story/Chapter03/PearlRadiantJaguar",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-13",
+            "id": "TopazGentleTiger",
+            "path": "levels/Story/Chapter03/TopazGentleTiger",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-14",
+            "id": "CoralVengefulEagle",
+            "path": "levels/Story/Chapter03/CoralVengefulEagle",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-15",
+            "id": "CharcoalQuickWolf",
+            "path": "levels/Story/Chapter03/CharcoalQuickWolf",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-16",
+            "id": "OnyxLoyalBear",
+            "path": "levels/Story/Chapter03/OnyxLoyalBear",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-17",
+            "id": "PlumSilentPanther",
+            "path": "levels/Story/Chapter03/PlumSilentPanther",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-18",
+            "id": "IvoryStormFox",
+            "path": "levels/Story/Chapter03/IvoryStormFox",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-19",
+            "id": "CeruleanSwiftLion",
+            "path": "levels/Story/Chapter03/CeruleanSwiftLion",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-20",
+            "id": "IndigoVigilantFox",
+            "path": "levels/Story/Chapter03/IndigoVigilantFox",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-21",
+            "id": "CobaltQuietWolf",
+            "path": "levels/Story/Chapter03/CobaltQuietWolf",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-22",
+            "id": "GarnetMightyBear",
+            "path": "levels/Story/Chapter03/GarnetMightyBear",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-23",
+            "id": "SlateStealthyTiger",
+            "path": "levels/Story/Chapter03/SlateStealthyTiger",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-24",
+            "id": "TurquoiseBoldEagle",
+            "path": "levels/Story/Chapter03/TurquoiseBoldEagle",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-25",
+            "id": "AmethystCalmFox",
+            "path": "levels/Story/Chapter03/AmethystCalmFox",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-26",
+            "id": "BronzeFearlessCheetah",
+            "path": "levels/Story/Chapter03/BronzeFearlessCheetah",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-27",
+            "id": "MagentaGentleFalcon",
+            "path": "levels/Story/Chapter03/MagentaGentleFalcon",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-28",
+            "id": "BronzeFrostedBear",
+            "path": "levels/Story/Chapter03/BronzeFrostedBear",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-29",
+            "id": "RoseRapidLion",
+            "path": "levels/Story/Chapter03/RoseRapidLion",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-30",
+            "id": "OpalCunningTiger",
+            "path": "levels/Story/Chapter03/OpalCunningTiger",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-31",
+            "id": "ScarletSteadyEagle",
+            "path": "levels/Story/Chapter03/ScarletSteadyEagle",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-32",
+            "id": "EmeraldStealthyCheetah",
+            "path": "levels/Story/Chapter03/EmeraldStealthyCheetah",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-33",
+            "id": "CopperVengefulPanther",
+            "path": "levels/Story/Chapter03/CopperVengefulPanther",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-34",
+            "id": "AmberNobleWolf",
+            "path": "levels/Story/Chapter03/AmberNobleWolf",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-35",
+            "id": "SilverQuickFox",
+            "path": "levels/Story/Chapter03/SilverQuickFox",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-36",
+            "id": "JadeNobleBear",
+            "path": "levels/Story/Chapter03/JadeNobleBear",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-37",
+            "id": "GoldLoyalFalcon",
+            "path": "levels/Story/Chapter03/GoldLoyalFalcon",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-38",
+            "id": "OnyxBlazingTiger",
+            "path": "levels/Story/Chapter03/OnyxBlazingTiger",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-39",
+            "id": "TealSilentEagle",
+            "path": "levels/Story/Chapter03/TealSilentEagle",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-40",
+            "id": "SapphireFiercePanther",
+            "path": "levels/Story/Chapter03/SapphireFiercePanther",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-41",
+            "id": "ObsidianQuickBear",
+            "path": "levels/Story/Chapter03/ObsidianQuickBear",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-42",
+            "id": "IndigoGentleFox",
+            "path": "levels/Story/Chapter03/IndigoGentleFox",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-43",
+            "id": "CrystalVigilantLion",
+            "path": "levels/Story/Chapter03/CrystalVigilantLion",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-44",
+            "id": "RubyStormFox",
+            "path": "levels/Story/Chapter03/RubyStormFox",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-45",
+            "id": "TopazMightyWolf",
+            "path": "levels/Story/Chapter03/TopazMightyWolf",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-46",
+            "id": "GarnetSwiftFalcon",
+            "path": "levels/Story/Chapter03/GarnetSwiftFalcon",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-47",
+            "id": "PlatinumLoyalCheetah",
+            "path": "levels/Story/Chapter03/PlatinumLoyalCheetah",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-48",
+            "id": "JadeBlazingTiger",
+            "path": "levels/Story/Chapter03/JadeBlazingTiger",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-49",
+            "id": "AmethystFrostedEagle",
+            "path": "levels/Story/Chapter03/AmethystFrostedEagle",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-50",
+            "id": "SlateNobleBear",
+            "path": "levels/Story/Chapter03/SlateNobleBear",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-51",
+            "id": "VioletMightyLion",
+            "path": "levels/Story/Chapter03/VioletMightyLion",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-52",
+            "id": "IvoryStormTiger",
+            "path": "levels/Story/Chapter03/IvoryStormTiger",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-53",
+            "id": "PearlBraveWolf",
+            "path": "levels/Story/Chapter03/PearlBraveWolf",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-54",
+            "id": "CoralFearlessPanther",
+            "path": "levels/Story/Chapter03/CoralFearlessPanther",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-55",
+            "id": "SapphireNobleBear",
+            "path": "levels/Story/Chapter03/SapphireNobleBear",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-56",
+            "id": "OpalCunningWolf",
+            "path": "levels/Story/Chapter03/OpalCunningWolf",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-57",
+            "id": "CharcoalGentleTiger",
+            "path": "levels/Story/Chapter03/CharcoalGentleTiger",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-58",
+            "id": "OnyxBlazingFox",
+            "path": "levels/Story/Chapter03/OnyxBlazingFox",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-59",
+            "id": "JadeVigilantFalcon",
+            "path": "levels/Story/Chapter03/JadeVigilantFalcon",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-60",
+            "id": "BronzeSilentLion",
+            "path": "levels/Story/Chapter03/BronzeSilentLion",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-61",
+            "id": "CopperMightyWolf",
+            "path": "levels/Story/Chapter03/CopperMightyWolf",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-62",
+            "id": "TealBlazingEagle",
+            "path": "levels/Story/Chapter03/TealBlazingEagle",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-63",
+            "id": "TopazVengefulBear",
+            "path": "levels/Story/Chapter03/TopazVengefulBear",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-64",
+            "id": "IndigoCunningTiger",
+            "path": "levels/Story/Chapter03/IndigoCunningTiger",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-65",
+            "id": "CoralFrostedWolf",
+            "path": "levels/Story/Chapter03/CoralFrostedWolf",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-66",
+            "id": "RoseFierceLion",
+            "path": "levels/Story/Chapter03/RoseFierceLion",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-67",
+            "id": "MagentaSilentBear",
+            "path": "levels/Story/Chapter03/MagentaSilentBear",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-68",
+            "id": "CeruleanNoblePanther",
+            "path": "levels/Story/Chapter03/CeruleanNoblePanther",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-69",
+            "id": "GarnetBlazingWolf",
+            "path": "levels/Story/Chapter03/GarnetBlazingWolf",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-70",
+            "id": "AmethystSwiftFox",
+            "path": "levels/Story/Chapter03/AmethystSwiftFox",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-71",
+            "id": "OnyxVigilantEagle",
+            "path": "levels/Story/Chapter03/OnyxVigilantEagle",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-72",
+            "id": "SilverNobleLion",
+            "path": "levels/Story/Chapter03/SilverNobleLion",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-73",
+            "id": "GoldFearlessBear",
+            "path": "levels/Story/Chapter03/GoldFearlessBear",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-74",
+            "id": "PlumCunningFox",
+            "path": "levels/Story/Chapter03/PlumCunningFox",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-75",
+            "id": "BronzeLoyalTiger",
+            "path": "levels/Story/Chapter03/BronzeLoyalTiger",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-76",
+            "id": "RubyVigilantWolf",
+            "path": "levels/Story/Chapter03/RubyVigilantWolf",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-77",
+            "id": "TopazSteadyCheetah",
+            "path": "levels/Story/Chapter03/TopazSteadyCheetah",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-78",
+            "id": "TealBraveLion",
+            "path": "levels/Story/Chapter03/TealBraveLion",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-79",
+            "id": "AmethystFrostedBear",
+            "path": "levels/Story/Chapter03/AmethystFrostedBear",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "3-80",
+            "id": "JadeQuickPanther",
+            "path": "levels/Story/Chapter03/JadeQuickPanther",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        }
+    ]
+}

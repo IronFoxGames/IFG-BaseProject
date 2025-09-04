@@ -1,0 +1,16 @@
+{
+    "id": "decoration.office-trunk-level-0",
+    "tags": ["trunk", "floor", "office-trunk"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/OfficeTrunkLevel0",
+    "thumbnailFilePath": "diner/thumbnails/office-trunk-lvl0-thumbnail/spriteFrame"
+}

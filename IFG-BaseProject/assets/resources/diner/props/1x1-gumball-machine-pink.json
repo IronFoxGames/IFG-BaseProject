@@ -1,0 +1,16 @@
+{
+    "id": "decoration.1x1-gumball-machine-pink",
+    "tags": ["1x1", "floor"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "dialogue",
+                "dialogueId": "Chapter3-TimeToSettleIn",
+                "operator": "hasSeen"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/1x1GumballMachinePink",
+    "thumbnailFilePath": "diner/thumbnails/1x1-gumball-machine-pink-thumbnail/spriteFrame"
+}

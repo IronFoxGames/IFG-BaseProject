@@ -1,0 +1,16 @@
+{
+    "id": "decoration.kitchen-miscstation-topper-level-0",
+    "tags": ["topper", "floor"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/KitchenMiscStationTopperLevel0",
+    "thumbnailFilePath": "diner/thumbnails/kitchen-miscstation-topper-lvl0-thumbnail/spriteFrame"
+}

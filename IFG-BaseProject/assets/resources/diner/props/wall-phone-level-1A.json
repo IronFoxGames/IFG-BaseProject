@@ -1,0 +1,7 @@
+{
+    "id": "decoration.wall-phone-level-1A",
+    "tags": ["wall-phone", "wall"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/WallPhoneLevel1A",
+    "thumbnailFilePath": "diner/thumbnails/cafe-wall-phone-lvl1A-thumbnail/spriteFrame"
+}

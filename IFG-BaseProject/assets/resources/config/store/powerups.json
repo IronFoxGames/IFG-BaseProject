@@ -1,0 +1,315 @@
+{
+    "items": [
+        {
+            "id": "powerup_deuceswild",
+            "externalIds": ["POGO.OFR.50.0002207", "POGO.OFR.50.0002208", "XSOLLA.catalog_powerup_deuceswild"],
+            "name": "Deuces Wild",
+            "description": "Deuces Wild",
+            "tags": ["booster"],
+            "cost": {
+                "currency": "gems",
+                "amount": 32
+            },
+            "contents": [
+                {
+                    "id": "powerup_deuceswild",
+                    "amount": 1
+                }
+            ],
+            "sprite": "store/booster/icon-booster-deuces-wild/spriteFrame"
+        },
+        {
+            "id": "powerup_loosenyourbelt",
+            "externalIds": ["POGO.OFR.50.0002209", "POGO.OFR.50.0002210", "XSOLLA.catalog_powerup_loosenyourbelt"],
+            "name": "Loosen Your Belt",
+            "description": "Loosen Your Belt",
+            "tags": ["booster"],
+            "cost": {
+                "currency": "gems",
+                "amount": 32
+            },
+            "contents": [
+                {
+                    "id": "powerup_loosenyourbelt",
+                    "amount": 1
+                }
+            ],
+            "sprite": "store/booster/icon-booster-loosen-your-belt/spriteFrame"
+        },
+        {
+            "id": "powerup_extraservings",
+            "externalIds": ["POGO.OFR.50.0002211", "POGO.OFR.50.0002212", "XSOLLA.catalog_powerup_extraservings"],
+            "name": "Extra Servings",
+            "description": "Extra Servings",
+            "tags": ["powerup"],
+            "cost": {
+                "currency": "gems",
+                "amount": 32
+            },
+            "contents": [
+                {
+                    "id": "powerup_extraservings",
+                    "amount": 1
+                }
+            ],
+            "sprite": "store/booster/icon-booster-extra-servings/spriteFrame"
+        },
+        {
+            "id": "powerup_cookingthebooks",
+            "externalIds": ["POGO.OFR.50.0002262", "POGO.OFR.50.0002263", "XSOLLA.catalog_powerup_cookingthebooks"],
+            "name": "Cooking the Books",
+            "description": "Cooking the Books",
+            "tags": ["powerup"],
+            "cost": {
+                "currency": "gems",
+                "amount": 32
+            },
+            "contents": [
+                {
+                    "id": "powerup_cookingthebooks",
+                    "amount": 1
+                }
+            ],
+            "sprite": "store/booster/icon-booster-cooking-the-books/spriteFrame"
+        },
+        {
+            "id": "powerup_refire",
+            "externalIds": ["POGO.OFR.50.0002215", "POGO.OFR.50.0002216", "XSOLLA.catalog_powerup_refire"],
+            "name": "ReFire",
+            "description": "ReFire",
+            "tags": ["powerup"],
+            "cost": {
+                "currency": "gems",
+                "amount": 32
+            },
+            "contents": [
+                {
+                    "id": "powerup_refire",
+                    "amount": 1
+                }
+            ],
+            "sprite": "store/booster/icon-booster-re-fire/spriteFrame"
+        },
+        {
+            "id": "powerup_plus7cards_coins_1",
+            "externalIds": ["GEN:CB:1101", "GEN:CB:1102"],
+            "name": "+7 Cards",
+            "description": "+7 Cards",
+            "tags": ["powerup"],
+            "cost": {
+                "currency": "coins",
+                "amount": 600
+            },
+            "contents": [
+                {
+                    "id": "powerup_plus7cards",
+                    "amount": 1
+                }
+            ],
+            "sprite": "store/booster/icon-booster-plus7-cards/spriteFrame"
+        },
+        {
+            "id": "powerup_plus7cards_coins_2",
+            "externalIds": ["GEN:CB:1103", "GEN:CB:1104"],
+            "name": "+7 Cards",
+            "description": "+7 Cards",
+            "tags": ["powerup"],
+            "cost": {
+                "currency": "coins",
+                "amount": 800
+            },
+            "contents": [
+                {
+                    "id": "powerup_plus7cards",
+                    "amount": 1
+                }
+            ],
+            "sprite": "store/booster/icon-booster-plus7-cards/spriteFrame"
+        },
+        {
+            "id": "powerup_plus7cards_coins_3",
+            "externalIds": ["GEN:CB:1105", "GEN:CB:1106"],
+            "name": "+7 Cards",
+            "description": "+7 Cards",
+            "tags": ["powerup"],
+            "cost": {
+                "currency": "coins",
+                "amount": 1000
+            },
+            "contents": [
+                {
+                    "id": "powerup_plus7cards",
+                    "amount": 1
+                }
+            ],
+            "sprite": "store/booster/icon-booster-plus7-cards/spriteFrame"
+        },
+        {
+            "id": "powerup_plus7cards_coins_4",
+            "externalIds": ["GEN:CB:1107", "GEN:CB:1108"],
+            "name": "+7 Cards",
+            "description": "+7 Cards",
+            "tags": ["powerup"],
+            "cost": {
+                "currency": "coins",
+                "amount": 1200
+            },
+            "contents": [
+                {
+                    "id": "powerup_plus7cards",
+                    "amount": 1
+                }
+            ],
+            "sprite": "store/booster/icon-booster-plus7-cards/spriteFrame"
+        },
+        {
+            "id": "powerup_plus7cards_coins_5",
+            "externalIds": ["GEN:CB:1109", "GEN:CB:1110"],
+            "name": "+7 Cards",
+            "description": "+7 Cards",
+            "tags": ["powerup"],
+            "cost": {
+                "currency": "coins",
+                "amount": 1500
+            },
+            "contents": [
+                {
+                    "id": "powerup_plus7cards",
+                    "amount": 1
+                }
+            ],
+            "sprite": "store/booster/icon-booster-plus7-cards/spriteFrame"
+        },
+        {
+            "id": "powerup_plus7cards_premium",
+            "externalIds": ["POGO.OFR.50.0002217", "POGO.OFR.50.0002218", "XSOLLA.catalog_powerup_plus7cards"],
+            "name": "+7 Cards",
+            "description": "+7 Cards",
+            "tags": ["powerup"],
+            "cost": {
+                "currency": "gems",
+                "amount": 32
+            },
+            "contents": [
+                {
+                    "id": "powerup_plus7cards",
+                    "amount": 1
+                }
+            ],
+            "sprite": "store/booster/icon-booster-plus7-cards/spriteFrame"
+        },
+        {
+            "id": "powerup_cleandown",
+            "externalIds": ["POGO.OFR.50.0002260", "POGO.OFR.50.0002261", "XSOLLA.catalog_powerup_cleandown"],
+            "name": "Clean Down",
+            "description": "Clean Down",
+            "tags": ["powerup"],
+            "cost": {
+                "currency": "gems",
+                "amount": 32
+            },
+            "contents": [
+                {
+                    "id": "powerup_cleandown",
+                    "amount": 1
+                }
+            ],
+            "sprite": "store/booster/icon-booster-clean-down/spriteFrame"
+        },
+        {
+            "id": "powerup_freedessert",
+            "externalIds": ["POGO.OFR.50.0002219", "POGO.OFR.50.0002220", "XSOLLA.catalog_powerup_freedessert"],
+            "name": "Free Dessert",
+            "description": "Free Dessert",
+            "tags": ["powerup"],
+            "cost": {
+                "currency": "gems",
+                "amount": 32
+            },
+            "contents": [
+                {
+                    "id": "powerup_freedessert",
+                    "amount": 1
+                }
+            ],
+            "sprite": "store/booster/icon-booster-free-dessert/spriteFrame"
+        },
+        {
+            "id": "powerup_joker",
+            "externalIds": ["POGO.OFR.50.0002221", "POGO.OFR.50.0002222", "XSOLLA.catalog_powerup_joker"],
+            "name": "Joker",
+            "description": "Joker",
+            "tags": ["store", "powerup"],
+            "cost": {
+                "currency": "gems",
+                "amount": 33
+            },
+            "contents": [
+                {
+                    "id": "powerup_joker",
+                    "amount": 1
+                }
+            ],
+            "sprite": "store/bundle/icon-pack-joker/spriteFrame",
+            "stack": true
+        },
+        {
+            "id": "powerup_joker_x3",
+            "externalIds": ["POGO.OFR.50.0002223", "POGO.OFR.50.0002224", "XSOLLA.catalog_powerup_joker_x3"],
+            "name": "Joker X3",
+            "description": "Joker X3",
+            "tags": ["store", "powerup"],
+            "cost": {
+                "currency": "gems",
+                "amount": 40
+            },
+            "contents": [
+                {
+                    "id": "powerup_joker",
+                    "amount": 3
+                }
+            ],
+            "sprite": "store/bundle/icon-pack-joker/spriteFrame",
+            "stack": true,
+            "collapsedVisible": true
+        },
+        {
+            "id": "powerup_joker_x10",
+            "externalIds": ["POGO.OFR.50.0002226", "POGO.OFR.50.0002227", "XSOLLA.catalog_powerup_joker_x10"],
+            "name": "Joker X10",
+            "description": "Joker X10",
+            "tags": ["store", "powerup"],
+            "cost": {
+                "currency": "gems",
+                "amount": 125
+            },
+            "contents": [
+                {
+                    "id": "powerup_joker",
+                    "amount": 10
+                }
+            ],
+            "sprite": "store/bundle/icon-pack-joker/spriteFrame",
+            "stack": true
+        },
+        {
+            "id": "powerup_joker_x15",
+            "externalIds": ["POGO.OFR.50.0002228", "POGO.OFR.50.0002229", "XSOLLA.catalog_powerup_joker_x15"],
+            "name": "Joker X15",
+            "description": "Joker X15",
+            "tags": ["store", "powerup"],
+            "cost": {
+                "currency": "gems",
+                "amount": 160
+            },
+            "contents": [
+                {
+                    "id": "powerup_joker",
+                    "amount": 15
+                }
+            ],
+            "sprite": "store/bundle/icon-pack-joker/spriteFrame",
+            "stack": true
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+<tr class="prop-data">
+    <td id="prop-id"></td>
+    <td>
+        <input id="prop-tags" type="text" placeholder="e.g., tag1,tag2" />
+    </td>
+    <td id="prop-requirements"></td>
+    <td id="prop-create-catalog-cell" style="display: none">
+        <button id="prop-create-catalog-button">Create catalog item</button>
+    </td>
+    <td id="prop-details-cell">
+        <div class="prop-catalog-details">
+            <span class="prop-field">
+                <label>Name:</label>
+                <input id="prop-name" type="text" class="cost-input" placeholder="Name" />
+            </span>
+            <span class="prop-field">
+                <label>Description:</label>
+                <input id="prop-description" type="text" class="cost-input" placeholder="Description" />
+            </span>
+            <span class="prop-field">
+                <label>Cost:</label>
+                <input id="prop-cost" type="text" class="cost-input" style="width: 60px" placeholder="Enter cost" />
+                <select id="prop-currency" class="currency-select" style="width: 80px"></select>
+            </span>
+        </div>
+    </td>
+    <td>
+        <div class="asset-refs">
+            <span class="prop-field">
+                <label>Prefab:</label>
+                <ui-asset id="prop-assetFilePath" style="min-width: 200px" droppable="cc.Prefab"></ui-asset>
+            </span>
+            <span class="prop-field">
+                <label>Thumbnail:</label>
+                <ui-asset id="prop-thumbnailFilePath" style="min-width: 200px" droppable="cc.ImageAsset"></ui-asset>
+            </span>
+        </div>
+    </td>
+
+    <td>
+        <ui-image id="prop-thumbnail" style="width: 64px; height: 64px"></ui-image>
+    </td>
+</tr>

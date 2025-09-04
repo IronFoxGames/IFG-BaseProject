@@ -1,0 +1,16 @@
+{
+    "id": "decoration.2x2-jukebox-red",
+    "tags": ["2x2", "floor"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "dialogue",
+                "dialogueId": "Chapter3-TimeToSettleIn",
+                "operator": "hasSeen"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/2x2JukeboxRed",
+    "thumbnailFilePath": "diner/thumbnails/2x2-jukebox-red-thumbnail/spriteFrame"
+}

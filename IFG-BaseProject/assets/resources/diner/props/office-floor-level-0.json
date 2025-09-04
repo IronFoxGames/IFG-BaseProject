@@ -1,0 +1,16 @@
+{
+    "id": "decoration.office-floor-level-0",
+    "tags": ["office", "floor-pattern", "office-floor"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/textures/floors/office-floor-tile-lvl0/texture",
+    "thumbnailFilePath": "diner/thumbnails/office-floor-lvl0-thumbnail/spriteFrame"
+}

@@ -1,0 +1,511 @@
+{
+    "name": "CopperEclecticLadybug",
+    "description": "Simple template",
+    "handSize": 7,
+    "difficulty": "Hard",
+    "hasBot": false,
+    "placeAnchor": true,
+    "objectives": [
+        {
+            "objectiveDataList": [{ "objectiveType": "Score", "tipText": "", "tipSprite": null, "score": 43500 }]
+        }
+    ],
+    "deckType": "Default",
+    "customDeck": [],
+    "startingBoard": [
+        { "boardIndex": 162, "card": { "type": "wild", "rank": 0, "suit": 0 } },
+        { "boardIndex": 84, "card": { "type": "wild", "rank": 0, "suit": 0 } },
+        { "boardIndex": 6, "card": { "type": "wild", "rank": 0, "suit": 0 } }
+    ],
+    "boardModifierPlacements": [
+        {
+            "boardIndex": 59,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 3,
+                "boardIndex": 59
+            }
+        },
+        {
+            "boardIndex": 60,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 3,
+                "boardIndex": 60
+            }
+        },
+        {
+            "boardIndex": 61,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 3,
+                "boardIndex": 61
+            }
+        },
+        {
+            "boardIndex": 73,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 3,
+                "boardIndex": 73
+            }
+        },
+        {
+            "boardIndex": 75,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 3,
+                "boardIndex": 75
+            }
+        },
+        {
+            "boardIndex": 63,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 3,
+                "boardIndex": 63
+            }
+        },
+        {
+            "boardIndex": 76,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 3,
+                "boardIndex": 76
+            }
+        },
+        {
+            "boardIndex": 77,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 3,
+                "boardIndex": 77
+            }
+        },
+        {
+            "boardIndex": 64,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 3,
+                "boardIndex": 64
+            }
+        },
+        {
+            "boardIndex": 57,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 2,
+                "boardIndex": 57
+            }
+        },
+        {
+            "boardIndex": 56,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 2,
+                "boardIndex": 56
+            }
+        },
+        {
+            "boardIndex": 54,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 2,
+                "boardIndex": 54
+            }
+        },
+        {
+            "boardIndex": 53,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 2,
+                "boardIndex": 53
+            }
+        },
+        {
+            "boardIndex": 52,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 2,
+                "boardIndex": 52
+            }
+        },
+        {
+            "boardIndex": 65,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 2,
+                "boardIndex": 65
+            }
+        },
+        {
+            "boardIndex": 66,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 2,
+                "boardIndex": 66
+            }
+        },
+        {
+            "boardIndex": 68,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 2,
+                "boardIndex": 68
+            }
+        },
+        {
+            "boardIndex": 69,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 2,
+                "boardIndex": 69
+            }
+        },
+        {
+            "boardIndex": 72,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 3,
+                "boardIndex": 72
+            }
+        },
+        {
+            "boardIndex": 70,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 2,
+                "boardIndex": 70
+            }
+        },
+        {
+            "boardIndex": 98,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 98
+            }
+        },
+        {
+            "boardIndex": 111,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 111
+            }
+        },
+        {
+            "boardIndex": 112,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 112
+            }
+        },
+        {
+            "boardIndex": 114,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 114
+            }
+        },
+        {
+            "boardIndex": 115,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 115
+            }
+        },
+        {
+            "boardIndex": 116,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 116
+            }
+        },
+        {
+            "boardIndex": 103,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 103
+            }
+        },
+        {
+            "boardIndex": 102,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 102
+            }
+        },
+        {
+            "boardIndex": 100,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 100
+            }
+        },
+        {
+            "boardIndex": 99,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 99
+            }
+        },
+        {
+            "boardIndex": 109,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 4,
+                "boardIndex": 109
+            }
+        },
+        {
+            "boardIndex": 108,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 4,
+                "boardIndex": 108
+            }
+        },
+        {
+            "boardIndex": 107,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 4,
+                "boardIndex": 107
+            }
+        },
+        {
+            "boardIndex": 105,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 4,
+                "boardIndex": 105
+            }
+        },
+        {
+            "boardIndex": 104,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 4,
+                "boardIndex": 104
+            }
+        },
+        {
+            "boardIndex": 91,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 4,
+                "boardIndex": 91
+            }
+        },
+        {
+            "boardIndex": 92,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 4,
+                "boardIndex": 92
+            }
+        },
+        {
+            "boardIndex": 93,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 4,
+                "boardIndex": 93
+            }
+        },
+        {
+            "boardIndex": 95,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 4,
+                "boardIndex": 95
+            }
+        },
+        {
+            "boardIndex": 96,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 4,
+                "boardIndex": 96
+            }
+        },
+        { "boardIndex": 78, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } },
+        { "boardIndex": 90, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } },
+        { "boardIndex": 39, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } },
+        { "boardIndex": 129, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } }
+    ],
+    "freeBooster": "None",
+    "freePowerup": "None",
+    "appliedBoosters": [],
+    "gridSpecialsEnabled": false,
+    "gridSpecialsHidden": false
+}

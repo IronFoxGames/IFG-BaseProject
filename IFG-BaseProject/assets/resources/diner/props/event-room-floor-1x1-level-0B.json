@@ -1,0 +1,10 @@
+{
+    "id": "decoration.event-room-floor-1x1-level-0B",
+    "tags": [
+        "1x1-b",
+        "floor"
+    ],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/EventRoomFloor1x1Level0B",
+    "thumbnailFilePath": "diner/thumbnails/Event-Room-1x1-lvl0B-thumbnail/spriteFrame"
+}

@@ -1,0 +1,7 @@
+{
+    "id": "decoration.office-swivel-chair-level-1",
+    "tags": ["swivel-chair", "floor", "office-swivel-chair"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/OfficeSwivelChairLevel1",
+    "thumbnailFilePath": "diner/thumbnails/office-swivel-chair-lvl1-thumbnail/spriteFrame"
+}

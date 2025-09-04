@@ -1,0 +1,23 @@
+{
+    "id": "task_chapter1_welcome_home",
+    "name": "Welcome Home",
+    "description": "Complete a couple more puzzles.",
+    "unlockRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 7,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "turnInRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 8,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ]
+}

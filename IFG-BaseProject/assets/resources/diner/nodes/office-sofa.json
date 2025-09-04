@@ -1,0 +1,12 @@
+{
+    "id": "office-sofa",
+    "isStatic": true,
+    "defaultPropId": "decoration.office-sofa-level-0",
+    "tags": ["sofa", "floor"],
+    "requirements": [
+        {
+            "requirementType": "taskComplete",
+            "taskId": "ch5-replace-couch"
+        }
+    ]
+}

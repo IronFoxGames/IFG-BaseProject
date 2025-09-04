@@ -1,0 +1,7 @@
+{
+    "id": "decoration.food-display-level-1B",
+    "tags": ["food-display", "floor", "food-display1"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/FoodDisplayLevel1B",
+    "thumbnailFilePath": "diner/thumbnails/display-food-lvl1B-thumbnail/spriteFrame"
+}

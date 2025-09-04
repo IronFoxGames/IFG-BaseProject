@@ -1,0 +1,16 @@
+{
+    "id": "decoration.office-rug-level-0",
+    "tags": ["rug", "floor", "office-rug"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/OfficeRugLevel0",
+    "thumbnailFilePath": "diner/thumbnails/office-rug-lvl0-thumbnail/spriteFrame"
+}

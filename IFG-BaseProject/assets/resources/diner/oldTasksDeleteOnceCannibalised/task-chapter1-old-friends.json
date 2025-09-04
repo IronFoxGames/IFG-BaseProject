@@ -1,0 +1,23 @@
+{
+    "id": "task_chapter1_good_friends",
+    "name": "Good Friends",
+    "description": "You got re-aquinted with an old friend.",
+    "unlockRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 17,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "turnInRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 17,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ]
+}

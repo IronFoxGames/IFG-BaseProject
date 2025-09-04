@@ -1,0 +1,1252 @@
+{
+  "id": "chapter-5",
+  "name": "Chapter 5",
+  "tasks": [
+    {
+      "id": "ch5-read-letter",
+      "name": "Read Letter",
+      "iconId": "mess-diner-envelope",
+      "description": "Read Letter",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-NewBeginnings",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "interactableItems",
+                "itemId": "mess-diner-envelope",
+                "iconId": "mess-diner-envelope",
+                "roomId": "dining-room",
+                "spawnIds": [
+                  "dining-room-bar-counter-middle"
+                ]
+              }
+            },
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-GettingStarted"
+              }
+            }
+          ]
+        }
+      ],
+      "chapterStartTask": "chapter-5"
+    },
+    {
+      "id": "ch5-prepare-for-service",
+      "name": "Help Chef Prep For Breakfast",
+      "iconId": "icon-coffee",
+      "description": "Help Chef Prep For Breakfast",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-GettingStarted",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-Decorate"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-hang-wall-art",
+      "name": "Hang Wall Art",
+      "iconId": "icon-decorate",
+      "description": "Hang Wall Art",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-Decorate",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "placeProp",
+                "roomId": "dining-room",
+                "nodeId": "dining-room-1x1-wall",
+                "propTags": ["dining-room-1x1-wall-dollar"]
+              }
+            },
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-WallHangingsDone"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-take-a-walk",
+      "name": "Take A Walk By The Lake",
+      "iconId": "icon-outdoors",
+      "description": "Take A Walk By The Lake",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-WallHangingsDone",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-LakeWithWill"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-sit-with-will",
+      "name": "Sit With Will",
+      "iconId": "icon-outdoors",
+      "description": "Sit With Will",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-LakeWithWill",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-StareAtWill"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-go-back-to-diner",
+      "name": "Go Back To The Diner",
+      "iconId": "icon-coffee",
+      "description": "Go Back To The Diner",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-StareAtWill",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-FixingTheDiner"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-pet-derek",
+      "name": "Pet Derek",
+      "iconId": "icon-derek",
+      "description": "Pet Derek",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-FixingTheDiner",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 1,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+						{
+							"eventData": {
+								"eventType": "interactableItems",
+								"itemId": "mess-diner-derek-sleeping",
+								"roomId": "dining-room",
+								"spawnIds": [
+									"dining-room-cat-bed"
+								],
+								"iconId": "icon-derek"
+							}
+						},
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-DerekTalk"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-hang-wall-art2",
+      "name": "Hang More Wall Art",
+      "iconId": "icon-decorate",
+      "description": "Hang More Wall Art",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-DerekTalk",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "placeProp",
+                "roomId": "dining-room",
+                "nodeId": "dining-room-2x2-wall-picture",
+                "propTags": [
+                  "dining-room-wall-2x2"
+                ]
+              }
+            },
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-CinnamonRolls"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-serve-customers",
+      "name": "Serve Customers",
+      "iconId": "icon-coffee",
+      "description": "Serve Customers",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-CinnamonRolls",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 2,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-MissionImpossible"
+              }
+            },
+            {
+              "eventData": {
+                "eventType": "unlockRoom",
+                "roomId": "office"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-go-into-the-office",
+      "name": "Go Into The Office",
+      "iconId": "icon-check",
+      "description": "Go Into The Office",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-MissionImpossible",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-TheOffice"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-read-office-letter",
+      "name": "Read Joey's Letter",
+      "iconId": "mess-diner-envelope",
+      "description": "Read Joey's Letter",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-TheOffice",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "interactableItems",
+                "itemId": "mess-diner-envelope",
+                "roomId": "office",
+                "spawnIds": [
+                  "coffee-table"
+                ],
+                "iconId": "mess-diner-envelope"
+              }
+            },
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-JoeysLetter"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-clean-floor",
+      "name": "Clean Up The Messy Floor",
+      "iconId": "icon-fix",
+      "description": "Clean Up The Messy Floor",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-JoeysLetter",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "placeProp",
+                "roomId": "office",
+                "nodeId": "office-floor",
+                "propTags": [
+                  "office-floor"
+                ]
+              }
+            },
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-CarpetDone"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-ask-riley-help",
+      "name": "Ask Riley For Help",
+      "iconId": "icon-check",
+      "description": "Ask Riley For Help",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-CarpetDone",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-AskingForHelp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-handle-dinner-service",
+      "name": "Run the Dinner Service",
+      "iconId": "icon-check",
+      "description": "Run the Dinner Service",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-AskingForHelp",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-TheHelp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-clean-up-for-close",
+      "name": "Clean Up And Close Up",
+      "iconId": "icon-check",
+      "description": "Clean Up And Close Up",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-TheHelp",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "interactableItems",
+                "itemId": "mess-diner-cake-eaten",
+                "roomId": "dining-room",
+                "spawnIds": [
+                  "dining-room-bar-counter-middle",
+                  "dining-room-table-2-south-west",
+                  "dining-room-table-4-south-west",
+                  "dining-room-table-3-south-west"
+                ],
+                "iconId": "icon-clean"
+              }
+            },
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-OfficeRecliner"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-replace-recliner",
+      "name": "Replace The Office Recliner",
+      "iconId": "icon-check",
+      "description": "Replace The Office Recliner",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-OfficeRecliner",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "placeProp",
+                "roomId": "office",
+                "nodeId": "office-recliner",
+                "propTags": [
+                  "office-recliner"
+                ]
+              }
+            },
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-OfficeCoffeeTable"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-replace-coffee-table",
+      "name": "Replace The Office Coffee Table",
+      "iconId": "icon-check",
+      "description": "Replace The Office Coffee Table",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-OfficeCoffeeTable",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "placeProp",
+                "roomId": "office",
+                "nodeId": "office-coffee-table",
+                "propTags": [
+                  "office-coffee-table"
+                ]
+              }
+            },
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-OfficeCoffeeTableDone"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-replace-office-rug",
+      "name": "Replace The Office Rug",
+      "iconId": "icon-check",
+      "description": "Replace The Office Rug",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-OfficeCoffeeTable",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "placeProp",
+                "roomId": "office",
+                "nodeId": "office-rug",
+                "propTags": [
+                  "office-rug"
+                ]
+              }
+            },
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-OfficeRugDone"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-replace-couch",
+      "name": "Replace The Office Couch",
+      "iconId": "icon-check",
+      "description": "Replace The Office Couch",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-OfficeRugDone",
+            "operator": "hasSeen"
+          }
+        },
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-OfficeCoffeeTableDone",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "placeProp",
+                "roomId": "office",
+                "nodeId": "office-sofa",
+                "propTags": [
+                  "office-sofa"
+                ]
+              }
+            },
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-OfficeCouchDone"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-replace-office-trunk",
+      "name": "Replace The Storage Trunk",
+      "iconId": "icon-check",
+      "description": "Replace The Storage Trunk",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-OfficeCouchDone",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "placeProp",
+                "roomId": "office",
+                "nodeId": "office-trunk",
+                "propTags": [
+                  "office-trunk"
+                ]
+              }
+            },
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-OfficeTrunkDone"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-office-wall-pictures",
+      "name": "Replace Office Wall Pictures",
+      "iconId": "icon-check",
+      "description": "Replace Office Wall Pictures",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-OfficeCouchDone",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "placeProp",
+                "roomId": "office",
+                "nodeId": "office-wall-pictures",
+                "propTags": [
+                  "office-wall-pictures"
+                ]
+              }
+            },
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-OfficeWallPicturesDone"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-answer-the-phone",
+      "name": "Answer The Phone",
+      "iconId": "icon-check",
+      "description": "Answer The Phone",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-RileyCalling",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-RileyCall"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-replace-bookshelf",
+      "name": "Replace The Office Book Shelf",
+      "iconId": "icon-check",
+      "description": "Replace The Office Book Shelf",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-RileyCall",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "placeProp",
+                "roomId": "office",
+                "nodeId": "office-book-shelf",
+                "propTags": [
+                  "office-book-shelf"
+                ]
+              }
+            },
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-OfficeBookshelfDone"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-replace-coffee-station",
+      "name": "Replace The Office Coffee Station",
+      "iconId": "icon-check",
+      "description": "Replace The Office Coffee Station",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-OfficeBookshelfDone",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "placeProp",
+                "roomId": "office",
+                "nodeId": "office-coffee-station",
+                "propTags": [
+                  "office-coffee-station"
+                ]
+              }
+            },
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-OfficeCoffeeStationDone"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-witness-miracle-life",
+      "name": "Witness The Miracle Of Life",
+      "iconId": "icon-check",
+      "description": "Witness The Miracle Of Life",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-OfficeCoffeeStationDone",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-CalfBorn"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-go-to-bed",
+      "name": "Go To Bed",
+      "iconId": "icon-check",
+      "description": "Go To Bed",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-CalfBorn",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-NextMorning"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-make-it-through-tired-day",
+      "name": "Make It Through A Tired Day",
+      "iconId": "icon-check",
+      "description": "Make It Through A Tired Day",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-NextMorning",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 2,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-WakeyWakey"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-replace-desk",
+      "name": "Replace The Office Desk",
+      "iconId": "icon-check",
+      "description": "Replace The Office Desk",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-WakeyWakey",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "placeProp",
+                "roomId": "office",
+                "nodeId": "office-desk",
+                "propTags": [
+                  "office-desk"
+                ]
+              }
+            },
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-DeskDone"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-replace-swivel-chair",
+      "name": "Replace The Office Chair",
+      "iconId": "icon-check",
+      "description": "Replace The Office Chair",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-DeskDone",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "placeProp",
+                "roomId": "office",
+                "nodeId": "office-swivel-chair",
+                "propTags": [
+                  "office-swivel-chair"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-replace-desk-rug",
+      "name": "Replace Office Desk Rug",
+      "iconId": "icon-check",
+      "description": "Replace Office Desk Rug",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-DeskDone",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "placeProp",
+                "roomId": "office",
+                "nodeId": "office-desk-rug",
+                "propTags": [
+                  "office-desk-rug"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-go-to-rileys",
+      "name": "Go To Rileys",
+      "iconId": "icon-check",
+      "description": "Go To Rileys",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-DeskItemsDone",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-NextMorning2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-replace-office-window",
+      "name": "Replace Office Curtains",
+      "iconId": "icon-check",
+      "description": "Replace The Office Curtains",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-NextMorning2",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 2,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "placeProp",
+                "roomId": "office",
+                "nodeId": "office-window",
+                "propTags": [
+                  "office-window"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-spruce-up-coffee-table",
+      "name": "Spruce Up The Coffee Table",
+      "iconId": "icon-decorate",
+      "description": "Spruce Up The Coffee Table",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-NextMorning2",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 2,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "placeProp",
+                "roomId": "office",
+                "nodeId": "office-coffee-table-decoration",
+                "propTags": [
+                  "coffee-table-decoration"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-replace-office-walls",
+      "name": "Replace The Office Wallpaper",
+      "iconId": "icon-check",
+      "description": "Replace The Office Wallpaper",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-NextMorning2",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 2,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "placeProp",
+                "roomId": "office",
+                "nodeId": "office-walls",
+                "propTags": [
+                  "office-walls"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-serve-lunch",
+      "name": "Serve Lunch",
+      "iconId": "icon-coffee",
+      "description": "Serve Lunch",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-OfficeComplete",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 3,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "dialogue",
+                "dialogueId": "Chapter5-Epilogue"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5-complete-chapter-5",
+      "name": "Complete Chapter 5",
+      "iconId": "icon-check",
+      "description": "Complete Chapter 5",
+      "unlockRequirements": [
+        {
+          "requirementData": {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter5-Epilogue",
+            "operator": "hasSeen"
+          }
+        }
+      ],
+      "starCost": 2,
+      "completionCount": 1,
+      "completionSequences": [
+        {
+          "events": [
+            {
+              "eventData": {
+                "eventType": "endGamePopup",
+                "title": "More To Come!",
+                "message": "You've completed all the story puzzles for now, but don't worry, more are coming soon!\n\n In the meantime, play Quick Play to beat your high score and complete Pogo challenges!",
+                "spritePath": "dialogueSprites/Darcy-Happy/spriteFrame"
+              }
+            }
+          ]
+        }
+      ],
+      "chapterEndTask": "chapter-5"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "id": "decoration.bar-fridge-level-3",
+    "tags": ["bar-fridge", "floor"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/BarFridgeLevel3",
+    "thumbnailFilePath": "diner/thumbnails/cafe-fridge-lvl3-thumbnail/spriteFrame"
+}

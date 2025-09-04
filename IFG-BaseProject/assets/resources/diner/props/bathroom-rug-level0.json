@@ -1,0 +1,16 @@
+{
+    "id": "decoration.bathroom-rug-level-0",
+    "tags": ["bathroom-rug", "floor", "placeprop-bathroom-rug"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/BathroomRugLevel0",
+    "thumbnailFilePath": "diner/thumbnails/bathroom-rug-lvl0-thumbnail/spriteFrame"
+}

@@ -1,0 +1,14 @@
+{
+    "id": "dining-room-1x1-wall",
+    "isStatic": false,
+    "defaultPropId": "",
+    "tags": ["wall-1x1", "wall"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch5-hang-wall-art"
+            }
+        }
+    ]
+}

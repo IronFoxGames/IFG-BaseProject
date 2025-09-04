@@ -1,0 +1,423 @@
+{
+    "items": [
+        {
+            "id": "bundle_coffee_to_go",
+            "externalIds": ["POGO.OFR.50.0002189", "POGO.OFR.50.0002190", "XSOLLA.bundle_coffee_to_go"],
+            "name": "Coffee To Go",
+            "description": "Coffee To Go",
+            "valueTag": "+80% Value!",
+            "maxPurchaseCount": 1,
+            "tags": ["store", "bundle"],
+            "cost": {
+                "currency": "gems",
+                "amount": 50
+            },
+            "contents": [
+                {
+                    "id": "coins",
+                    "amount": 1200
+                },
+                {
+                    "id": "powerup_loosenyourbelt",
+                    "amount": 3
+                },
+                {
+                    "id": "powerup_joker",
+                    "amount": 3
+                },
+                {
+                    "id": "powerup_plus7cards",
+                    "amount": 3
+                },
+
+                {
+                    "id": "powerup_refire",
+                    "amount": 3
+                },
+                {
+                    "id": "energy",
+                    "amount": 3
+                }
+            ],
+            "sprite": "store/bundle/icon-bundle01/spriteFrame",
+            "collapsedVisible": true,
+            "priority": 1000
+        },
+        {
+            "id": "bundle_big_joke",
+            "externalIds": ["POGO.OFR.50.0002230", "POGO.OFR.50.0002231", "XSOLLA.bundle_big_joke"],
+            "name": "The Big Joke",
+            "description": "The Big Joke",
+            "tags": ["store", "bundle"],
+            "cost": {
+                "currency": "gems",
+                "amount": 350
+            },
+            "contents": [
+                {
+                    "id": "powerup_joker",
+                    "amount": 20
+                },
+                {
+                    "id": "powerup_cleandown",
+                    "amount": 3
+                },
+                {
+                    "id": "powerup_refire",
+                    "amount": 2
+                },
+                {
+                    "id": "energy",
+                    "amount": 5
+                }
+            ],
+            "sprite": "store/bundle/icon-pack-joker/spriteFrame",
+            "collapsedVisible": true,
+            "priority": 999
+        },
+        {
+            "id": "bundle_side_of_fries",
+            "externalIds": ["POGO.OFR.50.0002191", "POGO.OFR.50.0002192", "XSOLLA.bundle_side_of_fries"],
+            "name": "Side Of Fries",
+            "description": "Side Of Fries",
+            "tags": ["store", "bundle"],
+            "cost": {
+                "currency": "gems",
+                "amount": 88
+            },
+            "contents": [
+                {
+                    "id": "coins",
+                    "amount": 600
+                },
+                {
+                    "id": "powerup_deuceswild",
+                    "amount": 1
+                },
+                {
+                    "id": "powerup_cookingthebooks",
+                    "amount": 1
+                },
+                {
+                    "id": "powerup_extraservings",
+                    "amount": 1
+                },
+                {
+                    "id": "powerup_joker",
+                    "amount": 1
+                },
+                {
+                    "id": "powerup_cleandown",
+                    "amount": 1
+                },
+                {
+                    "id": "powerup_refire",
+                    "amount": 1
+                },
+                {
+                    "id": "energy",
+                    "amount": 3
+                }
+            ],
+            "sprite": "store/bundle/icon-bundle02/spriteFrame",
+            "priority": 998
+        },
+        {
+            "id": "bundle_shortstack",
+            "externalIds": ["POGO.OFR.50.0002194", "POGO.OFR.50.0002195", "XSOLLA.bundle_shortstack"],
+            "name": "Short Stack",
+            "description": "Short Stack",
+            "tags": ["store", "bundle"],
+            "cost": {
+                "currency": "gems",
+                "amount": 220
+            },
+            "contents": [
+                {
+                    "id": "coins",
+                    "amount": 2500
+                },
+                {
+                    "id": "powerup_deuceswild",
+                    "amount": 1
+                },
+                {
+                    "id": "powerup_loosenyourbelt",
+                    "amount": 1
+                },
+                {
+                    "id": "powerup_cookingthebooks",
+                    "amount": 2
+                },
+                {
+                    "id": "powerup_extraservings",
+                    "amount": 2
+                },
+                {
+                    "id": "powerup_joker",
+                    "amount": 1
+                },
+                {
+                    "id": "powerup_cleandown",
+                    "amount": 1
+                },
+                {
+                    "id": "powerup_plus7cards",
+                    "amount": 1
+                },
+                {
+                    "id": "powerup_freedessert",
+                    "amount": 1
+                },
+                {
+                    "id": "powerup_refire",
+                    "amount": 3
+                },
+                {
+                    "id": "energy",
+                    "amount": 5
+                }
+            ],
+            "sprite": "store/bundle/icon-bundle03/spriteFrame",
+            "priority": 997
+        },
+        {
+            "id": "bundle_steak_eggs",
+            "externalIds": ["POGO.OFR.50.0002196", "POGO.OFR.50.0002197", "XSOLLA.bundle_steak_eggs"],
+            "name": "Steak & Eggs",
+            "description": "Steak & Eggs",
+            "tags": ["store", "bundle"],
+            "cost": {
+                "currency": "gems",
+                "amount": 500
+            },
+            "contents": [
+                {
+                    "id": "coins",
+                    "amount": 7500
+                },
+                {
+                    "id": "powerup_deuceswild",
+                    "amount": 2
+                },
+                {
+                    "id": "powerup_loosenyourbelt",
+                    "amount": 2
+                },
+                {
+                    "id": "powerup_cookingthebooks",
+                    "amount": 5
+                },
+                {
+                    "id": "powerup_extraservings",
+                    "amount": 3
+                },
+                {
+                    "id": "powerup_joker",
+                    "amount": 2
+                },
+                {
+                    "id": "powerup_cleandown",
+                    "amount": 2
+                },
+                {
+                    "id": "powerup_plus7cards",
+                    "amount": 2
+                },
+                {
+                    "id": "powerup_freedessert",
+                    "amount": 2
+                },
+                {
+                    "id": "powerup_refire",
+                    "amount": 5
+                },
+                {
+                    "id": "energy",
+                    "amount": 5
+                }
+            ],
+            "sprite": "store/bundle/icon-bundle04/spriteFrame",
+            "priority": 996
+        },
+        {
+            "id": "bundle_blue_plate_special",
+            "externalIds": ["POGO.OFR.50.0002198", "POGO.OFR.50.0002199", "XSOLLA.bundle_blue_plate_special"],
+            "name": "Blue Plate Special",
+            "description": "Blue Plate Special",
+            "tags": ["store", "bundle"],
+            "cost": {
+                "currency": "gems",
+                "amount": 850
+            },
+            "contents": [
+                {
+                    "id": "coins",
+                    "amount": 15000
+                },
+                {
+                    "id": "powerup_deuceswild",
+                    "amount": 3
+                },
+                {
+                    "id": "powerup_loosenyourbelt",
+                    "amount": 3
+                },
+                {
+                    "id": "powerup_cookingthebooks",
+                    "amount": 7
+                },
+                {
+                    "id": "powerup_extraservings",
+                    "amount": 4
+                },
+                {
+                    "id": "powerup_joker",
+                    "amount": 3
+                },
+                {
+                    "id": "powerup_cleandown",
+                    "amount": 3
+                },
+                {
+                    "id": "powerup_plus7cards",
+                    "amount": 3
+                },
+                {
+                    "id": "powerup_freedessert",
+                    "amount": 3
+                },
+                {
+                    "id": "powerup_refire",
+                    "amount": 7
+                },
+                {
+                    "id": "energy",
+                    "amount": 5
+                }
+            ],
+            "sprite": "store/bundle/icon-bundle05/spriteFrame",
+            "priority": 995
+        },
+        {
+            "id": "bundle_full_platter",
+            "externalIds": ["POGO.OFR.50.0002200", "POGO.OFR.50.0002201", "XSOLLA.bundle_full_platter"],
+            "name": "Full Platter",
+            "description": "Full Platter",
+            "valueTag": "Best Value!",
+            "tags": ["store", "bundle"],
+            "cost": {
+                "currency": "gems",
+                "amount": 1600
+            },
+            "contents": [
+                {
+                    "id": "coins",
+                    "amount": 30000
+                },
+                {
+                    "id": "powerup_deuceswild",
+                    "amount": 5
+                },
+                {
+                    "id": "powerup_loosenyourbelt",
+                    "amount": 5
+                },
+                {
+                    "id": "powerup_cookingthebooks",
+                    "amount": 10
+                },
+                {
+                    "id": "powerup_extraservings",
+                    "amount": 5
+                },
+                {
+                    "id": "powerup_joker",
+                    "amount": 6
+                },
+                {
+                    "id": "powerup_cleandown",
+                    "amount": 6
+                },
+                {
+                    "id": "powerup_plus7cards",
+                    "amount": 6
+                },
+                {
+                    "id": "powerup_freedessert",
+                    "amount": 5
+                },
+                {
+                    "id": "powerup_refire",
+                    "amount": 10
+                },
+                {
+                    "id": "energy",
+                    "amount": 5
+                }
+            ],
+            "sprite": "store/bundle/icon-bundle06/spriteFrame",
+            "collapsedVisible": true,
+            "priority": 994
+        },
+        {
+            "id": "bundle_grand_slam",
+            "externalIds": ["POGO.OFR.50.0002202", "POGO.OFR.50.0002204", "XSOLLA.bundle_grand_slam"],
+            "name": "Grand Slam",
+            "description": "Grand Slam",
+            "tags": ["store", "bundle"],
+            "cost": {
+                "currency": "gems",
+                "amount": 2500
+            },
+            "contents": [
+                {
+                    "id": "coins",
+                    "amount": 60000
+                },
+                {
+                    "id": "powerup_deuceswild",
+                    "amount": 10
+                },
+                {
+                    "id": "powerup_loosenyourbelt",
+                    "amount": 10
+                },
+                {
+                    "id": "powerup_cookingthebooks",
+                    "amount": 10
+                },
+                {
+                    "id": "powerup_extraservings",
+                    "amount": 7
+                },
+                {
+                    "id": "powerup_joker",
+                    "amount": 8
+                },
+                {
+                    "id": "powerup_cleandown",
+                    "amount": 9
+                },
+                {
+                    "id": "powerup_plus7cards",
+                    "amount": 9
+                },
+                {
+                    "id": "powerup_freedessert",
+                    "amount": 8
+                },
+                {
+                    "id": "powerup_refire",
+                    "amount": 12
+                },
+                {
+                    "id": "energy",
+                    "amount": 10
+                }
+            ],
+            "sprite": "store/bundle/icon-bundle07/spriteFrame",
+            "priority": 993
+        }
+    ]
+}

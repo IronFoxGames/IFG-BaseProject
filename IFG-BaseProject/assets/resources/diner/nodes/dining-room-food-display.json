@@ -1,0 +1,13 @@
+{
+    "id": "dining-room-food-display",
+    "isStatic": true,
+    "defaultPropId": "decoration.food-display-level-1",
+    "tags": ["food-display", "floor"],
+    "requirements": [
+        {
+            "requirementType": "dialogue",
+            "dialogueId": "Chapter3-TimeToSettleIn",
+            "operator": "hasSeen"
+        }
+    ]
+}

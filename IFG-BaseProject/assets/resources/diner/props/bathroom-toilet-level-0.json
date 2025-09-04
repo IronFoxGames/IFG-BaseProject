@@ -1,0 +1,16 @@
+{
+    "id": "decoration.bathroom-toilet-level-0",
+    "tags": ["toilet", "floor", "placeprop-bathroom-toilet"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/BathroomToiletLevel0",
+    "thumbnailFilePath": "diner/thumbnails/bathroom-toilet-lvl0-thumbnail/spriteFrame"
+}

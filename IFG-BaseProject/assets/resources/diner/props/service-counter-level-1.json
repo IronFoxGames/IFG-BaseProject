@@ -1,0 +1,7 @@
+{
+    "id": "decoration.service-counter-level-1",
+    "tags": ["service-counter", "floor", "service-counter1"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/ServiceCounterLevel1",
+    "thumbnailFilePath": "diner/thumbnails/service-bar-lvl1-thumbnail/spriteFrame"
+}

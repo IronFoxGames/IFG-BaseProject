@@ -1,0 +1,43 @@
+{
+    "name": "JadePrestidigiousGrebe",
+    "difficulty": "Hard",
+    "description": "",
+    "handSize": 7,
+    "hasBot": false,
+    "placeAnchor": false,
+    "objectives": [
+        {
+            "objectiveDataList": [
+                {
+                    "objectiveType": "HandPlayed",
+                    "tipText": "Score the target number of points by playing the best hands possible.",
+                    "tipSprite": null,
+                    "hand": "StraightFlush",
+                    "count": 3
+                }
+            ]
+        },
+        { "objectiveDataList": [{ "objectiveType": "HandPlayed", "tipText": "", "tipSprite": null, "hand": "ThreeOfAKind", "count": 2 }] }
+    ],
+    "deckType": "Default",
+    "customDeck": [],
+    "startingBoard": [
+        { "boardIndex": 83, "card": { "type": "regular", "rank": 7, "suit": 3 } },
+        { "boardIndex": 84, "card": { "type": "regular", "rank": 8, "suit": 3 } },
+        { "boardIndex": 85, "card": { "type": "regular", "rank": 9, "suit": 3 } },
+        { "boardIndex": 40, "card": { "type": "regular", "rank": 3, "suit": 4 } },
+        { "boardIndex": 27, "card": { "type": "regular", "rank": 4, "suit": 4 } },
+        { "boardIndex": 144, "card": { "type": "regular", "rank": 7, "suit": 1 } },
+        { "boardIndex": 131, "card": { "type": "regular", "rank": 9, "suit": 1 } },
+        { "boardIndex": 153, "card": { "type": "regular", "rank": 6, "suit": 3 } },
+        { "boardIndex": 140, "card": { "type": "regular", "rank": 8, "suit": 3 } },
+        { "boardIndex": 36, "card": { "type": "regular", "rank": 13, "suit": 2 } },
+        { "boardIndex": 49, "card": { "type": "regular", "rank": 11, "suit": 2 } }
+    ],
+    "boardModifierPlacements": [],
+    "freeBooster": "None",
+    "freePowerup": "None",
+    "appliedBoosters": [],
+    "gridSpecialsEnabled": false,
+    "gridSpecialsHidden": false
+}

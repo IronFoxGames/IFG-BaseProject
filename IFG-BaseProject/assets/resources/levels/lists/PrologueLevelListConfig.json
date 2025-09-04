@@ -1,0 +1,65 @@
+{
+    "note": "The ID's in this list may look out of sync, that's okay. Updates have caused levels to change but the ID's must remain the same.",
+    "levels": [
+        {
+            "name": "1",
+            "id": "Tutorial_BaseBoardUIAndControls",
+            "path": "levels/Tutorials/Tutorial_BaseBoardUIAndControls",
+            "note": "This is the first level in the tutorial, it teaches the player about the board and controls.",
+            "cost": {
+                "currency": "energy",
+                "amount": 0
+            }
+        },
+        {
+            "name": "2",
+            "id": "Tutorial_ObjHandType",
+            "path": "levels/Tutorials/Tutorial_ObjHandType",
+            "note": "This is the second level in the tutorial, it teaches the player about score objectives.",
+            "cost": {
+                "currency": "energy",
+                "amount": 0
+            }
+        },
+        {
+            "name": "3",
+            "id": "Tutorial_ObjBonus",
+            "path": "levels/Tutorials/Tutorial_ObjBonus",
+            "note": "This is the third level in the tutorial, it teaches the player about hand type objectives.",
+            "cost": {
+                "currency": "energy",
+                "amount": 0
+            }
+        },
+        {
+            "name": "4",
+            "id": "Tutorial_BaseJokers",
+            "path": "levels/Tutorials/Tutorial_BaseJokers",
+            "note": "This is the fourth level in the tutorial, it teaches the player about multiple objectives.",
+            "cost": {
+                "currency": "energy",
+                "amount": 0
+            }
+        },
+        {
+            "name": "5",
+            "id": "Tutorial_HandsStraight",
+            "path": "levels/Tutorials/Tutorial_HandsStraight",
+            "note": "This is the fifth level in the tutorial, it teaches the player about Jokers and Wilds.",
+            "cost": {
+                "currency": "energy",
+                "amount": 0
+            }
+        },
+        {
+            "name": "6",
+            "id": "Tutorial_HandsFlush",
+            "path": "levels/Tutorials/Tutorial_HandsFlush",
+            "note": "This is the sixth level in the tutorial, it teaches the player about Flush hands.",
+            "cost": {
+                "currency": "energy",
+                "amount": 0
+            }
+        }
+    ]
+}

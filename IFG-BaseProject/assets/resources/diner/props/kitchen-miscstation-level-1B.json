@@ -1,0 +1,7 @@
+{
+    "id": "decoration.kitchen-miscstation-level-1B",
+    "tags": ["misc", "floor", "kitchen-misc-station"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/KitchenMiscStationLevel1B",
+    "thumbnailFilePath": "diner/thumbnails/kitchen-miscstation-lvl1B-thumbnail/spriteFrame"
+}

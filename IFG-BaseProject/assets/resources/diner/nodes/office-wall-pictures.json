@@ -1,0 +1,12 @@
+{
+    "id": "office-wall-pictures",
+    "isStatic": true,
+    "defaultPropId": "decoration.office-wall-pictures-level-0",
+    "tags": ["pictures", "wall"],
+    "requirements": [
+        {
+            "requirementType": "taskComplete",
+            "taskId": "ch5-office-wall-pictures"
+        }
+    ]
+}

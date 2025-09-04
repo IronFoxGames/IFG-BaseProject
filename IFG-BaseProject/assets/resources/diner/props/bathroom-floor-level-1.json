@@ -1,0 +1,7 @@
+{
+    "id": "decoration.bathroom-floor-level-1",
+    "tags": ["bathroom", "floor-pattern", "bathroom-floor"],
+    "requirements": [],
+    "assetFilePath": "diner/textures/floors/bathroom-floor-tile-lvl1/texture",
+    "thumbnailFilePath": "diner/thumbnails/bathroom-floor-lvl1-thumbnail/spriteFrame"
+}

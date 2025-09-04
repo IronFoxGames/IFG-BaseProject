@@ -1,0 +1,732 @@
+{
+    "levels": [
+        {
+            "name": "2-1",
+            "id": "IndigoPreviousWalrus",
+            "path": "levels/Story/Chapter02/IndigoPreviousWalrus",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            },
+            "requirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "taskComplete",
+                        "taskId": "ch1-complete-chapter-1"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "2-2",
+            "id": "WhiteNewApe",
+            "path": "levels/Story/Chapter02/WhiteNewApe",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-3",
+            "id": "GoldEndurableSquirrel",
+            "path": "levels/Story/Chapter02/GoldEndurableSquirrel",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-4",
+            "id": "PurpleHardPelican",
+            "path": "levels/Story/Chapter02/PurpleHardPelican",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-5",
+            "id": "OrangeCulturedParrot",
+            "path": "levels/Story/Chapter02/OrangeCulturedParrot",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-6",
+            "id": "RainbowLowSpider",
+            "path": "levels/Story/Chapter02/RainbowLowSpider",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-7",
+            "id": "BlackCynicalBee",
+            "path": "levels/Story/Chapter02/BlackCynicalBee",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-8",
+            "id": "RainbowStandingElk",
+            "path": "levels/Story/Chapter02/RainbowStandingElk",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-9",
+            "id": "BlackFearlessEel",
+            "path": "levels/Story/Chapter02/BlackFearlessEel",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-10",
+            "id": "WhiteLegalEagle",
+            "path": "levels/Story/Chapter02/WhiteLegalEagle",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-11",
+            "id": "BlueWateryPheasant",
+            "path": "levels/Story/Chapter02/BlueWateryPheasant",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-12",
+            "id": "NavyChronicAlligator",
+            "path": "levels/Story/Chapter02/NavyChronicAlligator",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-13",
+            "id": "BlueLeftBarracuda",
+            "path": "levels/Story/Chapter02/BlueLeftBarracuda",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-14",
+            "id": "BlackAnnoyingGrackle",
+            "path": "levels/Story/Chapter02/BlackAnnoyingGrackle",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-15",
+            "id": "PinkDazzlingSkunk",
+            "path": "levels/Story/Chapter02/PinkDazzlingSkunk",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-16",
+            "id": "BlackLovelyKookabura",
+            "path": "levels/Story/Chapter02/BlackLovelyKookabura",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-17",
+            "id": "PinkJumpityMole",
+            "path": "levels/Story/Chapter02/PinkJumpityMole",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-18",
+            "id": "OrangeMurkyFlamingo",
+            "path": "levels/Story/Chapter02/OrangeMurkyFlamingo",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-19",
+            "id": "GreenForgetfulWildcat",
+            "path": "levels/Story/Chapter02/GreenForgetfulWildcat",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-20",
+            "id": "BlackFreezingBaboon",
+            "path": "levels/Story/Chapter02/BlackFreezingBaboon",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-21",
+            "id": "SalmonQuaintDotterel",
+            "path": "levels/Story/Chapter02/SalmonQuaintDotterel",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-22",
+            "id": "GoldCannyPlatypus",
+            "path": "levels/Story/Chapter02/GoldCannyPlatypus",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-23",
+            "id": "RedDeliriousHornet",
+            "path": "levels/Story/Chapter02/RedDeliriousHornet",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-24",
+            "id": "BlueCleverLoon",
+            "path": "levels/Story/Chapter02/BlueCleverLoon",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-25",
+            "id": "WhiteParamountPanther",
+            "path": "levels/Story/Chapter02/WhiteParamountPanther",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-26",
+            "id": "YellowHeavyHare",
+            "path": "levels/Story/Chapter02/YellowHeavyHare",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-27",
+            "id": "PinkInnocentMeerkat",
+            "path": "levels/Story/Chapter02/PinkInnocentMeerkat",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-28",
+            "id": "PinkMysticLeopard",
+            "path": "levels/Story/Chapter02/PinkMysticLeopard",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-29",
+            "id": "IndigoTactfulFieldmouse",
+            "path": "levels/Story/Chapter02/IndigoTactfulFieldmouse",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-30",
+            "id": "CyanCrabbyTaipan",
+            "path": "levels/Story/Chapter02/CyanCrabbyTaipan",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-31",
+            "id": "OrangeCondemnedHorse",
+            "path": "levels/Story/Chapter02/OrangeCondemnedHorse",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-32",
+            "id": "BlueBabySeal",
+            "path": "levels/Story/Chapter02/BlueBabySeal",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-33",
+            "id": "GoldLooseLlama",
+            "path": "levels/Story/Chapter02/GoldLooseLlama",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-34",
+            "id": "SaffronParamountPigeon",
+            "path": "levels/Story/Chapter02/SaffronParamountPigeon",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-35",
+            "id": "MintOilyDove",
+            "path": "levels/Story/Chapter02/MintOilyDove",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-36",
+            "id": "WhiteIntelligentFrog",
+            "path": "levels/Story/Chapter02/WhiteIntelligentFrog",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-37",
+            "id": "VioletNastyStinkbug",
+            "path": "levels/Story/Chapter02/VioletNastyStinkbug",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-38",
+            "id": "BlueSuperbPheasant",
+            "path": "levels/Story/Chapter02/BlueSuperbPheasant",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-39",
+            "id": "PurpleMuteMule",
+            "path": "levels/Story/Chapter02/PurpleMuteMule",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-40",
+            "id": "PurpleIncandescentFish",
+            "path": "levels/Story/Chapter02/PurpleIncandescentFish",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-41",
+            "id": "GoldenHatefulLark",
+            "path": "levels/Story/Chapter02/GoldenHatefulLark",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-42",
+            "id": "ChromaticMagnificentDogfish",
+            "path": "levels/Story/Chapter02/ChromaticMagnificentDogfish",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-43",
+            "id": "AzureKindTigerfish",
+            "path": "levels/Story/Chapter02/AzureKindTigerfish",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-44",
+            "id": "YellowNerdyCoyote",
+            "path": "levels/Story/Chapter02/YellowNerdyCoyote",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-45",
+            "id": "AquaHumbleSpider",
+            "path": "levels/Story/Chapter02/AquaHumbleSpider",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-46",
+            "id": "PurpleUltraOwl",
+            "path": "levels/Story/Chapter02/PurpleUltraOwl",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-47",
+            "id": "CopperDisorderlyJunco",
+            "path": "levels/Story/Chapter02/CopperDisorderlyJunco",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-48",
+            "id": "GrayImperfectHawk",
+            "path": "levels/Story/Chapter02/GrayImperfectHawk",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-49",
+            "id": "OrangeElegantParrot",
+            "path": "levels/Story/Chapter02/OrangeElegantParrot",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-50",
+            "id": "RedUnbiasedSparrow",
+            "path": "levels/Story/Chapter02/RedUnbiasedSparrow",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-51",
+            "id": "CopperMacularCuttlefish",
+            "path": "levels/Story/Chapter02/CopperMacularCuttlefish",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-52",
+            "id": "SalmonFancyJellyfish",
+            "path": "levels/Story/Chapter02/SalmonFancyJellyfish",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-53",
+            "id": "CoralDisorderlyEarwig",
+            "path": "levels/Story/Chapter02/CoralDisorderlyEarwig",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-54",
+            "id": "PinkAwesomeCamel",
+            "path": "levels/Story/Chapter02/PinkAwesomeCamel",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-55",
+            "id": "PurpleAcidicOstrich",
+            "path": "levels/Story/Chapter02/PurpleAcidicOstrich",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-56",
+            "id": "BlackViolentBaboon",
+            "path": "levels/Story/Chapter02/BlackViolentBaboon",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-57",
+            "id": "PeriwinkleChronicSasquatch",
+            "path": "levels/Story/Chapter02/PeriwinkleChronicSasquatch",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-58",
+            "id": "IndigoInvestigatoryEagle",
+            "path": "levels/Story/Chapter02/IndigoInvestigatoryEagle",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-59",
+            "id": "TealUselessStarling",
+            "path": "levels/Story/Chapter02/TealUselessStarling",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-60",
+            "id": "PurpleMagentaTrout",
+            "path": "levels/Story/Chapter02/PurpleMagentaTrout",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-61",
+            "id": "RedUpbeatLobster",
+            "path": "levels/Story/Chapter02/RedUpbeatLobster",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-62",
+            "id": "BrownMixedMonkey",
+            "path": "levels/Story/Chapter02/BrownMixedMonkey",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-63",
+            "id": "YellowStereotypedHummingbird",
+            "path": "levels/Story/Chapter02/YellowStereotypedHummingbird",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-64",
+            "id": "BeigeTalentedStingray",
+            "path": "levels/Story/Chapter02/BeigeTalentedStingray",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-65",
+            "id": "GreenWiryShark",
+            "path": "levels/Story/Chapter02/GreenWiryShark",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-66",
+            "id": "BlackKickyGiraffe",
+            "path": "levels/Story/Chapter02/BlackKickyGiraffe",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-67",
+            "id": "SilverFoolishStinkbug",
+            "path": "levels/Story/Chapter02/SilverFoolishStinkbug",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-68",
+            "id": "BlueCombativeCaribou",
+            "path": "levels/Story/Chapter02/BlueCombativeCaribou",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-69",
+            "id": "YellowUsefulHornet",
+            "path": "levels/Story/Chapter02/YellowUsefulHornet",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-70",
+            "id": "IvoryFunctionalTroll",
+            "path": "levels/Story/Chapter02/IvoryFunctionalTroll",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-71",
+            "id": "EmeraldKannyMacaw",
+            "path": "levels/Story/Chapter02/EmeraldKannyMacaw",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-72",
+            "id": "BlueCutMonkey",
+            "path": "levels/Story/Chapter02/BlueCutMonkey",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-73",
+            "id": "BrownStripedCamel",
+            "path": "levels/Story/Chapter02/BrownStripedCamel",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-74",
+            "id": "YellowTrickySparrow",
+            "path": "levels/Story/Chapter02/YellowTrickySparrow",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-75",
+            "id": "RoseLeapingLeafhopper",
+            "path": "levels/Story/Chapter02/RoseLeapingLeafhopper",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-76",
+            "id": "OrangeHeartbreakingSquid",
+            "path": "levels/Story/Chapter02/OrangeHeartbreakingSquid",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-77",
+            "id": "BrownChunkyBeaver",
+            "path": "levels/Story/Chapter02/BrownChunkyBeaver",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-78",
+            "id": "YellowDisturbedHummingbird",
+            "path": "levels/Story/Chapter02/YellowDisturbedHummingbird",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-79",
+            "id": "PlumTicklishCaterpillar",
+            "path": "levels/Story/Chapter02/PlumTicklishCaterpillar",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        },
+        {
+            "name": "2-80",
+            "id": "BlueManiacalHorse",
+            "path": "levels/Story/Chapter02/BlueManiacalHorse",
+            "cost": {
+                "currency": "energy",
+                "amount": 1
+            }
+        }
+    ]
+}

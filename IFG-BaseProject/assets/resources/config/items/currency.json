@@ -1,0 +1,39 @@
+{
+    "items": [
+        {
+            "id": "coins",
+            "externalId": "coins",
+            "type": "currency",
+            "sprite": "store/currency/icon-currency-coin/spriteFrame",
+            "name": "Coins",
+            "isCurrency": true
+        },
+        {
+            "id": "energy",
+            "externalId": "powerup_energy",
+            "type": "currency",
+            "sprite": "store/currency/icon-currency-energy/spriteFrame",
+            "name": "Energy"
+        },
+        {
+            "id": "stars",
+            "type": "currency",
+            "sprite": "store/currency/icon-currency-star/spriteFrame",
+            "name": "Stars"
+        },
+        {
+            "id": "gems",
+            "externalId": "_PG",
+            "type": "currency",
+            "sprite": "store/currency/icon-currency-gem/spriteFrame",
+            "name": "Gems",
+            "isCurrency": true
+        },
+        {
+            "id": "real",
+            "type": "currency",
+            "sprite": "store/currency/icon-currency-coin/spriteFrame",
+            "name": "Dollars"
+        }
+    ]
+}

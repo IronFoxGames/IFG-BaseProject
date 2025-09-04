@@ -1,0 +1,7 @@
+{
+    "id": "decoration.cafe-floor-club-pogo",
+    "tags": ["cafe", "floor-pattern", "diner-floor"],
+    "requirements": [],
+    "assetFilePath": "diner/textures/floors/cafe-floor-tile-club-pogo/texture",
+    "thumbnailFilePath": "diner/thumbnails/cafe-floor-club-pogo-thumbnail/spriteFrame"
+}

@@ -1,0 +1,14 @@
+{
+    "id": "dining-room-bar-stools",
+    "isStatic": true,
+    "defaultPropId": "decoration.bar-stools-level-1",
+    "tags": ["bar-stools", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch1-fixing-up1"
+            }
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "id": "decoration.bathroom-sink-level-1A",
+    "tags": ["sink", "floor", "placeprop-bathroom-sink"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/BathroomSinkLevel1A",
+    "thumbnailFilePath": "diner/thumbnails/bathroom-sink-lvl1A-thumbnail/spriteFrame"
+}

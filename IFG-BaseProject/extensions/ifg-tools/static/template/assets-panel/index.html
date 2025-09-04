@@ -1,0 +1,63 @@
+<div>
+    <div id="titleName">Card Scramble Assets Panel</div>
+    <div>
+        <ui-button id="refreshAssetsButton" class="blue">Refresh Assets</ui-button>
+    </div>
+
+    <!-- Asset Tabs -->
+    <ui-tab id="assetTab" value="0">
+        <ui-button>JSON Prop Data</ui-button>
+        <ui-button>Prop Sprites</ui-button>
+    </ui-tab>
+
+    <!-- Asset Table -->
+    <div id="assetTable" class="asset-table-container">
+        <div class="option-container">
+            <div>Options:</div>
+            <input id="assetIDFilter" type="text" class="filter-input" placeholder="Filter ids..." />
+            <input id="assetTagFilter" type="text" class="filter-input" placeholder="Filter tags..." />
+            <ui-checkbox id="missingCatalogEntries" value="false">Show Missing Catalog Entries</ui-checkbox>
+            <ui-checkbox id="missingNames" value="false">Show Missing Names</ui-checkbox>
+            <ui-checkbox id="missingDescriptions" value="false">Show Missing Descriptions</ui-checkbox>
+        </div>
+
+        <table class="asset-table">
+            <!-- Header Row (Fixed) -->
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Tags</th>
+                    <th>Requirements</th>
+                    <th>Catalog Details</th>
+                    <th>Assets</th>
+                    <th>Thumbnail</th>
+                </tr>
+            </thead>
+
+            <!-- Scrollable Content -->
+            <tbody id="assetList">
+                <!-- Managed by code -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Prop Sprite Table -->
+    <div id="propSpriteTable" class="asset-table-container">
+        <table class="asset-table">
+            <!-- Header Row (Fixed) -->
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Sprite</th>
+                    <th>width</th>
+                    <th>height</th>
+                </tr>
+            </thead>
+
+            <!-- Scrollable Content -->
+            <tbody id="propSpriteList">
+                <!-- Managed by code -->
+            </tbody>
+        </table>
+    </div>
+</div>

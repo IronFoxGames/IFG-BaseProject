@@ -1,0 +1,14 @@
+{
+    "id": "hallway-1x1",
+    "isStatic": false,
+    "defaultPropId": "",
+    "tags": ["1x1", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch1-decorate"
+            }
+        }
+    ]
+}

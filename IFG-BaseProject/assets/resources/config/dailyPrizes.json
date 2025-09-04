@@ -1,0 +1,429 @@
+{
+    "rewards": [
+        {
+            "day": 1,
+            "rewardIndex": 0,
+            "free": { "count": 600, "itemId": "coins" },
+            "club": { "count": 500, "itemId": "coins" }
+        },
+        {
+            "day": 1,
+            "rewardIndex": 1,
+            "free": { "count": 2, "itemId": "powerup_cooking_the_books" },
+            "club": { "count": 1, "itemId": "powerup_joker" }
+        },
+        {
+            "day": 1,
+            "rewardIndex": 2,
+            "free": { "count": 1, "itemId": "powerup_clean_down" },
+            "club": { "count": 1, "itemId": "powerup_free_dessert" }
+        },
+        {
+            "day": 1,
+            "rewardIndex": 3,
+            "free": { "count": 1, "itemId": "powerup_joker" },
+            "club": { "count": 1, "itemId": "powerup_deuces_wild" }
+        },
+        {
+            "day": 1,
+            "rewardIndex": 4,
+            "free": { "count": 500, "itemId": "coins" },
+            "club": { "count": 600, "itemId": "coins" }
+        },
+        {
+            "day": 1,
+            "rewardIndex": 5,
+            "free": { "count": 2, "itemId": "powerup_re_fire" },
+            "club": { "count": 2, "itemId": "powerup_re_fire" }
+        },
+        {
+            "day": 1,
+            "rewardIndex": 6,
+            "free": { "count": 2, "itemId": "powerup_extra_servings" },
+            "club": { "count": 700, "itemId": "coins" }
+        },
+        {
+            "day": 1,
+            "rewardIndex": 7,
+            "free": { "count": 1, "itemId": "powerup_free_dessert" },
+            "club": { "count": 2, "itemId": "powerup_cooking_the_books" }
+        },
+        {
+            "day": 1,
+            "rewardIndex": 8,
+            "free": { "count": 1, "itemId": "powerup_plus7_cards" },
+            "club": { "count": 1, "itemId": "powerup_loosen_your_belt" }
+        },
+        {
+            "day": 1,
+            "rewardIndex": 9,
+            "free": { "count": 700, "itemId": "coins" },
+            "club": { "count": 2, "itemId": "powerup_re_fire" }
+        },
+
+        {
+            "day": 2,
+            "rewardIndex": 0,
+            "free": { "count": 500, "itemId": "coins" },
+            "club": { "count": 1, "itemId": "powerup_loosen_your_belt" }
+        },
+        {
+            "day": 2,
+            "rewardIndex": 1,
+            "free": { "count": 1, "itemId": "powerup_joker" },
+            "club": { "count": 700, "itemId": "coins" }
+        },
+        {
+            "day": 2,
+            "rewardIndex": 2,
+            "free": { "count": 1, "itemId": "powerup_plus7_cards" },
+            "club": { "count": 1, "itemId": "powerup_clean_down" }
+        },
+        {
+            "day": 2,
+            "rewardIndex": 3,
+            "free": { "count": 2, "itemId": "powerup_extra_servings" },
+            "club": { "count": 550, "itemId": "coins" }
+        },
+        {
+            "day": 2,
+            "rewardIndex": 4,
+            "free": { "count": 2, "itemId": "powerup_cooking_the_books" },
+            "club": { "count": 1, "itemId": "powerup_deuces_wild" }
+        },
+        {
+            "day": 2,
+            "rewardIndex": 5,
+            "free": { "count": 2, "itemId": "powerup_extra_servings" },
+            "club": { "count": 1, "itemId": "powerup_free_dessert" }
+        },
+        {
+            "day": 2,
+            "rewardIndex": 6,
+            "free": { "count": 700, "itemId": "coins" },
+            "club": { "count": 2, "itemId": "powerup_cooking_the_books" }
+        },
+        {
+            "day": 2,
+            "rewardIndex": 7,
+            "free": { "count": 1, "itemId": "powerup_deuces_wild" },
+            "club": { "count": 2, "itemId": "powerup_extra_servings" }
+        },
+        {
+            "day": 2,
+            "rewardIndex": 8,
+            "free": { "count": 600, "itemId": "coins" },
+            "club": { "count": 1, "itemId": "powerup_joker" }
+        },
+        {
+            "day": 2,
+            "rewardIndex": 9,
+            "free": { "count": 2, "itemId": "powerup_re_fire" },
+            "club": { "count": 600, "itemId": "coins" }
+        },
+
+        {
+            "day": 3,
+            "rewardIndex": 0,
+            "free": { "count": 2, "itemId": "powerup_re_fire" },
+            "club": { "count": 2, "itemId": "powerup_extra_servings" }
+        },
+        {
+            "day": 3,
+            "rewardIndex": 1,
+            "free": { "count": 1, "itemId": "powerup_plus7_cards" },
+            "club": { "count": 600, "itemId": "coins" }
+        },
+        {
+            "day": 3,
+            "rewardIndex": 2,
+            "free": { "count": 600, "itemId": "coins" },
+            "club": { "count": 1, "itemId": "powerup_loosen_your_belt" }
+        },
+        {
+            "day": 3,
+            "rewardIndex": 3,
+            "free": { "count": 700, "itemId": "coins" },
+            "club": { "count": 500, "itemId": "coins" }
+        },
+        {
+            "day": 3,
+            "rewardIndex": 4,
+            "free": { "count": 1, "itemId": "powerup_loosen_your_belt" },
+            "club": { "count": 2, "itemId": "powerup_cooking_the_books" }
+        },
+        {
+            "day": 3,
+            "rewardIndex": 5,
+            "free": { "count": 2, "itemId": "powerup_cooking_the_books" },
+            "club": { "count": 1, "itemId": "powerup_deuces_wild" }
+        },
+        {
+            "day": 3,
+            "rewardIndex": 6,
+            "free": { "count": 2, "itemId": "powerup_extra_servings" },
+            "club": { "count": 1, "itemId": "powerup_joker" }
+        },
+        {
+            "day": 3,
+            "rewardIndex": 7,
+            "free": { "count": 1, "itemId": "powerup_deuces_wild" },
+            "club": { "count": 1, "itemId": "powerup_clean_down" }
+        },
+        {
+            "day": 3,
+            "rewardIndex": 8,
+            "free": { "count": 1, "itemId": "powerup_joker" },
+            "club": { "count": 1, "itemId": "powerup_free_dessert" }
+        },
+        {
+            "day": 3,
+            "rewardIndex": 9,
+            "free": { "count": 1, "itemId": "powerup_joker" },
+            "club": { "count": 1, "itemId": "powerup_plus7_cards" }
+        },
+        {
+            "day": 4,
+            "rewardIndex": 0,
+            "free": { "count": 1, "itemId": "powerup_joker" },
+            "club": { "count": 2, "itemId": "powerup_re_fire" }
+        },
+        {
+            "day": 4,
+            "rewardIndex": 1,
+            "free": { "count": 600, "itemId": "coins" },
+            "club": { "count": 700, "itemId": "coins" }
+        },
+        {
+            "day": 4,
+            "rewardIndex": 2,
+            "free": { "count": 2, "itemId": "powerup_cooking_the_books" },
+            "club": { "count": 1, "itemId": "powerup_free_dessert" }
+        },
+        {
+            "day": 4,
+            "rewardIndex": 3,
+            "free": { "count": 2, "itemId": "powerup_extra_servings" },
+            "club": { "count": 2, "itemId": "powerup_re_fire" }
+        },
+        {
+            "day": 4,
+            "rewardIndex": 4,
+            "free": { "count": 500, "itemId": "coins" },
+            "club": { "count": 1, "itemId": "powerup_deuces_wild" }
+        },
+        {
+            "day": 4,
+            "rewardIndex": 5,
+            "free": { "count": 700, "itemId": "coins" },
+            "club": { "count": 2, "itemId": "powerup_cooking_the_books" }
+        },
+        {
+            "day": 4,
+            "rewardIndex": 6,
+            "free": { "count": 1, "itemId": "powerup_deuces_wild" },
+            "club": { "count": 1, "itemId": "powerup_plus7_cards" }
+        },
+        {
+            "day": 4,
+            "rewardIndex": 7,
+            "free": { "count": 1, "itemId": "powerup_loosen_your_belt" },
+            "club": { "count": 2, "itemId": "powerup_extra_servings" }
+        },
+        {
+            "day": 4,
+            "rewardIndex": 8,
+            "free": { "count": 1, "itemId": "powerup_plus7_cards" },
+            "club": { "count": 1, "itemId": "powerup_loosen_your_belt" }
+        },
+        {
+            "day": 4,
+            "rewardIndex": 9,
+            "free": { "count": 1, "itemId": "powerup_clean_down" },
+            "club": { "count": 500, "itemId": "coins" }
+        },
+
+        {
+            "day": 5,
+            "rewardIndex": 0,
+            "free": { "count": 2, "itemId": "powerup_re_fire" },
+            "club": { "count": 1, "itemId": "powerup_joker" }
+        },
+        {
+            "day": 5,
+            "rewardIndex": 1,
+            "free": { "count": 2, "itemId": "powerup_cooking_the_books" },
+            "club": { "count": 2, "itemId": "powerup_re_fire" }
+        },
+        {
+            "day": 5,
+            "rewardIndex": 2,
+            "free": { "count": 2, "itemId": "powerup_cooking_the_books" },
+            "club": { "count": 1, "itemId": "powerup_loosen_your_belt" }
+        },
+        {
+            "day": 5,
+            "rewardIndex": 3,
+            "free": { "count": 1, "itemId": "powerup_free_dessert" },
+            "club": { "count": 1, "itemId": "powerup_clean_down" }
+        },
+        {
+            "day": 5,
+            "rewardIndex": 4,
+            "free": { "count": 2, "itemId": "powerup_re_fire" },
+            "club": { "count": 2, "itemId": "powerup_cooking_the_books" }
+        },
+        {
+            "day": 5,
+            "rewardIndex": 5,
+            "free": { "count": 1, "itemId": "powerup_clean_down" },
+            "club": { "count": 500, "itemId": "coins" }
+        },
+        {
+            "day": 5,
+            "rewardIndex": 6,
+            "free": { "count": 1, "itemId": "powerup_plus7_cards" },
+            "club": { "count": 700, "itemId": "coins" }
+        },
+        {
+            "day": 5,
+            "rewardIndex": 7,
+            "free": { "count": 1, "itemId": "powerup_deuces_wild" },
+            "club": { "count": 1, "itemId": "powerup_plus7_cards" }
+        },
+        {
+            "day": 5,
+            "rewardIndex": 8,
+            "free": { "count": 1, "itemId": "powerup_loosen_your_belt" },
+            "club": { "count": 1, "itemId": "powerup_free_dessert" }
+        },
+        {
+            "day": 5,
+            "rewardIndex": 9,
+            "free": { "count": 2, "itemId": "powerup_extra_servings" },
+            "club": { "count": 600, "itemId": "coins" }
+        },
+
+        {
+            "day": 6,
+            "rewardIndex": 0,
+            "free": { "count": 600, "itemId": "coins" },
+            "club": { "count": 600, "itemId": "coins" }
+        },
+        {
+            "day": 6,
+            "rewardIndex": 1,
+            "free": { "count": 1, "itemId": "powerup_plus7_cards" },
+            "club": { "count": 600, "itemId": "coins" }
+        },
+        {
+            "day": 6,
+            "rewardIndex": 2,
+            "free": { "count": 1, "itemId": "powerup_clean_down" },
+            "club": { "count": 1, "itemId": "powerup_joker" }
+        },
+        {
+            "day": 6,
+            "rewardIndex": 3,
+            "free": { "count": 2, "itemId": "powerup_cooking_the_books" },
+            "club": { "count": 2, "itemId": "powerup_cooking_the_books" }
+        },
+        {
+            "day": 6,
+            "rewardIndex": 4,
+            "free": { "count": 2, "itemId": "powerup_re_fire" },
+            "club": { "count": 1, "itemId": "powerup_free_dessert" }
+        },
+        {
+            "day": 6,
+            "rewardIndex": 5,
+            "free": { "count": 2, "itemId": "powerup_extra_servings" },
+            "club": { "count": 1, "itemId": "powerup_deuces_wild" }
+        },
+        {
+            "day": 6,
+            "rewardIndex": 6,
+            "free": { "count": 1, "itemId": "powerup_deuces_wild" },
+            "club": { "count": 2, "itemId": "powerup_re_fire" }
+        },
+        {
+            "day": 6,
+            "rewardIndex": 7,
+            "free": { "count": 1, "itemId": "powerup_loosen_your_belt" },
+            "club": { "count": 2, "itemId": "powerup_extra_servings" }
+        },
+        {
+            "day": 6,
+            "rewardIndex": 8,
+            "free": { "count": 1, "itemId": "powerup_joker" },
+            "club": { "count": 1, "itemId": "powerup_clean_down" }
+        },
+        {
+            "day": 6,
+            "rewardIndex": 9,
+            "free": { "count": 500, "itemId": "coins" },
+            "club": { "count": 700, "itemId": "coins" }
+        },
+
+        {
+            "day": 7,
+            "rewardIndex": 0,
+            "free": { "count": 700, "itemId": "coins" },
+            "club": { "count": 1, "itemId": "powerup_deuces_wild" }
+        },
+        {
+            "day": 7,
+            "rewardIndex": 1,
+            "free": { "count": 1, "itemId": "powerup_free_dessert" },
+            "club": { "count": 1, "itemId": "powerup_loosen_your_belt" }
+        },
+        {
+            "day": 7,
+            "rewardIndex": 2,
+            "free": { "count": 2, "itemId": "powerup_re_fire" },
+            "club": { "count": 2, "itemId": "powerup_re_fire" }
+        },
+        {
+            "day": 7,
+            "rewardIndex": 3,
+            "free": { "count": 1, "itemId": "powerup_joker" },
+            "club": { "count": 1, "itemId": "powerup_plus7_cards" }
+        },
+        {
+            "day": 7,
+            "rewardIndex": 4,
+            "free": { "count": 600, "itemId": "coins" },
+            "club": { "count": 2, "itemId": "powerup_cooking_the_books" }
+        },
+        {
+            "day": 7,
+            "rewardIndex": 5,
+            "free": { "count": 2, "itemId": "powerup_re_fire" },
+            "club": { "count": 500, "itemId": "coins" }
+        },
+        {
+            "day": 7,
+            "rewardIndex": 6,
+            "free": { "count": 1, "itemId": "powerup_loosen_your_belt" },
+            "club": { "count": 1, "itemId": "powerup_free_dessert" }
+        },
+        {
+            "day": 7,
+            "rewardIndex": 7,
+            "free": { "count": 2, "itemId": "powerup_extra_servings" },
+            "club": { "count": 700, "itemId": "coins" }
+        },
+        {
+            "day": 7,
+            "rewardIndex": 8,
+            "free": { "count": 1, "itemId": "powerup_clean_down" },
+            "club": { "count": 600, "itemId": "coins" }
+        },
+        {
+            "day": 7,
+            "rewardIndex": 9,
+            "free": { "count": 500, "itemId": "coins" },
+            "club": { "count": 1, "itemId": "powerup_clean_down" }
+        }
+    ]
+}

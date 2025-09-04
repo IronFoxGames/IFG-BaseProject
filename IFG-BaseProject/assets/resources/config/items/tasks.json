@@ -1,0 +1,154 @@
+{
+    "items": [
+        {
+            "id": "icon-action-call",
+            "type": "task",
+            "sprite": "taskSprites/icons/icon-action-call/spriteFrame",
+            "name": "Phone Icon"
+        },
+        {
+            "id": "icon-action-message",
+            "type": "task",
+            "sprite": "taskSprites/icons/icon-action-message-FPO/spriteFrame",
+            "name": "Dialogue Icon"
+        },
+        {
+            "id": "icon-check",
+            "type": "task",
+            "sprite": "taskSprites/icons/icon-fpo-checkmark/spriteFrame",
+            "name": "Check Icon"
+        },
+        {
+            "id": "icon-clean",
+            "type": "task",
+            "sprite": "taskSprites/icons/icon-fpo-broom/spriteFrame",
+            "name": "Clean Icon"
+        },
+        {
+            "id": "icon-coffee",
+            "type": "task",
+            "sprite": "taskSprites/icons/icon-fpo-coffee/spriteFrame",
+            "name": "Coffee Icon"
+        },
+        {
+            "id": "icon-decorate",
+            "type": "task",
+            "sprite": "taskSprites/icons/icon-fpo-decoration/spriteFrame",
+            "name": "Decorate Icon"
+        },
+        {
+            "id": "icon-derek",
+            "type": "task",
+            "sprite": "taskSprites/icons/icon-fpo-derek/spriteFrame",
+            "name": "Derek Icon"
+        },
+        {
+            "id": "icon-fix",
+            "type": "task",
+            "sprite": "taskSprites/icons/icon-fpo-fix/spriteFrame",
+            "name": "Fix Icon"
+        },
+        {
+            "id": "icon-food-delivery",
+            "type": "task",
+            "sprite": "taskSprites/icons/icon-fpo-food/spriteFrame",
+            "name": "Food Delivery"
+        },
+        {
+            "id": "icon-outdoors",
+            "type": "task",
+            "sprite": "taskSprites/icons/icon-fpo-outdoors/spriteFrame",
+            "name": "Outdoors Icon"
+        },
+        {
+            "id": "icon-todo-list",
+            "type": "task",
+            "sprite": "taskSprites/icons/icon-action-todo-FPO/spriteFrame",
+            "name": "Phone Icon"
+        },
+        {
+            "id": "mess-diner-derek-sleeping",
+            "type": "task",
+            "sprite": "taskSprites/messes/surfaces/mess-diner-derek-sleeping/spriteFrame",
+            "name": "Derek"
+        },
+        {
+            "id": "mess-diner-derek-standing",
+            "type": "task",
+            "sprite": "taskSprites/messes/surfaces/mess-diner-derek-standing/spriteFrame",
+            "name": "Derek"
+        },
+        {
+            "id": "mess-diner-cake-eaten",
+            "type": "task",
+            "sprite": "taskSprites/messes/surfaces/mess-diner-eaten-cake/spriteFrame",
+            "name": "Eaten Cake"
+        },
+        {
+            "id": "mess-diner-cake-full",
+            "type": "task",
+            "sprite": "taskSprites/messes/surfaces/mess-diner-full-cake/spriteFrame",
+            "name": "Full Cake"
+        },
+        {
+            "id": "mess-diner-coffee-stain",
+            "type": "task",
+            "sprite": "taskSprites/messes/surfaces/mess-diner-coffee-stain/spriteFrame",
+            "name": "Coffee Stain"
+        },
+        {
+            "id": "mess-diner-crayons-and-paper",
+            "type": "task",
+            "sprite": "taskSprites/messes/surfaces/mess-diner-crayons/spriteFrame",
+            "name": "Crayons and Paper"
+        },
+        {
+            "id": "mess-diner-dirt",
+            "type": "task",
+            "sprite": "taskSprites/messes/floor/mess-diner-floor-dirt/spriteFrame",
+            "name": "Floor Dirt"
+        },
+        {
+            "id": "mess-diner-envelope",
+            "type": "task",
+            "sprite": "taskSprites/messes/surfaces/task-single-envelope/spriteFrame",
+            "name": "Letter"
+        },
+        {
+            "id": "mess-diner-magazines",
+            "type": "task",
+            "sprite": "taskSprites/messes/surfaces/task-diner-magazines/spriteFrame",
+            "name": "Eaten Sandwich"
+        },
+        {
+            "id": "mess-diner-mail",
+            "type": "task",
+            "sprite": "taskSprites/messes/surfaces/task-diner-mail/spriteFrame",
+            "name": "Pile of Mail"
+        },
+        {
+            "id": "mess-diner-newspaper",
+            "type": "task",
+            "sprite": "taskSprites/messes/surfaces/task-diner-newspaper/spriteFrame",
+            "name": "Eaten Ice Cream"
+        },
+        {
+            "id": "mess-diner-newspaper-stack",
+            "type": "task",
+            "sprite": "taskSprites/messes/floor/mess-diner-floor-newspaper-stack/spriteFrame",
+            "name": "Eaten Ice Cream"
+        },
+        {
+            "id": "mess-puddle-water",
+            "type": "task",
+            "sprite": "taskSprites/messes/floor/mess-diner-floor-water-puddle/spriteFrame",
+            "name": "Water Puddle"
+        },
+        {
+            "id": "mess-empty",
+            "type": "task",
+            "sprite": "taskSprites/messes/empty/spriteFrame",
+            "name": "Empty Mess"
+        }
+    ]
+}

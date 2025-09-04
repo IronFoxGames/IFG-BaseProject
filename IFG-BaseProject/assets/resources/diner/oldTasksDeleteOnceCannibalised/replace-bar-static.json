@@ -1,0 +1,24 @@
+{
+    "id": "task_chapter1_replace_bar_static",
+    "name": "Fix Up Bar Counter",
+    "description": "Let's replace the dingy old bar counter witha shiny new one!",
+    "unlockRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 15,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "turnInRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "propInNode",
+                "propId": "BarCounterLevel0",
+                "nodeId": "5",
+                "operator": "notEqual"
+            }
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "id": "decoration.office-walls-level-1B",
+    "tags": ["office", "wall-pattern", "office-walls"],
+    "requirements": [],
+    "assetFilePath": "diner/textures/walls/office-wall-tile-lvl1B/texture",
+    "thumbnailFilePath": "diner/thumbnails/office-wall-lvl1B-thumbnail/spriteFrame"
+}

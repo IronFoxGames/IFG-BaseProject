@@ -1,0 +1,23 @@
+{
+    "id": "task_ftue_learning_jokers",
+    "name": "Learning Jokers",
+    "description": "Learn how to use Joker cards.",
+    "unlockRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 2,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "turnInRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 3,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ]
+}

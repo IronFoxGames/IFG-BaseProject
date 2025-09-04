@@ -1,0 +1,7 @@
+{
+    "id": "decoration.kitchen-floor-level-1A",
+    "tags": ["kitchen", "floor-pattern"],
+    "requirements": [],
+    "assetFilePath": "diner/textures/floors/kitchen-floor-tile-lvl1A/texture",
+    "thumbnailFilePath": "diner/thumbnails/kitchen-floor-lvl1a-thumbnail/spriteFrame"
+}

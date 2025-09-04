@@ -1,0 +1,7 @@
+{
+    "id": "decoration.office-window-level-1",
+    "tags": ["office-window", "wall"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/OfficeWindowLevel1",
+    "thumbnailFilePath": "diner/thumbnails/office-window-lvl1-thumbnail/spriteFrame"
+}

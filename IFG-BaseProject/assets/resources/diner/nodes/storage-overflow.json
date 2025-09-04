@@ -1,0 +1,7 @@
+{
+    "id": "storage-overflow",
+    "isStatic": true,
+    "defaultPropId": "decoration.storage-overflow-level-0",
+    "tags": ["overflow", "floor"],
+    "requirements": []
+}

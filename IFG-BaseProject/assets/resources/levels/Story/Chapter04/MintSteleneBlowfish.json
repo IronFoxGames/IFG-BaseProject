@@ -1,0 +1,65 @@
+{
+    "name": "MintSteleneBlowfish",
+    "description": "Simple template",
+    "handSize": 7,
+    "difficulty": "Hard",
+    "hasBot": false,
+    "placeAnchor": true,
+    "objectives": [
+        {
+            "objectiveDataList": [
+                {
+                    "objectiveType": "Score",
+                    "tipText": "Score the target number of points by playing the best hands possible.",
+                    "tipSprite": null,
+                    "score": 52000
+                }
+            ]
+        },
+        {
+            "objectiveDataList": [
+                { "objectiveType": "HandPlayedWithScore", "tipText": "", "tipSprite": null, "hand": "Straight", "score": 5000 }
+            ]
+        },
+        {
+            "objectiveDataList": [
+                { "objectiveType": "HandPlayedWithScore", "tipText": "", "tipSprite": null, "hand": "StraightFlush", "score": 8000 }
+            ]
+        }
+    ],
+    "deckType": "Default",
+    "customDeck": [],
+    "startingBoard": [
+        { "boardIndex": 144, "card": { "type": "regular", "rank": 6, "suit": 2 } },
+        { "boardIndex": 63, "card": { "type": "regular", "rank": 8, "suit": 4 } },
+        { "boardIndex": 66, "card": { "type": "regular", "rank": 4, "suit": 3 } },
+        { "boardIndex": 42, "card": { "type": "regular", "rank": 4, "suit": 3 } },
+        { "boardIndex": 152, "card": { "type": "regular", "rank": 10, "suit": 1 } },
+        { "boardIndex": 128, "card": { "type": "regular", "rank": 10, "suit": 1 } }
+    ],
+    "boardModifierPlacements": [
+        { "boardIndex": 130, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 131, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 132, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 133, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 119, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 120, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 107, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 90, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 89, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 88, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 87, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 74, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 61, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 75, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 143, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 3 } },
+        { "boardIndex": 154, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } },
+        { "boardIndex": 40, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } },
+        { "boardIndex": 76, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 3 } }
+    ],
+    "freeBooster": "None",
+    "freePowerup": "None",
+    "appliedBoosters": [],
+    "gridSpecialsEnabled": false,
+    "gridSpecialsHidden": false
+}

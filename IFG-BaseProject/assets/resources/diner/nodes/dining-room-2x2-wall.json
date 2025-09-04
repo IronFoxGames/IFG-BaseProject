@@ -1,0 +1,12 @@
+{
+    "id": "dining-room-2x2-wall-picture",
+    "isStatic": false,
+    "defaultPropId": "",
+    "tags": ["wall-2x2", "wall"],
+    "requirements": [
+        {
+            "requirementType": "taskComplete",
+            "taskId": "ch5-clean-floor"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "id": "decoration.kitchen-platingstation-level-2",
+    "tags": ["plating", "floor", "kitchen-plating-station"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/KitchenPlatingStationLevel2",
+    "thumbnailFilePath": "diner/thumbnails/kitchen-platingstation-lvl2-thumbnail/spriteFrame"
+}

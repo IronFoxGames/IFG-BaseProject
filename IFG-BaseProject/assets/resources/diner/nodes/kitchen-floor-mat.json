@@ -1,0 +1,14 @@
+{
+    "id": "kitchen-floor-mat",
+    "isStatic": false,
+    "defaultPropId": "",
+    "tags": ["mat", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch4-PlaceKitchenFloorMats"
+            }
+        }
+    ]
+}

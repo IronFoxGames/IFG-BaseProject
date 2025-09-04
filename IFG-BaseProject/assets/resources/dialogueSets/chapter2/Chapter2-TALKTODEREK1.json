@@ -1,0 +1,87 @@
+{
+  "dialogueSections": [
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "What did I do Derek? I've never seen Darcy upset with me.",
+          "characterSprites": [
+            "Sad"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "We've been through everything together and she's never acted like that before...",
+          "characterSprites": [
+            "Sad"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Play_Sfx"
+      ],
+      "dialogueType": "Sfx",
+      "lines": [
+        {
+          "line": "SFX_Dialogue_CatMeow",
+          "characterSprites": [
+            ""
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 1,
+      "characterNames": [
+        "Derek"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "*Mrow*",
+          "characterSprites": [
+            "Neutral"
+          ],
+          "unskippable": false
+        }
+      ]
+    },
+    {
+      "characterSide": 0,
+      "characterNames": [
+        "Viola"
+      ],
+      "dialogueType": "Speaking",
+      "lines": [
+        {
+          "line": "I know, I know. I'll just wait and talk to her later.",
+          "characterSprites": [
+            "Sad"
+          ],
+          "unskippable": false
+        },
+        {
+          "line": "Sigh... Right! Something positive. I'm going to fix up these old booths.",
+          "characterSprites": [
+            "Thinking"
+          ],
+          "unskippable": false
+        }
+      ]
+    }
+  ],
+  "sourceFile": "Chapter 2 - Dialogue",
+  "dialogueId": "Chapter2-TalkToDerek1",
+  "repeatable": false,
+  "dialogueFormat": "Default",
+  "requirements": []
+}

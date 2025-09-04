@@ -1,0 +1,187 @@
+{
+    "id": "prologue",
+    "name": "Prologue",
+    "tasks": [
+        {
+            "id": "grilled-cheese",
+            "name": "Grilled Cheese",
+            "iconId": "icon-check",
+            "description": "Make a grilled cheese.",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter0-Grilled Cheese",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter0-A New Deck"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "chapterStartTask": "prologue"
+        },
+        {
+            "id": "joeys-challenge",
+            "name": "Joeys Challenge",
+            "iconId": "icon-check",
+            "description": "Beat Joey's challenge.",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter0-A New Deck",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 1,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter0-Getting the Hang of it"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "while-away",
+            "name": "While Away Time",
+            "iconId": "icon-check",
+            "description": "While away the years...",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter0-Getting the Hang of it",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 1,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter0-One More Puzzle"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "complete-prologue",
+            "name": "Prologue",
+            "iconId": "icon-check",
+            "description": "Say goodbye to Joey!",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter0-One More Puzzle",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 1,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter0-Leaving town"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "forceSwapProps",
+                                "locationAndPropIds": [
+                                    {
+                                        "roomId": "dining-room",
+                                        "nodeId": "dining-room-bar-counter",
+                                        "propId": "decoration.bar-counter-level-0"
+                                    },
+                                    {
+                                        "roomId": "dining-room",
+                                        "nodeId": "dining-room-bar-stools",
+                                        "propId": "decoration.bar-stools-level-0"
+                                    },
+                                    {
+                                        "roomId": "dining-room",
+                                        "nodeId": "dining-room-fridge",
+                                        "propId": "decoration.bar-fridge-level-0"
+                                    },
+                                    {
+                                        "roomId": "dining-room",
+                                        "nodeId": "dining-room-tables",
+                                        "propId": "decoration.table-row-level-0"
+                                    },
+                                    {
+                                        "roomId": "dining-room",
+                                        "nodeId": "dining-room-front-booths",
+                                        "propId": "decoration.booth-row-level-0"
+                                    },
+                                    {
+                                        "roomId": "dining-room",
+                                        "nodeId": "dining-room-bar-lights",
+                                        "propId": "decoration.bar-lights-level-0"
+                                    },
+                                    {
+                                        "roomId": "dining-room",
+                                        "nodeId": "dining-room-bar-rug",
+                                        "propId": "decoration.bar-rug-level-0"
+                                    },
+                                    {
+                                        "roomId": "dining-room",
+                                        "nodeId": "dining-room-food-display",
+                                        "propId": "decoration.food-display-level-0"
+                                    },
+                                    {
+                                        "roomId": "dining-room",
+                                        "nodeId": "dining-room-service-counter",
+                                        "propId": "decoration.service-counter-level-0"
+                                    },
+                                    {
+                                        "roomId": "dining-room",
+                                        "nodeId": "dining-room-bar-rug",
+                                        "propId": "decoration.bar-rug-level-0"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter1-Intro"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "chapterEndTask": "prologue"
+        }
+    ]
+}

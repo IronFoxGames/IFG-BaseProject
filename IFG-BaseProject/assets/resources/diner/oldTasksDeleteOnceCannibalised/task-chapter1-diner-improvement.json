@@ -1,0 +1,40 @@
+{
+    "id": "task_chapter1_diner_improvement",
+    "name": "Diner Improvement",
+    "description": "Clean up the old diner and make it look new!",
+    "unlockRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 20,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "turnInRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "propInNode",
+                "propId": "BarCounterLevel0",
+                "nodeId": "5",
+                "operator": "notEqual"
+            }
+        },
+        {
+            "requirementData": {
+                "requirementType": "propInNode",
+                "propId": "BarStoolsLevel0",
+                "nodeId": "9",
+                "operator": "notEqual"
+            }
+        },
+        {
+            "requirementData": {
+                "requirementType": "propInNode",
+                "propId": "BoothsLevel0",
+                "nodeId": "1",
+                "operator": "notEqual"
+            }
+        }
+    ]
+}

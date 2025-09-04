@@ -1,0 +1,10 @@
+{
+    "id": "decoration.event-room-corner-booth-level-0",
+    "tags": [
+        "corner-booth",
+        "floor"
+    ],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/EventRoomCornerBoothLevel0",
+    "thumbnailFilePath": "diner/thumbnails/Event-Room-corner-booth-lvl0-thumbnail/spriteFrame"
+}

@@ -1,0 +1,16 @@
+{
+    "id": "decoration.kitchen-floor-level-0",
+    "tags": ["kitchen", "floor-pattern"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/textures/floors/kitchen-floor-tile-lvl0/texture",
+    "thumbnailFilePath": "diner/thumbnails/kitchen-floor-lvl0-thumbnail/spriteFrame"
+}

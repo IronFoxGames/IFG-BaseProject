@@ -1,0 +1,226 @@
+{
+    "name": "TealRancidUmbrian",
+    "description": "Simple template",
+    "handSize": 7,
+    "difficulty": "Hard",
+    "hasBot": false,
+    "placeAnchor": true,
+    "objectives": [
+        {
+            "objectiveDataList": [
+                {
+                    "objectiveType": "Score",
+                    "tipText": "Score the target number of points by playing the best hands possible.",
+                    "tipSprite": null,
+                    "score": 45000
+                }
+            ]
+        }
+    ],
+    "deckType": "Default",
+    "customDeck": [],
+    "startingBoard": [],
+    "boardModifierPlacements": [
+        {
+            "boardIndex": 159,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 4,
+                "boardIndex": 159
+            }
+        },
+        {
+            "boardIndex": 120,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 4,
+                "boardIndex": 120
+            }
+        },
+        {
+            "boardIndex": 146,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 4,
+                "boardIndex": 146
+            }
+        },
+        {
+            "boardIndex": 133,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 4,
+                "boardIndex": 133
+            }
+        },
+        {
+            "boardIndex": 107,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 4,
+                "boardIndex": 107
+            }
+        },
+        {
+            "boardIndex": 105,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 4,
+                "boardIndex": 105
+            }
+        },
+        {
+            "boardIndex": 104,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 4,
+                "boardIndex": 104
+            }
+        },
+        {
+            "boardIndex": 106,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 4,
+                "boardIndex": 106
+            }
+        },
+        {
+            "boardIndex": 114,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 114
+            }
+        },
+        {
+            "boardIndex": 115,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 115
+            }
+        },
+        {
+            "boardIndex": 116,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 116
+            }
+        },
+        { "boardIndex": 132, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 3 } },
+        { "boardIndex": 119, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 11 } },
+        {
+            "boardIndex": 113,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 113
+            }
+        },
+        {
+            "boardIndex": 126,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 126
+            }
+        },
+        {
+            "boardIndex": 139,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 139
+            }
+        },
+        {
+            "boardIndex": 152,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 152
+            }
+        },
+        {
+            "boardIndex": 165,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 165
+            }
+        },
+        { "boardIndex": 140, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 3 } },
+        { "boardIndex": 127, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 11 } }
+    ],
+    "freeBooster": "None",
+    "freePowerup": "None",
+    "appliedBoosters": [],
+    "gridSpecialsEnabled": false,
+    "gridSpecialsHidden": false
+}

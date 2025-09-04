@@ -1,0 +1,16 @@
+{
+    "id": "decoration.office-window-level-0",
+    "tags": ["office-window", "wall"],
+    "requirements": [],
+        "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 9999,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/OfficeWindowLevel0",
+    "thumbnailFilePath": "diner/thumbnails/office-window-lvl0-thumbnail/spriteFrame"
+}

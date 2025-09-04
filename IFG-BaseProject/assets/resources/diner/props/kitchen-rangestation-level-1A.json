@@ -1,0 +1,7 @@
+{
+    "id": "decoration.kitchen-rangestation-level-1A",
+    "tags": ["range", "floor"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/KitchenRangeStationLevel1A",
+    "thumbnailFilePath": "diner/thumbnails/kitchen-rangestation-lvl1A-thumbnail/spriteFrame"
+}

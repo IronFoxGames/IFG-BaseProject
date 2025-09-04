@@ -1,0 +1,7 @@
+{
+    "id": "decoration.coffee-maker-level-1",
+    "tags": ["coffee-maker", "counter-top", "coffee", "coffee-maker1"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/CoffeeMakerLevel1",
+    "thumbnailFilePath": "diner/thumbnails/coffee-maker-lvl1-thumbnail/spriteFrame"
+}

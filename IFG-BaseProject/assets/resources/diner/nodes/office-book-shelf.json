@@ -1,0 +1,12 @@
+{
+    "id": "office-book-shelf",
+    "isStatic": true,
+    "defaultPropId": "decoration.office-book-shelf-level-0",
+    "tags": ["book-shelf", "floor"],
+    "requirements": [
+        {
+            "requirementType": "taskComplete",
+            "taskId": "ch5-replace-bookshelf"
+        }
+    ]
+}

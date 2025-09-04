@@ -1,0 +1,14 @@
+{
+    "id": "bathroom-floor",
+    "isStatic": true,
+    "defaultPropId": "decoration.bathroom-floor-level-0",
+    "tags": ["bathroom", "floor-pattern"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch3-change-bathroom-flooring"
+            }
+        }
+    ]
+}

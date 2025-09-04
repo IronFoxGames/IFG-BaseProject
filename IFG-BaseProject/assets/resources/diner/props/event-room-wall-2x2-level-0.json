@@ -1,0 +1,7 @@
+{
+    "id": "decoration.event-room-wall-2x2-level-0",
+    "tags": ["eventwall-2x2", "wall"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/EventRoomWall2x2Level0",
+    "thumbnailFilePath": "diner/thumbnails/Event-Room-Wall-2x2-lvl0-thumbnail/spriteFrame"
+}

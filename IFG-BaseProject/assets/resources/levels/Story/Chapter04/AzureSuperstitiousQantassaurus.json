@@ -1,0 +1,45 @@
+{
+    "name": "AzureSuperstitiousQantassaurus",
+    "description": "Simple template",
+    "handSize": 7,
+    "difficulty": "Hard",
+    "hasBot": false,
+    "placeAnchor": true,
+    "objectives": [
+        {
+            "objectiveDataList": [
+                {
+                    "objectiveType": "Score",
+                    "tipText": "Score the target number of points by playing the best hands possible.",
+                    "tipSprite": null,
+                    "score": 42000
+                }
+            ]
+        }
+    ],
+    "deckType": "Default",
+    "customDeck": [],
+    "startingBoard": [
+        { "boardIndex": 83, "card": { "type": "wild", "rank": 0, "suit": 0 } },
+        { "boardIndex": 85, "card": { "type": "wild", "rank": 0, "suit": 0 } },
+        { "boardIndex": 97, "card": { "type": "wild", "rank": 0, "suit": 0 } },
+        { "boardIndex": 71, "card": { "type": "wild", "rank": 0, "suit": 0 } }
+    ],
+    "boardModifierPlacements": [
+        { "boardIndex": 119, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 8 } },
+        { "boardIndex": 127, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 8 } },
+        { "boardIndex": 149, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 10 } },
+        { "boardIndex": 19, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 14 } },
+        { "boardIndex": 65, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 12 } },
+        { "boardIndex": 37, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 12 } },
+        { "boardIndex": 139, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } },
+        { "boardIndex": 105, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } },
+        { "boardIndex": 17, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } },
+        { "boardIndex": 23, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } }
+    ],
+    "freeBooster": "None",
+    "freePowerup": "None",
+    "appliedBoosters": [],
+    "gridSpecialsEnabled": false,
+    "gridSpecialsHidden": false
+}

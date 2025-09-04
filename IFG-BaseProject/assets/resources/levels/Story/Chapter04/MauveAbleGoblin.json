@@ -1,0 +1,54 @@
+{
+    "name": "MauveAbleGoblin",
+    "description": "Simple template",
+    "difficulty": "Hard",
+    "handSize": 7,
+    "hasBot": false,
+    "placeAnchor": false,
+    "objectives": [
+        {
+            "objectiveDataList": [
+                {
+                    "objectiveType": "Score",
+                    "tipText": "Score the target number of points by playing the best hands possible.",
+                    "tipSprite": null,
+                    "score": 35000
+                }
+            ]
+        },
+        {
+            "objectiveDataList": [
+                {
+                    "objectiveType": "HandPlayedWithScore",
+                    "tipText": "Five cards of the same suit. Not in sequence.",
+                    "tipSprite": "help/help_flush/spriteFrame",
+                    "hand": "Flush",
+                    "score": 6000
+                }
+            ]
+        }
+    ],
+    "deckType": "Default",
+    "customDeck": [],
+    "startingBoard": [
+        { "boardIndex": 40, "card": { "type": "regular", "rank": 9, "suit": 4 } },
+        { "boardIndex": 43, "card": { "type": "regular", "rank": 9, "suit": 2 } },
+        { "boardIndex": 46, "card": { "type": "regular", "rank": 9, "suit": 1 } },
+        { "boardIndex": 49, "card": { "type": "regular", "rank": 9, "suit": 3 } },
+        { "boardIndex": 131, "card": { "type": "regular", "rank": 2, "suit": 3 } },
+        { "boardIndex": 134, "card": { "type": "regular", "rank": 2, "suit": 1 } },
+        { "boardIndex": 137, "card": { "type": "regular", "rank": 2, "suit": 2 } },
+        { "boardIndex": 140, "card": { "type": "regular", "rank": 2, "suit": 4 } }
+    ],
+    "boardModifierPlacements": [
+        { "boardIndex": 150, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 10 } },
+        { "boardIndex": 144, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 10 } },
+        { "boardIndex": 33, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 10 } },
+        { "boardIndex": 27, "modifier": { "type": "BurningFood", "expires": true, "expiresTurnCount": 10 } }
+    ],
+    "freeBooster": "None",
+    "freePowerup": "None",
+    "appliedBoosters": [],
+    "gridSpecialsEnabled": false,
+    "gridSpecialsHidden": false
+}

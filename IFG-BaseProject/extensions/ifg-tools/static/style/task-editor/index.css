@@ -1,0 +1,33 @@
+#text {
+    color: var(--color-normal-contrast-weakest);
+    margin: auto;
+    width: 180px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.chapter-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.chapter-list-panel {
+    width: 300px;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+}
+
+.chapter-view-panel {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    max-height: 100%;
+
+    min-height: 0;
+}

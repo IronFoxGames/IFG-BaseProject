@@ -1,0 +1,7 @@
+{
+    "id": "decoration.soda-machine-level-1A",
+    "tags": ["soda-machine", "counter-top", "soda", "soda-machine1"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/SodaMachineLevel1A",
+    "thumbnailFilePath": "diner/thumbnails/soda-machine-lvl1A-thumbnail/spriteFrame"
+}

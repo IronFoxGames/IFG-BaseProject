@@ -1,0 +1,122 @@
+{
+    "name": "KhakiInspirationalUngulate",
+    "description": "Simple template",
+    "handSize": 7,
+    "difficulty": "Hard",
+    "hasBot": false,
+    "placeAnchor": true,
+    "objectives": [
+        {
+            "objectiveDataList": [
+                {
+                    "objectiveType": "Score",
+                    "tipText": "Score the target number of points by playing the best hands possible.",
+                    "tipSprite": null,
+                    "score": 38000
+                }
+            ]
+        }
+    ],
+    "deckType": "Default",
+    "customDeck": [],
+    "startingBoard": [],
+    "boardModifierPlacements": [
+        { "boardIndex": 91, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 92, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 93, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 94, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 81, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 68, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 100, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 16, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 3, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 165, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 152, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 77, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 76, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 75, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 74, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 87, "modifier": { "type": "Null", "expires": false, "expiresTurnCount": 0 } },
+        { "boardIndex": 128, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 3 } },
+        { "boardIndex": 40, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 3 } },
+        {
+            "boardIndex": 139,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 3,
+                "boardIndex": 139
+            }
+        },
+        {
+            "boardIndex": 126,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 3,
+                "boardIndex": 126
+            }
+        },
+        {
+            "boardIndex": 113,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 3,
+                "boardIndex": 113
+            }
+        },
+        {
+            "boardIndex": 55,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 55
+            }
+        },
+        {
+            "boardIndex": 42,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 42
+            }
+        },
+        {
+            "boardIndex": 29,
+            "modifier": {
+                "type": "BreakableWall",
+                "expires": false,
+                "expiresTurnCount": 0,
+                "reinforced": false,
+                "requiredRank": -1,
+                "requiredSuit": 1,
+                "boardIndex": 29
+            }
+        },
+        { "boardIndex": 132, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } },
+        { "boardIndex": 36, "modifier": { "type": "HandMultiplier", "expires": false, "expiresTurnCount": 0, "multiplier": 2 } }
+    ],
+    "freeBooster": "None",
+    "freePowerup": "None",
+    "appliedBoosters": [],
+    "gridSpecialsEnabled": false,
+    "gridSpecialsHidden": false
+}

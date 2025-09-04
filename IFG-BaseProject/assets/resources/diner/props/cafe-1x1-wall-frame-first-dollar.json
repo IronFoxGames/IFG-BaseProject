@@ -1,0 +1,7 @@
+{
+    "id": "decoration.1x1-wall-frame-first-dollar",
+    "tags": ["wall-1x1", "wall", "dining-room-1x1-wall","dining-room-1x1-wall-dollar"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/Cafe1x1WallFrameFirstDollar",
+    "thumbnailFilePath": "diner/thumbnails/cafe-1x1-wall-frame-first-dollar-thumbnail/spriteFrame"
+}

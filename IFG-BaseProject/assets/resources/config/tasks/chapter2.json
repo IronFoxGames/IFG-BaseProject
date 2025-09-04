@@ -1,0 +1,913 @@
+{
+    "id": "chapter-2",
+    "name": "Chapter 2",
+    "tasks": [
+        {
+            "id": "ch2-receive-food-delivery",
+            "name": "Receive Food Delivery",
+            "iconId": "icon-food-delivery",
+            "description": "Receive Food Delivery",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-Intro",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-BrokenChair"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "chapterStartTask": "chapter-2"
+        },
+        {
+            "id": "ch2-clean-up-mess",
+            "name": "Clean Up The Mess",
+            "iconId": "icon-clean",
+            "description": "Clean Up The Mess",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-BrokenChair",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-diner-dirt",
+                                "roomId": "dining-room",
+                                "spawnIds": ["dining-room-floor-south-west1", "dining-room-floor-south-west3"],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-puddle-water",
+                                "roomId": "dining-room",
+                                "spawnIds": ["dining-room-floor-south-west2"],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-Riley"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch2-finish-lunch-rush",
+            "name": "Finish The Lunch Rush",
+            "iconId": "mess-diner-cake-full",
+            "description": "Finish The Lunch Rush",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-Riley",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-Trouble"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch2-answer-the-phone",
+            "name": "Answer The Phone",
+            "iconId": "icon-action-call",
+            "description": "Answer The Phone",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-Trouble",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-TroublePhone"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch2-end-of-day-cleanup",
+            "name": "End Of Day Cleanup",
+            "iconId": "icon-clean",
+            "description": "End Of Day Cleanup",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-TroublePhone",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-diner-dirt",
+                                "roomId": "dining-room",
+                                "spawnIds": ["dining-room-floor-south-west1"],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-puddle-water",
+                                "roomId": "dining-room",
+                                "spawnIds": ["dining-room-floor-middle1"],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-diner-cake-eaten",
+                                "roomId": "dining-room",
+                                "spawnIds": [
+                                    "dining-room-bar-counter-middle",
+                                    "dining-room-table-2-south-west",
+                                    "dining-room-table-4-south-west"
+                                ],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-ReplaceTheChairs"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch2-replace-chairs",
+            "name": "Replace The Chairs",
+            "iconId": "icon-fix",
+            "description": "Replace The Chairs",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-ReplaceTheChairs",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "dining-room",
+                                "nodeId": "dining-room-tables",
+                                "propTags": ["tablefix-step1"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-ReplaceTables1"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch2-replace-tables1",
+            "name": "Replace The Broken Tables",
+            "iconId": "icon-fix",
+            "description": "Replace The Broken Tables",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-ReplaceTables1",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "dining-room",
+                                "nodeId": "dining-room-tables",
+                                "propTags": ["tablefix-step2"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-ReplaceTables2"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch2-replace-tables2",
+            "name": "Replace ALL The Tables",
+            "iconId": "icon-fix",
+            "description": "Replace ALL The Tables",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-ReplaceTables2",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "dining-room",
+                                "nodeId": "dining-room-tables",
+                                "propTags": ["tablefix-step3"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-TableFixDone"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch2-serve-customers",
+            "name": "Serve The Customers",
+            "iconId": "icon-coffee",
+            "description": "Serve The Customers",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-TableFixDone",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-WeShouldTalk"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch2-talk-to-derek1",
+            "name": "Talk To Derek",
+            "iconId": "icon-derek",
+            "description": "Talk To Derek",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-WeShouldTalk",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-diner-derek-standing",
+                                "roomId": "dining-room",
+                                "spawnIds": ["dining-room-floor-north1"],
+                                "iconId": "icon-derek"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-TalkToDerek1"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch2-fix-booths1",
+            "name": "Fix The Booths",
+            "iconId": "icon-fix",
+            "description": "Fix The Booths",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-TalkToDerek1",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 4,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "dining-room",
+                                "nodeId": "dining-room-front-booths",
+                                "propTags": ["boothfix-step1"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-HeartToHeart"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch2-clean-up-night",
+            "name": "Clean Up For The Night",
+            "iconId": "icon-clean",
+            "description": "Clean Up For The Night",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-HeartToHeart",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-diner-dirt",
+                                "roomId": "dining-room",
+                                "spawnIds": ["dining-room-floor-south-west1"],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-puddle-water",
+                                "roomId": "dining-room",
+                                "spawnIds": ["dining-room-floor-middle1", "dining-room-floor-north1"],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-diner-cake-eaten",
+                                "roomId": "dining-room",
+                                "spawnIds": [
+                                    "dining-room-bar-counter-middle",
+                                    "dining-room-table-2-south-west",
+                                    "dining-room-table-4-south-west"
+                                ],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-GonnaSue"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch2-fix-booths2",
+            "name": "Fix The Other Booths",
+            "iconId": "icon-fix",
+            "description": "Fix The Other Booths",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-GonnaSue",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "dining-room",
+                                "nodeId": "dining-room-front-booths",
+                                "propTags": ["boothfix-step2"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-AllGoneWrong"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "take-a-walk",
+            "name": "Get Some Fresh Air",
+            "iconId": "icon-outdoors",
+            "description": "Get Some Fresh Air",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-AllGoneWrong",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-CleanRug"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch2-clean-rug",
+            "name": "Clean The Rug",
+            "iconId": "icon-clean",
+            "description": "Clean The Rug",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-CleanRug",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "dining-room",
+                                "nodeId": "dining-room-bar-rug",
+                                "propTags": ["bar-rug"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-RileyHelp"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch2-clear-tables",
+            "name": "Clear The Tables",
+            "iconId": "icon-clean",
+            "description": "Clear The Tables",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-RileyHelp",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-diner-cake-eaten",
+                                "roomId": "dining-room",
+                                "spawnIds": [
+                                    "dining-room-bar-counter-middle",
+                                    "dining-room-table-2-south-west",
+                                    "dining-room-table-4-south-west"
+                                ],
+                                "iconId": "icon-clean"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-DeepClean"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch2-buy-cat-bed",
+            "name": "Buy A New Cat Bed",
+            "iconId": "icon-fix",
+            "description": "Buy A New Cat Bed",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-DeepClean",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "dining-room",
+                                "nodeId": "dining-room-cat-bed",
+                                "propTags": ["cat-bed-fix1"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-BrokenPhone"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch2-call-phone-company",
+            "name": "Call The Phone Company",
+            "iconId": "icon-action-call",
+            "description": "Call The Phone Company",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-BrokenPhone",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-Peacemaker"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch2-fix-the-phone",
+            "name": "Replace The Phone",
+            "iconId": "icon-fix",
+            "description": "Replace The Phone",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-Peacemaker",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 4,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "dining-room",
+                                "nodeId": "dining-room-wall-phone",
+                                "propTags": ["wall-phone"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-BackingOff"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch2-brew-coffee",
+            "name": "Brew Coffee",
+            "iconId": "icon-coffee",
+            "description": "Brew Coffee",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-BackingOff",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-FridgeReplacement"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch2-replace-fridge",
+            "name": "Replace The Fridge",
+            "iconId": "icon-fix",
+            "description": "Replace The Fridge",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-FridgeReplacement",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 4,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "dining-room",
+                                "nodeId": "dining-room-fridge",
+                                "propTags": ["fridge-fix1"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-ProblemSolved"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "talk-to-derek2",
+            "name": "Talk To Derek",
+            "iconId": "icon-derek",
+            "description": "Talk To Derek",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-ProblemSolved",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "interactableItems",
+                                "itemId": "mess-diner-derek-sleeping",
+                                "roomId": "dining-room",
+                                "spawnIds": ["dining-room-cat-bed"],
+                                "iconId": "icon-derek"
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-TalkToDerek2"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch2-replace-counter",
+            "name": "Replace The Service Counter",
+            "iconId": "icon-fix",
+            "description": "Replace The Service Counter",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-TalkToDerek2",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 4,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "placeProp",
+                                "roomId": "dining-room",
+                                "nodeId": "dining-room-service-counter",
+                                "propTags": ["service-counter1"]
+                            }
+                        },
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-AllFixedUp"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch2-shut-up-shop",
+            "name": "Close For The Night",
+            "iconId": "icon-check",
+            "description": "Close For The Night",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-AllFixedUp",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 3,
+            "completionCount": 1,
+            "completionSequences": [
+                {
+                    "events": [
+                        {
+                            "eventData": {
+                                "eventType": "dialogue",
+                                "dialogueId": "Chapter2-LetsCatchUp"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ch2-complete-chapter-2",
+            "name": "Complete Chapter 2",
+            "iconId": "icon-check",
+            "description": "Complete Chapter 2",
+            "unlockRequirements": [
+                {
+                    "requirementData": {
+                        "requirementType": "dialogue",
+                        "dialogueId": "Chapter2-LetsCatchUp",
+                        "operator": "hasSeen"
+                    }
+                }
+            ],
+            "starCost": 4,
+            "completionCount": 1,
+            "completionSequences": [],
+            "chapterEndTask": "chapter-2"
+        }
+    ]
+}

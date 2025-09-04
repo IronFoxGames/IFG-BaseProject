@@ -1,0 +1,296 @@
+{
+    "dialogueSections": [
+        {
+            "dialogueType": "Speaking",
+            "characterSide": 1,
+            "characterNames": ["Joey"],
+            "lines": [
+                {
+                    "line": "Welcome to the narrative system demo. First, we will play a sound effect.",
+                    "characterSprites": ["Neutral"],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "dialogueType": "Sfx",
+            "characterSide": 1,
+            "characterNames": ["Play_sfx"],
+            "lines": [
+                {
+                    "line": "SFX_Rewards_SpendStar",
+                    "characterSprites": [""],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "dialogueType": "Speaking",
+            "characterSide": 1,
+            "characterNames": ["Joey"],
+            "lines": [
+                {
+                    "line": "Now, we will switch the background music.",
+                    "characterSprites": ["Neutral"],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "dialogueType": "Music",
+            "characterSide": 1,
+            "characterNames": ["Play_music"],
+            "lines": [
+                {
+                    "line": "MusicPuzzle",
+                    "characterSprites": [""],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "dialogueType": "Speaking",
+            "characterSide": 1,
+            "characterNames": ["Joey"],
+            "lines": [
+                {
+                    "line": "Next, we will fade out the music.",
+                    "characterSprites": ["Neutral"],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "dialogueType": "Music",
+            "characterSide": 1,
+            "characterNames": ["Fadeout_music"],
+            "lines": [
+                {
+                    "line": "2",
+                    "characterSprites": [""],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "dialogueType": "Speaking",
+            "characterSide": 1,
+            "characterNames": ["Joey"],
+            "lines": [
+                {
+                    "line": "Now, we will hide the scrim and shake the camera, for dramatic effect.",
+                    "characterSprites": ["Neutral"],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "dialogueType": "Scrim",
+            "characterSide": 1,
+            "characterNames": ["Hide"],
+            "lines": [
+                {
+                    "line": "Scrim",
+                    "characterSprites": [""],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "dialogueType": "Camerashake",
+            "characterSide": 1,
+            "characterNames": ["Camera_Shake"],
+            "lines": [
+                {
+                    "line": "1:20",
+                    "characterSprites": [""]
+                }
+            ]
+        },
+        {
+            "dialogueType": "Exposition",
+            "characterSide": 1,
+            "characterNames": ["Exposition"],
+            "lines": [
+                {
+                    "line": "Crash...",
+                    "characterSprites": [""],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "dialogueType": "Speaking",
+            "characterSide": 1,
+            "characterNames": ["Joey"],
+            "lines": [
+                {
+                    "line": "Now, we will focus the camera on a room.",
+                    "characterSprites": ["Neutral"],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "dialogueType": "Camerafocus",
+            "characterSide": 1,
+            "characterNames": ["Camerafocus_room"],
+            "lines": [
+                {
+                    "line": "office",
+                    "characterSprites": [""],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "dialogueType": "Speaking",
+            "characterSide": 1,
+            "characterNames": ["Joey"],
+            "lines": [
+                {
+                    "line": "Now, we will focus the camera on the bar rug in the diner.",
+                    "characterSprites": ["Neutral"],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "dialogueType": "Camerafocus",
+            "characterSide": 1,
+            "characterNames": ["CameraFocus_node"],
+            "lines": [
+                {
+                    "line": "dining-room:dining-room-bar-rug",
+                    "characterSprites": [""],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "dialogueType": "Speaking",
+            "characterSide": 1,
+            "characterNames": ["Joey"],
+            "lines": [
+                {
+                    "line": "Now, we will fade the screen to black.",
+                    "characterSprites": ["Neutral"],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "dialogueType": "Fade",
+            "characterSide": 1,
+            "characterNames": ["Fadeout_screen"],
+            "lines": [
+                {
+                    "line": "2",
+                    "characterSprites": [""],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "dialogueType": "Speaking",
+            "characterSide": 1,
+            "characterNames": ["Joey"],
+            "lines": [
+                {
+                    "line": "Next, we will fade the screen back in.",
+                    "characterSprites": ["Neutral"],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "dialogueType": "Fade",
+            "characterSide": 1,
+            "characterNames": ["Fadein_screen"],
+            "lines": [
+                {
+                    "line": "2",
+                    "characterSprites": [""],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "dialogueType": "Speaking",
+            "characterSide": 1,
+            "characterNames": ["Joey"],
+            "lines": [
+                {
+                    "line": "Now, we will display a sprite on the screen.",
+                    "characterSprites": ["Neutral"],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "dialogueType": "Sprite",
+            "characterSide": 1,
+            "characterNames": ["Sprite"],
+            "lines": [
+                {
+                    "line": "3:dialogueSprites/logo-FPO",
+                    "characterSprites": [""],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "dialogueType": "Speaking",
+            "characterSide": 1,
+            "characterNames": ["Joey"],
+            "lines": [
+                {
+                    "line": "Now, we will display some exposition text.",
+                    "characterSprites": ["Neutral"],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "dialogueType": "Exposition",
+            "characterSide": 1,
+            "characterNames": ["None"],
+            "lines": [
+                {
+                    "line": "This is an example of exposition text.",
+                    "characterSprites": [""],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "dialogueType": "Speaking",
+            "characterSide": 1,
+            "characterNames": ["Joey"],
+            "lines": [
+                {
+                    "line": "Finally, we will display a chapter start screen with Will on it.",
+                    "characterSprites": ["Neutral"],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "dialogueType": "Chapterstart",
+            "characterSide": 1,
+            "characterNames": ["Will"],
+            "lines": [
+                {
+                    "line": "Chapter X: The Mysterious Chapter...",
+                    "characterSprites": ["Neutral"],
+                    "unskippable": true
+                }
+            ]
+        }
+    ],
+    "sourceFile": "Example",
+    "dialogueId": "Example-Dialogue",
+    "repeatable": false,
+    "dialogueFormat": "Default",
+    "requirements": []
+}

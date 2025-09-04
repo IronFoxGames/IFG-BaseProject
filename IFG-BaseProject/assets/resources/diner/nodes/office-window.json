@@ -1,0 +1,12 @@
+{
+    "id": "office-window",
+    "isStatic": true,
+    "defaultPropId": "decoration.office-window-level-0",
+    "tags": ["office-window", "wall"],
+    "requirements": [
+        {
+            "requirementType": "taskComplete",
+            "taskId": "ch5-replace-office-window"
+        }
+    ]
+}

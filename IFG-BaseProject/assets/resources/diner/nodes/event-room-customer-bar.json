@@ -1,0 +1,7 @@
+{
+    "id": "event-room-customer-bar",
+    "isStatic": true,
+    "defaultPropId": "decoration.event-room-customer-bar-level-0",
+    "tags": ["customer-bar", "floor"],
+    "requirements": []
+}

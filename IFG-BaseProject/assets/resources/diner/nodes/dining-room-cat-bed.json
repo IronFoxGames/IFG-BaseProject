@@ -1,0 +1,14 @@
+{
+    "id": "dining-room-cat-bed",
+    "isStatic": true,
+    "defaultPropId": "decoration.cat-bed-level-0",
+    "tags": ["cat-bed", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch2-buy-cat-bed"
+            }
+        }
+    ]
+}

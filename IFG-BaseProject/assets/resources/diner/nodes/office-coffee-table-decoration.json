@@ -1,0 +1,12 @@
+{
+    "id": "office-coffee-table-decoration",
+    "isStatic": false,
+    "defaultPropId": "",
+    "tags": ["table-top", "coffee-table-decoration"],
+    "requirements": [
+        {
+            "requirementType": "taskComplete",
+            "taskId": "ch5-spruce-up-coffee-table"
+        }
+    ]
+}

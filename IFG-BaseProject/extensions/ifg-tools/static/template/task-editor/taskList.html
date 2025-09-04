@@ -1,0 +1,9 @@
+<!-- taskList.html -->
+<div class="taskList">
+    <h2>Tasks</h2>
+    <ul>
+        <li v-for="task in tasks" :key="task.name">
+            <task-view :task="task" />
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,79 @@
+{
+    "dialogueSections": [
+        {
+            "characterSide": 0,
+            "characterNames": ["Viola"],
+            "dialogueType": "Speaking",
+            "lines": [
+                {
+                    "line": "It feels like things are finally calming down a little. I wonder what I should tackle next.",
+                    "characterSprites": ["Happy"],
+                    "unskippable": false
+                },
+                {
+                    "line": "Hm, maybe Chef has some ideas.",
+                    "characterSprites": ["Happy"],
+                    "unskippable": false
+                }
+            ]
+        },
+        {
+            "characterSide": 1,
+            "characterNames": ["Fadeout_Music"],
+            "dialogueType": "Music",
+            "lines": [
+                {
+                    "line": "1",
+                    "characterSprites": [""],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "characterSide": 1,
+            "characterNames": ["Play_Sfx"],
+            "dialogueType": "Sfx",
+            "lines": [
+                {
+                    "line": "SFX_New_Chapter",
+                    "characterSprites": [""],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "characterSide": 1,
+            "characterNames": ["Riley"],
+            "dialogueType": "Chapterstart",
+            "lines": [
+                {
+                    "line": "Chapter 4:Flames",
+                    "characterSprites": ["Neutral"],
+                    "unskippable": true
+                }
+            ]
+        },
+        {
+            "characterSide": 1,
+            "characterNames": ["Fadein_Music"],
+            "dialogueType": "Music",
+            "lines": [
+                {
+                    "line": "1",
+                    "characterSprites": [""],
+                    "unskippable": true
+                }
+            ]
+        }
+    ],
+    "sourceFile": "Chapter 4 - Dialogue",
+    "dialogueId": "Chapter4-KitchenTime",
+    "repeatable": false,
+    "dialogueFormat": "Default",
+    "requirements": [
+        {
+            "requirementType": "taskComplete",
+            "taskId": "ch3-complete-chapter-3"
+        }
+    ]
+}

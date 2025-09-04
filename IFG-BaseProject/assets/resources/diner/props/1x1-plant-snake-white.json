@@ -1,0 +1,16 @@
+{
+    "id": "decoration.1x1-plant-snake-white",
+    "tags": ["1x1", "floor", "placeprop-potted-plant"],
+    "requirements": [],
+    "visibilityRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "dialogue",
+                "dialogueId": "Chapter3-TimeToSettleIn",
+                "operator": "hasSeen"
+            }
+        }
+    ],
+    "assetFilePath": "diner/prefabs/1x1PlantSnakeWhite",
+    "thumbnailFilePath": "diner/thumbnails/1x1-plant-snake-white-thumbnail/spriteFrame"
+}

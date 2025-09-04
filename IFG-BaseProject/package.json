@@ -1,0 +1,35 @@
+{
+  "name": "cardscramble",
+  "uuid": "74aefcad-1fe1-44d7-ad18-b0ea334724d1",
+  "creator": {
+    "version": "3.8.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^24.0.14",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-promise": "^6.6.0",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "globals": "^15.13.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.4.2",
+    "ts-jest": "^29.2.5",
+    "typescript-eslint": "^8.18.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint assets/scripts --max-warnings=464",
+    "lint:quiet": "eslint assets/scripts --quiet",
+    "lint:fix": "eslint assets/scripts --fix"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.34.37"
+  },
+  "description": "Starter game project"
+}

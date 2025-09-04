@@ -1,0 +1,14 @@
+{
+    "id": "dining-room-service-counter",
+    "isStatic": true,
+    "defaultPropId": "decoration.service-counter-level-1",
+    "tags": ["service-counter", "floor"],
+    "requirements": [
+        {
+            "requirementData": {
+                "requirementType": "taskComplete",
+                "taskId": "ch2-replace-counter"
+            }
+        }
+    ]
+}

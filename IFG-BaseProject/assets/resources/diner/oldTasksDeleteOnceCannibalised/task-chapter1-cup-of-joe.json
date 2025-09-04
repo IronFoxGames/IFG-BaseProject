@@ -1,0 +1,23 @@
+{
+    "id": "task_chapter1_cup_of_joe",
+    "name": "Cup of Joe",
+    "description": "Try the new coffee maker out.",
+    "unlockRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "propHasTagInNode",
+                "tag": "coffee",
+                "nodeId": "7"
+            }
+        }
+    ],
+    "turnInRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 13,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ]
+}

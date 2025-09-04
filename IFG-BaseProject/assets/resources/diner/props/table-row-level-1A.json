@@ -1,0 +1,7 @@
+{
+    "id": "decoration.table-row-level-1A",
+    "tags": ["table-row", "floor", "tablefix-step3"],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/TablesLevel1A",
+    "thumbnailFilePath": "diner/thumbnails/table-lvl1A-thumbnail/spriteFrame"
+}

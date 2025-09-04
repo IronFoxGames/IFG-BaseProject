@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="chapter-container">
+        <!-- Scrollable Left Panel -->
+        <div class="chapter-list-panel">
+            <chapter-list
+                :chapters="chapters"
+                :selected-chapter="selectedChapter"
+                @update-chapters="setChapters"
+                @select-chapter="setSelectedChapter" />
+        </div>
+
+        <!-- Scrollable Right Panel -->
+        <div class="chapter-view-panel">
+            <chapter-view :selected-chapter="selectedChapter" :selected-chapter-tasks="selectedChapterTasks" />
+        </div>
+    </div>
+</div>

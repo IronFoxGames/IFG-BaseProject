@@ -1,0 +1,23 @@
+{
+    "id": "task_prologue_grilled_cheese",
+    "name": "Grilled Cheese",
+    "description": "Make a grilled cheese by completing the next level",
+    "unlockRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 1,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "turnInRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 1,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ]
+}

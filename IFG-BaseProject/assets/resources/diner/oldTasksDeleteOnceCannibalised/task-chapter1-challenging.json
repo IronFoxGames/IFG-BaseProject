@@ -1,0 +1,23 @@
+{
+    "id": "task_chapter1_challenging",
+    "name": "Challenger Approaches",
+    "description": "Complete the penultimate puzzle of the story.",
+    "unlockRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 23,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ],
+    "turnInRequirements": [
+        {
+            "requirementData": {
+                "requirementType": "level",
+                "level": 24,
+                "operator": "greaterThanEqual"
+            }
+        }
+    ]
+}

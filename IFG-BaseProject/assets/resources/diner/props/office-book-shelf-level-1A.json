@@ -1,0 +1,11 @@
+{
+    "id": "decoration.office-book-shelf-level-1A",
+    "tags": [
+        "book-shelf",
+        "floor",
+        "office-book-shelf"
+    ],
+    "requirements": [],
+    "assetFilePath": "diner/prefabs/OfficeBookshelfLevel1A",
+    "thumbnailFilePath": "diner/thumbnails/office-book-shelf-lvl1A-thumbnail/spriteFrame"
+}
